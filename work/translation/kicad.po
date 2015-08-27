@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-08-27 12:39+0200\n"
+"PO-Revision-Date: 2015-08-27 19:02+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Kostas Milonas, Manolis Stefanis, Athanasios Vlastos\n"
 "Language: el_GR\n"
@@ -96,7 +96,7 @@ msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείο
 #: 3d-viewer/3d_draw.cpp:617
 #, c-format
 msgid "Build time %.3f s"
-msgstr ""
+msgstr "Χρόνος κατασκευής %.3f s"
 
 #: 3d-viewer/3d_draw.cpp:660 3d-viewer/3d_draw_board_body.cpp:218
 #: 3d-viewer/3d_draw_board_body.cpp:505
@@ -114,6 +114,8 @@ msgid ""
 "Unable to calculate the board outlines.\n"
 "Therefore use the board boundary box."
 msgstr ""
+"Αδυναμία υπολογισμού περιγράμματος πλακέτας.\n"
+"Χρησιμοποιήστε το πλαίσιο ορίου πλακέτας."
 
 #: 3d-viewer/3d_draw_board_body.cpp:369
 msgid "Build board body"
@@ -560,8 +562,8 @@ msgstr "Αντιγραφή των πληροφοριών έ&κδοσης"
 #: common/basicframe.cpp:490
 msgid "Copy the version string to clipboard to send with bug reports"
 msgstr ""
-"Αντιγραφή του αλφαριθμητικού έκδοσης στο πρόχειρο ώστε να το στείλετε με "
-"μαζί με τις αναφορές σφαλμάτων"
+"Αντιγραφή του αλφαριθμητικού έκδοσης στο πρόχειρο για αποστολή μαζί με "
+"αναφορές σφαλμάτων"
 
 #: common/basicframe.cpp:543
 msgid "Could not open clipboard to write version information."
@@ -777,7 +779,7 @@ msgstr "Το έργο στο Launchpad"
 
 #: common/dialog_about/AboutDialog_main.cpp:154
 msgid "The new KiCad site"
-msgstr ""
+msgstr "Η νέα ιστοσελίδα του Kicad"
 
 #: common/dialog_about/AboutDialog_main.cpp:157
 msgid "Repository with additional component libraries"
@@ -1612,16 +1614,18 @@ msgid "Command <%s> could not found"
 msgstr "Δεν ήταν δυνατή η εύρεση της εντολής <%s>"
 
 #: common/gestfich.cpp:421
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Problem while running the PDF viewer\n"
 "Command is '%s'"
-msgstr "Πρόβλημα κατά την εκτέλεση του προγράμματος προβολής PDF"
+msgstr ""
+"Πρόβλημα κατά την εκτέλεση του προγράμματος προβολής PDF\n"
+"Η εντολή είναι '%s'"
 
 #: common/gestfich.cpp:429
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to find a PDF viewer for <%s>"
-msgstr "Αδυναμία εύρεσης προγράμματος προβολής PDF για"
+msgstr "Αδυναμία εύρεσης προγράμματος προβολής PDF για <%s>"
 
 #: common/grid_tricks.cpp:113
 msgid "Cut\tCTRL+X"
@@ -1660,9 +1664,8 @@ msgstr "Επιλέξτε ένα πλήκτρο"
 
 #: common/hotkeys_basic.cpp:464 common/hotkeys_basic.cpp:493
 #: common/hotkeys_basic.cpp:497
-#, fuzzy
 msgid "Hotkeys List"
-msgstr "Επεξεργαστής συντομεύσεων"
+msgstr "Λίστα Συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:761
 msgid "Read Hotkey Configuration File:"
@@ -1684,18 +1687,16 @@ msgstr ""
 "Προβάλει μια λίστα με τις τρέχουσες συντομεύσεις και τις αντίστοιχες εντολές"
 
 #: common/hotkeys_basic.cpp:825
-#, fuzzy
 msgid "&Edit Hotkeys"
-msgstr "Επεξεργασία συντομεύσεων"
+msgstr "Επεξεργασία Συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:826
 msgid "Call the hotkeys editor"
 msgstr "Κλήση του επεξεργαστή συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:833
-#, fuzzy
 msgid "E&xport Hotkeys"
-msgstr "Εξαγωγή των ρυθμίσεων συντομεύσεων"
+msgstr "Εξαγωγή Συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:834
 #, fuzzy
@@ -1705,16 +1706,14 @@ msgstr ""
 "ρυθμίσεων συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:839
-#, fuzzy
 msgid "&Import Hotkeys"
-msgstr "Εισαγωγή ρυθμίσεων συντομεύσεων"
+msgstr "Εισαγωγή Συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:840
 msgid "Load an existing hotkey configuration file"
 msgstr "Φόρτωση ενός υπάρχοντος αρχείου ρυθμίσεων συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:845
-#, fuzzy
 msgid "&Hotkeys"
 msgstr "Συντομεύσεις"
 
@@ -2576,14 +2575,13 @@ msgstr "Αρχεία βιβλιοθήκης ιχνών"
 
 #: cvpcb/menubar.cpp:89 kicad/menubar.cpp:306 pcbnew/menubar_modedit.cpp:318
 #: pcbnew/menubar_pcbframe.cpp:493
-#, fuzzy
 msgid "Configure Pa&ths"
-msgstr "Ρύθμιση"
+msgstr "Ρύθμιση Διαδρομών"
 
 #: cvpcb/menubar.cpp:90 kicad/menubar.cpp:307 pcbnew/menubar_modedit.cpp:319
 #: pcbnew/menubar_pcbframe.cpp:494
 msgid "Edit path configuration environment variables"
-msgstr ""
+msgstr "Επεξεργασία μεταβλητών περιβάλλοντος για ρυθμίσεις διαδρομής"
 
 #: cvpcb/menubar.cpp:94
 msgid "Edit &Equ Files List"
@@ -5113,19 +5111,19 @@ msgstr "Postscript"
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:74
 #: pcbnew/dialogs/dialog_plot_base.cpp:33
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:88
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:74
 #: pcbnew/dialogs/dialog_plot_base.cpp:33
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:88
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:74
 #: pcbnew/dialogs/dialog_plot_base.cpp:33
 msgid "DXF"
-msgstr ""
+msgstr "DXF"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:88
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:74
@@ -6778,7 +6776,7 @@ msgstr "Άνοιγμα υπάρχοντος σχηματικού έργου"
 #: eeschema/menubar.cpp:97 kicad/menubar.cpp:224
 #: pcbnew/menubar_pcbframe.cpp:94
 msgid "Open &Recent"
-msgstr "Άνοιγμα &πρόσφατης"
+msgstr "Άνοιγμα &Πρόσφατων"
 
 #: eeschema/menubar.cpp:98
 msgid "Open a recent opened schematic project"
@@ -7120,9 +7118,8 @@ msgid "A&ssign Component Footprint"
 msgstr "Ίχνος υλικού"
 
 #: eeschema/menubar.cpp:472
-#, fuzzy
 msgid "Run CvPcb"
-msgstr "Εκτέλεση του Cvpcb"
+msgstr "Εκτέλεση Cvpcb"
 
 #: eeschema/menubar.cpp:479
 #, fuzzy
@@ -7130,9 +7127,8 @@ msgid "&Layout Printed Circuit Board"
 msgstr "Πλακέτα τυπωμένων κυκλωμάτων"
 
 #: eeschema/menubar.cpp:480 kicad/menubar.cpp:370
-#, fuzzy
 msgid "Run Pcbnew"
-msgstr "Εκτέλεση του pcbnew"
+msgstr "Εκτέλεση pcbnew"
 
 #: eeschema/menubar.cpp:491 eeschema/tool_viewlib.cpp:250
 #, fuzzy
@@ -7153,7 +7149,7 @@ msgstr ""
 
 #: eeschema/menubar.cpp:498 kicad/menubar.cpp:413
 msgid "Open \"Getting Started in KiCad\" guide for beginners"
-msgstr ""
+msgstr "Άνοιγμα του οδηγού \"Getting Started in KiCad\" για αρχάριους"
 
 #: eeschema/menubar.cpp:504 eeschema/menubar_libedit.cpp:278
 #: eeschema/tool_viewlib.cpp:262
@@ -7191,9 +7187,8 @@ msgstr "&Προτιμήσεις"
 
 #: eeschema/menubar.cpp:514 kicad/menubar.cpp:429
 #: pcbnew/menubar_pcbframe.cpp:669
-#, fuzzy
 msgid "&Tools"
-msgstr "Εργαλείο "
+msgstr "&Εργαλεία"
 
 #: eeschema/menubar_libedit.cpp:68
 #, fuzzy
@@ -9564,10 +9559,12 @@ msgid ""
 "Bitmap2Component - Convert bitmap images to Eeschema\n"
 "or Pcbnew elements"
 msgstr ""
+"Bitmap2Component - Μετατροπή εικόνων bitmap σε στοιχεία Eeschema\n"
+"ή Pcbnew"
 
 #: kicad/commandframe.cpp:87 kicad/menubar.cpp:391
 msgid "Pcb calculator - Calculator for components, track width, etc."
-msgstr ""
+msgstr "Pcb calculator - Υπολογιστής για εξαρτήματα, πλάτος ίχνους, κλπ."
 
 #: kicad/commandframe.cpp:90 kicad/menubar.cpp:396
 msgid "Pl editor - Worksheet layout editor"
@@ -9681,31 +9678,29 @@ msgid "Load File to Edit"
 msgstr "Φόρτωση αρχείου για επεξεργασία"
 
 #: kicad/mainframe.cpp:524
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Project name:\n"
 "%s\n"
-msgstr "Αρχείο έργου: "
+msgstr ""
+"Όνομα έργου:\n"
+"%s\n"
 
 #: kicad/menubar.cpp:213
-#, fuzzy
 msgid "&Open Project"
-msgstr "Άνοιγμα υπάρχοντος έργου"
+msgstr "Άνοιγμα Έργου"
 
 #: kicad/menubar.cpp:215 kicad/menubar.cpp:476
-#, fuzzy
 msgid "Open existing project"
-msgstr "Άνοιγμα ενός υπάρχοντος έργου"
+msgstr "Άνοιγμα υπάρχοντος έργου"
 
 #: kicad/menubar.cpp:225
-#, fuzzy
 msgid "Open recent schematic project"
-msgstr "Άνοιγμα ενός πρόσφατα ανοιγμένου σχηματικού έργου"
+msgstr "Άνοιγμα πρόσφατου σχηματικού έργου"
 
 #: kicad/menubar.cpp:231
-#, fuzzy
 msgid "&New Project"
-msgstr "Δημιουργία νέου έργου"
+msgstr "&Νέο Έργο"
 
 #: kicad/menubar.cpp:233
 #, fuzzy
@@ -9714,20 +9709,17 @@ msgstr "Δημιουργία νέου έργου"
 
 #: kicad/menubar.cpp:236
 msgid "New Project from &Template"
-msgstr ""
+msgstr "Νέο Έργο από Πρότυπο"
 
 #: kicad/menubar.cpp:239
-#, fuzzy
 msgid "Create a new project from a template"
-msgstr "Δημιουργία νέου υλικού"
+msgstr "Δημιουργία νέου έργου από πρότυπο"
 
 #: kicad/menubar.cpp:244
-#, fuzzy
 msgid "New Project"
-msgstr "Δημιουργία νέου έργου"
+msgstr "Νέο Έργο"
 
 #: kicad/menubar.cpp:245 kicad/menubar.cpp:467
-#, fuzzy
 msgid "Create new project"
 msgstr "Δημιουργία νέου έργου"
 
@@ -9746,7 +9738,7 @@ msgstr "&Αρχειοθέτηση"
 
 #: kicad/menubar.cpp:263
 msgid "Archive project files in zip archive"
-msgstr "Αρχειοθέτηση αρχείων έργου σε zip αρχείο"
+msgstr "Αρχειοθέτηση αρχείων έργου σε αρχείο zip"
 
 #: kicad/menubar.cpp:269
 msgid "&Unarchive"
@@ -9757,142 +9749,116 @@ msgid "Unarchive project files from zip file"
 msgstr "Επαναφορά αρχείων έργου από αρχείο zip"
 
 #: kicad/menubar.cpp:280
-#, fuzzy
 msgid "Close KiCad"
-msgstr "Κλείσιμο"
+msgstr "Κλείσιμο KiCad"
 
 #: kicad/menubar.cpp:289
-#, fuzzy
 msgid "Open Text E&ditor"
-msgstr "Ε&πεξεργαστής κειμένου"
+msgstr "Άνοιγμα Ε&πεξεργαστή Κειμένου"
 
 #: kicad/menubar.cpp:290
-#, fuzzy
 msgid "Launch preferred text editor"
 msgstr "Άνοιγμα προτιμώμενου επεξεργαστή κειμένου"
 
 #: kicad/menubar.cpp:296
-#, fuzzy
 msgid "&Open Local File"
-msgstr "Άνοιγμα αρχείου πλακέτας"
+msgstr "Άνοιγμα Τοπικού Αρχείου"
 
 #: kicad/menubar.cpp:297
-#, fuzzy
 msgid "Edit local file"
-msgstr "Επεξεργασία εγγράφου"
+msgstr "Επεξεργασία τοπικού αρχείου"
 
 #: kicad/menubar.cpp:313
-#, fuzzy
 msgid "&Set Text Editor"
-msgstr "Επεξεργαστής &κειμένου"
+msgstr "Ορισμός Επεξεργαστή Κειμένου"
 
 #: kicad/menubar.cpp:314
-#, fuzzy
 msgid "Set your preferred text editor"
-msgstr "Επιλέξτε τον επεξεργαστή κειμένου που επιθυμείτε"
+msgstr "Ορισμός προτιμώμενου επεξεργαστή κειμένου"
 
 #: kicad/menubar.cpp:322
 msgid "System &Default PDF Viewer"
-msgstr ""
+msgstr "Προκαθορισμένο από το σύστημα πρόγραμμα προβολής PDF"
 
 #: kicad/menubar.cpp:323
-#, fuzzy
 msgid "Use system default PDF viewer"
-msgstr ""
-"Χρήση του προκαθορισμένου από το σύστημα προγράμματος προβολής PDF για την "
-"πλοήγηση σε φύλλα δεδομένων"
+msgstr "Χρήση προκαθορισμένου από το σύστημα προγράμματος προβολής PDF"
 
 #: kicad/menubar.cpp:331
-#, fuzzy
 msgid "&Favourite PDF Viewer"
-msgstr "Πρόγραμμα προβολής PDF"
+msgstr "Προτιμώμενο Πρόγραμμα Προβολής PDF"
 
 #: kicad/menubar.cpp:332
-#, fuzzy
 msgid "Use favourite PDF viewer"
-msgstr ""
-"Χρήση του αγαπημένου σας προγράμματος προβολής PDF για την πλοήγηση σε φύλλα "
-"δεδομένων"
+msgstr "Χρήση προτιμώμενου προγράμματος προβολής PDF"
 
 #: kicad/menubar.cpp:342
-#, fuzzy
 msgid "Set &PDF Viewer"
-msgstr "Πρόγραμμα προβολής PDF"
+msgstr "Ορισμός Προγράμματος Προβολής PDF"
 
 #: kicad/menubar.cpp:343
 msgid "Set favourite PDF viewer"
-msgstr ""
+msgstr "Ορισμός προτιμώμενου προγράμματος προβολής PDF"
 
 #: kicad/menubar.cpp:348
-#, fuzzy
 msgid "&PDF Viewer"
-msgstr "Πρόγραμμα προβολής PDF"
+msgstr "Πρόγραμμα Προβολής PDF"
 
 #: kicad/menubar.cpp:349
 msgid "PDF viewer preferences"
 msgstr "Προτιμήσεις για το πρόγραμμα προβολής PDF"
 
 #: kicad/menubar.cpp:363
-#, fuzzy
 msgid "Run Eeschema"
-msgstr "Έξοδος από το EESchema"
+msgstr "Εκτέλεση EESchema"
 
 #: kicad/menubar.cpp:366
-#, fuzzy
 msgid "Run Library Editor"
-msgstr "Έξοδος από τον επεξεργαστή βιβλιοθήκης"
+msgstr "Εκτέλεση Επεξεργαστή Βιβλιοθήκης"
 
 #: kicad/menubar.cpp:374
-#, fuzzy
 msgid "Run Footprint Editor"
-msgstr "Φίλτρο ίχνους"
+msgstr "Εκτέλεση Επεξεργαστή Footprint"
 
 #: kicad/menubar.cpp:378
-#, fuzzy
 msgid "Run Gerbview"
-msgstr "Έξοδος από το Gerbview"
+msgstr "Εκτέλεση Gerbview"
 
 #: kicad/menubar.cpp:382
-#, fuzzy
 msgid "Run Bitmap2Component"
-msgstr "Επεξεργασία υλικού"
+msgstr "Εκτέλεση Bitmap2Component"
 
 #: kicad/menubar.cpp:389
-#, fuzzy
 msgid "Run Pcb Calculator"
-msgstr "&Εκτέλεση εξομοιωτή"
+msgstr "Εκτέλεση Pcb Calculator"
 
 #: kicad/menubar.cpp:394
 msgid "Run Page Layout Editor"
-msgstr ""
+msgstr "Εκτέλεση Επεξεργαστή Page Layout"
 
 #: kicad/menubar.cpp:407
 msgid "KiCad &Manual"
-msgstr ""
+msgstr "Εγχειρίδιο KiCad"
 
 #: kicad/menubar.cpp:408
-#, fuzzy
 msgid "Open KiCad user manual"
-msgstr "Άνοιγμα του εγχειριδίου του kicad"
+msgstr "Άνοιγμα του εγχειριδίου χρήσης του KiCad"
 
 #: kicad/menubar.cpp:421
-#, fuzzy
 msgid "&About KiCad"
-msgstr "Έξοδος από το KiCad"
+msgstr "Περί του KiCad"
 
 #: kicad/menubar.cpp:422
-#, fuzzy
 msgid "About KiCad project manager"
-msgstr "Περί του διαχειριστή έργων kicad"
+msgstr "Περί του διαχειριστή έργων KiCad"
 
 #: kicad/menubar.cpp:427
 msgid "&Browse"
 msgstr "&Πλοήγηση"
 
 #: kicad/menubar.cpp:471
-#, fuzzy
 msgid "Create new project from template"
-msgstr "Δημιουργία νέου έργου"
+msgstr "Δημιουργία νέου έργου από πρότυπο"
 
 #: kicad/menubar.cpp:489
 msgid "Archive all project files"
@@ -9948,7 +9914,7 @@ msgstr "Δημιουργία νέου έργου"
 
 #: kicad/prjconfig.cpp:239
 msgid "Open Existing Project"
-msgstr "Άνοιγμα υπάρχοντος έργου"
+msgstr "Άνοιγμα Υπάρχοντος Έργου"
 
 #: kicad/prjconfig.cpp:265
 msgid ""
@@ -18206,9 +18172,8 @@ msgid "Import a routed \"Specctra Session\" (*.ses) file"
 msgstr "Εισαγωγή ενός δρομολογημένου αρχείου \"συνεδρία Specctra\" (*.ses)"
 
 #: pcbnew/menubar_pcbframe.cpp:195
-#, fuzzy
 msgid "&DXF File"
-msgstr "&Άρχείο"
+msgstr "&Αρχείο"
 
 #: pcbnew/menubar_pcbframe.cpp:200
 #, fuzzy
