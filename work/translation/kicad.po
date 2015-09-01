@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-08-28 18:50+0200\n"
+"PO-Revision-Date: 2015-09-01 14:47+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Kostas Milonas, Manolis Stefanis, Athanasios Vlastos\n"
 "Language: el_GR\n"
@@ -386,7 +386,7 @@ msgstr ""
 #: 3d-viewer/3d_toolbar.cpp:260
 #, fuzzy
 msgid "Show 3D F&ootprints"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: 3d-viewer/3d_toolbar.cpp:263
 #, fuzzy
@@ -440,7 +440,7 @@ msgstr "Προβολή ή απόκρυψη των ονομάτων ακροδε�
 #: 3d-viewer/dialogs/dialog_3D_view_option_base.cpp:42
 #, fuzzy
 msgid "Show component 3D shapes"
-msgstr "Δεν υπάρχει κάποιο υλικό για αποθήκευση."
+msgstr "Δεν υπάρχει κάποιο εξάρτημα για αποθήκευση."
 
 #: 3d-viewer/dialogs/dialog_3D_view_option_base.cpp:48 pcbnew/tool_pcb.cpp:368
 msgid "Show filled areas in zones"
@@ -590,7 +590,7 @@ msgstr ""
 #: common/basicframe.cpp:652
 #, fuzzy, c-format
 msgid "You do not have write permissions to save file <%s>."
-msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου βιβλιοθήκης ιχνών PCB <%s>."
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου βιβλιοθήκης αποτυπωμάτων PCB <%s>."
 
 #: common/basicframe.cpp:684
 #, c-format
@@ -759,8 +759,8 @@ msgid ""
 "electronic schematics and to design printed circuit boards."
 msgstr ""
 "Η σουίτα KiCad EDA είναι ένα σύνολο εφαρμογών ανοιχτού κώδικα για τη "
-"δημιουργία ηλεκτρονικών schematics και τη σχεδίαση πλακετών τυπωμένων "
-"κυκλωμάτων."
+"δημιουργία ηλεκτρονικών σχηματικών διαγραμμάτων και τη σχεδίαση πλακετών "
+"τυπωμένων κυκλωμάτων."
 
 #: common/dialog_about/AboutDialog_main.cpp:141
 msgid "KiCad on the web"
@@ -1569,7 +1569,7 @@ msgstr "Πλάγια έντονα"
 
 #: common/footprint_info.cpp:320 common/footprint_info.cpp:341
 msgid "Errors were encountered loading footprints"
-msgstr "Εμφανίστηκαν σφάλματα κατά τη φόρτωση των footprints"
+msgstr "Εμφανίστηκαν σφάλματα κατά τη φόρτωση των αποτυπωμάτων"
 
 #: common/footprint_info.cpp:339
 #, fuzzy
@@ -1579,7 +1579,7 @@ msgstr "Σφάλμα φόρτωσης:"
 #: common/fp_lib_table.cpp:373
 #, fuzzy, c-format
 msgid "'%s' is a duplicate footprint library nickName"
-msgstr "Το <%s> δεν είναι ένα έγκυρο αρχείο βιβλιοθήκης ιχνών PCB του Kicad"
+msgstr "Το <%s> δεν είναι ένα έγκυρο αρχείο βιβλιοθήκης αποτυπωμάτων PCB του Kicad"
 
 #: common/fp_lib_table.cpp:620
 #, c-format
@@ -1902,21 +1902,20 @@ msgstr "Χρώματα"
 #: common/wildcards_and_files_ext.cpp:70
 #, fuzzy
 msgid "KiCad drawing symbol file (*.sym)|*.sym"
-msgstr "Αρχεία εξαγωγής ιχνών Kicad (*.emp)|*.emp"
+msgstr "Αρχεία εξαγωγής αποτυπωμάτων Kicad (*.emp)|*.emp"
 
 #: common/wildcards_and_files_ext.cpp:71
 #, fuzzy
 msgid "KiCad component library file (*.lib)|*.lib"
-msgstr "Βιβλιοθήκη αρχείων ιχνών του Kicad (*.mod)|*.mod"
+msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:72
 msgid "KiCad project files (*.pro)|*.pro"
 msgstr "Αρχεία έργου KiCad (*.pro)|*.pro"
 
 #: common/wildcards_and_files_ext.cpp:73
-#, fuzzy
 msgid "KiCad schematic files (*.sch)|*.sch"
-msgstr "Σχηματικά αρχεία του Kicad (*.sch)|*.sch"
+msgstr "Σχηματικά αρχεία KiCad (*.sch)|*.sch"
 
 #: common/wildcards_and_files_ext.cpp:74
 #, fuzzy
@@ -1948,17 +1947,17 @@ msgstr "Αρχεία τυπωμένων πλακετών κυκλωμάτων τ
 #: common/wildcards_and_files_ext.cpp:80
 #, fuzzy
 msgid "KiCad footprint s-expre file (*.kicad_mod)|*.kicad_mod"
-msgstr "Βιβλιοθήκη αρχείων ιχνών του Kicad (*.mod)|*.mod"
+msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:81
 #, fuzzy
 msgid "KiCad footprint s-expre library path (*.pretty)|*.pretty"
-msgstr "Βιβλιοθήκη αρχείων ιχνών του Kicad (*.mod)|*.mod"
+msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:82
 #, fuzzy
 msgid "Legacy footprint library file (*.mod)|*.mod"
-msgstr "Βιβλιοθήκη αρχείων ιχνών του Kicad (*.mod)|*.mod"
+msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:83
 msgid "Eagle ver. 6.x XML library files (*.lbr)|*.lbr"
@@ -1967,7 +1966,7 @@ msgstr "Αρχεία βιβλιοθήκης XML Eagle εκδ. 6.x (*.lbr)|*.lbr"
 #: common/wildcards_and_files_ext.cpp:84
 #, fuzzy
 msgid "Geda PCB footprint library file (*.fp)|*.fp"
-msgstr "Βιβλιοθήκη αρχείων ιχνών του Kicad (*.mod)|*.mod"
+msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:85
 #, fuzzy
@@ -1977,7 +1976,7 @@ msgstr "Σχηματικά αρχεία του Kicad (*.sch)|*.sch"
 #: common/wildcards_and_files_ext.cpp:86
 #, fuzzy
 msgid "Component-footprint link file (*.cmp)|*cmp"
-msgstr "Βιβλιοθήκη αρχείων ιχνών του Kicad (*.mod)|*.mod"
+msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:87
 msgid "Page layout descr file (*.kicad_wks)|*kicad_wks"
@@ -1990,7 +1989,7 @@ msgstr "Όλα τα αρχεία (*)|*"
 #: common/wildcards_and_files_ext.cpp:92
 #, fuzzy
 msgid "KiCad cmp/footprint link files (*.cmp)|*.cmp"
-msgstr "Βιβλιοθήκη αρχείων ιχνών του Kicad (*.mod)|*.mod"
+msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:95
 #, fuzzy
@@ -2095,7 +2094,7 @@ msgstr "Επιλογή πλέγματος"
 #, fuzzy, c-format
 msgid "Equ file '%s' could not be found in the default search paths."
 msgstr ""
-"Δεν ήταν δυνατή η εύρεση του αρχείου βιβλιοθήκης ιχνών PCB <%s>, στις "
+"Δεν ήταν δυνατή η εύρεση του αρχείου βιβλιοθήκης αποτυπωμάτων PCB <%s>, στις "
 "προκαθορισμένες διαδρομές αναζήτησης."
 
 #: cvpcb/autosel.cpp:127
@@ -2111,7 +2110,7 @@ msgstr "Σφάλμα φόρτωσης:"
 #: cvpcb/autosel.cpp:187
 #, fuzzy, c-format
 msgid "%d footprint/cmp equivalences found."
-msgstr "Βρέθηκαν %d ψευδώνυμα ιχνών."
+msgstr "Βρέθηκαν %d ψευδώνυμα αποτυπωμάτων."
 
 #: cvpcb/autosel.cpp:253
 #, c-format
@@ -2119,8 +2118,8 @@ msgid ""
 "Component %s: footprint %s not found in any of the project footprint "
 "libraries."
 msgstr ""
-"Υλικό %s: δε βρέθηκε το ίχνος %s σε καμία από τις βιβλιοθήκες ιχνών της "
-"εργασίας."
+"Εξάρτημα %s: δε βρέθηκε το αποτύπωμα %s σε καμία από τις βιβλιοθήκες "
+"αποτυπωμάτων της εργασίας."
 
 #: cvpcb/autosel.cpp:287
 #, fuzzy
@@ -2140,7 +2139,7 @@ msgstr "Το αρχείο έργου '%s' δεν είναι εγγράψιμο"
 #: cvpcb/class_DisplayFootprintsFrame.cpp:75
 #, fuzzy
 msgid "Footprint Viewer"
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:180 pcbnew/basepcbframe.cpp:466
 #: pcbnew/tool_pcb.cpp:340
@@ -2231,7 +2230,7 @@ msgstr "Η %s ακίδα %s δεν βρέθηκε"
 #: cvpcb/class_DisplayFootprintsFrame.cpp:488
 #, fuzzy, c-format
 msgid "Footprint: %s"
-msgstr "Ίχνος: "
+msgstr "Αποτύπωμα: "
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:500
 #, fuzzy, c-format
@@ -2327,7 +2326,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
-msgstr "Δε βρέθηκαν βιβλιοθήκες ιχνών PCB στο τρέχον αρχείο έργου."
+msgstr "Δε βρέθηκαν βιβλιοθήκες αποτυπωμάτων PCB στο τρέχον αρχείο έργου."
 
 #: cvpcb/cvframe.cpp:688
 #, fuzzy
@@ -2367,7 +2366,7 @@ msgstr "Σφάλμα φόρτωσης:"
 #: cvpcb/cvpcb.cpp:57
 #, fuzzy
 msgid "Component/footprint equ files (*.equ)|*.equ"
-msgstr "Αρχεία ψευδωνύμων ιχνών του Kicad (*.equ)|*.equ"
+msgstr "Αρχεία ψευδωνύμων αποτυπωμάτων του Kicad (*.equ)|*.equ"
 
 #: cvpcb/cvpcb.cpp:170
 msgid ""
@@ -2401,7 +2400,7 @@ msgstr "Αρχεία Πρόσθετων:"
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:304
 #, fuzzy, c-format
 msgid "File '%s' already exists in list"
-msgstr "Το υλικό \"%s\" υπάρχει ήδη στη βιβλιοθήκη \"%s\"."
+msgstr "Το εξάρτημα \"%s\" υπάρχει ήδη στη βιβλιοθήκη \"%s\"."
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:20
 #, fuzzy
@@ -2557,13 +2556,13 @@ msgstr "Κλείσιμο"
 #: cvpcb/menubar.cpp:83
 #, fuzzy
 msgid "Footprint Li&braries"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: cvpcb/menubar.cpp:83 pcbnew/menubar_modedit.cpp:312
 #: pcbnew/menubar_pcbframe.cpp:487
 #, fuzzy
 msgid "Configure footprint libraries"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: cvpcb/menubar.cpp:89 kicad/menubar.cpp:306 pcbnew/menubar_modedit.cpp:318
 #: pcbnew/menubar_pcbframe.cpp:493
@@ -2622,7 +2621,7 @@ msgstr "&Περί"
 #: cvpcb/menubar.cpp:131
 #, fuzzy
 msgid "About CvPcb footprint selector"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: cvpcb/menubar.cpp:137 eeschema/menubar.cpp:515
 #: eeschema/menubar_libedit.cpp:288 eeschema/tool_viewlib.cpp:270
@@ -2644,25 +2643,25 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Component '%s' footprint '%s' was <b>not found</b> in any library.\n"
 msgstr ""
-"Υλικό %s: δε βρέθηκε το ίχνος %s σε καμία από τις βιβλιοθήκες ιχνών της "
+"Υλικό %s: δε βρέθηκε το αποτύπωμα %s σε καμία από τις βιβλιοθήκες αποτυπωμάτων της "
 "εργασίας."
 
 #: cvpcb/readwrite_dlgs.cpp:237
 #, fuzzy, c-format
 msgid "Component '%s' footprint '%s' was found in <b>multiple</b> libraries.\n"
 msgstr ""
-"Υλικό %s: δε βρέθηκε το ίχνος %s σε καμία από τις βιβλιοθήκες ιχνών της "
+"Υλικό %s: δε βρέθηκε το αποτύπωμα %s σε καμία από τις βιβλιοθήκες αποτυπωμάτων της "
 "εργασίας."
 
 #: cvpcb/readwrite_dlgs.cpp:250
 #, fuzzy
 msgid "First check your footprint library table entries."
-msgstr "Αρχειοθέτηση ή προσθήκη ιχνών σε ένα αρχείο βιβλιοθήκης"
+msgstr "Αρχειοθέτηση ή προσθήκη αποτυπωμάτων σε ένα αρχείο βιβλιοθήκης"
 
 #: cvpcb/readwrite_dlgs.cpp:252
 #, fuzzy
 msgid "Problematic Footprint Library Tables"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: cvpcb/readwrite_dlgs.cpp:260
 #, fuzzy
@@ -2686,11 +2685,11 @@ msgstr ""
 #: cvpcb/tool_cvpcb.cpp:57
 #, fuzzy
 msgid "Edit footprint library table"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: cvpcb/tool_cvpcb.cpp:62
 msgid "View selected footprint"
-msgstr "Προβολή του επιλεγμένου ίχνους"
+msgstr "Προβολή του επιλεγμένου αποτυπώματος"
 
 #: cvpcb/tool_cvpcb.cpp:67
 #, fuzzy
@@ -2704,7 +2703,7 @@ msgstr "Επιλογή του επόμενου ελεύθερου υλικού"
 
 #: cvpcb/tool_cvpcb.cpp:76
 msgid "Perform automatic footprint association"
-msgstr "Εκτέλεση αυτόματης συσχέτισης ιχνών"
+msgstr "Εκτέλεση αυτόματης συσχέτισης αποτυπωμάτων"
 
 #: cvpcb/tool_cvpcb.cpp:80
 #, fuzzy
@@ -2714,22 +2713,22 @@ msgstr "Διαγραφή όλων των συσχετίσεων"
 #: cvpcb/tool_cvpcb.cpp:85
 #, fuzzy
 msgid "Display footprint documentation"
-msgstr "Εμφάνιση της τεκμηρίωσης της λίστας ιχνών"
+msgstr "Εμφάνιση της τεκμηρίωσης της λίστας αποτυπωμάτων"
 
 #: cvpcb/tool_cvpcb.cpp:92
 #, fuzzy
 msgid "Filter footprint list by keywords"
-msgstr "Φίλτρο για την επιλογή ιχνών από παραπομπές"
+msgstr "Φίλτρο για την επιλογή αποτυπωμάτων από παραπομπές"
 
 #: cvpcb/tool_cvpcb.cpp:99
 #, fuzzy
 msgid "Filter footprint list by pin count"
-msgstr "Φίλτρο για την επιλογή ιχνών από παραπομπές"
+msgstr "Φίλτρο για την επιλογή αποτυπωμάτων από παραπομπές"
 
 #: cvpcb/tool_cvpcb.cpp:105
 #, fuzzy
 msgid "Filter footprint list by library"
-msgstr "Αρχειοθέτηση ή προσθήκη ιχνών σε ένα αρχείο βιβλιοθήκης"
+msgstr "Αρχειοθέτηση ή προσθήκη αποτυπωμάτων σε ένα αρχείο βιβλιοθήκης"
 
 #: eeschema/annotate.cpp:89
 #, fuzzy, c-format
@@ -2739,27 +2738,27 @@ msgstr "Αντικαταστάθηκαν %d διπλές χρονικές σφρ
 #: eeschema/backanno.cpp:225
 #, fuzzy
 msgid "Load Component Footprint Link File"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: eeschema/backanno.cpp:239
 #, fuzzy
 msgid "Keep existing footprint field visibility"
-msgstr "Ορισμός του πεδίου ίχνους ως ορατό;"
+msgstr "Ορισμός του πεδίου αποτυπώματος ως ορατό;"
 
 #: eeschema/backanno.cpp:240
 #, fuzzy
 msgid "Show all footprint fields"
-msgstr "Εμφάνιση των τιμών των ιχνών"
+msgstr "Εμφάνιση των τιμών των αποτυπωμάτων"
 
 #: eeschema/backanno.cpp:241
 #, fuzzy
 msgid "Hide all footprint fields"
-msgstr "Αντίστροφη ενημέρωση πεδίων ίχνους"
+msgstr "Αντίστροφη ενημέρωση πεδίων αποτυπώματος"
 
 #: eeschema/backanno.cpp:243
 #, fuzzy
 msgid "Select the footprint field visibility setting."
-msgstr "Ορισμός του πεδίου ίχνους ως ορατό;"
+msgstr "Ορισμός του πεδίου αποτυπώματος ως ορατό;"
 
 #: eeschema/backanno.cpp:244
 #, fuzzy
@@ -2830,7 +2829,8 @@ msgstr "κανένα"
 msgid ""
 "An attempt was made to remove the %s field from component %s in library %s."
 msgstr ""
-"Έγινε προσπάθεια αφαίρεσης του πεδίου %s από το υλικό %s στη βιβλιοθήκη %s."
+"Έγινε προσπάθεια αφαίρεσης του πεδίου %s από το εξάρτημα %s στη βιβλιοθήκη "
+"%s."
 
 #: eeschema/class_library.cpp:53
 #, fuzzy, c-format
@@ -3043,7 +3043,7 @@ msgstr "Εμβέλεια"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:37
 msgid "Use the &entire schematic"
-msgstr "Χρήση ολόκληρου του σχήματος"
+msgstr "Χρήση ολόκληρου του σχηματικού"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:40
 msgid "Use the current &page only"
@@ -3408,39 +3408,39 @@ msgstr "Να γίνει διαγραφή των επιπλέον εξαρτημ�
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:426
 msgid "Add new pins for alternate body style ( DeMorgan ) to component?"
 msgstr ""
-"Να προστεθούν νέοι ακροδέκτες στο υλικό για εναλλακτικά στυλ σώματος "
+"Να προστεθούν νέοι ακροδέκτες στο εξάρτημα για εναλλακτικά στυλ σώματος "
 "( DeMorgan );"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:431
 msgid "Delete alternate body style (DeMorgan) draw items from component?"
 msgstr ""
 "Να γίνει διαγραφή του εναλλακτικού στυλ σώματος (DeMorgan) και να "
-"σχεδιαστούν τα αντικείμενα από το υλικό;"
+"σχεδιαστούν τα αντικείμενα από το εξάρτημα;"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:493
 #, fuzzy
 msgid "OK to delete the footprint filter list ?"
 msgstr ""
-"Συμφωνείτε με τη διαγραφή των ιχνών που δεν υπάρχουν στη λίστα δικτύων;"
+"Συμφωνείτε με τη διαγραφή των αποτυπωμάτων που δεν υπάρχουν στη λίστα δικτύων;"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:514
 msgid "Add Footprint Filter"
-msgstr "Προσθήκη φίλτρου ιχνών"
+msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:514
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:244
 msgid "Footprint Filter"
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:531
 #, c-format
 msgid "Foot print filter <%s> is already defined."
-msgstr "Το φίλτρο ίχνους <%s> έχει ήδη καθοριστεί."
+msgstr "Το φίλτρο αποτυπώματος <%s> έχει ήδη καθοριστεί."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:567
 #, fuzzy
 msgid "Edit footprint filter"
-msgstr "Προσθήκη φίλτρου ιχνών"
+msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:30
 #, fuzzy
@@ -3576,7 +3576,7 @@ msgid ""
 "Enter the documentation file (a .pdf document) associated to the component."
 msgstr ""
 "Εισάγετε το αρχείο τεκμηρίωσης (ένα έγγραφο .pdf) που σχετίζεται με αυτό το "
-"υλικό."
+"εξάρτημα."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:150
 msgid "Copy Document from Parent"
@@ -3597,7 +3597,7 @@ msgid ""
 "It has its own documentation and keywords.\n"
 "A fast way to extend a library with similar components"
 msgstr ""
-"Ένα ψευδώνυμο είναι ένα υλικό που χρησιμοποιεί το σώμα του ριζικού υλικού "
+"Ένα ψευδώνυμο είναι ένα εξάρτημα που χρησιμοποιεί το σώμα του ριζικού υλικού "
 "του.\n"
 "Έχει τη δική του τεκμηρίωση και λέξεις κλειδιά.\n"
 "Είναι ένας γρήγορος τρόπος να επεκτείνετε μια βιβλιοθήκη με παρόμοια υλικά"
@@ -3615,7 +3615,7 @@ msgstr "Ψευδώνυμο"
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:210
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:37
 msgid "Footprints"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:212
 msgid ""
@@ -3623,9 +3623,10 @@ msgid ""
 "Footprints names can used jockers.\n"
 "(like sm* to allow all footprints names starting by sm)."
 msgstr ""
-"Μια λίστα ονομάτων ιχνών που μπορούν να χρησιμοποιηθούν από αυτό το υλικό.\n"
-"Τα ονόματα ιχνών μπορούν να χρησιμοποιούν χαρακτήρες μπαλαντέρ.\n"
-"(όπως sm* για να βρείτε όλα τα ονόματα ιχνών που ξεκινούν από sm)."
+"Μια λίστα ονομάτων αποτυπωμάτων που μπορούν να χρησιμοποιηθούν από αυτό το "
+"εξάρτημα.\n"
+"Τα ονόματα αποτυπωμάτων μπορούν να χρησιμοποιούν χαρακτήρες μπαλαντέρ.\n"
+"(όπως sm* για να βρείτε όλα τα ονόματα αποτυπωμάτων που ξεκινούν από sm)."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:228
 #: eeschema/onrightclick.cpp:418
@@ -3640,7 +3641,7 @@ msgstr "Επεξεργασία"
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:220
 #, fuzzy, c-format
 msgid "Component '%s' found in library '%s'"
-msgstr "Το υλικό %s αποθηκεύτηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα %s αποθηκεύτηκε στη βιβλιοθήκη %s"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:226
 #, fuzzy, c-format
@@ -3663,7 +3664,7 @@ msgstr "Δεν υπάρχει όνομα υλικού!"
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:319
 #, fuzzy, c-format
 msgid "Component '%s' not found!"
-msgstr "Δε βρέθηκε το υλικό [%s]!"
+msgstr "Δε βρέθηκε το εξάρτημα [%s]!"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:393
 msgid "Illegal reference. A reference must start with a letter"
@@ -3694,7 +3695,7 @@ msgstr "Προβολή αριθμού ακροδέκτη"
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:699
 #, fuzzy
 msgid "Assign Footprint"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:982
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:41
@@ -3755,7 +3756,7 @@ msgstr "Προσανατολισμός (Μοίρες)"
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:58
 msgid "Select if the component is to be rotated when drawn"
 msgstr ""
-"Κάντε αυτήν την επιλογή αν το υλικό πρέπει να περιστραφεί όταν σχεδιαστεί"
+"Κάντε αυτήν την επιλογή αν το εξάρτημα πρέπει να περιστραφεί όταν σχεδιαστεί"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:56
 msgid "Mirror ---"
@@ -3783,7 +3784,7 @@ msgid ""
 "if any"
 msgstr ""
 "Επιλέξτε τη γραφική μετατροπή που θα χρησιμοποιηθεί όταν εμφανίζεται το "
-"υλικό, όταν αυτό υπάρχει"
+"εξάρτημα, όταν αυτό υπάρχει"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:64
 #, fuzzy
@@ -3806,7 +3807,7 @@ msgstr "Όνομα κυκλώματος"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:74
 msgid "The name of the symbol in the library from which this component came"
 msgstr ""
-"Το όνομα του συμβόλου στη βιβλιοθήκη, από το οποίο προήλθε αυτό το υλικό"
+"Το όνομα του συμβόλου στη βιβλιοθήκη, από το οποίο προήλθε αυτό το εξάρτημα"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:81
 #, fuzzy
@@ -3946,7 +3947,7 @@ msgstr "Στυλ:"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:186
 msgid "The style of the currently selected field's text in the schemati"
-msgstr "Το στυλ του τρέχοντος κειμένου του επιλεγμένου πεδίου στο σχήμα"
+msgstr "Το στυλ κειμένου του τρέχοντος επιλεγμένου πεδίου στο σχηματικό"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:196
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:104
@@ -3983,7 +3984,7 @@ msgstr "Μέγεθος"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:236
 msgid "The size of the currently selected field's text in the schematic"
-msgstr "Το μέγεθος του κειμένου του επιλεγμένου πεδίου στο σχήμα"
+msgstr "Το μέγεθος κειμένου του τρέχοντος επιλεγμένου πεδίου στο σχηματικό"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:240
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:254
@@ -4024,7 +4025,7 @@ msgstr "ΘέσηX(\")"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:250
 msgid "The X coordinate of the text relative to the component"
-msgstr "Η συντεταγμένη X του κειμένου σε σχέση με το υλικό"
+msgstr "Η συντεταγμένη X του κειμένου σε σχέση με το εξάρτημα"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:258
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:164
@@ -4035,7 +4036,7 @@ msgstr "ΘέσηY(\")"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:264
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:170
 msgid "The Y coordinate of the text relative to the component"
-msgstr "Η συντεταγμένη Y του κειμένου σε σχέση με το υλικό"
+msgstr "Η συντεταγμένη Y του κειμένου σε σχέση με το εξάρτημα"
 
 #: eeschema/dialogs/dialog_edit_label.cpp:151
 msgid "Global Label Properties"
@@ -4075,7 +4076,7 @@ msgstr "&Κείμενο:"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:27
 msgid "Enter the text to be used within the schematic"
-msgstr "Εισάγετε το κείμενο που θα χρησιμοποιηθεί μέσα στο σχήμα"
+msgstr "Εισάγετε το κείμενο που θα χρησιμοποιηθεί μέσα στο σχηματικό"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:47
 #: eeschema/dialogs/dialog_sch_sheet_props_base.cpp:64
@@ -4143,7 +4144,7 @@ msgid ""
 "An alias %s already exists!\n"
 "Cannot update this component"
 msgstr ""
-"Έχει εισαχθεί ένα νέο όνομα γι' αυτό το υλικό\n"
+"Έχει εισαχθεί ένα νέο όνομα γι' αυτό το εξάρτημα\n"
 "Υπάρχει ήδη ένα ψευδώνυμο %s!\n"
 "Δεν ήταν δυνατή η ενημέρωση αυτού του υλικού"
 
@@ -4161,7 +4162,7 @@ msgstr ""
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:144
 msgid ""
 "The vertical height of the currently selected field's text in the schematic"
-msgstr "Το κάθετο ύψος του κειμένου του επιλεγμένου πεδίου στο σχήμα"
+msgstr "Το κάθετο ύψος κειμένου του επιλεγμένου πεδίου στο σχηματικό"
 
 #: eeschema/dialogs/dialog_edit_one_field.cpp:172
 #, c-format
@@ -4220,7 +4221,7 @@ msgstr ""
 "Μόνο τα αρχεία βιβλιοθήκης που υπάρχουν σε αυτή τη λίστα φορτώνονται από το "
 "Eeschema.\n"
 "Είναι σημαντική η σειρά αυτής της λίστας:\n"
-"Το Eeschema αναζητά ένα υλικό που θα δοθεί χρησιμοποιώντας τη σειρά "
+"Το Eeschema αναζητά ένα εξάρτημα που θα δοθεί χρησιμοποιώντας τη σειρά "
 "προτεραιοποίησης αυτής της λίστας."
 
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:39
@@ -4459,7 +4460,8 @@ msgstr "Γενικές επιλογές"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:229
 msgid "User defined field names for schematic components. "
-msgstr "Ονόματα πεδίων σχηματικών υλικών που έχουν οριστεί από το χρήστη. "
+msgstr ""
+"Ονόματα πεδίων σχηματικών εξαρτημάτων που έχουν οριστεί από το χρήστη. "
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:240
 #, fuzzy
@@ -4756,8 +4758,8 @@ msgid ""
 "This is the component name in library,\n"
 "and also the default component value when loaded in the schematic."
 msgstr ""
-"Αυτό είναι το όνομα του υλικού στη βιβλιοθήκη,\n"
-"και η προεπιλεγμένη τιμή υλικού όταν αυτό φορτώνεται στο σχήμα."
+"Αυτό είναι το όνομα του εξαρτήματος στη βιβλιοθήκη,\n"
+"και η προεπιλεγμένη τιμή εξαρτήματος όταν αυτό φορτώνεται στο σχηματικό."
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:44
 #, fuzzy
@@ -5008,7 +5010,7 @@ msgstr "Προτιμήσεις σελίδας"
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:50
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:62
 msgid "Schematic size"
-msgstr "Μέγεθος σχήματος"
+msgstr "Μέγεθος σχηματικού"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:50
 msgid "Force size A4"
@@ -5204,11 +5206,11 @@ msgstr "Προεπισκόπηση"
 
 #: eeschema/dialogs/dialog_print_using_printer.cpp:304
 msgid "Print Schematic"
-msgstr "Εκτύπωση σχήματος"
+msgstr "Εκτύπωση Σχηματικού"
 
 #: eeschema/dialogs/dialog_print_using_printer.cpp:309
 msgid "An error occurred attempting to print the schematic."
-msgstr "Συνέβη ένα σφάλμα κατά την προσπάθεια εκτύπωσης του σχήματος."
+msgstr "Συνέβη ένα σφάλμα κατά την προσπάθεια εκτύπωσης του σχηματικού."
 
 #: eeschema/dialogs/dialog_print_using_printer.cpp:310
 msgid "Printing"
@@ -5650,7 +5652,7 @@ msgstr ""
 
 #: eeschema/files-io.cpp:68
 msgid "Schematic Files"
-msgstr "Αρχεία σχήματος"
+msgstr "Αρχεία σχηματικού"
 
 #: eeschema/files-io.cpp:98
 #, c-format
@@ -5677,7 +5679,7 @@ msgstr "Η εργασία εγγραφής αρχείου απέτυχε."
 #: eeschema/files-io.cpp:200
 #, fuzzy, c-format
 msgid "Schematic file '%s' is already open."
-msgstr "Το φίλτρο ίχνους <%s> έχει ήδη καθοριστεί."
+msgstr "Το φίλτρο αποτυπώματος <%s> έχει ήδη καθοριστεί."
 
 #: eeschema/files-io.cpp:213
 #, fuzzy
@@ -5774,7 +5776,7 @@ msgstr "Η %s ακίδα %s δεν βρέθηκε"
 #: eeschema/find.cpp:278
 #, fuzzy, c-format
 msgid "Component %s not found"
-msgstr "Δεν βρέθηκε το υλικό [%s]"
+msgstr "Δεν βρέθηκε το εξάρτημα [%s]"
 
 #: eeschema/find.cpp:473
 #, c-format
@@ -5920,7 +5922,7 @@ msgstr "Το αρχείο <%s> της βιβλιοθήκης υλικού, εί�
 
 #: eeschema/lib_export.cpp:111
 msgid "There is no component selected to save."
-msgstr "Δεν έχει επιλεγεί κάποιο υλικό για αποθήκευση."
+msgstr "Δεν έχει επιλεγεί κάποιο εξάρτημα για αποθήκευση."
 
 #: eeschema/lib_export.cpp:119
 msgid "New Library"
@@ -5969,7 +5971,7 @@ msgstr "Πεδίο"
 #: pcbnew/class_pad.cpp:628 pcbnew/class_text_mod.cpp:369
 #: pcbnew/loadcmp.cpp:436
 msgid "Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: eeschema/lib_field.cpp:595 eeschema/libedit.cpp:510
 #: eeschema/template_fieldnames.cpp:48
@@ -6188,7 +6190,7 @@ msgstr "Δεν έχει καθοριστεί βιβλιοθήκη."
 
 #: eeschema/libedit.cpp:321
 msgid "Include last component changes?"
-msgstr "Να συμπεριληφθούν οι τελευταίες αλλαγές στο υλικό;"
+msgstr "Να συμπεριληφθούν οι τελευταίες αλλαγές στο εξάρτημα;"
 
 #: eeschema/libedit.cpp:336
 #, fuzzy
@@ -6286,14 +6288,14 @@ msgstr "Δεν ήταν δυνατή η εύρεση της εγγραφής <%s
 #: eeschema/libedit.cpp:569
 #, fuzzy, c-format
 msgid "Delete component '%s' from library '%s' ?"
-msgstr "Να διαγραφεί το υλικό \"%s\" από τη βιβλιοθήκη \"%s\";"
+msgstr "Να διαγραφεί το εξάρτημα \"%s\" από τη βιβλιοθήκη \"%s\";"
 
 #: eeschema/libedit.cpp:588
 msgid ""
 "The component being deleted has been modified. All changes will be lost. "
 "Discard changes?"
 msgstr ""
-"Το υλικό που διαγράφεται έχει τροποποιηθεί. Όλες οι αλλαγές θα χαθούν. Να "
+"Το εξάρτημα που διαγράφεται έχει τροποποιηθεί. Όλες οι αλλαγές θα χαθούν. Να "
 "απορριφθούν οι αλλαγές;"
 
 #: eeschema/libedit.cpp:617
@@ -6302,29 +6304,30 @@ msgid ""
 "\n"
 "Clear the current component from the screen?"
 msgstr ""
-"Όλες οι αλλαγές στο τρέχον υλικό θα χαθούν!\n"
+"Όλες οι αλλαγές στο τρέχον εξάρτημα θα χαθούν!\n"
 "\n"
 "Να γίνει εκκαθάριση του τρέχοντος υλικού από την οθόνη;"
 
 #: eeschema/libedit.cpp:636
 msgid "This new component has no name and cannot be created. Aborted"
 msgstr ""
-"Αυτό το νέο υλικό δεν έχει όνομα και δε μπορεί να δημιουργηθεί. Έγινε ακύρωση"
+"Αυτό το νέο εξάρτημα δεν έχει όνομα και δε μπορεί να δημιουργηθεί. Έγινε "
+"ακύρωση"
 
 #: eeschema/libedit.cpp:649
 #, fuzzy, c-format
 msgid "Part '%s' already exists in library '%s'"
-msgstr "Το υλικό \"%s\" υπάρχει ήδη στη βιβλιοθήκη \"%s\"."
+msgstr "Το εξάρτημα \"%s\" υπάρχει ήδη στη βιβλιοθήκη \"%s\"."
 
 #: eeschema/libedit.cpp:721
 #, fuzzy, c-format
 msgid "Part '%s' already exists. Change it?"
-msgstr "Το υλικό \"%s\" υπάρχει ήδη. Να γίνει αλλαγή;"
+msgstr "Το εξάρτημα \"%s\" υπάρχει ήδη. Να γίνει αλλαγή;"
 
 #: eeschema/libedit.cpp:735
 #, fuzzy, c-format
 msgid "Part '%s' saved in library '%s'"
-msgstr "Το υλικό %s αποθηκεύτηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα %s αποθηκεύτηκε στη βιβλιοθήκη %s"
 
 #: eeschema/libedit_onrightclick.cpp:88 eeschema/onrightclick.cpp:158
 #: gerbview/onrightclick.cpp:62 pcbnew/modedit_onclick.cpp:232
@@ -6525,7 +6528,7 @@ msgstr "Διαγραφή μπλοκ"
 
 #: eeschema/libedit_plot_component.cpp:57
 msgid "No component"
-msgstr "Δεν υπάρχει υλικό"
+msgstr "Δεν υπάρχει εξάρτημα"
 
 #: eeschema/libedit_plot_component.cpp:74
 #: eeschema/libedit_plot_component.cpp:97
@@ -6564,7 +6567,7 @@ msgstr "Μονάδες"
 #: eeschema/libeditframe.cpp:724
 #, fuzzy
 msgid "No part to save."
-msgstr "Δεν υπάρχει κάποιο υλικό για αποθήκευση."
+msgstr "Δεν υπάρχει κάποιο εξάρτημα για αποθήκευση."
 
 #: eeschema/libeditframe.cpp:1116
 msgid "Add pin"
@@ -6868,7 +6871,7 @@ msgstr "Εύρεση και Αντικατάσταση"
 #: eeschema/menubar.cpp:207
 #, fuzzy
 msgid "Import Footprint Selection"
-msgstr "Εισαγωγή ίχνους εξαρτήματος"
+msgstr "Εισαγωγή αποτυπώματος εξαρτήματος"
 
 #: eeschema/menubar.cpp:229 eeschema/menubar_libedit.cpp:161
 #: eeschema/tool_viewlib.cpp:225 pcbnew/menubar_modedit.cpp:216
@@ -7100,7 +7103,7 @@ msgstr "Αποθήκευση πίνακα υλικών"
 #: eeschema/menubar.cpp:471
 #, fuzzy
 msgid "A&ssign Component Footprint"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: eeschema/menubar.cpp:472
 msgid "Run CvPcb"
@@ -7208,7 +7211,7 @@ msgstr "&Δημιουργία αρχείου PNG από την οθόνη"
 
 #: eeschema/menubar_libedit.cpp:94
 msgid "Create a PNG file from the component displayed on screen"
-msgstr "&Δημιουργία αρχείου PNG από το υλικό που προβάλλεται στην οθόνη"
+msgstr "&Δημιουργία αρχείου PNG από το εξάρτημα που προβάλλεται στην οθόνη"
 
 #: eeschema/menubar_libedit.cpp:100
 #, fuzzy
@@ -7217,7 +7220,7 @@ msgstr "&Δημιουργία αρχείου SVG"
 
 #: eeschema/menubar_libedit.cpp:101
 msgid "Create a SVG file from the current loaded component"
-msgstr "Δημιουργία αρχείου SVG με το τρέχον υλικό που έχει φορτωθεί"
+msgstr "Δημιουργία αρχείου SVG με το τρέχον εξάρτημα που έχει φορτωθεί"
 
 #: eeschema/menubar_libedit.cpp:110
 msgid "&Quit"
@@ -7378,7 +7381,7 @@ msgstr "Μετακίνηση ετικέτας"
 #: eeschema/onrightclick.cpp:305
 #, fuzzy
 msgid "Move Footprint Field"
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: eeschema/onrightclick.cpp:316
 #, fuzzy
@@ -7393,7 +7396,7 @@ msgstr "Περιστροφή ετικέτας"
 #: eeschema/onrightclick.cpp:318
 #, fuzzy
 msgid "Rotate Footprint Field"
-msgstr "Αντίστροφη ενημέρωση πεδίων ίχνους"
+msgstr "Αντίστροφη ενημέρωση πεδίων αποτυπώματος"
 
 #: eeschema/onrightclick.cpp:319
 msgid "Rotate Field"
@@ -7412,7 +7415,7 @@ msgstr "Επεξεργασία ετικέτας"
 #: eeschema/onrightclick.cpp:339
 #, fuzzy
 msgid "Edit Footprint Field"
-msgstr "Προσθήκη φίλτρου ιχνών"
+msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
 
 #: eeschema/onrightclick.cpp:343
 msgid "Edit Field"
@@ -8151,7 +8154,7 @@ msgstr "Προβολή κρυφών ακροδεκτών"
 
 #: eeschema/schframe.cpp:902
 msgid "Schematic"
-msgstr "Σχήμα"
+msgstr "Σχηματικό"
 
 #: eeschema/schframe.cpp:921
 #, fuzzy
@@ -8165,7 +8168,7 @@ msgstr ""
 
 #: eeschema/schframe.cpp:954
 msgid "Open Schematic"
-msgstr "Άνοιγμα σχήματος"
+msgstr "Άνοιγμα Σχηματικού"
 
 #: eeschema/schframe.cpp:1111
 msgid "Error: not a component or no component"
@@ -8185,7 +8188,7 @@ msgstr "Επιλέξτε βιβλιοθήκη"
 
 #: eeschema/selpart.cpp:139
 msgid "Select Component"
-msgstr "Επιλέξτε υλικό"
+msgstr "Επιλέξτε Εξάρτημα"
 
 #: eeschema/sheet.cpp:84
 #, fuzzy
@@ -8328,7 +8331,7 @@ msgstr "Φόρτωση υλικού για επεξεργασία από την 
 #: eeschema/tool_lib.cpp:134
 #, fuzzy
 msgid "Create a new component from the current one"
-msgstr "Δημιουργία αρχείου SVG με το τρέχον υλικό που έχει φορτωθεί"
+msgstr "Δημιουργία αρχείου SVG με το τρέχον εξάρτημα που έχει φορτωθεί"
 
 #: eeschema/tool_lib.cpp:138
 msgid "Update current component in current library"
@@ -8397,7 +8400,7 @@ msgstr "Απενεργοποίηση πλέγματος"
 
 #: eeschema/tool_sch.cpp:58
 msgid "New schematic project"
-msgstr "Νέα σχηματικού έργου"
+msgstr "Νέο σχηματικό έργο"
 
 #: eeschema/tool_sch.cpp:61
 msgid "Open schematic project"
@@ -8413,7 +8416,7 @@ msgstr "Ρυθμίσεις σελίδας"
 
 #: eeschema/tool_sch.cpp:76
 msgid "Print schematic"
-msgstr "Εκτύπωση σχήματος"
+msgstr "Εκτύπωση σχηματικού"
 
 #: eeschema/tool_sch.cpp:82
 msgid "Cut selected item"
@@ -8434,7 +8437,7 @@ msgstr "Μετατόπιση διάτρησης-και-τοποθέτησης"
 
 #: eeschema/tool_sch.cpp:128
 msgid "Navigate schematic hierarchy"
-msgstr "Πλοήγηση στη σχηματική ιεραρχία"
+msgstr "Πλοήγηση στη ιεραρχία σχηματικών"
 
 #: eeschema/tool_sch.cpp:132
 #, fuzzy
@@ -8450,7 +8453,7 @@ msgstr "Ανάγνωση λίστας δικτύων"
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:134
 #, fuzzy
 msgid "Footprint Editor"
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: eeschema/tool_sch.cpp:170
 msgid "Run CvPcb to associate components and footprints"
@@ -8506,7 +8509,7 @@ msgstr "Προβολή των εγγράφων υλικού"
 
 #: eeschema/tool_viewlib.cpp:124
 msgid "Insert component in schematic"
-msgstr "Εισαγωγή υλικού στο σχήμα"
+msgstr "Εισαγωγή εξαρτήματος στο σχηματικό"
 
 #: eeschema/tool_viewlib.cpp:170
 #, c-format
@@ -9512,7 +9515,7 @@ msgstr "Περί του σχεδιαστή πλακέτας τυπωμένων �
 #: kicad/commandframe.cpp:76
 #, fuzzy
 msgid "PCB footprint editor"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: kicad/commandframe.cpp:79
 msgid "GerbView - Gerber viewer"
@@ -9967,16 +9970,16 @@ msgstr ""
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:165
 msgid "Footprints NOT LOCKED will be moved"
-msgstr "Τα ΜΗ ΚΛΕΙΔΩΜΕΝΑ ίχνη θα μετακινηθούν"
+msgstr "Τα ΜΗ ΚΛΕΙΔΩΜΕΝΑ αποτυπώματα θα μετακινηθούν"
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:172
 msgid "Footprints NOT PLACED will be moved"
-msgstr "Τα ΜΗ ΤΟΠΟΘΕΤΗΜΕΝΑ ίχνη θα μετακινηθούν"
+msgstr "Τα ΜΗ ΤΟΠΟΘΕΤΗΜΕΝΑ αποτυπώματα θα μετακινηθούν"
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:281
 #, fuzzy, c-format
 msgid "Place footprint %d of %d"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:466
 msgid "No PCB edge found, unknown board size!"
@@ -10019,12 +10022,12 @@ msgstr "Τοποθέτηση κελιών"
 #: pcbnew/autorouter/move_and_route_event_functions.cpp:133
 #, fuzzy
 msgid "Not locked footprints inside the board will be moved. OK?"
-msgstr "Εξαναγκασμός τροποποίησης κλειδωμένων ιχνών"
+msgstr "Εξαναγκασμός τροποποίησης κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/autorouter/move_and_route_event_functions.cpp:139
 #, fuzzy
 msgid "No footprint found!"
-msgstr "Βρέθηκαν %d ψευδώνυμα ιχνών."
+msgstr "Βρέθηκαν %d ψευδώνυμα αποτυπωμάτων."
 
 #: pcbnew/autorouter/solve.cpp:301
 msgid "Abort routing?"
@@ -10108,7 +10111,7 @@ msgstr "Αυτή είναι η προεπιλεγμένη κλάση δικτύ�
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:123
 #: pcbnew/pcb_draw_panel_gal.cpp:391
 msgid "Vias"
-msgstr "Όπές"
+msgstr "Vias"
 
 #: pcbnew/class_board.cpp:957 pcbnew/pcb_draw_panel_gal.cpp:394
 #, fuzzy
@@ -10263,28 +10266,28 @@ msgstr "Μη συνδεδεμένες έδρες"
 
 #: pcbnew/class_drc_item.cpp:45
 msgid "Track near thru-hole"
-msgstr "Πίστα κοντά σε διάτρηση"
+msgstr "Γραμμή κοντά σε διάτρηση"
 
 #: pcbnew/class_drc_item.cpp:47
 msgid "Track near pad"
-msgstr "Πίστα κοντά σε έδρα"
+msgstr "Γραμμή κοντά σε έδρα"
 
 #: pcbnew/class_drc_item.cpp:49
 msgid "Track near via"
-msgstr "Πίστα κοντά σε οπή"
+msgstr "Γραμμή κοντά σε via"
 
 #: pcbnew/class_drc_item.cpp:51
 msgid "Via near via"
-msgstr "Οπή κοντά σε οπή"
+msgstr "Οπή κοντά σε via"
 
 #: pcbnew/class_drc_item.cpp:53
 msgid "Via near track"
-msgstr "Οπή κοντά σε πίστα"
+msgstr "Via κοντά σε γραμμή"
 
 #: pcbnew/class_drc_item.cpp:63
 #, fuzzy
 msgid "Two track ends too close"
-msgstr "Δύο άκρα πίστας"
+msgstr "Δύο άκρα γραμμής"
 
 #: pcbnew/class_drc_item.cpp:65
 msgid "Two parallel track segments too close"
@@ -10300,11 +10303,11 @@ msgstr "Έδρα κοντά σε έδρα"
 
 #: pcbnew/class_drc_item.cpp:71
 msgid "Via hole > diameter"
-msgstr "Διάτρηση οπής > διάμετρος"
+msgstr "Διάτρηση via > διάμετρος"
 
 #: pcbnew/class_drc_item.cpp:73
 msgid "Micro Via: incorrect layer pairs (not adjacent)"
-msgstr "Μικρο-οπή: εσφαλμένα ζεύγη επιπέδων (μη γειτονικά)"
+msgstr "Μικρο-via: εσφαλμένα ζεύγη επιπέδων (μη γειτονικά)"
 
 #: pcbnew/class_drc_item.cpp:75
 msgid "Copper area inside copper area"
@@ -10324,23 +10327,23 @@ msgstr "Διάτρηση κοντά σε έδρα"
 
 #: pcbnew/class_drc_item.cpp:85
 msgid "Hole near track"
-msgstr "Διάτρηση κοντά σε πίστα"
+msgstr "Διάτρηση κοντά σε γραμμή"
 
 #: pcbnew/class_drc_item.cpp:87
 msgid "Too small track width"
-msgstr "Πολύ μικρό πλάτος ίχνους"
+msgstr "Πολύ μικρό πλάτος αποτυπώματος"
 
 #: pcbnew/class_drc_item.cpp:89
 msgid "Too small via size"
-msgstr "Πολύ μικρό μέγεθος οπής"
+msgstr "Πολύ μικρό μέγεθος via"
 
 #: pcbnew/class_drc_item.cpp:91
 msgid "Too small micro via size"
-msgstr "Πολύ μικρό μέγεθος μικρο-οπής"
+msgstr "Πολύ μικρό μέγεθος μικρο-via"
 
 #: pcbnew/class_drc_item.cpp:95
 msgid "NetClass Track Width &lt; global limit"
-msgstr "Πλάτος Ίχνους NetClass &lt; γενικό όριο"
+msgstr "Πλάτος Αποτυπώματος NetClass &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:97
 msgid "NetClass Clearance &lt; global limit"
@@ -10348,19 +10351,19 @@ msgstr "Διάκενο κλάσης δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:99
 msgid "NetClass Via Dia &lt; global limit"
-msgstr "Διάμετρος οπής κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάμετρος Via κλάσης δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:101
 msgid "NetClass Via Drill &lt; global limit"
-msgstr "Διάτρηση οπής κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάτρηση Via κλάσης δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:103
 msgid "NetClass uVia Dia &lt; global limit"
-msgstr "Διάμετρος μ/οπής κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάμετρος μVia κλάσης δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:105
 msgid "NetClass uVia Drill &lt; global limit"
-msgstr "Διάτρηση μ/οπής κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάτρηση μVia κλάσης δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:108
 msgid "Via inside a keepout area"
@@ -10381,7 +10384,7 @@ msgstr ""
 #: pcbnew/class_drc_item.cpp:120
 #, fuzzy
 msgid "Track inside a text"
-msgstr "Μέγεθος ίχνους"
+msgstr "Μέγεθος αποτυπώματος"
 
 #: pcbnew/class_drc_item.cpp:123
 msgid "Pad inside a text"
@@ -10394,7 +10397,7 @@ msgstr "Χρονική σφραγίδα"
 #: pcbnew/class_edge_mod.cpp:264
 #, fuzzy
 msgid "Footprint Layer"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/class_edge_mod.cpp:276
 #, c-format
@@ -10469,7 +10472,7 @@ msgstr "Λέξεις κλειδιά"
 #: pcbnew/class_module.cpp:799
 #, fuzzy, c-format
 msgid "Footprint %s on %s"
-msgstr "Δοκιμή ιχνών"
+msgstr "Δοκιμή αποτυπωμάτων"
 
 #: pcbnew/class_netinfo_item.cpp:87
 msgid "Net Name"
@@ -10558,27 +10561,27 @@ msgstr ""
 
 #: pcbnew/class_pcb_layer_widget.cpp:60 pcbnew/class_track.cpp:1214
 msgid "Through Via"
-msgstr "Διαμπερής οπή"
+msgstr "Διαμπερές Via"
 
 #: pcbnew/class_pcb_layer_widget.cpp:60
 msgid "Show through vias"
-msgstr "Προβολή διαμπερών οπών"
+msgstr "Προβολή διαμπερών via"
 
 #: pcbnew/class_pcb_layer_widget.cpp:61
 msgid "Bl/Buried Via"
-msgstr "Τυφλή/ενταφιασμένη οπή"
+msgstr "Τυφλή/ενταφιασμένο via"
 
 #: pcbnew/class_pcb_layer_widget.cpp:61
 msgid "Show blind or buried vias"
-msgstr "Προβολή τυφλών ή ενταφιασμένων οπών"
+msgstr "Προβολή τυφλών ή ενταφιασμένων via"
 
 #: pcbnew/class_pcb_layer_widget.cpp:62 pcbnew/class_track.cpp:1204
 msgid "Micro Via"
-msgstr "Μικρο-οπές"
+msgstr "Μικρο-via"
 
 #: pcbnew/class_pcb_layer_widget.cpp:62
 msgid "Show micro vias"
-msgstr "Προβολή μικρο-οπών"
+msgstr "Προβολή μικρο-via"
 
 #: pcbnew/class_pcb_layer_widget.cpp:63
 msgid "Non Plated"
@@ -10603,7 +10606,7 @@ msgstr "Έδρες πάνω όψης"
 
 #: pcbnew/class_pcb_layer_widget.cpp:66
 msgid "Show footprint pads on board's front"
-msgstr "Προβολή έδρών ίχνους στην πάνω όψη της πλακέτας"
+msgstr "Προβολή έδρών αποτυπώματος στην πάνω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:67
 msgid "Pads Back"
@@ -10611,7 +10614,7 @@ msgstr "Έδρες κάτω όψης"
 
 #: pcbnew/class_pcb_layer_widget.cpp:67
 msgid "Show footprint pads on board's back"
-msgstr "Προβολή εδρών ίχνους στο κάτω μέρος της πλακέτας"
+msgstr "Προβολή εδρών αποτυπώματος στο κάτω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:69
 msgid "Text Front"
@@ -10620,7 +10623,7 @@ msgstr "Κείμενο πάνω όψης"
 #: pcbnew/class_pcb_layer_widget.cpp:69
 #, fuzzy
 msgid "Show footprint text on board's front"
-msgstr "Προβολή έδρών ίχνους στην πάνω όψη της πλακέτας"
+msgstr "Προβολή έδρών αποτυπώματος στην πάνω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:70
 msgid "Text Back"
@@ -10628,7 +10631,7 @@ msgstr "Κείμενο κάτω όψης"
 
 #: pcbnew/class_pcb_layer_widget.cpp:70
 msgid "Show footprint text on board's back"
-msgstr "Εμφάνιση του κειμένου των ιχνών στο κάτω μέρος της πλακέτας"
+msgstr "Εμφάνιση του κειμένου των αποτυπωμάτων στο κάτω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:71
 msgid "Hidden Text"
@@ -10636,7 +10639,7 @@ msgstr "Κρυφό κείμενο"
 
 #: pcbnew/class_pcb_layer_widget.cpp:71
 msgid "Show footprint text marked as invisible"
-msgstr "Εμφάνιση του κειμένου ίχνους που έχει επισημανθεί ως αόρατο"
+msgstr "Εμφάνιση του κειμένου αποτυπώματος που έχει επισημανθεί ως αόρατο"
 
 #: pcbnew/class_pcb_layer_widget.cpp:73
 msgid "Anchors"
@@ -10644,7 +10647,7 @@ msgstr "Αγκιστρώσεις"
 
 #: pcbnew/class_pcb_layer_widget.cpp:73
 msgid "Show footprint and text origins as a cross"
-msgstr "Προβολή ίχνους και προέλευσης κειμένου σε αντιστοίχηση"
+msgstr "Προβολή αποτυπώματος και προέλευσης κειμένου σε αντιστοίχηση"
 
 #: pcbnew/class_pcb_layer_widget.cpp:75
 msgid "No-Connects"
@@ -10657,20 +10660,20 @@ msgstr "Προβολή επισήμανσης σε έδρες που δεν έχ
 #: pcbnew/class_pcb_layer_widget.cpp:76
 #, fuzzy
 msgid "Footprints Front"
-msgstr "Δοκιμή ιχνών"
+msgstr "Δοκιμή αποτυπωμάτων"
 
 #: pcbnew/class_pcb_layer_widget.cpp:76
 msgid "Show footprints that are on board's front"
-msgstr "Εμφάνιση των ιχνών που βρίσκονται στην πάνω όψη της πλακέτας"
+msgstr "Εμφάνιση των αποτυπωμάτων που βρίσκονται στην πάνω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:77
 #, fuzzy
 msgid "Footprints Back"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: pcbnew/class_pcb_layer_widget.cpp:77
 msgid "Show footprints that are on board's back"
-msgstr "Εμφάνιση των ιχνών που βρίσκονται στο κάτω μέρος της πλακέτας"
+msgstr "Εμφάνιση των αποτυπωμάτων που βρίσκονται στο κάτω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:78
 msgid "Values"
@@ -10678,7 +10681,7 @@ msgstr "Τιμές"
 
 #: pcbnew/class_pcb_layer_widget.cpp:78
 msgid "Show footprint's values"
-msgstr "Εμφάνιση των τιμών των ιχνών"
+msgstr "Εμφάνιση των τιμών των αποτυπωμάτων"
 
 #: pcbnew/class_pcb_layer_widget.cpp:79
 msgid "References"
@@ -10686,7 +10689,7 @@ msgstr "Παραπομπές"
 
 #: pcbnew/class_pcb_layer_widget.cpp:79
 msgid "Show footprint's references"
-msgstr "Εμφάνιση των παραπομπών των ιχνών"
+msgstr "Εμφάνιση των παραπομπών των αποτυπωμάτων"
 
 #: pcbnew/class_pcb_layer_widget.cpp:166
 #, fuzzy
@@ -10776,22 +10779,22 @@ msgstr ""
 #: pcbnew/class_pcb_layer_widget.cpp:379
 #, fuzzy
 msgid "Footprint courtyards on board's front"
-msgstr "Προβολή έδρών ίχνους στην πάνω όψη της πλακέτας"
+msgstr "Προβολή έδρών αποτυπώματος στην πάνω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:380
 #, fuzzy
 msgid "Footprint courtyards on board's back"
-msgstr "Προβολή εδρών ίχνους στο κάτω μέρος της πλακέτας"
+msgstr "Προβολή εδρών αποτυπώματος στο κάτω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:381
 #, fuzzy
 msgid "Footprint assembly on board's front"
-msgstr "Προβολή έδρών ίχνους στην πάνω όψη της πλακέτας"
+msgstr "Προβολή έδρών αποτυπώματος στην πάνω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:382
 #, fuzzy
 msgid "Footprint assembly on board's back"
-msgstr "Προβολή εδρών ίχνους στο κάτω μέρος της πλακέτας"
+msgstr "Προβολή εδρών αποτυπώματος στο κάτω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_text.cpp:136
 msgid "Dimension"
@@ -10911,7 +10914,7 @@ msgstr "Κωδικός δικτύου"
 
 #: pcbnew/class_track.cpp:1142
 msgid "Track"
-msgstr "Πίστα"
+msgstr "Γραμμή"
 
 #: pcbnew/class_track.cpp:1161 pcbnew/class_track.cpp:1188
 msgid "Segment Length"
@@ -10924,7 +10927,7 @@ msgstr "Μάσκα"
 
 #: pcbnew/class_track.cpp:1209
 msgid "Blind/Buried Via"
-msgstr "Τυφλή/ενταφιασμένη οπή"
+msgstr "Τυφλό/ενταφιασμένο via"
 
 #: pcbnew/class_track.cpp:1234 pcbnew/dialogs/dialog_layers_setup_base.cpp:86
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:315
@@ -10971,7 +10974,7 @@ msgstr ""
 #: pcbnew/class_zone.cpp:594
 #, fuzzy
 msgid "No track"
-msgstr "Νέα πίστα"
+msgstr "Νέα γραμμή"
 
 #: pcbnew/class_zone.cpp:597
 #, fuzzy
@@ -11189,7 +11192,7 @@ msgstr "Διάγραμμα"
 #: pcbnew/dialogs/dialog_block_options_base.cpp:25
 #, fuzzy
 msgid "Include &footprints"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_block_options_base.cpp:28
 #, fuzzy
@@ -11199,7 +11202,7 @@ msgstr "Διαγραφή αντικειμένων"
 #: pcbnew/dialogs/dialog_block_options_base.cpp:32
 #, fuzzy
 msgid "Include &locked footprints"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_block_options_base.cpp:35
 #, fuzzy
@@ -11238,7 +11241,7 @@ msgstr "Διαγραφή περιττών οπών"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:23
 msgid "remove vias on pads with a through hole"
-msgstr "αφαίρεση οπών σε έδρες με τρύπα"
+msgstr "αφαίρεση via σε έδρες με τρύπα"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:27
 #, fuzzy
@@ -11248,7 +11251,7 @@ msgstr "Συγχώνευση τμημάτων"
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:28
 msgid "merge aligned track segments, and remove null segments"
 msgstr ""
-"συγχώνευση ευθυγραμμισμένων τμημάτων πίστας και αφαίρεση μηδενικών τμημάτων"
+"συγχώνευση ευθυγραμμισμένων τμημάτων γραμμής και αφαίρεση μηδενικών τμημάτων"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:32
 #, fuzzy
@@ -11751,12 +11754,12 @@ msgstr "Ελάχιστη τιμή για το πλάτος των πιστών: 
 #: pcbnew/dialogs/dialog_design_rules.cpp:204
 #, c-format
 msgid "Minimum value for vias diameter: <b>%s</b><br>\n"
-msgstr "Ελάχιστη διάμετρος οπών: <b>%s</b><br>\n"
+msgstr "Ελάχιστη διάμετρος via: <b>%s</b><br>\n"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:208
 #, c-format
 msgid "Minimum value for microvias diameter: <b>%s</b><br>\n"
-msgstr "Ελάχιστη τιμή για τη διάμετρο των μικρο-οπών: <b>%s</b><br>\n"
+msgstr "Ελάχιστη τιμή για τη διάμετρο των μικρο-via: <b>%s</b><br>\n"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:648
 msgid "Errors detected, Abort"
@@ -11780,57 +11783,57 @@ msgstr "Η προεπιλεγμένη κλάση δικτύου δεν μπορ�
 #: pcbnew/dialogs/dialog_design_rules.cpp:930
 #, c-format
 msgid "%s: <b>Track Size</b> &lt; <b>Min Track Size</b><br>"
-msgstr "%s: <b>Μέγεθος ίχνους</b> &lt; <b>Ελάχιστο μέγεθος ίχνους</b><br>"
+msgstr "%s: <b>Μέγεθος αποτυπώματος</b> &lt; <b>Ελάχιστο μέγεθος αποτυπώματος</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:943
 #, c-format
 msgid "%s: <b>Via Diameter</b> &lt; <b>Minimun Via Diameter</b><br>"
-msgstr "%s: <b>Διάμετρος οπής</b> &lt; <b>Ελάχιστη διάμετρος οπής</b><br>"
+msgstr "%s: <b>Διάμετρος Via</b> &lt; <b>Ελάχιστη διάμετρος Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:955
 #, c-format
 msgid "%s: <b>Via Drill</b> &ge; <b>Via Dia</b><br>"
-msgstr "%s: <b>Διάτρηση οπής</b> &ge; <b>Διάμετρος οπής</b><br>"
+msgstr "%s: <b>Διάτρηση Via</b> &ge; <b>Διάμετρος Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:964
 #, c-format
 msgid "%s: <b>Via Drill</b> &lt; <b>Min Via Drill</b><br>"
-msgstr "%s: <b>Διάτρηση οπής</b> &lt; <b>Ελάχιστη διάτρηση οπής</b><br>"
+msgstr "%s: <b>Διάτρηση Via</b> &lt; <b>Ελάχιστη διάτρηση Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:977
 #, c-format
 msgid "%s: <b>MicroVia Diameter</b> &lt; <b>MicroVia Min Diameter</b><br>"
 msgstr ""
-"%s: <b>Διάμετρος μικρο-οπής</b> &lt; <b>Ελάχιστη διάμετρος μικρο-οπής</b><br>"
+"%s: <b>Διάμετρος μικρο-Via</b> &lt; <b>Ελάχιστη διάμετρος μικρο-Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:989
 #, c-format
 msgid "%s: <b>MicroVia Drill</b> &ge; <b>MicroVia Dia</b><br>"
-msgstr "%s: <b>Διάτρηση μικρο-οπής</b> &ge; <b>Διάμετρος μικρο-οπής</b><br>"
+msgstr "%s: <b>Διάτρηση μικρο-Via</b> &ge; <b>Διάμετρος μικρο-Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:998
 #, c-format
 msgid "%s: <b>MicroVia Drill</b> &lt; <b>MicroVia Min Drill</b><br>"
 msgstr ""
-"%s: <b>Διάτρηση μικρο-οπής</b> &lt; <b>Ελάχιστη διάτρηση μικρο-οπής</b><br>"
+"%s: <b>Διάτρηση μικρο-Via</b> &lt; <b>Ελάχιστη διάτρηση μικρο-Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1019
 #, c-format
 msgid "<b>Extra Track %d Size</b> %s &lt; <b>Min Track Size</b><br>"
 msgstr ""
-"<b>Μέγεθος επιπρόσθετου ίχνους %d</b> %s &lt; <b>Ελάχιστο μέγεθος ίχνους</"
+"<b>Μέγεθος επιπρόσθετου αποτυπώματος %d</b> %s &lt; <b>Ελάχιστο μέγεθος αποτυπώματος</"
 "b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1028
 #, c-format
 msgid "<b>Extra Track %d Size</b> %s &gt; <b>1 inch!</b><br>"
-msgstr "<b>Μέγεθος επιπρόσθετου ίχνους %d</b> %s &gt; <b>μίας ίντσας!</b><br>"
+msgstr "<b>Μέγεθος επιπρόσθετου αποτυπώματος %d</b> %s &gt; <b>μίας ίντσας!</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1053
 #, c-format
 msgid "<b>Extra Via %d Size</b> %s &lt; <b>Min Via Size</b><br>"
 msgstr ""
-"<b>Μέγεθος επιπρόσθετης οπής %d</b> %s &lt; <b>Ελάχιστο μέγεθος οπής</b><br>"
+"<b>Μέγεθος επιπρόσθετου Via %d</b> %s &lt; <b>Ελάχιστο μέγεθος Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1062
 #, fuzzy, c-format
@@ -11841,7 +11844,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_design_rules.cpp:1072
 #, c-format
 msgid "<b>Extra Via %d Size</b>%s &gt; <b>1 inch!</b><br>"
-msgstr "<b>Μέγεθος επιπρόσθετης οπής %d</b> %s &gt; <b>1 ίντσα!</b><br>"
+msgstr "<b>Μέγεθος επιπρόσθετου Via %d</b> %s &gt; <b>1 ίντσα!</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:27
 msgid "Net Classes:"
@@ -11849,24 +11852,24 @@ msgstr "Κλάσεις δικτύου:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:49
 msgid "Track Width"
-msgstr "Πλάτος πίστας"
+msgstr "Πλάτος γραμμής"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:50
 msgid "Via Dia"
-msgstr "Διάμετρος οπής"
+msgstr "Διάμετρος Via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:51
 msgid "Via Drill"
-msgstr "Διάτρηση οπής"
+msgstr "Διάτρηση Via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:52
 msgid "uVia Dia"
-msgstr "Διάμετρος μ/Οπής"
+msgstr "Διάμετρος μ/Via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:53
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:86
 msgid "uVia Drill"
-msgstr "Διάτρηση μ/Οπής"
+msgstr "Διάτρηση μ/Via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:66
 msgid "Net Class parameters"
@@ -11926,7 +11929,7 @@ msgstr "Επεξεργαστής κλάσης δικτύων"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:168
 msgid "Via Options:"
-msgstr "Επιλογές οπής:"
+msgstr "Επιλογές Via:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:170
 #, fuzzy
@@ -11952,16 +11955,16 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:178
 msgid "Do not allow micro vias"
-msgstr "Να μην επιτρέπονται μικρο-οπές"
+msgstr "Να μην επιτρέπονται μικρο-via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:178
 msgid "Allow micro vias"
-msgstr "Να επιτρέπονται μικρο-οπές"
+msgstr "Να επιτρέπονται μικρο-via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:180
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:147
 msgid "Micro Vias:"
-msgstr "Μικρο-οπές:"
+msgstr "Μικρο-Via:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:182
 msgid ""
@@ -11969,8 +11972,8 @@ msgid ""
 "They are very small vias only from an external copper layer to its near "
 "neightbour"
 msgstr ""
-"Επιτρέπει ή δεν επιτρέπει τη χρήση των Μικρο-οπών.\n"
-"Είναι πολύ μικρές οπές μόνο από ένα εξωτερικό επίπεδο χαλκού προς το άμεσα "
+"Επιτρέπει ή δεν επιτρέπει τη χρήση των μικρο-via.\n"
+"Είναι πολύ μικρά via μόνο από ένα εξωτερικό επίπεδο χαλκού προς το άμεσα "
 "γειτονικό του"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:190
@@ -11980,23 +11983,23 @@ msgstr "Ελάχιστες επιτρεπόμενες τιμές:"
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:198
 #: pcbnew/dialogs/dialog_drc_base.cpp:46
 msgid "Min track width"
-msgstr "Ελάχιστο πλάτος πίστας"
+msgstr "Ελάχιστο πλάτος γραμμής"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:206
 msgid "Min via diameter"
-msgstr "Ελάχιστη διάμετρος οπής"
+msgstr "Ελάχιστη διάμετρος via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:214
 msgid "Min via drill dia"
-msgstr "Ελάχιστη διάμετρος διάτρησης οπής"
+msgstr "Ελάχιστη διάμετρος διάτρησης via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:222
 msgid "Min uvia diameter"
-msgstr "Ελάχιστη διάμετρος μ/Οπής"
+msgstr "Ελάχιστη διάμετρος μ/via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:230
 msgid "Min uvia drill dia"
-msgstr "Ελάχιστη διάμετρος διάτρησης μ/Οπής"
+msgstr "Ελάχιστη διάμετρος διάτρησης μ/via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:250
 #, fuzzy
@@ -12005,14 +12008,14 @@ msgid ""
 "can be used to replace default Netclass values \n"
 "on demand, for arbitrary vias or track segments."
 msgstr ""
-"Ορισμένες διάμετροι οπής και πλάτη πίστας τα οποία \n"
+"Ορισμένες διάμετροι οπής και πλάτη γραμμής τα οποία \n"
 "μπορούν να χρησιμοποιηθούν για να αντικαταστήσουν τις προεπιλεγμένες τιμές "
 "κλάσης δικτύων \n"
 "κατά παραγγελία, για αυθαίρετα τμήματα οπών ή πιστών."
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:258
 msgid "Custom Via Sizes:"
-msgstr "Προσαρμοσμένα μεγέθη οπών:"
+msgstr "Προσαρμοσμένα μεγέθη Via:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:260
 msgid "Drill value: a blank or 0 => default Netclass value"
@@ -12020,31 +12023,31 @@ msgstr "Τιμή διάτρησης: ένα κενό ή 0 => προεπιλεγ�
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:284
 msgid "Via 1"
-msgstr "Οπή 1"
+msgstr "Via 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:285
 msgid "Via 2"
-msgstr "Οπή 2"
+msgstr "Via 2"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:286
 msgid "Via 3"
-msgstr "Οπή 3"
+msgstr "Via 3"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:287
 msgid "Via 4"
-msgstr "Οπή 4"
+msgstr "Via 4"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:288
 msgid "Via 5"
-msgstr "Οπή 5"
+msgstr "Via 5"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:289
 msgid "Via 6"
-msgstr "Οπή 6"
+msgstr "Via 6"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:290
 msgid "Via 7"
-msgstr "Οπή 7"
+msgstr "Via 7"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:291
 #, fuzzy
@@ -12073,60 +12076,60 @@ msgstr "Οπή 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:308
 msgid "Custom Track Widths:"
-msgstr "Προσαρμοσμένα πλάτη πίστας:"
+msgstr "Προσαρμοσμένα πλάτη γραμμής:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:333
 msgid "Track 1"
-msgstr "Πίστα 1"
+msgstr "Γραμμή 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:334
 msgid "Track 2"
-msgstr "Πίστα 2"
+msgstr "Γραμμή 2"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:335
 msgid "Track 3"
-msgstr "Πίστα 3"
+msgstr "Γραμμή 3"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:336
 msgid "Track 4"
-msgstr "Πίστα 4"
+msgstr "Γραμμή 4"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:337
 msgid "Track 5"
-msgstr "Πίστα 5"
+msgstr "Γραμμή 5"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:338
 msgid "Track 6"
-msgstr "Πίστα 6"
+msgstr "Γραμμή 6"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:339
 msgid "Track 7"
-msgstr "Πίστα 7"
+msgstr "Γραμμή 7"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:340
 #, fuzzy
 msgid "Track 8"
-msgstr "Πίστα 1"
+msgstr "Γραμμή 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:341
 #, fuzzy
 msgid "Track 9"
-msgstr "Πίστα 1"
+msgstr "Γραμμή 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:342
 #, fuzzy
 msgid "Track 10"
-msgstr "Πίστα 1"
+msgstr "Γραμμή 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:343
 #, fuzzy
 msgid "Track 11"
-msgstr "Πίστα 1"
+msgstr "Γραμμή 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:344
 #, fuzzy
 msgid "Track 12"
-msgstr "Πίστα 1"
+msgstr "Γραμμή 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:363
 msgid "Global Design Rules"
@@ -12158,7 +12161,7 @@ msgstr "Θέση Κειμένου Y"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:23
 msgid "Tracks and vias:"
-msgstr "Πίστες και οπές:"
+msgstr "Γραμμές και via:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:25
 #, fuzzy
@@ -12190,14 +12193,14 @@ msgstr "Πάντα"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:33
 msgid "Show Via Holes:"
-msgstr "Προβολή διάτρησης οπών:"
+msgstr "Προβολή διάτρησης Via:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:35
 msgid ""
 "Show (or not) via holes.\n"
 "If Defined Holes is selected, only the non default size holes are shown"
 msgstr ""
-"Προβολή (ή μη) της διάτρησης οπών.\n"
+"Προβολή (ή μη) της διάτρησης Via.\n"
 "Εάν επιλεγεί το \"Καθορισμένες διατρήσεις\", προβάλλονται μόνο οι διατρήσεις "
 "που δεν έχουν προκαθορισμένο μέγεθος"
 
@@ -12215,11 +12218,11 @@ msgstr "Στις έδρες"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:45
 msgid "On tracks"
-msgstr "Στις πίστες"
+msgstr "Στις γραμμές"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:45
 msgid "On pads and tracks"
-msgstr "Στις έδρες και τις πίστες"
+msgstr "Στις έδρες και τις γραμμές"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:47
 msgid "Show Net Names:"
@@ -12227,20 +12230,20 @@ msgstr "Προβολή ονομάτων δικτύων:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:49
 msgid "Show or not net names on pads and/or tracks"
-msgstr "Προβολή ή μη των ονομάτων δικτύων στις έδρες ή/και τις πίστες"
+msgstr "Προβολή ή μη των ονομάτων δικτύων στις έδρες ή/και τις γραμμές"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:53
 msgid "New track"
-msgstr "Νέα πίστα"
+msgstr "Νέα γραμμή"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:53
 msgid "New track with via area"
-msgstr "Νέα πίστα με περιοχή οπής"
+msgstr "Νέα γραμμή με περιοχή via"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:53
 #, fuzzy
 msgid "New and edited tracks with via area"
-msgstr "Νέα πίστα με περιοχή οπής"
+msgstr "Νέα γραμμή με περιοχή οπής"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:55
 msgid "Show Tracks Clearance:"
@@ -12253,13 +12256,13 @@ msgid ""
 "the track."
 msgstr ""
 "Προβολή (ή μη) του διάκενου των πιστών.\n"
-"Αν επιλεγεί νέα πίστα, η περιοχή του διάκενου προβάλλεται μόνο όταν "
-"δημιουργείται η πίστα."
+"Αν επιλεγεί νέα γραμμή, η περιοχή του διάκενου προβάλλεται μόνο όταν "
+"δημιουργείται η γραμμή."
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:68
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:69
 msgid "Footprints:"
-msgstr "Ίχνη:"
+msgstr "Αποτυπώματα:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:70
 #, fuzzy
@@ -12314,23 +12317,23 @@ msgstr "ανά κλάση δικτύου"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:48
 msgid "Enter the minimum acceptable value for a track width"
-msgstr "Εισάγετε την ελάχιστη αποδεκτή τιμή για το πλάτος ενός ίχνους"
+msgstr "Εισάγετε την ελάχιστη αποδεκτή τιμή για το πλάτος ενός αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:56
 msgid "Min via size"
-msgstr "Ελάχιστο μέγεθος οπής"
+msgstr "Ελάχιστο μέγεθος via"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:58
 msgid "Enter the minimum acceptable diameter for a standard via"
-msgstr "Εισάγετε την ελάχιστη αποδεκτή διάμετρο για μία τυπική οπή"
+msgstr "Εισάγετε την ελάχιστη αποδεκτή διάμετρο για ένα τυπικό via"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:66
 msgid "Min uVia size"
-msgstr "Ελάχιστο μέγεθος μ/οπής"
+msgstr "Ελάχιστο μέγεθος μ/Via"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:68
 msgid "Enter the minimum acceptable diameter for a micro via"
-msgstr "Εισάγετε την ελάχιστη αποδεκτή διάμετρο για μία μικρο-οπή"
+msgstr "Εισάγετε την ελάχιστη αποδεκτή διάμετρο για ένα μικρο-via"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:80
 msgid "Create Report File"
@@ -12505,7 +12508,7 @@ msgstr "Όνομα &φύλλου:"
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:131
 #, fuzzy
 msgid "Change Footprint(s)"
-msgstr "Αρχειοθέτηση ιχνών"
+msgstr "Αρχειοθέτηση αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:140
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:98
@@ -12582,7 +12585,7 @@ msgid ""
 "If 0, the Netclass values are used\n"
 "This value can be superseded by a pad local value."
 msgstr ""
-"Αυτή είναι το τοπικό διάκενο δικτύου για όλες της έδρες αυτού του ίχνους\n"
+"Αυτή είναι το τοπικό διάκενο δικτύου για όλες της έδρες αυτού του αποτυπώματος\n"
 "Αν είναι 0, χρησιμοποιούνται οι τιμές της κλάσης δικτύου\n"
 "Αυτή η τιμή μπορεί να αντικατασταθεί από μια τοπική τιμή της έδρας."
 
@@ -12603,7 +12606,7 @@ msgid ""
 "If 0, the global value is used"
 msgstr ""
 "Αυτό είναι το τοπικό διάκενο μεταξύ των εδρών και της μάσκας συγκόλλησης\n"
-"γι' αυτό το ίχνος\n"
+"γι' αυτό το αποτύπωμα\n"
 "Αυτή η τιμή μπορεί να αντικατασταθεί από την τοπική τιμή μίας έδρας.\n"
 "Αν είναι 0, τότε χρησιμοποιείται η γενική τιμή"
 
@@ -12625,7 +12628,7 @@ msgid ""
 "A negative value means a smaller mask size than pad size"
 msgstr ""
 "Αυτό είναι το τοπικό διάκενο μεταξύ των εδρών και της πάστας συγκόλλησης\n"
-"γι' αυτό το ίχνος\n"
+"γι' αυτό το αποτύπωμα\n"
 "Αυτή η τιμή μπορεί να αντικατασταθεί από τις τοπικές τιμές μίας έδρας.\n"
 "Η τελική τιμή του διάκενου είναι το άθροισμα αυτής της τιμής και της "
 "αναλογίας της τιμής του διάκενου\n"
@@ -12653,7 +12656,7 @@ msgid ""
 msgstr ""
 "Αυτή είναι η τοις εκατό αναλογία τού τοπικού διάκενου μεταξύ των έδρών και "
 "της πάστας συγκόλλησης\n"
-"γι' αυτό το ίχνος.\n"
+"γι' αυτό το αποτύπωμα.\n"
 "Η τιμή 10 σημαίνει ότι η τιμή του διάκενου είναι το 10 τοις εκατό του "
 "μεγέθους της έδρας\n"
 "Αυτή η τιμή μπορεί να αντικατασταθεί από την τοπική τιμή μιάς έδρας.\n"
@@ -12764,7 +12767,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:79
 #, fuzzy
 msgid "Footprint Name in Library"
-msgstr "Όνομα ίχνους στη βιβλιοθήκη"
+msgstr "Όνομα αποτυπώματος στη βιβλιοθήκη"
 
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:104
 msgid "Locked"
@@ -12839,7 +12842,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_edit_module_text_base.cpp:19
 #, fuzzy, c-format
 msgid "Footprint %s (%s) orientation %.1f"
-msgstr "Προσανατολισμός ίχνους"
+msgstr "Προσανατολισμός αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_edit_module_text_base.cpp:72
 msgid "Offset X"
@@ -12874,17 +12877,17 @@ msgstr "Παραπομπή υλικού"
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:46
 #, fuzzy
 msgid "Change footprint"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:46
 #, fuzzy
 msgid "Change footprints"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:46
 #, fuzzy
 msgid "Change footprints having same value"
-msgstr "Εμφάνιση των τιμών των ιχνών"
+msgstr "Εμφάνιση των τιμών των αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:46
 #, fuzzy
@@ -12894,17 +12897,17 @@ msgstr "Επανασχεδιασμός της οθόνης της πλακέτα
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:58
 #, fuzzy
 msgid "Export Footprint Association File"
-msgstr "Αρχείο τεκμηρίωσης ιχνών"
+msgstr "Αρχείο τεκμηρίωσης αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:61
 #, fuzzy
 msgid "List Footprints"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:64
 #, fuzzy
 msgid "View Footprints"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:73
 #, fuzzy
@@ -12983,7 +12986,7 @@ msgstr "Αποθήκευση αρχείου πλακέτας VRML"
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:29
 #, fuzzy
 msgid "Footprint 3D model path:"
-msgstr "Τεκμηρίωση ίχνους"
+msgstr "Τεκμηρίωση αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:70
 msgid "X Ref:"
@@ -13327,7 +13330,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:71
 #, fuzzy
 msgid "Footprints Selection:"
-msgstr "Προσανατολισμός ιχνών"
+msgstr "Προσανατολισμός αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:73
 msgid ""
@@ -13457,19 +13460,19 @@ msgstr "Πληροφορίες:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:114
 msgid "Default Vias Drill:"
-msgstr "Προεπιλεγμένη διάτρηση οπής:"
+msgstr "Προεπιλεγμένη διάτρηση Via:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:116
 msgid "Via Drill Value"
-msgstr "Τιμή διάτρησης οπής"
+msgstr "Τιμή διάτρησης Via"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:123
 msgid "Micro Vias Drill:"
-msgstr "Διάτρηση μικρο-οπών:"
+msgstr "Διάτρηση μικρο-Via:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:125
 msgid "Micro Via Drill Value"
-msgstr "Τιμή διάτρησης μικρο-οπής"
+msgstr "Τιμή διάτρησης μικρο-Via"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:133
 msgid "Holes Count:"
@@ -13486,11 +13489,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:143
 msgid "Through Vias:"
-msgstr "Διαμπερείς οπές:"
+msgstr "Διαμπερή Via:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:151
 msgid "Buried Vias:"
-msgstr "Ενταφιασμένες οπές:"
+msgstr "Ενταφιασμένα Via:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:170
 #, fuzzy
@@ -13598,7 +13601,7 @@ msgstr "Προβολή (ή μη) πλήρους υπερσύνδεσης."
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:112
 #, fuzzy
 msgid "S&how footprint ratsnest"
-msgstr "Εμφάνιση των τιμών των ιχνών"
+msgstr "Εμφάνιση των τιμών των αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:113
 msgid ""
@@ -13617,13 +13620,13 @@ msgstr "Διαγραφή μη συνδεδεμένων πιστών"
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:118
 msgid "Enable/disable the automatic track deletion when recreating a track."
 msgstr ""
-"Ενεργοποίηση/Απενεργοποίηση της αυτόματης διαγραφής πίστας όταν "
-"επαναδημιουργείται μία πίστα."
+"Ενεργοποίηση/Απενεργοποίηση της αυτόματης διαγραφής γραμμής όταν "
+"επαναδημιουργείται μία γραμμή."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:122
 #, fuzzy
 msgid "&Limit tracks to 45 degrees"
-msgstr "Πίστα μόνο 45 μοίρες"
+msgstr "Γραμμή μόνο 45 μοίρες"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:123
 msgid ""
@@ -13648,20 +13651,20 @@ msgstr ""
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:132
 #, fuzzy
 msgid "&Use double segmented tracks"
-msgstr "Πίστα διπλού τμήματος"
+msgstr "Γραμμή διπλού τμήματος"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:133
 msgid ""
 "If enabled, uses two track segments, with 45 degrees angle between them when "
 "creating a new track "
 msgstr ""
-"Αν ενεργοποιηθεί, όταν δημιουργείται μία νέα πίστα, χρησιμοποιεί δύο τμήματα "
-"πίστας με 45 μοίρες γωνία μεταξύ τους "
+"Αν ενεργοποιηθεί, όταν δημιουργείται μία νέα γραμμή, χρησιμοποιεί δύο τμήματα "
+"γραμμής με 45 μοίρες γωνία μεταξύ τους "
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:146
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:154
 msgid "When creating tracks"
-msgstr "Όταν δημιουργούνται πίστες"
+msgstr "Όταν δημιουργούνται γραμμές"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:148
 msgid "Magnetic Pads"
@@ -13676,14 +13679,14 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:156
 msgid "Magnetic Tracks"
-msgstr "Μαγνητικές πίστες"
+msgstr "Μαγνητικές Γραμμές"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:158
 msgid ""
 "Control the capture of the pcb cursor when the mouse cursor enters a track"
 msgstr ""
 "Έλεγχος σύλληψης του κέρσορα pcb όταν ο κέρσορας του ποντικιού εισέρχεται σε "
-"πίστα"
+"γραμμή"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:171
 msgid "Use middle mouse &button to pan"
@@ -13700,7 +13703,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:182
 msgid "Allows auto pan when creating a track, or moving an item."
 msgstr ""
-"Επιτρέπει το αυτόματο pan κατά τη δημιουργία ενός ίχνους ή τη μετακίνηση "
+"Επιτρέπει το αυτόματο pan κατά τη δημιουργία ενός αποτυπώματος ή τη μετακίνηση "
 "ενός αντικειμένου."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:190
@@ -13740,7 +13743,7 @@ msgstr "Σχέδια"
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:20
 #, fuzzy
 msgid "Tracks"
-msgstr "Ίχνη:"
+msgstr "Αποτυπώματα:"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:43
 #, fuzzy
@@ -13773,12 +13776,12 @@ msgstr "Συμπερίληψη κλειδωμένων πιστών"
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:72
 #, fuzzy
 msgid "Locked footprints"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:75
 #, fuzzy
 msgid "Unlocked footprints"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:82
 #, fuzzy
@@ -13803,7 +13806,7 @@ msgstr "Εκκαθάριση του τρέχοντος επιπέδου"
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:173
 msgid "Set current Net tracks and vias sizes and drill to the current values?"
 msgstr ""
-"Να οριστούν τα τρέχοντα μεγέθη για οπές και πιστές δικτύου και να γίνει "
+"Να οριστούν τα τρέχοντα μεγέθη για via και πιστές δικτύου και να γίνει "
 "διάτρηση στις τρέχουσες τιμές;"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:183
@@ -13811,16 +13814,16 @@ msgid ""
 "Set current Net tracks and vias sizes and drill to the Netclass default "
 "value?"
 msgstr ""
-"Να οριστούν τα τρέχοντα μεγέθη για οπές και πιστές δικτύου και να γίνει "
+"Να οριστούν τα τρέχοντα μεγέθη για via και πιστές δικτύου και να γίνει "
 "διάτρηση στην προκαθορισμένη τιμή της κλάσης δικτύου;"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:192
 msgid "Set All Tracks and Vias to Netclass value"
-msgstr "Ορισμός όλων των πιστών και οπών στην τιμή της κλάσης δικτύου"
+msgstr "Ορισμός όλων των πιστών και Via στην τιμή της κλάσης δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:201
 msgid "Set All Via to Netclass value"
-msgstr "Ορισμός όλων των οπών στην τιμή της κλάσης δικτύου"
+msgstr "Ορισμός όλων των Via στην τιμή της κλάσης δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:210
 msgid "Set All Track to Netclass value"
@@ -13844,19 +13847,19 @@ msgstr "Όνομα κλάσης δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:82
 msgid "Track size"
-msgstr "Μέγεθος ίχνους"
+msgstr "Μέγεθος αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:83
 msgid "Via diameter"
-msgstr "Διάμετρος οπής"
+msgstr "Διάμετρος Via"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:84
 msgid "Via drill"
-msgstr "Διάτρηση οπής"
+msgstr "Διάτρηση via"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:85
 msgid "uVia size"
-msgstr "Μέγεθος μ/οπής"
+msgstr "Μέγεθος μ/via"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:93
 msgid "Netclass value"
@@ -13872,28 +13875,28 @@ msgstr "Γενική επιλογή έκδοσης:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:136
 msgid "Set tracks and vias of the current Net to the current value"
-msgstr "Ορισμός πιστών και οπών του τρέχοντος δικτύου στην τρέχουσα τιμή"
+msgstr "Ορισμός πιστών και via του τρέχοντος δικτύου στην τρέχουσα τιμή"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:140
 msgid "Set tracks and vias of the current Net to the Netclass value"
-msgstr "Ορισμός πιστών και οπών του τρέχοντος δικτύου στην τιμή κλάσης δικτύου"
+msgstr "Ορισμός πιστών και via του τρέχοντος δικτύου στην τιμή κλάσης δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:143
 msgid "Set all tracks and vias to their Netclass value"
-msgstr "Ορισμός όλων των πιστών και οπών στην τιμή της κλάσης δικτύου τους"
+msgstr "Ορισμός όλων των πιστών και via στην τιμή της κλάσης δικτύου τους"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:146
 msgid "Set all vias (no track) to their Netclass value"
-msgstr "Ορισμός όλων των οπών (χωρίς πίστα) στην τιμή της κλάσης δικτύου τους"
+msgstr "Ορισμός όλων των via (χωρίς γραμμή) στην τιμή της κλάσης δικτύου τους"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:149
 msgid "Set all tracks (no via) to their Netclass value"
-msgstr "Ορισμός όλων των πιστών (χωρίς οπή) στην τιμή της κλάσης δικτύου τους"
+msgstr "Ορισμός όλων των πιστών (χωρίς via) στην τιμή της κλάσης δικτύου τους"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:26
 #, fuzzy
 msgid "Footprint Fields"
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:28
 #, fuzzy
@@ -13908,7 +13911,7 @@ msgstr "Μη καθορισμένο"
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:40
 #, fuzzy
 msgid "Footprint Filter:"
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:42
 msgid ""
@@ -14200,7 +14203,7 @@ msgstr "Επιλογές λίστας δικτύων:"
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:62
 #, fuzzy
 msgid "No Tracks"
-msgstr "Ίχνη:"
+msgstr "Αποτυπώματα:"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:65
 #, fuzzy
@@ -14852,7 +14855,7 @@ msgid ""
 "This value can be superseded by local values for a footprint or a pad."
 msgstr ""
 "Αυτό είναι το γενικό διάκενο μεταξύ των εδρών και της μάσκας συγκόλλησης\n"
-"Αυτή η τιμή μπορεί να αντικατασταθεί από τις τοπικές τιμές για ένα ίχνος ή "
+"Αυτή η τιμή μπορεί να αντικατασταθεί από τις τοπικές τιμές για ένα αποτύπωμα ή "
 "μία έδρα."
 
 #: pcbnew/dialogs/dialog_mask_clearance_base.cpp:54
@@ -14876,7 +14879,7 @@ msgid ""
 "ratio"
 msgstr ""
 "Αυτό είναι το γενικό διάκενο μεταξύ των εδρών και της πάστας συγκόλλησης\n"
-"Αυτή η τιμή μπορεί να αντικατασταθεί από τις τοπικές τιμές για ένα ίχνος ή "
+"Αυτή η τιμή μπορεί να αντικατασταθεί από τις τοπικές τιμές για ένα αποτύπωμα ή "
 "μια έδρα.\n"
 "Η τελική τιμή διάκενου είναι το άθροισμα αυτής της τιμής και της αναλογίας "
 "της τιμής διάκενου"
@@ -14893,7 +14896,7 @@ msgstr ""
 "της πάστας συγκόλλησης\n"
 "Η τιμή 10 σημαίνει ότι η τιμή του διάκενου είναι το 10 τοις εκατό του "
 "μεγέθους της έδρας\n"
-"Αυτή η τιμή μπορεί να αντικατασταθεί από τις τοπικές τιμές για ένα ίχνος ή "
+"Αυτή η τιμή μπορεί να αντικατασταθεί από τις τοπικές τιμές για ένα αποτύπωμα ή "
 "μια έδρα.\n"
 "Η τελική τιμή διάκενου είναι το άθροισμα αυτής της τιμής και της τιμής του "
 "διάκενου"
@@ -14925,7 +14928,7 @@ msgstr "Ορισμός πλάτους"
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:88
 #, fuzzy
 msgid "Default values on new footprint creation:"
-msgstr "Κακή τιμή για τον προσανατολισμό των ιχνών"
+msgstr "Κακή τιμή για τον προσανατολισμό των αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:94
 msgid ""
@@ -15033,7 +15036,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_netlist.cpp:199 pcbnew/netlist.cpp:153
 #, fuzzy
 msgid "No footprints"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_netlist.cpp:223
 #, fuzzy
@@ -15048,7 +15051,7 @@ msgstr "Διπλότυπα"
 #: pcbnew/dialogs/dialog_netlist.cpp:250
 #, fuzzy
 msgid "No missing footprints."
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/dialogs/dialog_netlist.cpp:253
 msgid "Missing:"
@@ -15057,7 +15060,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_netlist.cpp:269
 #, fuzzy
 msgid "No extra footprints."
-msgstr "Επιπρόσθετα ίχνη"
+msgstr "Επιπρόσθετα αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_netlist.cpp:272
 msgid "Not in Netlist:"
@@ -15070,7 +15073,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_netlist.cpp:301
 #, fuzzy
 msgid "Check footprints"
-msgstr "Αναζήτηση ίχνους"
+msgstr "Αναζήτηση αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_netlist.cpp:345
 msgid "Save contents of message window"
@@ -15106,7 +15109,7 @@ msgstr "Σφάλμα κατά την αποθήκευση του αρχείου 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:35
 #, fuzzy
 msgid "Footprint Selection"
-msgstr "Προσανατολισμός ίχνους"
+msgstr "Προσανατολισμός αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:37
 msgid ""
@@ -15114,10 +15117,10 @@ msgid ""
 "by their reference (U1, R3...) (normal setting)\n"
 "or their time stamp (special setting after a full schematic reannotation)"
 msgstr ""
-"Επιλέξτε πως θα αναγνωρίζονται τα ίχνη:\n"
+"Επιλέξτε πως θα αναγνωρίζονται τα αποτυπώματα:\n"
 "από την παραπομπή τους (U1, R3...) (κανονική ρύθμιση)\n"
-"ή από τη χρονική τους σφραγίδα (ειδική ρύθμιση μετά από έναν πλήρη σχηματικό "
-"επανασχολιασμό)"
+"ή από τη χρονική τους σφραγίδα (ειδική ρύθμιση μετά από έναν πλήρη "
+"επανασχολιασμό σχηματικού)"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:41
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:55
@@ -15133,7 +15136,7 @@ msgstr "Αλλαγή"
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:43
 #, fuzzy
 msgid "Exchange Footprint"
-msgstr "Επιπρόσθετα ίχνη"
+msgstr "Επιπρόσθετα αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:45
 msgid ""
@@ -15154,15 +15157,15 @@ msgstr "Διατήρηση ή διαγραφή κακών πιστών μετά 
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:65
 msgid "Extra Footprints"
-msgstr "Επιπρόσθετα ίχνη"
+msgstr "Επιπρόσθετα αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:67
 msgid ""
 "Remove footprints found on the Board but not in netlist\n"
 "Note: only not locked footprints will be removed"
 msgstr ""
-"Αφαίρεση των ιχνών που βρέθηκαν στην πλακέτα αλλά όχι στη λίστα δικτύου\n"
-"Σημείωση: θα αφαιρεθούν μόνο τα μη κλειδωμένα ίχνη"
+"Αφαίρεση των αποτυπωμάτων που βρέθηκαν στην πλακέτα αλλά όχι στη λίστα δικτύου\n"
+"Σημείωση: θα αφαιρεθούν μόνο τα μη κλειδωμένα αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:73
 #, fuzzy
@@ -15182,12 +15185,12 @@ msgstr ""
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:98
 #, fuzzy
 msgid "Test Footprints"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:99
 msgid "Read the current neltist file and list missing and extra footprints"
 msgstr ""
-"Ανάγνωση της τρέχουσας λίστας δικτύων και προβολή των επιπλέον ιχνών που "
+"Ανάγνωση της τρέχουσας λίστας δικτύων και προβολή των επιπλέον αποτυπωμάτων που "
 "λείπουν"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:103
@@ -15261,11 +15264,11 @@ msgstr "Ελάχιστη τιμή πάχους μάσκας"
 #: pcbnew/dialogs/dialog_orient_footprints.cpp:119
 #, fuzzy, c-format
 msgid "OK to set footprints orientation to %.1f degrees ?"
-msgstr "Συμφωνείτε να οριστεί ο προσανατολισμός των ιχνών στις %g μοίρες;"
+msgstr "Συμφωνείτε να οριστεί ο προσανατολισμός των αποτυπωμάτων στις %g μοίρες;"
 
 #: pcbnew/dialogs/dialog_orient_footprints.cpp:150
 msgid "Bad value for footprints orientation"
-msgstr "Κακή τιμή για τον προσανατολισμό των ιχνών"
+msgstr "Κακή τιμή για τον προσανατολισμό των αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_orient_footprints_base.cpp:27
 msgid "New orientation (0.1 degree resolution)"
@@ -15273,19 +15276,19 @@ msgstr "Νέος προσανατολισμός (ανάλυση 0.1 μοίρες
 
 #: pcbnew/dialogs/dialog_orient_footprints_base.cpp:36
 msgid "Filter to select footprints by reference"
-msgstr "Φίλτρο για την επιλογή ιχνών από παραπομπές"
+msgstr "Φίλτρο για την επιλογή αποτυπωμάτων από παραπομπές"
 
 #: pcbnew/dialogs/dialog_orient_footprints_base.cpp:43
 msgid "Include Locked Footprints"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_orient_footprints_base.cpp:44
 msgid "Force locked footprints to be modified"
-msgstr "Εξαναγκασμός τροποποίησης κλειδωμένων ιχνών"
+msgstr "Εξαναγκασμός τροποποίησης κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:343
 msgid "Back side (footprint is mirrored)"
-msgstr "Κάτω πλευρά (το ίχνος είναι κατοπτρισμένο)"
+msgstr "Κάτω πλευρά (το αποτύπωμα είναι κατοπτρισμένο)"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:744
 msgid "Pad size must be greater than zero"
@@ -15461,7 +15464,7 @@ msgstr "Κατεύθυνση τραπεζοϊδούς"
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:225
 #, fuzzy
 msgid "Parent footprint orientation"
-msgstr "Προσανατολισμός ίχνους"
+msgstr "Προσανατολισμός αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:233
 msgid "Rotation:"
@@ -15581,7 +15584,7 @@ msgid ""
 "If 0, the footprint local value or the Netclass value is used"
 msgstr ""
 "Αυτό είναι το διάκενο τοπικού δικτύου για την έδρα \n"
-"0 σημαίνει ότι χρησιμοποιείται η τοπική τιμή του ίχνους ή η τιμή της κλάσης "
+"0 σημαίνει ότι χρησιμοποιείται η τοπική τιμή του αποτυπώματος ή η τιμή της κλάσης "
 "δικτύου "
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:415
@@ -15591,7 +15594,7 @@ msgid ""
 msgstr ""
 "Αυτό είναι το τοπικό διάκενο μεταξύ αυτής της έδρας και της μάσκας "
 "συγκόλλησης\n"
-"0 σημαίνει ότι χρησιμοποιείται η τοπική τιμή του ίχνους ή η γενική τιμή"
+"0 σημαίνει ότι χρησιμοποιείται η τοπική τιμή του αποτυπώματος ή η γενική τιμή"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:429
 msgid ""
@@ -15603,7 +15606,7 @@ msgid ""
 msgstr ""
 "Αυτό είναι το τοπικό διάκενο μεταξύ αυτής της έδρας και της πάστας "
 "συγκόλλησης\n"
-"0 σημαίνει ότι χρησιμοποιείται η τιμή του ίχνους ή, η γενική τιμή.\n"
+"0 σημαίνει ότι χρησιμοποιείται η τιμή του αποτυπώματος ή, η γενική τιμή.\n"
 "Η τελική τιμή του διάκενου είναι το άθροισμα αυτής της τιμής και της "
 "αναλογίας της τιμής του διάκενου\n"
 "Μία αρνητική τιμή σημαίνει ότι το μέγεθος της μάσκας είναι μικρότερο από το "
@@ -15622,7 +15625,7 @@ msgstr ""
 "και της πάστας συγκόλλησης.\n"
 "Η τιμή 10 σημαίνει ότι η τιμή τού διάκενου είναι το 10 τοις εκατό του "
 "μεγέθους της έδρας\n"
-"Αν είναι 0, τότε χρησιμοποιείται η τιμή του ίχνους ή η γενική τιμή...\n"
+"Αν είναι 0, τότε χρησιμοποιείται η τιμή του αποτυπώματος ή η γενική τιμή...\n"
 "Η τελική τιμή του διάκενου είναι το άθροισμα αυτής της τιμής και της τιμής "
 "του διάκενου\n"
 "Μια αρνητική τιμή σημαίνει ότι το μέγεθος της μάσκας είναι μικρότερο από της "
@@ -15636,7 +15639,7 @@ msgstr "Μη χάλκινη ζώνη"
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:474
 #, fuzzy
 msgid "From parent footprint"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:484
 #, fuzzy
@@ -15653,7 +15656,7 @@ msgstr "Θερμική εκτόνωση"
 msgid "Set fields to 0 to use parent or global values"
 msgstr ""
 "Ορίστε αυτές τις τιμές στο 0\n"
-"για να χρησιμοποιήσετε το γονικό ίχνος ή τις γενικές τιμές"
+"για να χρησιμοποιήσετε το γονικό αποτύπωμα ή τις γενικές τιμές"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:527
 #, fuzzy
@@ -15762,12 +15765,12 @@ msgstr ""
 #: pcbnew/dialogs/dialog_plot_base.cpp:101
 #, fuzzy
 msgid "Plot footprint values"
-msgstr "Εμφάνιση των τιμών των ιχνών"
+msgstr "Εμφάνιση των τιμών των αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:105
 #, fuzzy
 msgid "Plot footprint references"
-msgstr "Εμφάνιση των παραπομπών των ιχνών"
+msgstr "Εμφάνιση των παραπομπών των αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:108
 #, fuzzy
@@ -15918,7 +15921,7 @@ msgstr "Χρηση κατάλληλων επεκτάσεων Gerber - .GBL, .GTL
 #: pcbnew/dialogs/dialog_plot_base.cpp:235
 #, fuzzy
 msgid "Include extended attributes"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:236
 msgid "Include extended attributes (X2 Gerber files format) in the Gerber file"
@@ -16058,7 +16061,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings.cpp:52
 #, fuzzy
 msgid "Single Track Length Tuning"
-msgstr "Μήκος πίστας"
+msgstr "Μήκος γραμμής"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings.cpp:58
 msgid "Differential Pair Length Tuning"
@@ -16089,7 +16092,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:52
 #, fuzzy
 msgid "Constraint:"
-msgstr "Ίχνος: "
+msgstr "Αποτύπωμα: "
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:56
 #, fuzzy
@@ -16133,7 +16136,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:146
 #, fuzzy
 msgid "45 degree"
-msgstr "Πίστα μόνο 45 μοίρες"
+msgstr "Γραμμή μόνο 45 μοίρες"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:146
 #, fuzzy
@@ -16221,7 +16224,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_print_for_modedit.cpp:216
 msgid "Print Footprint"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_print_for_modedit_base.cpp:22
 msgid "Scale 1"
@@ -16341,7 +16344,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_track_via_size.cpp:64
 #, fuzzy
 msgid "Invalid track width"
-msgstr "Ελάχιστο πλάτος πίστας"
+msgstr "Ελάχιστο πλάτος γραμμής"
 
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:342
 #: pcbnew/dialogs/dialog_track_via_size.cpp:71
@@ -16383,7 +16386,7 @@ msgstr "Χρήση τιμών κλάσης δικτύου"
 #: pcbnew/dialogs/dialog_track_via_size_base.cpp:25
 #, fuzzy
 msgid "Track width:"
-msgstr "Πλάτος πίστας"
+msgstr "Πλάτος γραμμής"
 
 #: pcbnew/dialogs/dialog_track_via_size_base.cpp:36
 #, fuzzy
@@ -16506,7 +16509,7 @@ msgstr ""
 #: pcbnew/dialogs/wizard_add_fplib.cpp:630
 #, fuzzy
 msgid "Downloading libraries"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:669
 #, fuzzy, c-format
@@ -16524,7 +16527,7 @@ msgstr ""
 #: pcbnew/dialogs/wizard_add_fplib.cpp:811
 #, fuzzy
 msgid "Validating libraries"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:837
 msgid "NOT CHECKED"
@@ -16649,35 +16652,35 @@ msgstr ""
 #, c-format
 msgid "NETCLASS: '%s' has TrackWidth:%s which is less than global:%s"
 msgstr ""
-"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει πλάτος ίχνους:%s το οποίο είναι λιγότερο από το "
+"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει πλάτος αποτυπώματος:%s το οποίο είναι λιγότερο από το "
 "γενικό:%s"
 
 #: pcbnew/drc.cpp:354
 #, c-format
 msgid "NETCLASS: '%s' has Via Dia:%s which is less than global:%s"
 msgstr ""
-"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάμετρο οπής:%s η οποία είναι λιγότερη από τη "
+"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάμετρο via:%s η οποία είναι λιγότερη από τη "
 "γενική:%s"
 
 #: pcbnew/drc.cpp:369
 #, c-format
 msgid "NETCLASS: '%s' has Via Drill:%s which is less than global:%s"
 msgstr ""
-"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάτρηση οπής:%s η οποία είναι λιγότερη από τη "
+"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάτρηση via:%s η οποία είναι λιγότερη από τη "
 "γενική:%s"
 
 #: pcbnew/drc.cpp:384
 #, c-format
 msgid "NETCLASS: '%s' has uVia Dia:%s which is less than global:%s"
 msgstr ""
-"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάμετρο μ/οπής:%s η οποία είναι λιγότερη από τη "
+"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάμετρο μ/via:%s η οποία είναι λιγότερη από τη "
 "γενική:%s"
 
 #: pcbnew/drc.cpp:399
 #, c-format
 msgid "NETCLASS: '%s' has uVia Drill:%s which is less than global:%s"
 msgstr ""
-"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάτρηση μ/οπής:%s η οποία είναι λιγότερη από τη "
+"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει διάτρηση μ/via:%s η οποία είναι λιγότερη από τη "
 "γενική:%s"
 
 #: pcbnew/drc.cpp:492
@@ -16693,7 +16696,7 @@ msgstr ""
 #: pcbnew/eagle_plugin.cpp:1731
 #, fuzzy, c-format
 msgid "No '%s' package in library '%s'"
-msgstr "Το υλικό %s αποθηκεύτηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα %s αποθηκεύτηκε στη βιβλιοθήκη %s"
 
 #: pcbnew/eagle_plugin.cpp:2797
 #, fuzzy, c-format
@@ -16721,7 +16724,7 @@ msgstr "Πλάτος γραμμής περιγράμματος"
 #: pcbnew/edit.cpp:769 pcbnew/edit.cpp:797 pcbnew/edit.cpp:825
 #, c-format
 msgid "Footprint %s found, but it is locked"
-msgstr "Το ίχνος %s βρέθηκε, αλλά είναι κλειδωμένο"
+msgstr "Το αποτύπωμα %s βρέθηκε, αλλά είναι κλειδωμένο"
 
 #: pcbnew/edit.cpp:897 pcbnew/edit.cpp:916
 #, c-format
@@ -16731,7 +16734,7 @@ msgstr "Ο γονέας (%s) της έδρας είναι κλειδωμένος
 #: pcbnew/edit.cpp:1433 pcbnew/edit.cpp:1435
 #, fuzzy
 msgid "Add tracks"
-msgstr "Προσθήκη Πίστας"
+msgstr "Προσθήκη Γραμμής"
 
 #: pcbnew/edit.cpp:1445 pcbnew/edit.cpp:1492
 #: pcbnew/tools/pcb_editor_control.cpp:224
@@ -16825,7 +16828,7 @@ msgstr ""
 
 #: pcbnew/editrack.cpp:815
 msgid "Track Len"
-msgstr "Μήκος ίχνους"
+msgstr "Μήκος αποτυπώματος"
 
 #: pcbnew/editrack.cpp:819
 #, fuzzy
@@ -16925,12 +16928,12 @@ msgstr "Προβολή των εγγράφων υλικού"
 msgid ""
 "Footprint report file created:\n"
 "'%s'"
-msgstr "Ίχνη (φιλτραρισμένα): %d"
+msgstr "Αποτυπώματα (φιλτραρισμένα): %d"
 
 #: pcbnew/exporters/gen_modules_placefile.cpp:582
 #, fuzzy
 msgid "Footprint Report"
-msgstr "Δοκιμή ιχνών"
+msgstr "Δοκιμή αποτυπωμάτων"
 
 #: pcbnew/exporters/gen_modules_placefile.cpp:587
 #, fuzzy, c-format
@@ -16982,7 +16985,7 @@ msgstr "ανώνυμο"
 #: pcbnew/files.cpp:407
 #, fuzzy, c-format
 msgid "PCB file '%s' is already open."
-msgstr "Το φίλτρο ίχνους <%s> έχει ήδη καθοριστεί."
+msgstr "Το φίλτρο αποτυπώματος <%s> έχει ήδη καθοριστεί."
 
 #: pcbnew/files.cpp:417
 #, fuzzy
@@ -17046,7 +17049,7 @@ msgstr ""
 #: pcbnew/footprint_wizard.cpp:78 pcbnew/footprint_wizard_frame.cpp:99
 #, fuzzy
 msgid "Footprint Wizard"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/footprint_wizard.cpp:84
 #, fuzzy
@@ -17091,7 +17094,7 @@ msgstr "Προβολή πλακέτας στην εφαρμογή προβολή
 #: pcbnew/footprint_wizard_frame.cpp:605
 #, fuzzy
 msgid "Add footprint to board"
-msgstr "Προσθήκη φίλτρου ιχνών"
+msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
 
 #: pcbnew/github/github_getliblist.cpp:132
 #, c-format
@@ -17207,7 +17210,7 @@ msgstr ""
 #: pcbnew/gpcb_plugin.cpp:1037 pcbnew/kicad_plugin.cpp:1977
 #, fuzzy, c-format
 msgid "footprint library '%s' cannot be deleted"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/highlight.cpp:56
 #, fuzzy
@@ -17279,7 +17282,7 @@ msgid ""
 "Current Footprint will be lost and this operation cannot be undone. "
 "Continue ?"
 msgstr ""
-"Το τρέχον ίχνος θα χαθεί και αυτή η λειτουργία δε μπορεί να αναιρεθεί. "
+"Το τρέχον αποτύπωμα θα χαθεί και αυτή η λειτουργία δε μπορεί να αναιρεθεί. "
 "Συνέχεια;"
 
 #: pcbnew/io_mgr.cpp:42 pcbnew/plugin.cpp:27
@@ -17314,22 +17317,22 @@ msgstr ""
 #: pcbnew/kicad_plugin.cpp:215
 #, fuzzy, c-format
 msgid "Cannot create footprint library path '%s'"
-msgstr "Αδυναμία ανοίγματος του αρχείου βιβλιοθήκης ιχνών PCB <%s>."
+msgstr "Αδυναμία ανοίγματος του αρχείου βιβλιοθήκης αποτυπωμάτων PCB <%s>."
 
 #: pcbnew/kicad_plugin.cpp:221
 #, fuzzy, c-format
 msgid "Footprint library path '%s' is read only"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/kicad_plugin.cpp:260
 #, fuzzy, c-format
 msgid "Cannot rename temporary file '%s' to footprint library file '%s'"
-msgstr "Αδυναμία ανοίγματος του αρχείου βιβλιοθήκης ιχνών PCB <%s>."
+msgstr "Αδυναμία ανοίγματος του αρχείου βιβλιοθήκης αποτυπωμάτων PCB <%s>."
 
 #: pcbnew/kicad_plugin.cpp:280
 #, fuzzy, c-format
 msgid "Footprint library path '%s' does not exist"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/kicad_plugin.cpp:327 pcbnew/legacy_plugin.cpp:4703
 #, c-format
@@ -17359,7 +17362,7 @@ msgstr ""
 #: pcbnew/kicad_plugin.cpp:1846
 #, fuzzy, c-format
 msgid "Footprint file name '%s' is not valid."
-msgstr "Το φίλτρο ίχνους <%s> έχει ήδη καθοριστεί."
+msgstr "Το φίλτρο αποτυπώματος <%s> έχει ήδη καθοριστεί."
 
 #: pcbnew/kicad_plugin.cpp:1852
 #, c-format
@@ -17509,7 +17512,7 @@ msgstr "Συμφωνείτε με τη διαγραφή του εξαρτήμα�
 #: pcbnew/librairi.cpp:62
 #, fuzzy
 msgid "Import Footprint"
-msgstr "Εισαγωγή ίχνους εξαρτήματος"
+msgstr "Εισαγωγή αποτυπώματος εξαρτήματος"
 
 #: pcbnew/librairi.cpp:63
 #, fuzzy, c-format
@@ -17519,24 +17522,24 @@ msgstr "Το αρχείο %s δε βρέθηκε"
 #: pcbnew/librairi.cpp:64
 #, fuzzy
 msgid "Not a footprint file"
-msgstr "Φόρτωση ενός εξαρτήματος ίχνους"
+msgstr "Φόρτωση ενός εξαρτήματος αποτυπώματος"
 
 #: pcbnew/librairi.cpp:65
 #, fuzzy, c-format
 msgid "Unable to find or load footprint %s from lib path '%s'"
-msgstr "Αδυναμία εύρεσης της πηγής ίχνους στην κύρια πλακέτα"
+msgstr "Αδυναμία εύρεσης της πηγής αποτυπώματος στην κύρια πλακέτα"
 
 #: pcbnew/librairi.cpp:66
 #, fuzzy, c-format
 msgid "Unable to find or load footprint from path '%s'"
-msgstr "Αδυναμία εύρεσης της πηγής ίχνους στην κύρια πλακέτα"
+msgstr "Αδυναμία εύρεσης της πηγής αποτυπώματος στην κύρια πλακέτα"
 
 #: pcbnew/librairi.cpp:67
 #, fuzzy, c-format
 msgid ""
 "The footprint library '%s' could not be found in any of the search paths."
 msgstr ""
-"Δεν ήταν δυνατή η εύρεση του αρχείου βιβλιοθήκης ιχνών PCB <%s>, στις "
+"Δεν ήταν δυνατή η εύρεση του αρχείου βιβλιοθήκης αποτυπωμάτων PCB <%s>, στις "
 "προκαθορισμένες διαδρομές αναζήτησης."
 
 #: pcbnew/librairi.cpp:68
@@ -17547,12 +17550,12 @@ msgstr ""
 #: pcbnew/librairi.cpp:70
 #, fuzzy
 msgid "Export Footprint"
-msgstr "Επιπρόσθετα ίχνη"
+msgstr "Επιπρόσθετα αποτυπώματα"
 
 #: pcbnew/librairi.cpp:71
 #, fuzzy
 msgid "Save Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/librairi.cpp:72
 #, fuzzy
@@ -17562,17 +17565,17 @@ msgstr "Φίλτρο για τα ονόματα δικτύων:"
 #: pcbnew/librairi.cpp:73
 #, fuzzy, c-format
 msgid "Footprint exported to file '%s'"
-msgstr "Ιδιότητες κειμένου ιχνών"
+msgstr "Ιδιότητες κειμένου αποτυπωμάτων"
 
 #: pcbnew/librairi.cpp:74
 #, fuzzy, c-format
 msgid "Footprint %s deleted from library '%s'"
-msgstr "Το υλικό %s διαγράφηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα %s διαγράφηκε στη βιβλιοθήκη %s"
 
 #: pcbnew/librairi.cpp:75
 #, fuzzy
 msgid "New Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/librairi.cpp:77
 #, fuzzy
@@ -17582,12 +17585,12 @@ msgstr " Δεν υπάρχουν εξαρτήματα προς αρχειοθέ�
 #: pcbnew/librairi.cpp:78
 #, fuzzy, c-format
 msgid "Footprint %s already exists in library '%s'"
-msgstr "Το υλικό \"%s\" υπάρχει ήδη στη βιβλιοθήκη \"%s\"."
+msgstr "Το εξάρτημα \"%s\" υπάρχει ήδη στη βιβλιοθήκη \"%s\"."
 
 #: pcbnew/librairi.cpp:79
 #, fuzzy
 msgid "No footprint name defined."
-msgstr "Βρέθηκαν %d ψευδώνυμα ιχνών."
+msgstr "Βρέθηκαν %d ψευδώνυμα αποτυπωμάτων."
 
 #: pcbnew/librairi.cpp:83
 msgid ""
@@ -17608,12 +17611,12 @@ msgstr ""
 #: pcbnew/librairi.cpp:94
 #, fuzzy
 msgid "Legacy foot print export files (*.emp)|*.emp"
-msgstr "Αρχεία εξαγωγής ιχνών Kicad (*.emp)|*.emp"
+msgstr "Αρχεία εξαγωγής αποτυπωμάτων Kicad (*.emp)|*.emp"
 
 #: pcbnew/librairi.cpp:95
 #, fuzzy
 msgid "GPcb foot print files (*)|*"
-msgstr "Αρχεία εξαγωγής ιχνών Kicad (*.emp)|*.emp"
+msgstr "Αρχεία εξαγωγής αποτυπωμάτων Kicad (*.emp)|*.emp"
 
 #: pcbnew/librairi.cpp:639
 #, c-format
@@ -17626,17 +17629,17 @@ msgstr ""
 #: pcbnew/librairi.cpp:700
 #, fuzzy, c-format
 msgid "Component [%s] replaced in '%s'"
-msgstr "Το υλικό %s διαγράφηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα %s διαγράφηκε στη βιβλιοθήκη %s"
 
 #: pcbnew/librairi.cpp:701
 #, fuzzy, c-format
 msgid "Component [%s] added in  '%s'"
-msgstr "Το υλικό %s αποθηκεύτηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα %s αποθηκεύτηκε στη βιβλιοθήκη %s"
 
 #: pcbnew/loadcmp.cpp:175
 #, fuzzy
 msgid "Load Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/loadcmp.cpp:386
 #, c-format
@@ -17651,12 +17654,12 @@ msgstr ""
 #: pcbnew/loadcmp.cpp:439
 #, fuzzy, c-format
 msgid "Footprints [%d items]"
-msgstr "Δοκιμή ιχνών"
+msgstr "Δοκιμή αποτυπωμάτων"
 
 #: pcbnew/loadcmp.cpp:456
 #, fuzzy
 msgid "No footprint found."
-msgstr "Βρέθηκαν %d ψευδώνυμα ιχνών."
+msgstr "Βρέθηκαν %d ψευδώνυμα αποτυπωμάτων."
 
 #: pcbnew/loadcmp.cpp:480
 #, fuzzy
@@ -17677,12 +17680,12 @@ msgstr "Εξάρτημα"
 #: pcbnew/loadcmp.cpp:560
 #, fuzzy, c-format
 msgid "Footprint '%s' saved"
-msgstr "Δοκιμή ιχνών"
+msgstr "Δοκιμή αποτυπωμάτων"
 
 #: pcbnew/loadcmp.cpp:574
 #, fuzzy, c-format
 msgid "Footprint library '%s' saved as '%s'."
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/menubar_modedit.cpp:67
 #, fuzzy
@@ -17697,7 +17700,7 @@ msgstr "Αποθήκευση της τρέχουσας ενεργής βιβλι
 #: pcbnew/menubar_modedit.cpp:74
 #, fuzzy
 msgid "&New Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/menubar_modedit.cpp:74
 #, fuzzy
@@ -17707,12 +17710,12 @@ msgstr "Δημιουργία νέου υλικού"
 #: pcbnew/menubar_modedit.cpp:82
 #, fuzzy
 msgid "&Import Footprint From File"
-msgstr "Εισαγωγή ίχνους εξαρτήματος"
+msgstr "Εισαγωγή αποτυπώματος εξαρτήματος"
 
 #: pcbnew/menubar_modedit.cpp:83
 #, fuzzy
 msgid "Import footprint from an existing file"
-msgstr "Εισαγωγή ίχνους από υπάρχον αρχείο"
+msgstr "Εισαγωγή αποτυπώματος από υπάρχον αρχείο"
 
 #: pcbnew/menubar_modedit.cpp:88
 #, fuzzy
@@ -17722,7 +17725,7 @@ msgstr "Φόρτωση εξαρτήματος από την τρέχουσα π�
 #: pcbnew/menubar_modedit.cpp:89
 #, fuzzy
 msgid "Open a footprint from library"
-msgstr "Άνοιγμα ενός εξαρτήματος ίχνους από βιβλιοθήκη"
+msgstr "Άνοιγμα ενός εξαρτήματος αποτυπώματος από βιβλιοθήκη"
 
 #: pcbnew/menubar_modedit.cpp:94
 #, fuzzy
@@ -17732,17 +17735,17 @@ msgstr "Φόρτωση από την τρέχουσα πλακέτα"
 #: pcbnew/menubar_modedit.cpp:95
 #, fuzzy
 msgid "Load a footprint from the current board"
-msgstr "Φόρτωση ενός εξαρτήματος ίχνους από την τρέχουσα φορτωμένη πλακέτα"
+msgstr "Φόρτωση ενός εξαρτήματος αποτυπώματος από την τρέχουσα φορτωμένη πλακέτα"
 
 #: pcbnew/menubar_modedit.cpp:100
 #, fuzzy
 msgid "&Load Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/menubar_modedit.cpp:101
 #, fuzzy
 msgid "Load footprint"
-msgstr "Φόρτωση ενός εξαρτήματος ίχνους"
+msgstr "Φόρτωση ενός εξαρτήματος αποτυπώματος"
 
 #: pcbnew/menubar_modedit.cpp:107
 #, fuzzy
@@ -17767,7 +17770,7 @@ msgstr "Αποθήκευση της τρέχουσας ενεργής βιβλι
 #: pcbnew/menubar_modedit.cpp:121
 #, fuzzy
 msgid "S&ave Footprint in New Library"
-msgstr "Όνομα ίχνους στη βιβλιοθήκη"
+msgstr "Όνομα αποτυπώματος στη βιβλιοθήκη"
 
 #: pcbnew/menubar_modedit.cpp:122
 #, fuzzy
@@ -17777,12 +17780,12 @@ msgstr "Δημιουργία νέας βιβλιοθήκης και αποθήκ
 #: pcbnew/menubar_modedit.cpp:127
 #, fuzzy
 msgid "&Export Footprint"
-msgstr "Επιπρόσθετα ίχνη"
+msgstr "Επιπρόσθετα αποτυπώματα"
 
 #: pcbnew/menubar_modedit.cpp:128
 #, fuzzy
 msgid "Save currently loaded footprint into file"
-msgstr "Αποθήκευση νέων αρχείων λίστας δικτύων και λίστας ιχνών"
+msgstr "Αποθήκευση νέων αρχείων λίστας δικτύων και λίστας αποτυπωμάτων"
 
 #: pcbnew/menubar_modedit.cpp:133
 #, fuzzy
@@ -17796,12 +17799,12 @@ msgstr ""
 #: pcbnew/menubar_modedit.cpp:142
 #, fuzzy
 msgid "Print current footprint"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/menubar_modedit.cpp:151
 #, fuzzy
 msgid "Close footprint editor"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: pcbnew/menubar_modedit.cpp:160
 #, fuzzy
@@ -17917,22 +17920,22 @@ msgstr "Αγκίστρωση"
 #: pcbnew/menubar_modedit.cpp:300
 #, fuzzy
 msgid "Place footprint reference anchor"
-msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος ίχνους"
+msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος αποτυπώματος"
 
 #: pcbnew/menubar_modedit.cpp:308 pcbnew/menubar_pcbframe.cpp:483
 #, fuzzy
 msgid "&Footprint Libraries Wizard"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/menubar_modedit.cpp:308 pcbnew/menubar_pcbframe.cpp:483
 #, fuzzy
 msgid "Add footprint libraries with wizard"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/menubar_modedit.cpp:312 pcbnew/menubar_pcbframe.cpp:487
 #, fuzzy
 msgid "Footprint Li&braries Manager"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/menubar_modedit.cpp:324
 #, fuzzy
@@ -18046,7 +18049,7 @@ msgstr ""
 #: pcbnew/menubar_pcbframe.cpp:152
 #, fuzzy
 msgid "Footprint &Position (.pos) File"
-msgstr "Αρχείο τεκμηρίωσης ιχνών"
+msgstr "Αρχείο τεκμηρίωσης αποτυπωμάτων"
 
 #: pcbnew/menubar_pcbframe.cpp:153
 #, fuzzy
@@ -18065,7 +18068,7 @@ msgstr "Δημιουργία αρχείου διατρήσεων excellon2"
 #: pcbnew/menubar_pcbframe.cpp:162
 #, fuzzy
 msgid "&Footprint (.rpt) Report"
-msgstr "Ιδιότητες κειμένου ιχνών"
+msgstr "Ιδιότητες κειμένου αποτυπωμάτων"
 
 #: pcbnew/menubar_pcbframe.cpp:163
 #, fuzzy
@@ -18097,7 +18100,7 @@ msgstr "Αρχείο &BOM"
 
 #: pcbnew/menubar_pcbframe.cpp:178
 msgid "Create a bill of materials from schematic"
-msgstr "Δημιουργία ενός πίνακα υλικών από το σχήμα"
+msgstr "Δημιουργία ενός πίνακα υλικών από το σχηματικό"
 
 #: pcbnew/menubar_pcbframe.cpp:182
 #, fuzzy
@@ -18206,34 +18209,34 @@ msgstr "Εκτύπωση πλακέτας σε αρχείο τύπου HPGL, Pos
 #: pcbnew/menubar_pcbframe.cpp:256
 #, fuzzy
 msgid "&Archive New Footprints"
-msgstr "Αρχειοθέτηση νέων ιχνών"
+msgstr "Αρχειοθέτηση νέων αποτυπωμάτων"
 
 #: pcbnew/menubar_pcbframe.cpp:257
 msgid ""
 "Archive new footprints only in a library (keep other footprints in this lib)"
 msgstr ""
-"Αρχειοθέτηση νέων ιχνών μόνο σε μια βιβλιοθήκη (διατήρηση των άλλων ιχνών σε "
+"Αρχειοθέτηση νέων αποτυπωμάτων μόνο σε μια βιβλιοθήκη (διατήρηση των άλλων αποτυπωμάτων σε "
 "αυτή τη βιβλιοθήκη)"
 
 #: pcbnew/menubar_pcbframe.cpp:261
 #, fuzzy
 msgid "&Create Footprint Archive"
-msgstr "Δημιουργία αρχείου ιχνών"
+msgstr "Δημιουργία αρχείου αποτυπωμάτων"
 
 #: pcbnew/menubar_pcbframe.cpp:262
 msgid "Archive all footprints in a library (old library will be deleted)"
 msgstr ""
-"Αρχειοθέτηση όλων των ιχνών σε μια βιβλιοθήκη (η παλιά βιβλιοθήκη θα "
+"Αρχειοθέτηση όλων των αποτυπωμάτων σε μια βιβλιοθήκη (η παλιά βιβλιοθήκη θα "
 "διαγραφεί)"
 
 #: pcbnew/menubar_pcbframe.cpp:267
 #, fuzzy
 msgid "Arc&hive Footprints"
-msgstr "Αρχειοθέτηση ιχνών"
+msgstr "Αρχειοθέτηση αποτυπωμάτων"
 
 #: pcbnew/menubar_pcbframe.cpp:268
 msgid "Archive or add footprints in a library file"
-msgstr "Αρχειοθέτηση ή προσθήκη ιχνών σε ένα αρχείο βιβλιοθήκης"
+msgstr "Αρχειοθέτηση ή προσθήκη αποτυπωμάτων σε ένα αρχείο βιβλιοθήκης"
 
 #: pcbnew/menubar_pcbframe.cpp:272
 msgid "Close Pcbnew"
@@ -18256,14 +18259,14 @@ msgstr "Διαγραφή πιστών, εξαρτημάτων, κειμένων.
 
 #: pcbnew/menubar_pcbframe.cpp:300
 msgid "&Cleanup Tracks and Vias"
-msgstr "&Εκκαθάριση πιστών και οπών"
+msgstr "&Εκκαθάριση πιστών και Via"
 
 #: pcbnew/menubar_pcbframe.cpp:301
 msgid ""
 "Clean stubs, vias, delete break points, or connect dangling tracks to pads "
 "and vias"
 msgstr ""
-"Καθαρισμός στελεχών και οπών, διαγραφή σημείων, ή σύνδεση μη συνδεδεμένων "
+"Καθαρισμός στελεχών και via, διαγραφή σημείων, ή σύνδεση μη συνδεδεμένων "
 "πιστών σε έδρες και οπές"
 
 #: pcbnew/menubar_pcbframe.cpp:305
@@ -18277,7 +18280,7 @@ msgstr "Εναλλαγή πιστών στα επίπεδα χαλκού, ή σ�
 #: pcbnew/menubar_pcbframe.cpp:310
 #, fuzzy
 msgid "&Reset Footprint Field Sizes"
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: pcbnew/menubar_pcbframe.cpp:311
 msgid "Reset text size and width of all footprint fields to current defaults"
@@ -18298,21 +18301,21 @@ msgstr "Προβολή λίστας δικτύων με ονόματα και τ
 #: pcbnew/menubar_pcbframe.cpp:382
 #, fuzzy
 msgid "&Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/menubar_pcbframe.cpp:385 pcbnew/tool_pcb.cpp:440
 #, fuzzy
 msgid "Add footprints"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: pcbnew/menubar_pcbframe.cpp:387
 #, fuzzy
 msgid "&Track"
-msgstr "Πίστα"
+msgstr "Γραμμή"
 
 #: pcbnew/menubar_pcbframe.cpp:390 pcbnew/tool_pcb.cpp:443
 msgid "Add tracks and vias"
-msgstr "Προσθήκη πιστών και οπών"
+msgstr "Προσθήκη πιστών και via"
 
 #: pcbnew/menubar_pcbframe.cpp:393
 #, fuzzy
@@ -18390,7 +18393,7 @@ msgstr ""
 #: pcbnew/menubar_pcbframe.cpp:451
 #, fuzzy
 msgid "&Tune Track Length"
-msgstr "Μήκος πίστας"
+msgstr "Μήκος γραμμής"
 
 #: pcbnew/menubar_pcbframe.cpp:452 pcbnew/tools/common_actions.cpp:526
 msgid "Tune length of a single track"
@@ -18451,7 +18454,7 @@ msgstr "&Εμφάνιση"
 #: pcbnew/menubar_pcbframe.cpp:528
 msgid "Select how items (pads, tracks texts ... ) are displayed"
 msgstr ""
-"Επιλέξτε πώς θα προβάλλονται τα αντικείμενα (έδρες, πίστες, κείμενα ...)"
+"Επιλέξτε πώς θα προβάλλονται τα αντικείμενα (έδρες, γραμμές, κείμενα ...)"
 
 #: pcbnew/menubar_pcbframe.cpp:532
 msgid "&Interactive Routing"
@@ -18625,7 +18628,7 @@ msgid ""
 "Current footprint changes will be lost and this operation cannot be undone. "
 "Continue?"
 msgstr ""
-"Οι αλλαγές του τρέχοντος ίχνους θα χαθούν και αυτή η λειτουργία δεν μπορεί "
+"Οι αλλαγές του τρέχοντος αποτυπώματος θα χαθούν και αυτή η λειτουργία δεν μπορεί "
 "να αναιρεθεί. Συνέχεια;"
 
 #: pcbnew/modedit.cpp:400
@@ -18634,7 +18637,7 @@ msgstr ""
 
 #: pcbnew/modedit.cpp:425
 msgid "Unable to find the footprint source on the main board"
-msgstr "Αδυναμία εύρεσης της πηγής ίχνους στην κύρια πλακέτα"
+msgstr "Αδυναμία εύρεσης της πηγής αποτυπώματος στην κύρια πλακέτα"
 
 #: pcbnew/modedit.cpp:426
 msgid ""
@@ -18642,11 +18645,11 @@ msgid ""
 "Cannot update the footprint"
 msgstr ""
 "\n"
-"Αδυναμία ενημέρωσης του ίχνους"
+"Αδυναμία ενημέρωσης του αποτυπώματος"
 
 #: pcbnew/modedit.cpp:435
 msgid "A footprint source was found on the main board"
-msgstr "Βρέθηκε πηγή ίχνους στην κύρια πλακέτα"
+msgstr "Βρέθηκε πηγή αποτυπώματος στην κύρια πλακέτα"
 
 #: pcbnew/modedit.cpp:436
 msgid ""
@@ -18654,7 +18657,7 @@ msgid ""
 "Cannot insert this footprint"
 msgstr ""
 "\n"
-"Αδυναμία εισαγωγής αυτού του ίχνους"
+"Αδυναμία εισαγωγής αυτού του αποτυπώματος"
 
 #: pcbnew/modedit.cpp:952
 msgid "Place anchor"
@@ -18698,12 +18701,12 @@ msgstr "Μετακίνηση κειμένου"
 #: pcbnew/modedit_onclick.cpp:297
 #, fuzzy
 msgid "Edit Footprint"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/modedit_onclick.cpp:300
 #, fuzzy
 msgid "Transform Footprint"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/modedit_onclick.cpp:308 pcbnew/onrightclick.cpp:943
 msgid "Move Pad"
@@ -18824,7 +18827,7 @@ msgstr ""
 #: pcbnew/moduleframe.cpp:743
 #, fuzzy
 msgid "Footprint Editor "
-msgstr "Φίλτρο ίχνους"
+msgstr "Φίλτρο αποτυπώματος"
 
 #: pcbnew/moduleframe.cpp:750
 #, fuzzy
@@ -18834,7 +18837,7 @@ msgstr " στη βιβλιοθήκη"
 #: pcbnew/moduleframe.cpp:759
 #, fuzzy
 msgid "Footprint Editor (active library: "
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/moduleframe.cpp:858 pcbnew/pcbnew_config.cpp:138
 #, fuzzy, c-format
@@ -18859,7 +18862,7 @@ msgstr ""
 #: pcbnew/modules.cpp:66
 #, fuzzy
 msgid "Search for footprint"
-msgstr "Αναζήτηση ίχνους"
+msgstr "Αναζήτηση αποτυπώματος"
 
 #: pcbnew/modules.cpp:264
 #, fuzzy, c-format
@@ -18877,7 +18880,7 @@ msgid ""
 "Could not load footprint \"%s\" from library \"%s\".\n"
 "\n"
 "Error %s."
-msgstr "Αδυναμία ανοίγματος του αρχείου βιβλιοθήκης ιχνών PCB <%s>."
+msgstr "Αδυναμία ανοίγματος του αρχείου βιβλιοθήκης αποτυπωμάτων PCB <%s>."
 
 #: pcbnew/move_or_drag_track.cpp:714
 msgid "Unable to drag this segment: too many segments connected"
@@ -19019,7 +19022,7 @@ msgstr ""
 #: pcbnew/netlist.cpp:274
 #, fuzzy, c-format
 msgid "Component '%s' footprint ID '%s' is not valid.\n"
-msgstr "Εξάρτημα [%s]: δε βρέθηκε το ίχνος <%s>"
+msgstr "Εξάρτημα [%s]: δε βρέθηκε το αποτύπωμα <%s>"
 
 #: pcbnew/netlist.cpp:296
 #, fuzzy, c-format
@@ -19027,7 +19030,7 @@ msgid ""
 "Component '%s' footprint '%s' was not found in any libraries in the "
 "footprint library table.\n"
 msgstr ""
-"Υλικό %s: δε βρέθηκε το ίχνος %s σε καμία από τις βιβλιοθήκες ιχνών της "
+"Υλικό %s: δε βρέθηκε το αποτύπωμα %s σε καμία από τις βιβλιοθήκες αποτυπωμάτων της "
 "εργασίας."
 
 #: pcbnew/netlist_reader.cpp:182
@@ -19046,7 +19049,7 @@ msgstr "Τα γραφικά δέν επιτρέπονται πάνω στα επ
 
 #: pcbnew/onleftclick.cpp:276
 msgid "Tracks on Copper layers only "
-msgstr "Πίστες, μόνο σε επίπεδα χαλκού "
+msgstr "Γραμμές, μόνο σε επίπεδα χαλκού "
 
 #: pcbnew/onleftclick.cpp:335
 msgid "Texts not allowed on Edge Cut layer"
@@ -19060,12 +19063,12 @@ msgstr "Διαστάσεις, δέν επιτρέπονται στα επίπε�
 #: pcbnew/onrightclick.cpp:151
 #, fuzzy
 msgid "Lock Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/onrightclick.cpp:158
 #, fuzzy
 msgid "Unlock Footprint"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:166
 msgid "Automatically Place Footprint"
@@ -19166,7 +19169,7 @@ msgstr "Διαγραφή στόχου"
 
 #: pcbnew/onrightclick.cpp:354
 msgid "Get and Move Footprint"
-msgstr "Λήψη και μετακίνηση ίχνους"
+msgstr "Λήψη και μετακίνηση αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:367
 msgid "Fill or Refill All Zones"
@@ -19186,20 +19189,20 @@ msgstr "Επιλογή επιπέδου εργασίας"
 #: pcbnew/onrightclick.cpp:521
 #, fuzzy
 msgid "Begin Track"
-msgstr "Διάσπαση ίχνους"
+msgstr "Διάσπαση αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:399 pcbnew/onrightclick.cpp:477
 #: pcbnew/onrightclick.cpp:645
 msgid "Select Track Width"
-msgstr "Επιλογή πλάτους ίχνους"
+msgstr "Επιλογή πλάτους αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:405
 msgid "Select Layer Pair for Vias"
-msgstr "Επιλογή ζεύγους επιπέδων για οπές"
+msgstr "Επιλογή ζεύγους επιπέδων για Via"
 
 #: pcbnew/onrightclick.cpp:424
 msgid "Footprint Documentation"
-msgstr "Τεκμηρίωση ίχνους"
+msgstr "Τεκμηρίωση αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:434
 #, fuzzy
@@ -19209,22 +19212,22 @@ msgstr "Γενική μετακίνηση και τοποθέτηση"
 #: pcbnew/onrightclick.cpp:436
 #, fuzzy
 msgid "Unlock All Footprints"
-msgstr "Συμπερίληψη κλειδωμένων ιχνών"
+msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:438
 #, fuzzy
 msgid "Lock All Footprints"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: pcbnew/onrightclick.cpp:441
 #, fuzzy
 msgid "Spread out All Footprints"
-msgstr "Λήψη και μετακίνηση ίχνους"
+msgstr "Λήψη και μετακίνηση αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:443
 #, fuzzy
 msgid "Spread out Footprints not Already on Board"
-msgstr "Εμφάνιση των ιχνών που βρίσκονται στο κάτω μέρος της πλακέτας"
+msgstr "Εμφάνιση των αποτυπωμάτων που βρίσκονται στο κάτω μέρος της πλακέτας"
 
 #: pcbnew/onrightclick.cpp:446
 msgid "Automatically Place All Footprints"
@@ -19233,7 +19236,7 @@ msgstr ""
 #: pcbnew/onrightclick.cpp:448
 #, fuzzy
 msgid "Automatically Place New Footprints"
-msgstr "Αρχειοθέτηση νέων ιχνών"
+msgstr "Αρχειοθέτηση νέων αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:450
 msgid "Automatically Place Next Footprints"
@@ -19242,7 +19245,7 @@ msgstr ""
 #: pcbnew/onrightclick.cpp:453
 #, fuzzy
 msgid "Orient All Footprints"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:460
 msgid "Autoroute"
@@ -19274,7 +19277,7 @@ msgstr "Περιστροφή μπλοκ"
 
 #: pcbnew/onrightclick.cpp:528
 msgid "Drag Via"
-msgstr "Σύρσιμο οπής"
+msgstr "Σύρσιμο via"
 
 #: pcbnew/onrightclick.cpp:537
 msgid "Move Node"
@@ -19291,7 +19294,7 @@ msgstr "Σύρσιμο τμήματος"
 #: pcbnew/onrightclick.cpp:553
 #, fuzzy
 msgid "Duplicate Track"
-msgstr "Διαγραφή ίχνους"
+msgstr "Διαγραφή αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:558
 msgid "Move Track Exactly"
@@ -19304,7 +19307,7 @@ msgstr "Δημιουργία σφάλματος "
 
 #: pcbnew/onrightclick.cpp:569
 msgid "Break Track"
-msgstr "Διάσπαση ίχνους"
+msgstr "Διάσπαση αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:579
 msgid "Place Node"
@@ -19313,7 +19316,7 @@ msgstr "Τοποθέτηση κόμβου"
 #: pcbnew/onrightclick.cpp:586 pcbnew/router/length_tuner_tool.cpp:54
 #: pcbnew/router/router_tool.cpp:64
 msgid "End Track"
-msgstr "Τερματισμός ίχνους"
+msgstr "Τερματισμός αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:590 pcbnew/router/router_tool.cpp:75
 #, fuzzy
@@ -19337,15 +19340,15 @@ msgstr "Επιλογή ζεύγους επιπέδων για οπές"
 
 #: pcbnew/onrightclick.cpp:610 pcbnew/router/router_tool.cpp:98
 msgid "Switch Track Posture"
-msgstr "Εναλλαγή στάσης ίχνους"
+msgstr "Εναλλαγή στάσης αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:618
 msgid "Place Micro Via"
-msgstr "Τοποθέτηση μικρο-οπής"
+msgstr "Τοποθέτηση μικρο-via"
 
 #: pcbnew/onrightclick.cpp:629
 msgid "Change Via Size and Drill"
-msgstr "Αλλαγή μεγέθους οπής και διάτρησης"
+msgstr "Αλλαγή μεγέθους Via και διάτρησης"
 
 #: pcbnew/onrightclick.cpp:635
 msgid "Change Segment Width"
@@ -19353,15 +19356,15 @@ msgstr "Αλλαγή πλάτους τμήματος"
 
 #: pcbnew/onrightclick.cpp:639
 msgid "Change Track Width"
-msgstr "Αλλαγή πλάτους ίχνους"
+msgstr "Αλλαγή πλάτους αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:654
 msgid "Delete Via"
-msgstr "Διαγραφή οπής"
+msgstr "Διαγραφή Via"
 
 #: pcbnew/onrightclick.cpp:661
 msgid "Delete Track"
-msgstr "Διαγραφή ίχνους"
+msgstr "Διαγραφή αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:663
 msgid "Delete Net"
@@ -19386,11 +19389,11 @@ msgstr "Κλειδωμένο : όχι"
 
 #: pcbnew/onrightclick.cpp:690
 msgid "Track Locked: Yes"
-msgstr "Κλειδωμένη πίστα: Ναι"
+msgstr "Κλειδωμένη γραμμή: Ναι"
 
 #: pcbnew/onrightclick.cpp:691
 msgid "Track Locked: No"
-msgstr "Κλειδωμένη πίστα: Όχι"
+msgstr "Κλειδωμένη γραμμή: Όχι"
 
 #: pcbnew/onrightclick.cpp:693
 msgid "Net Locked: Yes"
@@ -19505,32 +19508,32 @@ msgstr "Επεξεργασία παραμέτρων ζώνης"
 #: pcbnew/onrightclick.cpp:832
 #, fuzzy
 msgid "Edit with Footprint Editor"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:839
 #, fuzzy
 msgid "Delete Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/onrightclick.cpp:846
 #, fuzzy
 msgid "Move Footprint Exactly"
-msgstr "Λήψη και μετακίνηση ίχνους"
+msgstr "Λήψη και μετακίνηση αποτυπώματος"
 
 #: pcbnew/onrightclick.cpp:851
 #, fuzzy
 msgid "Duplicate Footprint"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:856
 #, fuzzy
 msgid "Create Footprint Array"
-msgstr "Δημιουργία αρχείου ιχνών"
+msgstr "Δημιουργία αρχείου αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:862
 #, fuzzy
 msgid "Exchange Footprint(s)"
-msgstr "Επιπρόσθετα ίχνη"
+msgstr "Επιπρόσθετα αποτυπώματα"
 
 #: pcbnew/onrightclick.cpp:902 pcbnew/onrightclick.cpp:1016
 #, fuzzy
@@ -19561,8 +19564,8 @@ msgid ""
 "Copy this pad's settings to all pads in this footprint (or similar "
 "footprints)"
 msgstr ""
-"Αντιγραφή των ρυθμίσεων αυτής της έδρας σε όλες τις έδρες αυτού του ίχνους "
-"(ή παρόμοιων ιχνών)"
+"Αντιγραφή των ρυθμίσεων αυτής της έδρας σε όλες τις έδρες αυτού του αποτυπώματος "
+"(ή παρόμοιων αποτυπωμάτων)"
 
 #: pcbnew/onrightclick.cpp:971
 #, fuzzy
@@ -19588,8 +19591,8 @@ msgid ""
 "Use the track width when starting on a track, otherwise the current track "
 "width"
 msgstr ""
-"Χρήση του ίδιου πλάτους όταν ξεκινάει μία πίστα από μία άλλη, αλλιώς χρήση "
-"του τρέχοντος πλάτους πίστας"
+"Χρήση του ίδιου πλάτους όταν ξεκινάει μία γραμμή από μία άλλη, αλλιώς χρήση "
+"του τρέχοντος πλάτους γραμμής"
 
 #: pcbnew/onrightclick.cpp:1058
 msgid "Use Netclass Values"
@@ -19597,12 +19600,12 @@ msgstr "Χρήση τιμών κλάσης δικτύου"
 
 #: pcbnew/onrightclick.cpp:1059
 msgid "Use track and via sizes from their Netclass values"
-msgstr "Χρήση μεγεθών ίχνους και οπής από τις δικές τους τιμές κλάσης δικτύου"
+msgstr "Χρήση μεγεθών αποτυπώματος και via από τις δικές τους τιμές κλάσης δικτύου"
 
 #: pcbnew/onrightclick.cpp:1065
 #, c-format
 msgid "Track %s"
-msgstr "Πίστα %s"
+msgstr "Γραμμή %s"
 
 #: pcbnew/onrightclick.cpp:1068 pcbnew/onrightclick.cpp:1094
 #, fuzzy
@@ -19612,7 +19615,7 @@ msgstr " (χρήση κλάσης δικτύου)"
 #: pcbnew/onrightclick.cpp:1086
 #, c-format
 msgid "Via %s"
-msgstr "Οπή %s"
+msgstr "Via %s"
 
 #: pcbnew/onrightclick.cpp:1090
 #, fuzzy, c-format
@@ -19764,7 +19767,7 @@ msgstr ""
 #: pcbnew/router/length_tuner_tool.cpp:51 pcbnew/router/router_tool.cpp:61
 #, fuzzy
 msgid "New Track"
-msgstr "Νέα πίστα"
+msgstr "Νέα γραμμή"
 
 #: pcbnew/router/length_tuner_tool.cpp:51 pcbnew/router/router_tool.cpp:61
 #, fuzzy
@@ -19825,7 +19828,7 @@ msgstr "Μήκος"
 #: pcbnew/router/length_tuner_tool.cpp:245
 #, fuzzy
 msgid "Tune Trace Length"
-msgstr "Μήκος πίστας"
+msgstr "Μήκος γραμμής"
 
 #: pcbnew/router/length_tuner_tool.cpp:252
 msgid "Tune Diff Pair Length"
@@ -19919,7 +19922,7 @@ msgstr "Αποθήκευση της τρέχουσας πλακέτας ως.."
 #: pcbnew/router/router_tool.cpp:67
 #, fuzzy
 msgid "Auto-end Track"
-msgstr "Τερματισμός ίχνους"
+msgstr "Τερματισμός αποτυπώματος"
 
 #: pcbnew/router/router_tool.cpp:67
 msgid "Automagically finishes currently routed track."
@@ -19980,7 +19983,7 @@ msgstr "Προσαρμοσμένο πεδίο 1"
 #: pcbnew/router/router_tool.cpp:131
 #, fuzzy
 msgid "Use the starting track width"
-msgstr "Ελάχιστο πλάτος πίστας"
+msgstr "Ελάχιστο πλάτος γραμμής"
 
 #: pcbnew/router/router_tool.cpp:132
 msgid "Route using the width of the starting track."
@@ -19994,7 +19997,7 @@ msgstr "Χρήση τιμών κλάσεων δικτύου"
 #: pcbnew/router/router_tool.cpp:135
 #, fuzzy
 msgid "Use track and via sizes from the net class"
-msgstr "Χρήση μεγεθών ίχνους και οπής από τις δικές τους τιμές κλάσης δικτύου"
+msgstr "Χρήση μεγεθών αποτυπώματος και οπής από τις δικές τους τιμές κλάσης δικτύου"
 
 #: pcbnew/router/router_tool.cpp:202
 msgid "Interactive Router"
@@ -20003,12 +20006,12 @@ msgstr ""
 #: pcbnew/router/router_tool.cpp:215
 #, fuzzy
 msgid "Select Track/Via Width"
-msgstr "Επιλογή πλάτους ίχνους"
+msgstr "Επιλογή πλάτους αποτυπώματος"
 
 #: pcbnew/router/router_tool.cpp:595
 #, fuzzy
 msgid "Route Track"
-msgstr "Διαγραφή ίχνους"
+msgstr "Διαγραφή αποτυπώματος"
 
 #: pcbnew/router/router_tool.cpp:602
 msgid "Router Differential Pair"
@@ -20050,7 +20053,7 @@ msgstr ""
 #: pcbnew/specctra_export.cpp:1455
 #, fuzzy, c-format
 msgid "Component with value of '%s' has empty reference id."
-msgstr "Το υλικό με την τιμή \"%s\" έχει κενό ID παραπομπής."
+msgstr "Το εξάρτημα με την τιμή \"%s\" έχει κενό ID παραπομπής."
 
 #: pcbnew/specctra_export.cpp:1463
 #, fuzzy, c-format
@@ -20080,13 +20083,13 @@ msgstr "Το αρχείο συνεδρίας χρησιμοποιεί μή έγ�
 
 #: pcbnew/specctra_import.cpp:254
 msgid "Session via padstack has no shapes"
-msgstr "Ή σχηματική στοίβα συνεδρίας οπών δεν έχει σχήματα"
+msgstr "Ή σχηματική στοίβα συνεδρίας via δεν έχει σχήματα"
 
 #: pcbnew/specctra_import.cpp:261 pcbnew/specctra_import.cpp:279
 #: pcbnew/specctra_import.cpp:304
 #, c-format
 msgid "Unsupported via shape: %s"
-msgstr "Μη υποστηριζόμενο σχήμα οπής: %s"
+msgstr "Μη υποστηριζόμενο σχήμα via: %s"
 
 #: pcbnew/specctra_import.cpp:360
 msgid "Session file is missing the \"session\" section"
@@ -20108,7 +20111,7 @@ msgstr "Το αρχείο συνεδρίας έχει 'παραπομπή' σε 
 #: pcbnew/specctra_import.cpp:546
 #, c-format
 msgid "A wire_via references a missing padstack \"%s\""
-msgstr "Μία οπή πίστας παραπέμπει σε μια μη υπάρχουσα σχηματική στοίβα \"%s\""
+msgstr "Ένα via γραμμής παραπέμπει σε μια μη υπάρχουσα σχηματική στοίβα \"%s\""
 
 #: pcbnew/swap_layers.cpp:94
 msgid "Swap Layers:"
@@ -20135,7 +20138,7 @@ msgstr "Δημιουργία νέας βιβλιοθήκης και αποθήκ
 #: pcbnew/tool_modedit.cpp:65 pcbnew/tool_pcb.cpp:239
 #, fuzzy
 msgid "Open footprint viewer"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/tool_modedit.cpp:69
 #, fuzzy
@@ -20145,7 +20148,7 @@ msgstr "Διαγραφή τμήματος στην τρέχουσα βιβλιο
 #: pcbnew/tool_modedit.cpp:73
 #, fuzzy
 msgid "New footprint"
-msgstr "Αναζήτηση ίχνους"
+msgstr "Αναζήτηση αποτυπώματος"
 
 #: pcbnew/tool_modedit.cpp:78
 msgid "New footprint using wizard"
@@ -20174,12 +20177,12 @@ msgstr "Εισαγωγή εξαρτήματος στην τρέχουσα πλα
 #: pcbnew/tool_modedit.cpp:101
 #, fuzzy
 msgid "Import footprint"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/tool_modedit.cpp:104
 #, fuzzy
 msgid "Export footprint"
-msgstr "Επιπρόσθετα ίχνη"
+msgstr "Επιπρόσθετα αποτυπώματα"
 
 #: pcbnew/tool_modedit.cpp:109 pcbnew/help_common_strings.h:15
 msgid "Undo last edition"
@@ -20188,17 +20191,17 @@ msgstr "Αναίρεση τελευταίας επεξεργασίας"
 #: pcbnew/tool_modedit.cpp:116
 #, fuzzy
 msgid "Footprint properties"
-msgstr "Ιδιότητες κειμένου ιχνών"
+msgstr "Ιδιότητες κειμένου αποτυπωμάτων"
 
 #: pcbnew/tool_modedit.cpp:120
 #, fuzzy
 msgid "Print footprint"
-msgstr "Εκτύπωση ιχνών"
+msgstr "Εκτύπωση αποτυπωμάτων"
 
 #: pcbnew/tool_modedit.cpp:144
 #, fuzzy
 msgid "Check footprint"
-msgstr "Αναζήτηση ίχνους"
+msgstr "Αναζήτηση αποτυπώματος"
 
 #: pcbnew/tool_modedit.cpp:166 pcbnew/tools/common_actions.cpp:414
 #: pcbnew/tools/module_tools.cpp:86
@@ -20213,7 +20216,7 @@ msgstr "Προσθήκη κειμένου"
 #: pcbnew/tool_modedit.cpp:183
 #, fuzzy
 msgid "Place the footprint reference anchor"
-msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος ίχνους"
+msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος αποτυπώματος"
 
 #: pcbnew/tool_modedit.cpp:212
 msgid "Display Polar Coord ON"
@@ -20257,12 +20260,12 @@ msgstr "Εμφάνιση του επόμενου εξαρτήματος"
 #: pcbnew/tool_modview.cpp:104
 #, fuzzy
 msgid "Insert footprint in board"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: pcbnew/tool_modview.cpp:151
 #, fuzzy
 msgid "Close footprint viewer"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: pcbnew/tool_modview.cpp:177
 #, fuzzy
@@ -20275,7 +20278,7 @@ msgid ""
 "and select layer pair for route and place via"
 msgstr ""
 "Προβολή επιλογών ενεργού επιπέδου\n"
-"και επιλογή ζεύγους επιπέδων για διασύνδεση και τοποθέτηση οπής"
+"και επιλογή ζεύγους επιπέδων για διασύνδεση και τοποθέτηση via"
 
 #: pcbnew/tool_pcb.cpp:220
 msgid "New board"
@@ -20292,7 +20295,7 @@ msgstr "Αποθήκευση πλακέτας"
 #: pcbnew/tool_pcb.cpp:235
 #, fuzzy
 msgid "Open footprint editor"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: pcbnew/tool_pcb.cpp:251
 msgid "Plot (HPGL, PostScript, or GERBER format)"
@@ -20306,12 +20309,12 @@ msgstr "Ανάγνωση λίστας δικτύων"
 #, fuzzy
 msgid "Mode footprint: manual and automatic movement and placement"
 msgstr ""
-"Λειτουργία ίχνους: χειροκίνητη και αυτόματη μετακίνηση και τοποθέτηση "
+"Λειτουργία αποτυπώματος: χειροκίνητη και αυτόματη μετακίνηση και τοποθέτηση "
 "εξαρτημάτων"
 
 #: pcbnew/tool_pcb.cpp:298
 msgid "Mode track: autorouting"
-msgstr "Λειτουργία πίστας: αυτόματη συνδεσμολογία"
+msgstr "Λειτουργία γραμμής: αυτόματη συνδεσμολογία"
 
 #: pcbnew/tool_pcb.cpp:304
 #, fuzzy
@@ -20333,7 +20336,7 @@ msgstr "Προβολή της υπερσύνδεσης εξαρτημάτων κ
 
 #: pcbnew/tool_pcb.cpp:363
 msgid "Enable automatic track deletion"
-msgstr "Ενεργοποίηση αυτόματης διαγραφής ίχνους"
+msgstr "Ενεργοποίηση αυτόματης διαγραφής αποτυπώματος"
 
 #: pcbnew/tool_pcb.cpp:371
 msgid "Do not show filled areas in zones"
@@ -20345,7 +20348,7 @@ msgstr "Προβολή περιγραμμάτων των γεμισμένων π
 
 #: pcbnew/tool_pcb.cpp:383 pcbnew/toolbars_update_user_interface.cpp:176
 msgid "Show vias in outline mode"
-msgstr "Προβολή οπών στη λειτουργία περιγράμματος"
+msgstr "Προβολή via στη λειτουργία περιγράμματος"
 
 #: pcbnew/tool_pcb.cpp:387 pcbnew/toolbars_update_user_interface.cpp:187
 msgid "Show tracks in outline mode"
@@ -20381,7 +20384,7 @@ msgid ""
 "Auto track width: when starting on an existing track use its width\n"
 "otherwise, use current width setting"
 msgstr ""
-"Αυτόματο πλάτος πίστας: όταν γίνεται έναρξη σε υπάρχουσα πίστα να "
+"Αυτόματο πλάτος γραμμής: όταν γίνεται έναρξη σε υπάρχουσα γραμμή να "
 "χρησιμοποιείται το πλάτος της,\n"
 "αλλιώς να χρησιμοποιείται η ρύθμιση του τρέχοντος πλάτους"
 
@@ -20435,19 +20438,19 @@ msgstr "Απόκρυψη υπερσυνδέσεων της πλακέτας"
 #: pcbnew/toolbars_update_user_interface.cpp:156
 #, fuzzy
 msgid "Show footprint ratsnest"
-msgstr "Εμφάνιση των τιμών των ιχνών"
+msgstr "Εμφάνιση των τιμών των αποτυπωμάτων"
 
 #: pcbnew/toolbars_update_user_interface.cpp:165
 msgid "Disable auto delete old track"
-msgstr "Απενεργοποίηση αυτόματης διαγραφής παλιού ίχνους"
+msgstr "Απενεργοποίηση αυτόματης διαγραφής παλιού αποτυπώματος"
 
 #: pcbnew/toolbars_update_user_interface.cpp:166
 msgid "Enable auto delete old track"
-msgstr "Ενεργοποίηση αυτόματης διαγραφής παλιού ίχνους"
+msgstr "Ενεργοποίηση αυτόματης διαγραφής παλιού αποτυπώματος"
 
 #: pcbnew/toolbars_update_user_interface.cpp:177
 msgid "Show vias in fill mode"
-msgstr "Προβολή οπών στη λειτουργία γεμίσματος"
+msgstr "Προβολή via στη λειτουργία γεμίσματος"
 
 #: pcbnew/toolbars_update_user_interface.cpp:188
 msgid "Show tracks in fill mode"
@@ -20502,13 +20505,13 @@ msgstr "Αναζήτηση μό&νο στο τρέχον φύλλο"
 #: pcbnew/tools/common_actions.cpp:79
 #, fuzzy
 msgid "Open in Footprint Editor"
-msgstr "Κλείσιμο του επεξεργαστή ίχνους"
+msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
 
 #: pcbnew/tools/common_actions.cpp:80
 #, fuzzy
 msgid "Opens the selected footprint in the Footprint Editor"
 msgstr ""
-"Συμφωνείτε με τη διαγραφή των ιχνών που δεν υπάρχουν στη λίστα δικτύων;"
+"Συμφωνείτε με τη διαγραφή των αποτυπωμάτων που δεν υπάρχουν στη λίστα δικτύων;"
 
 #: pcbnew/tools/common_actions.cpp:85
 #, fuzzy
@@ -20631,7 +20634,7 @@ msgstr "Προσθήκη περιοχής αποκοπής"
 #: pcbnew/tools/common_actions.cpp:171 pcbnew/tools/drawing_tool.cpp:593
 #, fuzzy
 msgid "Place the footprint anchor"
-msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος ίχνους"
+msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος αποτυπώματος"
 
 #: pcbnew/tools/common_actions.cpp:176
 #, fuzzy
@@ -20646,7 +20649,7 @@ msgstr "Προκαθορισμένο πλάτος γραμμής:"
 #: pcbnew/tools/common_actions.cpp:184
 #, fuzzy
 msgid "Switch the arc posture"
-msgstr "Εναλλαγή στάσης ίχνους"
+msgstr "Εναλλαγή στάσης αποτυπώματος"
 
 #: pcbnew/tools/common_actions.cpp:190
 msgid "Zoom In"
@@ -20872,7 +20875,7 @@ msgstr "Επιλογή επιπέδου:"
 #: pcbnew/tools/size_menu.cpp:45
 #, fuzzy
 msgid "Track "
-msgstr "Πίστα 1"
+msgstr "Γραμμή 1"
 
 #: pcbnew/tools/size_menu.cpp:48
 #, fuzzy
@@ -20906,12 +20909,12 @@ msgstr "Μεγέθυνση: "
 #: pcbnew/xchgmod.cpp:123
 #, fuzzy, c-format
 msgid "Change footprint of '%s'"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/xchgmod.cpp:131
 #, fuzzy, c-format
 msgid "Change footprints '%s'"
-msgstr "Ίχνος υλικού"
+msgstr "Αποτύπωμα υλικού"
 
 #: pcbnew/xchgmod.cpp:217
 #, fuzzy, c-format
@@ -20945,12 +20948,12 @@ msgstr ""
 #: pcbnew/xchgmod.cpp:525
 #, fuzzy
 msgid "No footprints!"
-msgstr "Ίχνη"
+msgstr "Αποτυπώματα"
 
 #: pcbnew/xchgmod.cpp:536
 #, fuzzy
 msgid "Save Footprint Association File"
-msgstr "Αρχείο τεκμηρίωσης ιχνών"
+msgstr "Αρχείο τεκμηρίωσης αποτυπωμάτων"
 
 #: pcbnew/xchgmod.cpp:547
 #, fuzzy, c-format
@@ -21044,7 +21047,7 @@ msgstr "Επιλογές εμφάνισης"
 
 #: eeschema/dialogs/dialog_annotate_base.h:89
 msgid "Annotate Schematic"
-msgstr "Σχολιασμός σχήματος"
+msgstr "Σχολιασμός Σχηματικού"
 
 #: eeschema/dialogs/dialog_bom_base.h:93
 #, fuzzy
@@ -21071,7 +21074,7 @@ msgstr "Ιδιότητες πεδίων"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.h:139
 msgid "Schematic Editor Options"
-msgstr "Επιλογές επεξεργαστή σχημάτων"
+msgstr "Επιλογές Επεξεργαστή Σχηματικών"
 
 #: eeschema/dialogs/dialog_erc_base.h:98
 #, fuzzy
@@ -21126,7 +21129,7 @@ msgstr "Ιδιότητες ακροδέκτη"
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.h:60
 msgid "Schematic Sheet Properties"
-msgstr "Ιδιότητες σχηματικού φύλλου"
+msgstr "Ιδιότητες Σχηματικού Φύλλου"
 
 #: eeschema/help_common_strings.h:41
 #, fuzzy
@@ -21363,12 +21366,12 @@ msgstr "Έλεγχος DRC"
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.h:122
 #, fuzzy
 msgid "Footprint Properties"
-msgstr "Ιδιότητες κειμένου ιχνών"
+msgstr "Ιδιότητες κειμένου αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_edit_module_text_base.h:70
 #, fuzzy
 msgid "Footprint Text Properties"
-msgstr "Ιδιότητες κειμένου ιχνών"
+msgstr "Ιδιότητες κειμένου αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_enum_pads_base.h:53
 #, fuzzy
@@ -21378,7 +21381,7 @@ msgstr "Γενικές ρυθμίσεις"
 #: pcbnew/dialogs/dialog_exchange_modules_base.h:71
 #, fuzzy
 msgid "Change Footprint"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/dialogs/dialog_export_idf_base.h:62
 #, fuzzy
@@ -21393,7 +21396,7 @@ msgstr "Επιλογές εξαγωγής πλακέτας Vrml:"
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.h:51
 #, fuzzy
 msgid "Footprint Wizards"
-msgstr "Ίχνος"
+msgstr "Αποτύπωμα"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.h:81
 #, fuzzy
@@ -21416,7 +21419,7 @@ msgstr "Διαγραφή αντικειμένων"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.h:69
 msgid "Global Edition of Tracks and Vias"
-msgstr "Γενική επεξεργασία πιστών και οπών"
+msgstr "Γενική επεξεργασία πιστών και via"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.h:68
 #, fuzzy
@@ -21457,7 +21460,7 @@ msgstr "Διάκενο μάσκας εδρών"
 #: pcbnew/dialogs/dialog_modedit_options_base.h:86
 #, fuzzy
 msgid "Footprint Editor Options"
-msgstr "Προσανατολισμός ίχνους"
+msgstr "Προσανατολισμός αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_move_exact_base.h:74
 #, fuzzy
@@ -21470,7 +21473,7 @@ msgstr "Ιδιότητες μη χάλκινων ζωνών"
 
 #: pcbnew/dialogs/dialog_orient_footprints_base.h:53
 msgid "Footprints Orientation"
-msgstr "Προσανατολισμός ιχνών"
+msgstr "Προσανατολισμός αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.h:167
 msgid "Pad Properties"
@@ -21484,7 +21487,7 @@ msgstr "Διαγραφή διάστασης"
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.h:79
 #, fuzzy
 msgid "Trace length tuning"
-msgstr "Μήκος πίστας"
+msgstr "Μήκος γραμμής"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.h:73
 #, fuzzy
@@ -21494,7 +21497,7 @@ msgstr "Αποθήκευση ρυθμίσεων έργου"
 #: pcbnew/dialogs/dialog_select_pretty_lib_base.h:57
 #, fuzzy
 msgid "Select Footprint Library Folder"
-msgstr "Αρχεία βιβλιοθήκης ιχνών"
+msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_set_grid_base.h:70
 #, fuzzy
@@ -21513,7 +21516,7 @@ msgstr "Ιδιότητες σχεδίασης"
 #: pcbnew/dialogs/dialog_track_via_size_base.h:57
 #, fuzzy
 msgid "Track width and via size"
-msgstr "Πίστες και οπές:"
+msgstr "Γραμμές και οπές:"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.h:80
 msgid "Add 3D Shape Libraries Wizard"
@@ -21522,7 +21525,7 @@ msgstr ""
 #: pcbnew/dialogs/wizard_add_fplib_base.h:88
 #, fuzzy
 msgid "Add Footprint Libraries Wizard"
-msgstr "Προσθήκη φίλτρου ιχνών"
+msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
 
 #: pcbnew/help_common_strings.h:17
 msgid "Find components and text in current loaded board"
@@ -21878,7 +21881,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "ΚΑΚΟ ΕΥΡΕΤΗΡΙΟ"
 
 #~ msgid "trackSegm"
-#~ msgstr "Τμήμα Πίστας"
+#~ msgstr "Τμήμα Γραμμής"
 
 #~ msgid "???"
 #~ msgstr ";;;"
@@ -21977,7 +21980,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "Διαγραφή πιστών"
 
 #~ msgid "Track Filter"
-#~ msgstr "Φίλτρο ίχνους"
+#~ msgstr "Φίλτρο αποτυπώματος"
 
 #~ msgid "Include AutoRouted Tracks"
 #~ msgstr "Συμπερίληψη πιστών αυτόματης συνδεσμολογίας"
@@ -22014,7 +22017,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "Σφάλμα : πρέπει να επιλέξετε ένα όνομα δικτύου"
 
 #~ msgid "Select how tracks are displayed"
-#~ msgstr "Επιλέξτε πώς θα προβάλλονται οι πίστες"
+#~ msgstr "Επιλέξτε πώς θα προβάλλονται οι γραμμές"
 
 #~ msgid "Net Names:"
 #~ msgstr "Ονόματα δικτύων:"
@@ -22158,7 +22161,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "Όνομα κύριου αρχείου Vrml"
 
 #~ msgid "Vrml 3D footprints shapes subdir:"
-#~ msgstr "Υποκατάλογος σχημάτων ιχνών 3D Vrml:"
+#~ msgstr "Υποκατάλογος σχημάτων αποτυπωμάτων 3D Vrml:"
 
 #~ msgid "Copy 3D Shapes Files in Subdir"
 #~ msgstr "Αντιγραφή αρχείων σχημάτων 3D σε υποκατάλογο"
@@ -22445,10 +22448,10 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "από "
 
 #~ msgid "Footprint library files:"
-#~ msgstr "Αρχεία βιβλιοθήκης ιχνών:"
+#~ msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων:"
 
 #~ msgid "Footprint document file:"
-#~ msgstr "Αρχείο εγγράφου ίχνους:"
+#~ msgstr "Αρχείο εγγράφου αποτυπώματος:"
 
 #~ msgid "Dimensions:"
 #~ msgstr "Διαστάσεις:"
@@ -22514,7 +22517,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ "Προβολή των ενεργών αρχείων βιβλιοθήκης.\n"
 #~ "Μόνο τα αρχεία βιβλιοθηκών αυτής της λίστας φορτώνονται από το Pcbnew.\n"
 #~ "Η σειρά αυτής της λίστας είναι σημαντική:\n"
-#~ "Το Pcbnew αναζητά ένα συγκεκριμένο ίχνος χρησιμοποιώντας τη σειρά "
+#~ "Το Pcbnew αναζητά ένα συγκεκριμένο αποτύπωμα χρησιμοποιώντας τη σειρά "
 #~ "προτεραιότητας αυτής της λίστας."
 
 #~ msgid "User defined search paths"
@@ -22702,7 +22705,7 @@ msgstr "Εισαγωγή αρχείων"
 
 #~ msgid "PCB footprint library file <%s> not found in search paths."
 #~ msgstr ""
-#~ "Το αρχείο βιβλιοθήκης ιχνών PCB <%s> δε βρέθηκε στις διαδρομές αναζήτησης."
+#~ "Το αρχείο βιβλιοθήκης αποτυπωμάτων PCB <%s> δε βρέθηκε στις διαδρομές αναζήτησης."
 
 #~ msgid "Library Load Error"
 #~ msgstr "Σφάλμα φόρτωσης βιβλιοθήκης"
@@ -22857,7 +22860,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr " Επιλέξτε 1 από τις %d βιβλιοθήκες."
 
 #~ msgid "Ok to Delete FootprintFilter LIST"
-#~ msgstr "Συμφωνείτε με τη διαγραφή της λίστας φίλτρου ιχνών"
+#~ msgstr "Συμφωνείτε με τη διαγραφή της λίστας φίλτρου αποτυπωμάτων"
 
 #~ msgid "Component Library Editor: "
 #~ msgstr "Επεξεργαστής βιβλιοθήκης υλικού: "
@@ -23128,7 +23131,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ "Component was modified!\n"
 #~ "Discard changes?"
 #~ msgstr ""
-#~ "Το υλικό έχει τροποποιηθεί!\n"
+#~ "Το εξάρτημα έχει τροποποιηθεί!\n"
 #~ "Να απορριφθούν οι αλλαγές;"
 
 #~ msgid "Part %c"
@@ -23216,7 +23219,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "Παραγωγή λίστας δικτύων"
 
 #~ msgid "Backannotate footprint"
-#~ msgstr "Επαναληπτική βελτίωση σχεδίασης ίχνους"
+#~ msgstr "Επαναληπτική βελτίωση σχεδίασης αποτυπώματος"
 
 #~ msgid "Hierarchy Push/Pop"
 #~ msgstr "Ιεραρχία Push/Pop"
@@ -23556,24 +23559,24 @@ msgstr "Εισαγωγή αρχείων"
 #~ "Footprint alias library file <%s> could not be found in the default "
 #~ "search paths."
 #~ msgstr ""
-#~ "Δεν ήταν δυνατή η εύρεση του αρχείου βιβλιοθήκης ψευδωνύμων ίχνους <%s>, "
+#~ "Δεν ήταν δυνατή η εύρεση του αρχείου βιβλιοθήκης ψευδωνύμων αποτυπώματος <%s>, "
 #~ "στις προκαθορισμένες διαδρομές αναζήτησης."
 
 #~ msgid "Save net list and footprint files"
-#~ msgstr "Αποθήκευση αρχείων λίστας δικτύων και ιχνών"
+#~ msgstr "Αποθήκευση αρχείων λίστας δικτύων και αποτυπωμάτων"
 
 #~ msgid ""
 #~ "Create export file (component/footprint list, used by eeschema to fill "
 #~ "the footprint field of components)"
 #~ msgstr ""
-#~ "Δημιουργία αρχείου εξαγωγής (λίστα υλικού/ίχνους, που χρησιμοποιείται από "
-#~ "το eeschema για τη συμπλήρωση του πεδίου ίχνους του υλικού)"
+#~ "Δημιουργία αρχείου εξαγωγής (λίστα υλικού/αποτυπώματος, που χρησιμοποιείται από "
+#~ "το eeschema για τη συμπλήρωση του πεδίου αποτυπώματος του υλικού)"
 
 #~ msgid "Display the filtered footprint list for the current component"
-#~ msgstr "Εμφάνιση της φιλτραρισμένης λίστας ιχνών για το τρέχον υλικό"
+#~ msgstr "Εμφάνιση της φιλτραρισμένης λίστας αποτυπωμάτων για το τρέχον υλικό"
 
 #~ msgid "Display the full footprint list (without filtering)"
-#~ msgstr "Εμφάνιση ολόκληρης της λίστας ιχνών (χωρίς φιλτράρισμα)"
+#~ msgstr "Εμφάνιση ολόκληρης της λίστας αποτυπωμάτων (χωρίς φιλτράρισμα)"
 
 #~ msgid "%s %s pin %s : Different Nets"
 #~ msgstr "%s %s ακροδέκτης %s : Διαφορετικά Nets"
@@ -23645,10 +23648,10 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "Άνοιγμα Net List"
 
 #~ msgid "Footprints (All): %d"
-#~ msgstr "Ίχνη (Όλα): %d"
+#~ msgstr "Αποτυπώματα (Όλα): %d"
 
 #~ msgid "<%s> is not a valid Kicad PCB foot print library."
-#~ msgstr "Το <%s> δεν είναι έγκυρη βιβλιοθήκη ιχνών PCB του Kicad."
+#~ msgstr "Το <%s> δεν είναι έγκυρη βιβλιοθήκη αποτυπωμάτων PCB του Kicad."
 
 #~ msgid "Module %s not found"
 #~ msgstr "Δεν ήταν δυνατή η εύρεση του εξαρτήματος %s"
@@ -23665,7 +23668,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "Ακμές:"
 
 #~ msgid "Footprint alias files"
-#~ msgstr "Αρχεία ψευδωνύμων ιχνών"
+#~ msgstr "Αρχεία ψευδωνύμων αποτυπωμάτων"
 
 #~ msgid "Delete the File"
 #~ msgstr "Διαγραφή του αρχείου"
@@ -23689,7 +23692,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr ""
 #~ "Bitmap2Component (ένα εργαλείο για την δημιουργία λογοτύπου από ένα "
 #~ "bitmap)\n"
-#~ "Δημιουργεί ένα υλικό (για το Eeschema) ή ένα ίχνος (για το Pcbnew) που "
+#~ "Δημιουργεί ένα εξάρτημα (για το Eeschema) ή ένα αποτύπωμα (για το Pcbnew) που "
 #~ "προβάλει μια Α&Μ εικόνα"
 
 #~ msgid "Compress file "
@@ -23899,7 +23902,7 @@ msgstr "Εισαγωγή αρχείων"
 #~ msgstr "Ενεργοποίηση/Απενεργοποίηση 3D άξονα"
 
 #~ msgid "3D Footprints Shapes On/Off"
-#~ msgstr "Ενεργοποίηση/Απενεργοποίηση 3D σχημάτων ιχνών"
+#~ msgstr "Ενεργοποίηση/Απενεργοποίηση 3D σχημάτων αποτυπωμάτων"
 
 #~ msgid "Zone Filling On/Off"
 #~ msgstr "Ενεργοποίηση/Απενεργοποίηση γεμίσματος ζωνών"
