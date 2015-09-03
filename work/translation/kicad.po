@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-02 19:45+0200\n"
+"PO-Revision-Date: 2015-09-03 14:17+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Kostas Milonas, Manolis Stefanis, Athanasios Vlastos\n"
 "Language: el_GR\n"
@@ -4583,7 +4583,7 @@ msgstr "&Τύπος &ηλεκτρικού:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:60
 msgid "Used by the ERC."
-msgstr "Χρησιμοποιείτε από το ERC."
+msgstr "Χρησιμοποιείται από το ERC."
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:67
 msgid "Graphic &Style:"
@@ -6917,9 +6917,8 @@ msgid "Component &Libraries"
 msgstr "Βιβλιοθήκες Εξαρτημάτων"
 
 #: eeschema/menubar.cpp:375 eeschema/menubar_libedit.cpp:231
-#, fuzzy
 msgid "Configure component libraries and paths"
-msgstr "Δεν έχει γίνει φόρτωση βιβλιοθηκών υλικού."
+msgstr "Ρύθμιση διαδρομών και βιβλιοθηκών εξαρτημάτων"
 
 #: eeschema/menubar.cpp:381 eeschema/menubar_libedit.cpp:244
 msgid "Set &Colors Scheme"
@@ -6970,48 +6969,40 @@ msgid "Find old components in the project and rename/rescue them"
 msgstr "Εύρεση παλιών εξαρτημάτων στο έργο και μετονομασία/διάσωσή τους"
 
 #: eeschema/menubar.cpp:442
-#, fuzzy
 msgid "&Annotate Schematic"
-msgstr "Σχολιασμός σχήματος"
+msgstr "Σχολιασμός Σχηματικού"
 
 #: eeschema/menubar.cpp:448
-#, fuzzy
 msgid "Electrical Rules &Checker"
-msgstr "Έλεγχος κανόνων ηλεκτρικού στο σχήμα"
+msgstr "Ελεγκτής Ηλεκτρικών Κανόνων"
 
 #: eeschema/menubar.cpp:449 eeschema/tool_sch.cpp:149
-#, fuzzy
 msgid "Perform electrical rules check"
-msgstr "Πραγματοποίηση ελέγχου κανόνων σχεδίου"
+msgstr "Πραγματοποίηση ελέγχου ηλεκτρικών κανόνων"
 
 #: eeschema/menubar.cpp:454
-#, fuzzy
 msgid "Generate &Netlist File"
-msgstr "Αποθήκευση αρχείου λίστας δικτύων"
+msgstr "Δημιουργία Αρχείου Λίστας Δικτύων"
 
 #: eeschema/menubar.cpp:455
-#, fuzzy
 msgid "Generate the component netlist file"
-msgstr "Αδυναμία δημιουργίας αρχείου λίστας δικτύων"
+msgstr "Δημιουργία αρχείου εξαρτημάτων λίστας δικτύου"
 
 #: eeschema/menubar.cpp:460
-#, fuzzy
 msgid "Generate Bill of &Materials"
-msgstr "Αποθήκευση πίνακα υλικών"
+msgstr "Δημιουργία Λίστας Υλικών"
 
 #: eeschema/menubar.cpp:471
-#, fuzzy
 msgid "A&ssign Component Footprint"
-msgstr "Αποτύπωμα υλικού"
+msgstr "Απόδοση Αποτυπώματος Εξαρτήματος"
 
 #: eeschema/menubar.cpp:472
 msgid "Run CvPcb"
 msgstr "Εκτέλεση Cvpcb"
 
 #: eeschema/menubar.cpp:479
-#, fuzzy
 msgid "&Layout Printed Circuit Board"
-msgstr "Πλακέτα τυπωμένων κυκλωμάτων"
+msgstr "Σχεδίαση Πλακέτας Τυπωμένου Κυκλώματος"
 
 #: eeschema/menubar.cpp:480 kicad/menubar.cpp:370
 msgid "Run Pcbnew"
@@ -7023,9 +7014,8 @@ msgid "Eesc&hema Manual"
 msgstr "Άνοιγμα του εγχειριδίου eeschema"
 
 #: eeschema/menubar.cpp:492 eeschema/tool_viewlib.cpp:251
-#, fuzzy
 msgid "Open Eeschema manual"
-msgstr "Άνοιγμα του εγχειριδίου eeschema"
+msgstr "Άνοιγμα εγχειριδίου Eeschema"
 
 #: eeschema/menubar.cpp:497 eeschema/menubar_libedit.cpp:269
 #: eeschema/tool_viewlib.cpp:255 kicad/menubar.cpp:412
@@ -7041,7 +7031,7 @@ msgstr "Άνοιγμα του οδηγού \"Getting Started in KiCad\" για �
 #: eeschema/menubar.cpp:504 eeschema/menubar_libedit.cpp:278
 #: eeschema/tool_viewlib.cpp:262
 msgid "&About Eeschema"
-msgstr "Περί του EESchema"
+msgstr "Περί του Eeschema"
 
 #: eeschema/menubar.cpp:505 eeschema/menubar_libedit.cpp:279
 #: eeschema/tool_viewlib.cpp:263
@@ -7541,33 +7531,28 @@ msgid "Resize Sheet"
 msgstr "Αλλαγή μεγέθους φύλλου"
 
 #: eeschema/onrightclick.cpp:790
-#, fuzzy
 msgid "Import Sheet Pins"
-msgstr "Εισαγωγή PinSheets"
+msgstr "Εισαγωγή Ακροδεκτών Φύλλου"
 
 #: eeschema/onrightclick.cpp:794
-#, fuzzy
 msgid "Cleanup Sheet Pins"
-msgstr "Καθαρισμός PinSheets"
+msgstr "Εκκαθάριση Ακροδεκτών Φύλλου"
 
 #: eeschema/onrightclick.cpp:798
 msgid "Delete Sheet"
 msgstr "Διαγραφή φύλλου"
 
 #: eeschema/onrightclick.cpp:810
-#, fuzzy
 msgid "Move Sheet Pin"
-msgstr "Μετακίνηση φύλλου"
+msgstr "Μετακίνηση Ακροδέκτη Φύλλου"
 
 #: eeschema/onrightclick.cpp:815
-#, fuzzy
 msgid "Edit Sheet Pin"
-msgstr "Επεξεργασία φύλλου"
+msgstr "Επεξεργασία Ακροδέκτη Φύλλου"
 
 #: eeschema/onrightclick.cpp:818
-#, fuzzy
 msgid "Delete Sheet Pin"
-msgstr "Διαγραφή φύλλου"
+msgstr "Διαγραφή Ακροδέκτη Φύλλου"
 
 #: eeschema/onrightclick.cpp:833
 msgid "Window Zoom"
@@ -7788,9 +7773,8 @@ msgid "%s Line on Unknown Layer from (%s,%s) to (%s,%s)"
 msgstr ""
 
 #: eeschema/sch_marker.cpp:142
-#, fuzzy
 msgid "Electronics Rule Check Error"
-msgstr "Σφάλμα κανόνων σχεδίου ηλεκτρονικών"
+msgstr "Σφάλμα Ελέγχου Ηλεκτρικών Κανόνων"
 
 #: eeschema/sch_sheet.cpp:828
 msgid "Sheet Name"
@@ -7892,14 +7876,12 @@ msgid "No tool selected"
 msgstr "Δεν επιλέχθηκε επίπεδο"
 
 #: eeschema/schedit.cpp:523
-#, fuzzy
 msgid "Descend or ascend hierarchy"
-msgstr "Εκκαθάριση σχηματικής ιεραρχίας;"
+msgstr "Ανάβαση ή κατάβαση στην ιεραρχία"
 
 #: eeschema/schedit.cpp:527
-#, fuzzy
 msgid "Add no connect"
-msgstr "Προσθήκη επισήμανσης NoConnect"
+msgstr "Προσθήκη σημαδιού μη σύνδεσης"
 
 #: eeschema/schedit.cpp:531
 msgid "Add wire"
@@ -7930,9 +7912,8 @@ msgid "Add hierarchical label"
 msgstr "Προσθήκη ιεραρχικής ετικέτας"
 
 #: eeschema/schedit.cpp:563
-#, fuzzy
 msgid "Add image"
-msgstr "Προσθήκη γραμμής"
+msgstr "Προσθήκη εικόνας"
 
 #: eeschema/schedit.cpp:567
 msgid "Add wire to bus entry"
@@ -7947,24 +7928,20 @@ msgid "Add sheet"
 msgstr "Προσθήκη φύλλου"
 
 #: eeschema/schedit.cpp:579
-#, fuzzy
 msgid "Add sheet pins"
-msgstr "Προσθήκη φύλλου"
+msgstr "Προσθήκη ακροδέκτη φύλλου"
 
 #: eeschema/schedit.cpp:583
-#, fuzzy
 msgid "Import sheet pins"
-msgstr "Εισαγωγή PinSheets"
+msgstr "Εισαγωγή ακροδεκτών φύλλου"
 
 #: eeschema/schedit.cpp:587
-#, fuzzy
 msgid "Add component"
-msgstr "Προσθήκη υλικού"
+msgstr "Προσθήκη εξαρτήματος"
 
 #: eeschema/schedit.cpp:591
-#, fuzzy
 msgid "Add power"
-msgstr "Προσθήκη τροφοδοσίας"
+msgstr "Προσθήκη ισχύος"
 
 #: eeschema/schframe.cpp:169 pcbnew/class_zone.cpp:848
 msgid "Not Found"
@@ -7984,7 +7961,7 @@ msgstr ""
 
 #: eeschema/schframe.cpp:766
 msgid "Draw wires and buses in any direction"
-msgstr "Σχεδίαση συρμάτων και διαύλων σε κάθε κατεύθυνση"
+msgstr "Σχεδίαση συρμάτων και διαύλων σε οποιαδήποτε κατεύθυνση"
 
 #: eeschema/schframe.cpp:767
 msgid "Draw horizontal and vertical wires and buses only"
@@ -8298,13 +8275,12 @@ msgid "Run CvPcb to associate components and footprints"
 msgstr ""
 
 #: eeschema/tool_sch.cpp:174
-#, fuzzy
 msgid "Run Pcbnew to layout printed circuit board"
-msgstr "Πλακέτα τυπωμένων κυκλωμάτων"
+msgstr "Εκτέλεση Pcbnew για σχεδίαση πλακέτας τυπωμένου κυκλώματος"
 
 #: eeschema/tool_sch.cpp:201
 msgid "Ascend/descend hierarchy"
-msgstr ""
+msgstr "Ανάβαση/κατάβαση στην ιεραρχία"
 
 #: eeschema/tool_sch.cpp:257 eeschema/help_common_strings.h:90
 msgid "Add bitmap image"
@@ -20038,7 +20014,7 @@ msgstr "Ενεργοποίηση εμφάνισης πολικών συντετ�
 
 #: pcbnew/tool_modedit.cpp:224
 msgid "Change Cursor Shape"
-msgstr "Αλλαγή σχήματος κέρσορα"
+msgstr "Αλλαγή Σχήματος Κέρσορα"
 
 #: pcbnew/tool_modedit.cpp:229
 msgid "Show Pads Sketch"
@@ -20887,9 +20863,8 @@ msgid "Schematic Editor Options"
 msgstr "Επιλογές Επεξεργαστή Σχηματικών"
 
 #: eeschema/dialogs/dialog_erc_base.h:98
-#, fuzzy
 msgid "Electrical Rules Checker"
-msgstr "Έλεγχος κανόνων ηλεκτρικού στο σχήμα"
+msgstr "Ελεγκτής Ηλεκτρικών Κανόνων"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.h:59
 msgid "Drawing Properties"
@@ -21038,9 +21013,8 @@ msgid "Place text"
 msgstr "Τοποθέτηση κειμένου"
 
 #: eeschema/help_common_strings.h:76
-#, fuzzy
 msgid "Annotate schematic components"
-msgstr "Σχολιασμός σχήματος"
+msgstr "Σχολιασμός εξαρτημάτων σχηματικού"
 
 #: eeschema/help_common_strings.h:77
 msgid "Library Editor - Create/edit components"
@@ -21051,9 +21025,8 @@ msgid "Library Browser - Browse components"
 msgstr "Πλοηγός Βιβλιοθήκης - Πλοηγηθείτε στα εξαρτήματα"
 
 #: eeschema/help_common_strings.h:79
-#, fuzzy
 msgid "Generate bill of materials and/or cross references"
-msgstr "Πίνακας υλικών και/ή παραπομπών"
+msgstr "Δημιουργία Πίνακα Υλικών ή/και παραπομπών"
 
 #: eeschema/help_common_strings.h:81
 msgid "Back-import component footprint fields via CvPcb .cmp file"
