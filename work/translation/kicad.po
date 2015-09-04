@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-04 18:12+0200\n"
+"PO-Revision-Date: 2015-09-04 18:41+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -1871,14 +1871,12 @@ msgid "Colors"
 msgstr "Χρώματα"
 
 #: common/wildcards_and_files_ext.cpp:70
-#, fuzzy
 msgid "KiCad drawing symbol file (*.sym)|*.sym"
-msgstr "Αρχεία εξαγωγής αποτυπωμάτων Kicad (*.emp)|*.emp"
+msgstr "Αρχείο KiCad συμβόλων σχεδίων (*.sym)|*.sym"
 
 #: common/wildcards_and_files_ext.cpp:71
-#, fuzzy
 msgid "KiCad component library file (*.lib)|*.lib"
-msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
+msgstr "Αρχείο KiCad βιβλιοθήκης εξαρτημάτων (*.lib)|*.lib"
 
 #: common/wildcards_and_files_ext.cpp:72
 msgid "KiCad project files (*.pro)|*.pro"
@@ -1889,18 +1887,16 @@ msgid "KiCad schematic files (*.sch)|*.sch"
 msgstr "Σχηματικά αρχεία KiCad (*.sch)|*.sch"
 
 #: common/wildcards_and_files_ext.cpp:74
-#, fuzzy
 msgid "KiCad netlist files (*.net)|*.net"
-msgstr "Αρχεία λίστας δικτύων του Kicad (*.sch)|*.sch"
+msgstr "Αρχεία KiCad λίστας δικτύων (*.sch)|*.sch"
 
 #: common/wildcards_and_files_ext.cpp:75
 msgid "Gerber files (*.pho)|*.pho"
 msgstr "Αρχεία gerber (*.pho)|*.pho"
 
 #: common/wildcards_and_files_ext.cpp:76
-#, fuzzy
 msgid "KiCad printed circuit board files (*.brd)|*.brd"
-msgstr "Αρχεία τυπωμένων πλακετών κυκλωμάτων του Kicad (*.brd)|*.brd"
+msgstr "Αρχεία KiCad τυπωμένης πλακέτας κυκλώματος (*.brd)|*.brd"
 
 #: common/wildcards_and_files_ext.cpp:77
 msgid "Eagle ver. 6.x XML PCB files (*.brd)|*.brd"
@@ -1911,38 +1907,33 @@ msgid "P-Cad 200x ASCII PCB files (*.pcb)|*.pcb"
 msgstr "Αρχεία P-Cad 200x ASCII PCB (*.pcb)|*.pcb"
 
 #: common/wildcards_and_files_ext.cpp:79
-#, fuzzy
 msgid "KiCad s-expr printed circuit board files (*.kicad_pcb)|*.kicad_pcb"
-msgstr "Αρχεία τυπωμένων πλακετών κυκλωμάτων του Kicad (*.brd)|*.brd"
+msgstr ""
+"Αρχεία KiCad τυπωμένης πλακέτας κυκλώματος s-expr (*.kicad_pcb)|*.kicad_pcb"
 
 #: common/wildcards_and_files_ext.cpp:80
-#, fuzzy
 msgid "KiCad footprint s-expre file (*.kicad_mod)|*.kicad_mod"
-msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
+msgstr "Αρχείο KiCad αποτυπώματος s-expre (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:81
-#, fuzzy
 msgid "KiCad footprint s-expre library path (*.pretty)|*.pretty"
-msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
+msgstr ""
 
 #: common/wildcards_and_files_ext.cpp:82
-#, fuzzy
 msgid "Legacy footprint library file (*.mod)|*.mod"
-msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
+msgstr "Αρχείο βιβλιοθήκης εξαρτημάτων παλαιού τύπου (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:83
 msgid "Eagle ver. 6.x XML library files (*.lbr)|*.lbr"
 msgstr "Αρχεία βιβλιοθήκης XML Eagle εκδ. 6.x (*.lbr)|*.lbr"
 
 #: common/wildcards_and_files_ext.cpp:84
-#, fuzzy
 msgid "Geda PCB footprint library file (*.fp)|*.fp"
-msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
+msgstr "Αρχείο βιβλιοθήκης εξαρτημάτων Geda PCB (*.fp)|*."
 
 #: common/wildcards_and_files_ext.cpp:85
-#, fuzzy
 msgid "KiCad recorded macros (*.mcr)|*.mcr"
-msgstr "Σχηματικά αρχεία του Kicad (*.sch)|*.sch"
+msgstr "Καταγεγραμμένες μακροεντολές KiCad (*.sch)|*.sch"
 
 #: common/wildcards_and_files_ext.cpp:86
 msgid "Component-footprint link file (*.cmp)|*cmp"
@@ -1950,21 +1941,19 @@ msgstr "Αρχείο σύνδεσης εξαρτήματος-αποτυπώμα�
 
 #: common/wildcards_and_files_ext.cpp:87
 msgid "Page layout descr file (*.kicad_wks)|*kicad_wks"
-msgstr ""
+msgstr "Αρχείο περιγραφής σχεδίασης σελίδας (*.kicad_wks)|*kicad_wks"
 
 #: common/wildcards_and_files_ext.cpp:89
 msgid "All files (*)|*"
 msgstr "Όλα τα αρχεία (*)|*"
 
 #: common/wildcards_and_files_ext.cpp:92
-#, fuzzy
 msgid "KiCad cmp/footprint link files (*.cmp)|*.cmp"
-msgstr "Βιβλιοθήκη αρχείων αποτυπωμάτων του Kicad (*.mod)|*.mod"
+msgstr "Αρχεία KiCad σύνδεσης εξαρτήματος/αποτυπώματος (*.cmp)|*.cmp"
 
 #: common/wildcards_and_files_ext.cpp:95
-#, fuzzy
 msgid "Drill files (*.drl)|*.drl;*.DRL"
-msgstr "Αρχεία διατρήσεων (*.drl)|*.drl"
+msgstr "Αρχεία διατρήσεων (*.drl)|*.drl;*.DRL"
 
 #: common/wildcards_and_files_ext.cpp:96
 msgid "SVG files (*.svg)|*.svg;*.SVG"
@@ -1983,9 +1972,8 @@ msgid "PostScript files (.ps)|*.ps"
 msgstr "Αρχεία PostScript (.ps)|*.ps"
 
 #: common/wildcards_and_files_ext.cpp:100
-#, fuzzy
 msgid "Report files (*.rpt)|*.rpt"
-msgstr "Αρχεία αναφοράς DRC (.rpt)|*.rpt"
+msgstr "Αρχεία αναφοράς (.rpt)|*.rpt"
 
 #: common/wildcards_and_files_ext.cpp:101
 #, fuzzy
@@ -1997,23 +1985,21 @@ msgid "Vrml and x3d files (*.wrl *.x3d)|*.wrl;*.x3d"
 msgstr "Αρχεία VRML και X3D (*.wrl *.x3d)|*.wrl;*.x3d"
 
 #: common/wildcards_and_files_ext.cpp:103
-#, fuzzy
 msgid "IDFv3 component files (*.idf)|*.idf"
-msgstr "Αρχεία DXF (.dxf)|*.dxf"
+msgstr "Αρχεία εξαρτημάτων IDFv3 (*.idf)|*.idf"
 
 #: common/wildcards_and_files_ext.cpp:104
-#, fuzzy
 msgid "Text files (*.txt)|*.txt"
-msgstr "Αρχεία DXF (.dxf)|*.dxf"
+msgstr "Αρχεία κειμένου (*.txt)|*.txt"
 
 #: common/wxunittext.cpp:199
 msgid "default "
 msgstr "προκαθοριμένο"
 
 #: common/wxwineda.cpp:61
-#, fuzzy, c-format
+#, c-format
 msgid "Size%s"
-msgstr "Μέγεθος"
+msgstr "Μέγεθος%s"
 
 #: common/wxwineda.cpp:166 common/wxwineda.cpp:180
 msgid "Pos "
@@ -7346,13 +7332,12 @@ msgid "Delete Connection"
 msgstr "Διαγραφή σύνδεσης"
 
 #: eeschema/onrightclick.cpp:665
-#, fuzzy
 msgid "Begin Wire"
-msgstr "Διακοπή σύρματος"
+msgstr "Αρχή Σύρματος"
 
 #: eeschema/onrightclick.cpp:673
 msgid "Wire End"
-msgstr "Άκρο Σύρματος"
+msgstr "Τέλος Σύρματος"
 
 #: eeschema/onrightclick.cpp:678
 msgid "Drag Wire"
