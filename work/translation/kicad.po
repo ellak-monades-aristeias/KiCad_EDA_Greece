@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-04 18:41+0200\n"
+"PO-Revision-Date: 2015-09-10 11:58+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -157,7 +157,7 @@ msgstr "Αντιγραφή 3Δ εικόνας στο πρόχειρο"
 
 #: 3d-viewer/3d_toolbar.cpp:64
 msgid "Set display options, and some layers visibility"
-msgstr ""
+msgstr "Ορισμός επιλογών προβολής, και ορατότητας για ορισμένα επίπεδα "
 
 #: 3d-viewer/3d_toolbar.cpp:68 common/zoom.cpp:248
 #: eeschema/tool_viewlib.cpp:75 gerbview/toolbars_gerber.cpp:77
@@ -841,14 +841,12 @@ msgid "Invalid Input"
 msgstr "Άκυρη Είσοδος"
 
 #: common/dialogs/dialog_env_var_config.cpp:119
-#, fuzzy
 msgid "Environment variable name cannot be empty."
-msgstr " το πεδίο δεν μπορεί να είναι κενό."
+msgstr "Το όνομα μίας μεταβλητής περιβάλλοντος δεν μπορεί να είναι κενό."
 
 #: common/dialogs/dialog_env_var_config.cpp:129
-#, fuzzy
 msgid "Environment variable value cannot be empty."
-msgstr " το πεδίο δεν μπορεί να είναι κενό."
+msgstr "Το όνομα μίας μεταβλητής περιβάλλοντος δεν μπορεί να είναι κενό."
 
 #: common/dialogs/dialog_env_var_config.cpp:140
 msgid ""
@@ -992,7 +990,7 @@ msgstr "Προσθήκη"
 
 #: common/dialogs/dialog_env_var_config_base.cpp:64
 msgid "Add a new entry to the table."
-msgstr ""
+msgstr "Προσθήκη νέας καταχώρησης στον πίνακα."
 
 #: common/dialogs/dialog_env_var_config_base.cpp:68
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:189
@@ -1007,7 +1005,7 @@ msgstr "Διαγραφή"
 
 #: common/dialogs/dialog_env_var_config_base.cpp:69
 msgid "Remove the selectect entry from the table."
-msgstr ""
+msgstr "Αφαίρεση επιλεγμένης καταχώρησης από τον πίνακα."
 
 #: common/dialogs/dialog_env_var_config_base.cpp:73
 #: eeschema/dialogs/dialog_bom_base.cpp:65
@@ -1140,6 +1138,8 @@ msgid ""
 "Enter a string to filter items.\n"
 "Only names containing this string will be listed"
 msgstr ""
+"Δώστε ένα αλφαριθμητικό για φιλτράρισμα αντικειμένων.\n"
+"Θα εμφανίζονται μόνο τα ονόματα που το περιέχουν"
 
 #: common/dialogs/dialog_list_selector_base.cpp:28
 msgid "Items:"
@@ -1218,9 +1218,9 @@ msgid "Portrait"
 msgstr "Κατακόρυφος"
 
 #: common/dialogs/dialog_page_settings.cpp:431
-#, fuzzy, c-format
+#, c-format
 msgid "Page layout description file <%s> not found. Abort"
-msgstr "Δεν βρέθηκε το αρχείο βοήθειας %s."
+msgstr "Δεν βρέθηκε το αρχείο περιγραφής σχεδίασης <%s>. Ματαίωση"
 
 #: common/dialogs/dialog_page_settings.cpp:462
 #, c-format
@@ -1230,11 +1230,14 @@ msgid ""
 "%.1f - %.1f %s!\n"
 "Select another custom paper size?"
 msgstr ""
+"Το προσαρμοσμένο μέγεθος χαρτιού που επιλέχθηκε \n"
+"είναι εκτός επιτρεπόμενων ορίων\n"
+"%.1f - %.1f %s!\n"
+"Επιλογή διαφορετικού προσαρμοσμένου μεγέθους χαρτιού;"
 
 #: common/dialogs/dialog_page_settings.cpp:468
-#, fuzzy
 msgid "Warning!"
-msgstr "Προειδοποίηση"
+msgstr "Προειδοποίηση!"
 
 #: common/dialogs/dialog_page_settings.cpp:715
 #: common/dialogs/dialog_page_settings_base.cpp:46
@@ -1264,9 +1267,8 @@ msgid "Size:"
 msgstr "Μέγεθος:"
 
 #: common/dialogs/dialog_page_settings_base.cpp:36
-#, fuzzy
 msgid "dummy text"
-msgstr "Προσθήκη κειμένου"
+msgstr "προσωρινό κειμένου"
 
 #: common/dialogs/dialog_page_settings_base.cpp:42
 #: pcbnew/dialogs/dialog_orient_footprints_base.cpp:22
@@ -1286,7 +1288,7 @@ msgstr "Ύψος:"
 
 #: common/dialogs/dialog_page_settings_base.cpp:68
 msgid "Custom paper height."
-msgstr ""
+msgstr "Προσαρμοσμένο ύψος χαρτιού."
 
 #: common/dialogs/dialog_page_settings_base.cpp:78
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:65
@@ -1297,9 +1299,8 @@ msgid "Width:"
 msgstr "Πλάτος:"
 
 #: common/dialogs/dialog_page_settings_base.cpp:84
-#, fuzzy
 msgid "Custom paper width."
-msgstr "Πλάτος χαλκού"
+msgstr "Προσαρμοσμένο πλάτος χαρτιού."
 
 #: common/dialogs/dialog_page_settings_base.cpp:94
 msgid "Layout Preview"
@@ -4466,19 +4467,17 @@ msgstr "&Πλάτος:"
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:52
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:81
 msgid "Sharing"
-msgstr ""
+msgstr "Κοινή χρήση"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:64
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:83
-#, fuzzy
 msgid "Common to all &units in component"
-msgstr "Εφαρμογή των αλλαγών σε όλα τα &εξαρτήματα του υλικού"
+msgstr "Κοινό για όλα τα μέρη του εξαρτήματος"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:76
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:86
-#, fuzzy
 msgid "Common to all body &styles (DeMorgan)"
-msgstr "Εφαρμογή των αλλαγών σε όλα τα &στυλ σώματος (DeMorgan)"
+msgstr "Κοινό για όλα τα στυλ σώματος (DeMorgan)"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:85
 msgid "Fill Style"
@@ -4525,9 +4524,8 @@ msgid "Graphic &Style:"
 msgstr "&Στυλ Γραφικών:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:93
-#, fuzzy
 msgid "Schematic Properties"
-msgstr "Ιδιότητες σχηματικού φύλλου"
+msgstr "Ιδιότητες Σχηματικού"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:117
 msgid "N&ame text size:"
@@ -4580,14 +4578,12 @@ msgid "Vertical"
 msgstr "Κάθετα"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:85
-#, fuzzy
 msgid "Common to all units"
-msgstr "Από κοινό σε μονάδες"
+msgstr "Κοινό σε όλα τα μέρη"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:88
-#, fuzzy
 msgid "Common to all body styles"
-msgstr "Από κοινό σε μονάδες"
+msgstr "Κοινό σε όλα τα στυλ σώματος"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:91
 #: pcbnew/dialogs/dialog_edit_module_text_base.cpp:116
@@ -4617,9 +4613,8 @@ msgid "Align right"
 msgstr "Δεξιά στοίχιση"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:105
-#, fuzzy
 msgid "Horizontal Justify"
-msgstr "Οριζ. Στοίχιση"
+msgstr "Οριζόντια Στοίχιση"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:109
 msgid "Align bottom"
@@ -4630,9 +4625,8 @@ msgid "Align top"
 msgstr "Στοίχιση επάνω"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:111
-#, fuzzy
 msgid "Vertical Justify"
-msgstr "Κάθ. στοίχιση"
+msgstr "Κάθετη Στοίχιση"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:22
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.h:97
@@ -4652,28 +4646,24 @@ msgstr ""
 "και η προκαθορισμένη τιμή εξαρτήματος όταν αυτό φορτώνεται στο σχηματικό."
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:44
-#, fuzzy
 msgid "Default reference designator:"
-msgstr "Προεπιλεγμένη ένδειξη &παραπομπής:"
+msgstr "Προκαθορισμένη ένδειξη παραπομπής:"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:48
 msgid "U"
 msgstr "U"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:51
-#, fuzzy
 msgid "Number of units per package:"
-msgstr "Αριθμός &εξαρτημάτων ανά πακέτο:"
+msgstr "Αριθμός μερών ανά εξάρτημα:"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:64
-#, fuzzy
 msgid "Create component with alternate body style (DeMorgan)"
-msgstr "Δημιουργία υλικού με &εναλλακτικό στυλ σώματος (DeMorgan)"
+msgstr "Δημιουργία εξαρτήματος με εναλλακτικό στυλ σώματος (DeMorgan)"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:67
-#, fuzzy
 msgid "Create component as power symbol"
-msgstr "Δημιουργία υλικού ως &σύμβολο ισχύος"
+msgstr "Δημιουργία εξαρτήματος ως σύμβολο ισχύος"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:70
 msgid "Units are not interchangeable"
@@ -4998,9 +4988,8 @@ msgstr "HPGL"
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:90
 #: pcbnew/dialogs/dialog_plot_base.cpp:250
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:187
-#, fuzzy
 msgid "Format"
-msgstr "Τύπος διαγράμματος"
+msgstr "Μορφή"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:97
 msgid "Default line thickness"
@@ -5132,6 +5121,14 @@ msgid ""
 "\n"
 "The following changes are recommended to update the project."
 msgstr ""
+"Φαίνεται ότι αυτό το έργο φτιάχτηκε χρησιμοποιώντας παλαιότερες βιβλιοθήκες "
+"εξαρτημάτων σχηματικού.\n"
+" Κάποια εξαρτήματα μπορεί να χρειαστεί να επανασυνδεθούν με ένα διαφορετικό "
+"όνομα, και κάποια σύμβολα\n"
+" μπορεί να χρειαστεί να \"διασωθούν\" (με δημιουργία κλώνων και μετονομασία) "
+"σε μία νέα βιβλιοθήκη.\n"
+"\n"
+"Προτείνονται οι παρακάτω αλλαγές για να ανανεωθεί το έργο."
 
 #: eeschema/dialogs/dialog_rescue_each.cpp:104
 msgid "Accept"
@@ -5142,9 +5139,8 @@ msgid "Symbol"
 msgstr "Σύμβολο"
 
 #: eeschema/dialogs/dialog_rescue_each.cpp:106
-#, fuzzy
 msgid "Action"
-msgstr "Κόμβος"
+msgstr "Ενέργεια"
 
 #: eeschema/dialogs/dialog_rescue_each.cpp:280
 msgid ""
@@ -5154,6 +5150,12 @@ msgid ""
 "This setting can be changed from the \"Component Libraries\" dialog,\n"
 "and the tool can be activated manually from the \"Tools\" menu."
 msgstr ""
+"Να μην εμφανιστεί ξανά αυτό το εργαλείο;\n"
+"Δεν θα γίνει καμία αλλαγή.\n"
+"\n"
+"Αυτή η ρύθμιση μπορεί να αλλάξει από το παράθυρο \"Βιβλιοθήκες Εξαρτημάτων"
+"\", και το ίδιο το εργαλείο μπορεί να ενεργοποιηθεί από το μενού \"Εργαλεία"
+"\"."
 
 #: eeschema/dialogs/dialog_rescue_each.cpp:284
 msgid "Rescue Components"
@@ -5161,20 +5163,19 @@ msgstr "Διάσωση Εξαρτημάτων"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:23
 msgid "Symbols to update:"
-msgstr ""
+msgstr "Σύμβολα προς ανανέωση:"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:32
 msgid "Instances of this symbol:"
-msgstr ""
+msgstr "Περιπτώσεις αυτού του συμβόλου:"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:47
 msgid "Cached Part:"
-msgstr ""
+msgstr "Αποθηκευμένο Εξάρτημα:"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:64
-#, fuzzy
 msgid "Library Part:"
-msgstr "Βιβλιοθήκη"
+msgstr "Εξάρτημα Βιβλιοθήκης:"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:84
 msgid "Never Show Again"
@@ -5193,9 +5194,8 @@ msgid "Text width:"
 msgstr "Πλάτος κειμένου:"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.cpp:63
-#, fuzzy
 msgid "Connection type:"
-msgstr "συνδέσεις"
+msgstr "Είδος σύνδεσης:"
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.cpp:28
 msgid "&File name:"
@@ -5277,9 +5277,8 @@ msgid "Search the current &sheet onl&y"
 msgstr "Αναζήτηση μόνο στο τρέχον φύλλο"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:97
-#, fuzzy
 msgid "Replace componen&t reference designators"
-msgstr "Προεπιλεγμένη ένδειξη &παραπομπής:"
+msgstr "Αντικατάσταση προκαθορισμένων ενδείξεων παραπομπής:"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:102
 msgid "D&o not warp cursor to found item"
@@ -5636,7 +5635,7 @@ msgstr "Επιλογή εξαρτήματος (φορτώθηκαν %d αντι�
 #: eeschema/getpart.cpp:216
 #, c-format
 msgid "Failed to find part '%s' in library"
-msgstr "Αποτυχία εύρεσης '%s' στη βιβλιοθήκη"
+msgstr "Αποτυχία εύρεσης εξαρτήματος '%s' στη βιβλιοθήκη"
 
 #: eeschema/hierarch.cpp:147
 msgid "Navigator"
@@ -5771,9 +5770,9 @@ msgid "Export Component"
 msgstr "Εξαγωγή Εξαρτήματος"
 
 #: eeschema/lib_export.cpp:174
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' - OK"
-msgstr " - Εντάξει"
+msgstr "'%s' - OK"
 
 #: eeschema/lib_export.cpp:176
 #, fuzzy
@@ -5822,9 +5821,9 @@ msgid "Field%d"
 msgstr "Πεδίο%d"
 
 #: eeschema/lib_field.cpp:667
-#, fuzzy, c-format
+#, c-format
 msgid "Field %s %s"
-msgstr "Πεδίο "
+msgstr "Πεδίο %s %s"
 
 #: eeschema/lib_field.cpp:749 pcbnew/class_drawsegment.cpp:410
 #: pcbnew/class_pad.cpp:650 pcbnew/class_pcb_text.cpp:154
@@ -5854,11 +5853,11 @@ msgstr "Έξοδος ισχύος"
 
 #: eeschema/lib_pin.cpp:191
 msgid "Open collector"
-msgstr "Άνοιγμα συλλέκτη"
+msgstr "Ανοικτός συλλέκτης"
 
 #: eeschema/lib_pin.cpp:192
 msgid "Open emitter"
-msgstr "Άνοιγμα εκπομπού"
+msgstr "Ανοικτός εκπομπός"
 
 #: eeschema/lib_pin.cpp:193
 msgid "Not connected"
@@ -5878,11 +5877,11 @@ msgstr "Αντεστραμμένο"
 
 #: eeschema/lib_pin.cpp:209
 msgid "Clock"
-msgstr "Κατά τη φορά του ρολογιού"
+msgstr "Ρολόι"
 
 #: eeschema/lib_pin.cpp:210
 msgid "Inverted clock"
-msgstr "Αντίστροφα της φοράς του ρολογιού"
+msgstr "Αντεστραμμένο ρολόι"
 
 #: eeschema/lib_pin.cpp:211
 msgid "Input low"
@@ -5898,11 +5897,11 @@ msgstr "Χαμηλή έξοδος"
 
 #: eeschema/lib_pin.cpp:214
 msgid "Falling edge clock"
-msgstr "Κατερχόμενη παρυφή ρολογιού"
+msgstr "Κατερχόμενο άκρο ρολογιού"
 
 #: eeschema/lib_pin.cpp:215
 msgid "NonLogic"
-msgstr "NonLogic"
+msgstr "ΜηΛογικό"
 
 #: eeschema/lib_pin.cpp:2008 pcbnew/class_drawsegment.cpp:391
 #: pcbnew/class_track.cpp:1045
@@ -5987,12 +5986,12 @@ msgstr "Αδυναμία δημιουργίας αρχείου υλικού (.cm
 
 #: eeschema/libedit.cpp:53
 msgid "Part Library Editor: "
-msgstr ""
+msgstr "Επεξεργαστής Βιβλιοθήκης Εξαρτημάτων"
 
 #: eeschema/libedit.cpp:65 eeschema/viewlibs.cpp:141
 #: pcbnew/modview_frame.cpp:713
 msgid "no library selected"
-msgstr "δεν έχει επιλεγεί βιβλιοθήκη"
+msgstr "δεν έχει επιλεχθεί βιβλιοθήκη"
 
 #: eeschema/libedit.cpp:89 eeschema/libedit.cpp:120
 #, fuzzy
@@ -6033,38 +6032,38 @@ msgid "Part Library Name:"
 msgstr "Όνομα Βιβλιοθήκης Εξαρτημάτων:"
 
 #: eeschema/libedit.cpp:356
-#, fuzzy, c-format
+#, c-format
 msgid "Modify library file '%s' ?"
-msgstr "Να γίνει τροποποίηση του αρχείου βιβλιοθήκης \""
+msgstr "Να γίνει τροποποίηση του αρχείου βιβλιοθήκης '%s';"
 
 #: eeschema/libedit.cpp:396
-#, fuzzy, c-format
+#, c-format
 msgid "Error occurred while saving library file '%s'"
-msgstr "Σφάλμα κατά την αποθήκευση του αρχείου βιβλιοθήκης \""
+msgstr "Σφάλμα κατά την αποθήκευση του αρχείου βιβλιοθήκης '%s'"
 
 #: eeschema/libedit.cpp:398 eeschema/libedit.cpp:440
 msgid "*** ERROR: ***"
 msgstr "*** ΣΦΑΛΜΑ: ***"
 
 #: eeschema/libedit.cpp:438
-#, fuzzy, c-format
+#, c-format
 msgid "Error occurred while saving library documentation file <%s>"
-msgstr "Σφάλμα κατά την αποθήκευση του αρχείου βιβλιοθήκης \""
+msgstr "Σφάλμα κατά την αποθήκευση του αρχείου τεκμηρίωσης βιβλιοθήκης <%s>"
 
 #: eeschema/libedit.cpp:448
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create component document library file <%s>"
-msgstr "Δεν ήταν δυνατό το άνοιγμα της βιβλιοθήκης εγγράφων υλικού <%s>."
+msgstr ""
 
 #: eeschema/libedit.cpp:454
-#, fuzzy, c-format
+#, c-format
 msgid "Library file '%s' OK"
-msgstr "Αρχείο βιβλιοθήκης \""
+msgstr "Αρχείο βιβλιοθήκης '%s' OK"
 
 #: eeschema/libedit.cpp:457
-#, fuzzy, c-format
+#, c-format
 msgid "Documentation file '%s' OK"
-msgstr "Αρχείο τεκμηρίωσης \""
+msgstr "Αρχείο τεκμηρίωσης '%s' OK"
 
 #: eeschema/libedit.cpp:480 eeschema/viewlibs.cpp:295
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:130
@@ -6111,19 +6110,18 @@ msgstr ""
 "από τη βιβλιοθήκη <%s>."
 
 #: eeschema/libedit.cpp:553
-#, fuzzy
 msgid "Delete Part"
-msgstr "Διαγραφή έδρας"
+msgstr "Διαγραφή Εξαρτήματος"
 
 #: eeschema/libedit.cpp:562
-#, fuzzy, c-format
+#, c-format
 msgid "Entry '%s' not found in library '%s'."
-msgstr "Δεν ήταν δυνατή η εύρεση της εγγραφής <%s> στη βιβλιοθήκη <%s>."
+msgstr "Αδυναμία εύρεσης της εγγραφής '%s' στη βιβλιοθήκη '%s."
 
 #: eeschema/libedit.cpp:569
-#, fuzzy, c-format
+#, c-format
 msgid "Delete component '%s' from library '%s' ?"
-msgstr "Να διαγραφεί το εξάρτημα \"%s\" από τη βιβλιοθήκη \"%s\";"
+msgstr "Να διαγραφεί το εξάρτημα '%s' από τη βιβλιοθήκη '%s';"
 
 #: eeschema/libedit.cpp:588
 msgid ""
@@ -6150,19 +6148,19 @@ msgstr ""
 "ακύρωση"
 
 #: eeschema/libedit.cpp:649
-#, fuzzy, c-format
+#, c-format
 msgid "Part '%s' already exists in library '%s'"
-msgstr "Το εξάρτημα \"%s\" υπάρχει ήδη στη βιβλιοθήκη \"%s\"."
+msgstr "Το εξάρτημα '%s' υπάρχει ήδη στη βιβλιοθήκη '%s'"
 
 #: eeschema/libedit.cpp:721
-#, fuzzy, c-format
+#, c-format
 msgid "Part '%s' already exists. Change it?"
-msgstr "Το εξάρτημα \"%s\" υπάρχει ήδη. Να γίνει αλλαγή;"
+msgstr "Το εξάρτημα '%s' υπάρχει ήδη. Να αλλαχθεί;"
 
 #: eeschema/libedit.cpp:735
-#, fuzzy, c-format
+#, c-format
 msgid "Part '%s' saved in library '%s'"
-msgstr "Το εξάρτημα %s αποθηκεύτηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα '%s' αποθηκεύτηκε στη βιβλιοθήκη '%s'"
 
 #: eeschema/libedit_onrightclick.cpp:88 eeschema/onrightclick.cpp:158
 #: gerbview/onrightclick.cpp:62 pcbnew/modedit_onclick.cpp:232
@@ -6399,9 +6397,8 @@ msgid "Unit %s"
 msgstr "Μονάδα %s"
 
 #: eeschema/libeditframe.cpp:724
-#, fuzzy
 msgid "No part to save."
-msgstr "Δεν υπάρχει κάποιο εξάρτημα για αποθήκευση."
+msgstr "Δεν υπάρχει εξάρτημα για αποθήκευση."
 
 #: eeschema/libeditframe.cpp:1116
 msgid "Add pin"
@@ -6977,7 +6974,7 @@ msgstr "Αποθήκευση της τρέχουσας ενεργής βιβλι
 
 #: eeschema/menubar_libedit.cpp:93
 msgid "Create &PNG File from Screen"
-msgstr "Δημιουργία Αρχείου PNG Οθόνη"
+msgstr "Δημιουργία Αρχείου PNG από Οθόνη"
 
 #: eeschema/menubar_libedit.cpp:94
 msgid "Create a PNG file from the component displayed on screen"
@@ -9775,7 +9772,7 @@ msgstr "Ταυτότητα"
 
 #: pcbnew/build_BOM_from_board.cpp:117
 msgid "Designator"
-msgstr "Προσδιοριστής"
+msgstr "Ένδειξη"
 
 #: pcbnew/build_BOM_from_board.cpp:118
 msgid "Package"
@@ -13551,9 +13548,8 @@ msgid "Footprint Fields"
 msgstr "Φίλτρο αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:28
-#, fuzzy
 msgid "Reference designator"
-msgstr "Προεπιλεγμένη ένδειξη &παραπομπής:"
+msgstr "Ένδειξη παραπομπής"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:34
 #, fuzzy
@@ -13907,23 +13903,23 @@ msgstr "Προσαρμοσμένο"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 msgid "Two layers, parts on Front only"
-msgstr "Δύο επίπιπεδα, εξαρτήματα μόνο πάνω"
+msgstr "Δύο επίπεδα, εξαρτήματα μόνο Μπροστά"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 msgid "Two layers, parts on Back only"
-msgstr "Δύο επίπεδα, εξαρτήματα μόνο κάτω"
+msgstr "Δύο επίπεδα, εξαρτήματα μόνο Πίσω"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 msgid "Two layers, parts on Front and Back"
-msgstr "Δύο επίπιπεδα ενεργά, εξαρτήματα μόνο πάνω και κάτω"
+msgstr "Δύο επίπεδα, εξαρτήματα Μπροστά και Πίσω"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 msgid "Four layers, parts on Front only"
-msgstr "Τέσσερα επίπεδα, εξαρτήματα μόνο πάνω"
+msgstr "Τέσσερα επίπεδα, εξαρτήματα μόνο Μπροστά"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 msgid "Four layers, parts on Front and Back"
-msgstr "Τέσσερα επίπεδα, εξαρτήματα πάνω και κάτω"
+msgstr "Τέσσερα επίπεδα, εξαρτήματα Μπροστά και Πίσω"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 msgid "All layers on"
@@ -17029,26 +17025,32 @@ msgstr "Μεσαίο κλικ για αλλαγή χρώματος"
 #: pcbnew/legacy_netlist_reader.cpp:121
 msgid "Cannot parse time stamp in component section of netlist."
 msgstr ""
+"Αδυναμία ανάλυσης χρονικής σφραγίδας στα εξαρτήματα της λίστας δικτύων."
 
 #: pcbnew/legacy_netlist_reader.cpp:131
 msgid "Cannot parse footprint name in component section of netlist."
 msgstr ""
+"Αδυναμία ανάλυσης ονόματος αποτυπώματος στα εξαρτήματα της λίστας δικτύων."
 
 #: pcbnew/legacy_netlist_reader.cpp:145
 msgid "Cannot parse reference designator in component section of netlist."
 msgstr ""
+"Αδυναμία ανάλυσης ένδειξης παραπομπής στα εξαρτήματα της λίστας δικτύων."
 
 #: pcbnew/legacy_netlist_reader.cpp:155
 msgid "Cannot parse value in component section of netlist."
-msgstr ""
+msgstr "Αδυναμία ανάλυσης τιμής στα εξαρτήματα της λίστας δικτύων."
 
 #: pcbnew/legacy_netlist_reader.cpp:192
 msgid "Cannot parse pin name in component net section of netlist."
 msgstr ""
+"Αδυναμία ανάλυσης ονόματος ακροδέκτη στα δίκτυα εξαρτημάτων της λίστας "
+"δικτύων."
 
 #: pcbnew/legacy_netlist_reader.cpp:201
 msgid "Cannot parse net name in component net section of netlist."
 msgstr ""
+"Αδυναμία ανάλυσης ονόματος δικτύου στα δίκτυα εξαρτημάτων της λίστας δικτύων."
 
 #: pcbnew/legacy_netlist_reader.cpp:249
 #, c-format
