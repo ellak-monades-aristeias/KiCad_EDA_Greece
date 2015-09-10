@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-10 11:58+0200\n"
+"PO-Revision-Date: 2015-09-10 15:31+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -1487,9 +1487,9 @@ msgid "Doc Files"
 msgstr "Αρχεία Τεκμηρίωσης"
 
 #: common/eda_doc.cpp:159
-#, fuzzy, c-format
+#, c-format
 msgid "Doc File '%s' not found"
-msgstr "Το αρχείο %s δεν βρέθηκε"
+msgstr "Το αρχείο τεκμηρίωσης %s δεν βρέθηκε"
 
 #: common/eda_doc.cpp:202
 #, c-format
@@ -1534,9 +1534,8 @@ msgid "Bold"
 msgstr "Έντονο"
 
 #: common/eda_text.cpp:380
-#, fuzzy
 msgid "Bold+Italic"
-msgstr "Πλάγια έντονα"
+msgstr "Έντονα+Πλάγια "
 
 #: common/footprint_info.cpp:320 common/footprint_info.cpp:341
 msgid "Errors were encountered loading footprints"
@@ -1569,11 +1568,11 @@ msgstr "Απαγορευμένος χαρακτήρας βρέθηκε στο α
 
 #: common/fpid.cpp:306
 msgid "Illegal character found in logical library name"
-msgstr ""
+msgstr "Απαγορευμένος χαρακτήρας βρέθηκε στο όνομα βιβλιοθήκης"
 
 #: common/fpid.cpp:323
 msgid "Illegal character found in revision"
-msgstr ""
+msgstr "Απαγορευμένος χαρακτήρας βρέθηκε στην αναθεώρηση"
 
 #: common/gestfich.cpp:226
 #, c-format
@@ -1977,9 +1976,8 @@ msgid "Report files (*.rpt)|*.rpt"
 msgstr "Αρχεία αναφοράς (.rpt)|*.rpt"
 
 #: common/wildcards_and_files_ext.cpp:101
-#, fuzzy
 msgid "Footprint place files (*.pos)|*.pos"
-msgstr "Αρχεία PostScript (.ps)|*.ps"
+msgstr "Αρχεία θέσης αποτυπώματος (*.pos)|*.pos"
 
 #: common/wildcards_and_files_ext.cpp:102
 msgid "Vrml and x3d files (*.wrl *.x3d)|*.wrl;*.x3d"
@@ -2054,14 +2052,13 @@ msgstr ""
 "αναζήτησης."
 
 #: cvpcb/autosel.cpp:127
-#, fuzzy, c-format
+#, c-format
 msgid "Error opening equ file '%s'."
-msgstr "Σφάλμα κατά το άνοιγμα της βιβλιοθήκης ψευδωνύμων <%s>."
+msgstr "Σφάλμα κατά το άνοιγμα του αρχείου equ '%s'"
 
 #: cvpcb/autosel.cpp:179
-#, fuzzy
 msgid "Equ files Load Error"
-msgstr "Σφάλμα φόρτωσης:"
+msgstr "Σφάλμα Φόρτωσης αρχείων equ"
 
 #: cvpcb/autosel.cpp:187
 #, fuzzy, c-format
@@ -2078,14 +2075,13 @@ msgstr ""
 "αποτυπωμάτων."
 
 #: cvpcb/autosel.cpp:287
-#, fuzzy
 msgid "CvPcb Warning"
-msgstr "Προειδοποίηση Erc"
+msgstr "Προειδοποίηση CvPcb"
 
 #: cvpcb/cfg.cpp:79 cvpcb/dialogs/dialog_config_equfiles.cpp:52
-#, fuzzy, c-format
+#, c-format
 msgid "Project file: '%s'"
-msgstr "Αρχείο έργου: "
+msgstr "Αρχείο έργου: '%s'"
 
 #: cvpcb/cfg.cpp:84
 #, c-format
@@ -2093,9 +2089,8 @@ msgid "Project file '%s' is not writable"
 msgstr "Το αρχείο έργου '%s' δεν είναι εγγράψιμο"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:75
-#, fuzzy
 msgid "Footprint Viewer"
-msgstr "Φίλτρο αποτυπώματος"
+msgstr "Προβολέας Αποτυπώματος"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:180 pcbnew/basepcbframe.cpp:466
 #: pcbnew/tool_pcb.cpp:340
@@ -2917,7 +2912,7 @@ msgstr "διπλή χρονική σφραγίδα (%s) για %s%d και %s%d"
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:173
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:185
 msgid "Unit"
-msgstr "Μονάδα"
+msgstr "Μέρος"
 
 #: eeschema/controle.cpp:165 eeschema/libeditframe.cpp:1257
 #, fuzzy
@@ -3285,19 +3280,19 @@ msgid "Library Component Properties"
 msgstr "Ιδιότητες Βιβλιοθήκης Εξαρτημάτων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:81
-#, fuzzy, c-format
+#, c-format
 msgid "Properties for %s (alias of %s)"
-msgstr "Ιδιότητες για "
+msgstr "Ιδιότητες για %s (ψευδώνυμο του %s)"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:86
-#, fuzzy, c-format
+#, c-format
 msgid "Properties for %s"
-msgstr "Ιδιότητες για "
+msgstr "Ιδιότητες για %s"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:165
-#, fuzzy, c-format
+#, c-format
 msgid "Number of Units (max allowed %d)"
-msgstr "Αριθμός μονάδων:"
+msgstr "Αριθμός Μερών (μέγιστο %d)"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:299
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:375
@@ -3318,9 +3313,9 @@ msgid "Component Alias"
 msgstr "Ψευδώνυμο Εξαρτήματος"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:340
-#, fuzzy, c-format
+#, c-format
 msgid "Alias or component name <%s> already in use."
-msgstr "Το ψευδώνυμο ή το όνομα υλικού <%s> υπάρχει ήδη στη βιβλιοθήκη <%s>."
+msgstr "Το ψευδώνυμο ή το όνομα εξαρτήματος <%s> χρησιμοποιείται ήδη."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:349
 #, c-format
@@ -3345,11 +3340,8 @@ msgstr ""
 "από το εξάρτημα;"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:493
-#, fuzzy
 msgid "OK to delete the footprint filter list ?"
-msgstr ""
-"Συμφωνείτε με τη διαγραφή των αποτυπωμάτων που δεν υπάρχουν στη λίστα "
-"δικτύων;"
+msgstr "Συμφωνείτε με τη διαγραφή της λίστας φίλτρων αποτυπωμάτων;"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:514
 msgid "Add Footprint Filter"
@@ -3366,20 +3358,19 @@ msgid "Foot print filter <%s> is already defined."
 msgstr "Το φίλτρο αποτυπώματος <%s> έχει ήδη καθοριστεί."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:567
-#, fuzzy
 msgid "Edit footprint filter"
-msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
+msgstr "Επεξεργασία φίλτρου αποτυπωμάτων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:30
-#, fuzzy
 msgid "Has alternate symbol (DeMorgan)"
-msgstr "Προσθήκη σε όλα τα εναλλακτικά στυλ σώματος (DeMorgan)"
+msgstr "Έχει εναλλακτικό στυλ σώματος (DeMorgan)"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:31
-#, fuzzy
 msgid ""
 "Check this option if the component has an alternate body style (De Morgan)"
-msgstr "Δημιουργία υλικού με &εναλλακτικό στυλ σώματος (DeMorgan)"
+msgstr ""
+"Ενεργοποιήστε αυτή την επιλογή αν το εξάρτημα έχει ένα εναλλακτικό στυλ "
+"σώματος (DeMorgan)"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:35
 msgid "Show pin number"
@@ -3399,7 +3390,7 @@ msgstr "Προβολή ή απόκρυψη των ονομάτων ακροδε�
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:47
 msgid "Place pin names inside"
-msgstr "Εσωτερική τοποθέτηση ονομάτων ακροδεκτών"
+msgstr "Εσωτερική τοποθέτηση ονομάτων ακροδέκτη"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:49
 msgid ""
@@ -3411,14 +3402,14 @@ msgstr ""
 "Αν δεν επιλεγεί, τα ονόματα και οι αριθμοί ακροδεκτών θα είναι εκτός."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:65
-#, fuzzy
 msgid "Number of Units"
-msgstr "Αριθμός μονάδων:"
+msgstr "Αριθμός Μερών:"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:67
 msgid ""
 "Enter the number of units for a component that contains more than one unit"
 msgstr ""
+"Εισαγωγή αριθμού μερών για εξάρτημα που περιέχει περισσότερα από ένα μέρη"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:80
 msgid "Pin Name Position Offset"
@@ -3430,29 +3421,29 @@ msgid ""
 "body.\n"
 "A value from 10 to 40 is usually good."
 msgstr ""
-"Περιθώριο (σε 0.001 ίντσες) μεταξύ της θέσης ονόματος ενός ακροδέκτη και του "
+"Περιθώριο (σε 0,001 ίντσες) μεταξύ της θέσης ονόματος ενός ακροδέκτη και του "
 "σώματος του εξαρτήματος.\n"
 "Συνήθως μια καλή τιμή είναι από 10 έως 40."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:98
-#, fuzzy
 msgid "Define as power symbol"
-msgstr "Δημιουργία υλικού ως &σύμβολο ισχύος"
+msgstr "Ορισμός ως σύμβολο ισχύος"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:99
-#, fuzzy
 msgid "Check this option when the component is a power symbol"
-msgstr "Δημιουργία υλικού ως &σύμβολο ισχύος"
+msgstr "Επιλέξτε όταν το εξάρτημα είναι σύμβολο ισχύος"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:103
 msgid "All units are not interchangeable"
-msgstr ""
+msgstr "Τα μέρη δεν είναι εναλλάξιμα"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:104
 msgid ""
 "Check this option when creating multiple unit components and all units are "
 "not interchangeable"
 msgstr ""
+"Ενεργοποιήστε αυτή την επιλογή όταν δημιουργείτε εξαρτήματα με πολλά μέρη "
+"και τα μέρη δεν είναι εναλλάξιμα"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:112
 #: eeschema/dialogs/dialog_erc_base.cpp:135
@@ -3486,14 +3477,13 @@ msgid ""
 "Enter key words that can be used to select this component.\n"
 "Key words cannot have spaces and are separated by a space."
 msgstr ""
-"Εισάγετε λέξεις κλειδιά που μπορούν αν χρησιμοποιηθούν στην επιλογή αυτού "
+"Εισάγετε λέξεις κλειδιά που μπορούν να χρησιμοποιηθούν στην επιλογή αυτού "
 "του εξαρτήματος.\n"
 "Οι λέξεις κλειδιά δεν μπορούν να περιέχουν κενά και χωρίζονται από ένα κενό."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:137
-#, fuzzy
 msgid "Documentation File Name"
-msgstr "Αρχείο τεκμηρίωσης \""
+msgstr "Ονόματος Αρχείου Τεκμηρίωσης"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:139
 msgid ""
@@ -3504,16 +3494,15 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:150
 msgid "Copy Document from Parent"
-msgstr ""
+msgstr "Αντιγραφή Εγγράφων από Γονέα"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:153
 msgid "Browse Files"
 msgstr "Πλοήγηση σε αρχεία"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:171
-#, fuzzy
 msgid "Alias List"
-msgstr "Λίστα ψευδωνύμων:"
+msgstr "Λίστα Ψευδωνύμων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:173
 msgid ""
@@ -3521,9 +3510,9 @@ msgid ""
 "It has its own documentation and keywords.\n"
 "A fast way to extend a library with similar components"
 msgstr ""
-"Ένα ψευδώνυμο είναι ένα εξάρτημα που χρησιμοποιεί το σώμα του ριζικού "
+"Ένα ψευδώνυμο είναι ένα εξάρτημα που χρησιμοποιεί το σώμα του αρχικού "
 "εξαρτήματός του.\n"
-"Έχει τη δική του τεκμηρίωση και λέξεις κλειδιά.\n"
+"Έχει τη δική του τεκμηρίωση και τις δικές του λέξεις κλειδιά.\n"
 "Είναι ένας γρήγορος τρόπος να επεκτείνετε μια βιβλιοθήκη με παρόμοια "
 "εξαρτήματα"
 
@@ -3564,32 +3553,32 @@ msgid "Edit"
 msgstr "Επεξεργασία"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:220
-#, fuzzy, c-format
+#, c-format
 msgid "Component '%s' found in library '%s'"
-msgstr "Το εξάρτημα %s αποθηκεύτηκε στη βιβλιοθήκη %s"
+msgstr "Το εξάρτημα '%s' βρέθηκε στη βιβλιοθήκη '%s'"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:226
-#, fuzzy, c-format
+#, c-format
 msgid "Component '%s' not found in any library"
-msgstr "Δεν βρέθηκε το όνομα υλικού \"%s\" στη βιβλιοθήκη \"%s\"."
+msgstr "Το εξάρτημα '%s' δεν βρέθηκε σε καμία βιβλιοθήκη"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:242
 msgid "However, some candidates are found:"
-msgstr ""
+msgstr "Βρέθηκαν, όμως, κάποιοι υποψήφιοι:"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:248
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' found in library '%s'"
-msgstr "Δεν ήταν δυνατή η εύρεση της εγγραφής <%s> στη βιβλιοθήκη <%s>."
+msgstr "'%s' βρέθηκε στη βιβλιοθήκη '%s'"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:310
 msgid "No Component Name!"
 msgstr "Δεν Υπάρχει Όνομα Εξαρτήματος!"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:319
-#, fuzzy, c-format
+#, c-format
 msgid "Component '%s' not found!"
-msgstr "Δεν βρέθηκε το εξάρτημα [%s]!"
+msgstr "Το εξάρτημα '%s' δεν βρέθηκε!"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:393
 msgid "Illegal reference. A reference must start with a letter"
@@ -4667,31 +4656,27 @@ msgstr "Δημιουργία εξαρτήματος ως σύμβολο ισχύ
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:70
 msgid "Units are not interchangeable"
-msgstr "Οι μονάδες δεν είναι εναλλάξιμες"
+msgstr "Τα μέρη δεν είναι εναλλάξιμα"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:85
 msgid "General Pin Settings"
 msgstr "Γενικές Ρυθμίσεις Ακροδεκτών"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:96
-#, fuzzy
 msgid "Pin text position offset:"
-msgstr "&Μετατόπιση θέσης κειμένου ακροδέκτη:"
+msgstr "Μετατόπιση θέσης κειμένου ακροδέκτη:"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:109
-#, fuzzy
 msgid "Show pin number text"
-msgstr "Προβολή κειμένου α&ριθμού ακροδέκτη"
+msgstr "Προβολή κειμένου αριθμού ακροδέκτη"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:113
-#, fuzzy
 msgid "Show pin name text"
-msgstr "Προβολή κειμένου ο&νόματος ακροδέκτη"
+msgstr "Προβολή κειμένου ονόματος ακροδέκτη"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:117
-#, fuzzy
 msgid "Pin name inside"
-msgstr "Όνομα ακροδέκτη &εσωτερικά"
+msgstr "Όνομα ακροδέκτη εσωτερικά"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:49
 msgid "&Default line width:"
@@ -5655,9 +5640,9 @@ msgid "Arc"
 msgstr "Τόξο"
 
 #: eeschema/lib_arc.cpp:136
-#, fuzzy, c-format
+#, c-format
 msgid "Arc only had %d parameters of the required 8"
-msgstr "το τόξο είχε μόνο %d παραμέτρους από τις 8 απαιτούμενες"
+msgstr "Το τόξο είχε μόνο %d παραμέτρους από τις 8 απαιτούμενες"
 
 #: eeschema/lib_arc.cpp:565 eeschema/lib_bezier.cpp:417
 #: eeschema/lib_circle.cpp:279 eeschema/lib_polyline.cpp:409
@@ -5667,9 +5652,8 @@ msgstr "Πλάτος Γραμμής"
 
 #: eeschema/lib_arc.cpp:570 eeschema/lib_bezier.cpp:422
 #: eeschema/lib_circle.cpp:287 eeschema/lib_polyline.cpp:414
-#, fuzzy
 msgid "Bounding Box"
-msgstr "Πλαίσιο οριοθέτησης"
+msgstr "Πλαίσιο Οριοθέτησης"
 
 #: eeschema/lib_arc.cpp:576
 #, c-format
@@ -5707,9 +5691,9 @@ msgid "Circle"
 msgstr "Κύκλος"
 
 #: eeschema/lib_circle.cpp:76
-#, fuzzy, c-format
+#, c-format
 msgid "Circle only had %d parameters of the required 6"
-msgstr "ο κύκλος είχε μόνο %d παραμέτρους από τις 6 απαιτούμενες"
+msgstr "Ο κύκλος είχε μόνο %d παραμέτρους από τις 6 απαιτούμενες"
 
 #: eeschema/lib_circle.cpp:282
 msgid "Radius"
@@ -5751,11 +5735,13 @@ msgid ""
 "Unable to import library '%s'.  Error:\n"
 "%s"
 msgstr ""
+"Αδυναμία εισαγωγής βιβλιοθήκης '%s'. Σφάλμα:\n"
+"%s"
 
 #: eeschema/lib_export.cpp:84
-#, fuzzy, c-format
+#, c-format
 msgid "Part library file '%s' is empty."
-msgstr "Το αρχείο <%s> της βιβλιοθήκης υλικού, είναι κενό."
+msgstr "Το αρχείο '%s' της βιβλιοθήκης εξαρτημάτων είναι κενό."
 
 #: eeschema/lib_export.cpp:111
 msgid "There is no component selected to save."
@@ -5775,27 +5761,26 @@ msgid "'%s' - OK"
 msgstr "'%s' - OK"
 
 #: eeschema/lib_export.cpp:176
-#, fuzzy
 msgid ""
 "This library will not be available until it is loaded by Eeschema.\n"
 "\n"
 "Modify the Eeschema library configuration if you want to include it as part "
 "of this project."
 msgstr ""
-"Αυτή η βιβλιοθήκη δεν θα είναι διαθέσιμη μέχρι να φορτωθεί από το EESchema.\n"
+"Αυτή η βιβλιοθήκη δεν θα είναι διαθέσιμη μέχρι να φορτωθεί από το Eeschema.\n"
 "\n"
-"Αν θέλετε να συμπεριλάβετε τη βιβλιοθήκη EESchema ως τμήμα αυτού του έργου, "
+"Αν θέλετε να συμπεριλάβετε τη βιβλιοθήκη Eeschema ως τμήμα αυτού του έργου, "
 "τροποποιήστε τις ρυθμίσεις της."
 
 #: eeschema/lib_export.cpp:182
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' - Export OK"
-msgstr " - Εξαγωγή, εντάξει"
+msgstr "'%s' - Εξαγωγή OK"
 
 #: eeschema/lib_export.cpp:187
-#, fuzzy, c-format
+#, c-format
 msgid "Error creating '%s'"
-msgstr "Σφάλμα κατά τη δημιουργία "
+msgstr "Σφάλμα κατά τη δημιουργία '%s'"
 
 #: eeschema/lib_field.cpp:72 eeschema/lib_field.cpp:756
 #: eeschema/template_fieldnames.cpp:55
@@ -5952,19 +5937,19 @@ msgid "Rectangle"
 msgstr "Ορθογώνιο"
 
 #: eeschema/lib_rectangle.cpp:78
-#, fuzzy, c-format
+#, c-format
 msgid "Rectangle only had %d parameters of the required 7"
-msgstr "το ορθογώνιο είχε μόνο %d παραμέτρους από τις 7 απαιτούμενες"
+msgstr "Το ορθογώνιο είχε μόνο %d παραμέτρους από τις 7 απαιτούμενες"
 
 #: eeschema/lib_rectangle.cpp:332
 #, c-format
 msgid "Rectangle from (%s, %s) to (%s, %s)"
-msgstr ""
+msgstr "Ορθογώνιο από (%s, %s) έως (%s, %s)"
 
 #: eeschema/lib_text.cpp:132
-#, fuzzy, c-format
+#, c-format
 msgid "Text only had %d parameters of the required 8"
-msgstr "το κείμενο είχε μόνο %d παραμέτρους από τις 8 απαιτούμενες"
+msgstr "Το κείμενο είχε μόνο %d παραμέτρους από τις 8 απαιτούμενες"
 
 #: eeschema/lib_text.cpp:485 eeschema/sch_text.cpp:603
 #, c-format
@@ -5972,17 +5957,16 @@ msgid "Graphic Text %s"
 msgstr "Γραφικό Κειμένων %s"
 
 #: eeschema/libarch.cpp:101 eeschema/project_rescue.cpp:61
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred attempting to save component library '%s'."
 msgstr ""
-"Συνέβη ένα σφάλμα κατά την προσπάθεια αποθήκευσης της βιβλιοθήκης υλικού <"
-"%s>."
+"Σφάλμα κατά την προσπάθεια αποθήκευσης της βιβλιοθήκης εξαρτημάτων '%s'."
 
 #: eeschema/libarch.cpp:111 eeschema/libedit.cpp:406
 #: eeschema/project_rescue.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create component library file '%s'"
-msgstr "Αδυναμία δημιουργίας αρχείου υλικού (.cmp)"
+msgstr "Αποτυχία δημιουργίας αρχείου βιβλιοθήκης εξαρτημάτων '%s'"
 
 #: eeschema/libedit.cpp:53
 msgid "Part Library Editor: "
@@ -5994,7 +5978,6 @@ msgid "no library selected"
 msgstr "δεν έχει επιλεχθεί βιβλιοθήκη"
 
 #: eeschema/libedit.cpp:89 eeschema/libedit.cpp:120
-#, fuzzy
 msgid ""
 "The current component is not saved.\n"
 "\n"
@@ -6002,22 +5985,20 @@ msgid ""
 msgstr ""
 "Το τρέχον εξάρτημα δεν έχει αποθηκευτεί.\n"
 "\n"
-"Απόρριψη των τρεχόντων αλλαγών;"
+"Απόρριψη των αλλαγών που έχουν γίνει;"
 
 #: eeschema/libedit.cpp:168
-#, fuzzy
 msgid "The selected component is not in the active library."
-msgstr "Διαγραφή υλικού από την τρέχουσα βιβλιοθήκη"
+msgstr "Το επιλεγμένο εξάρτημα δεν είναι στην ενεργή βιβλιοθήκη."
 
 #: eeschema/libedit.cpp:170
-#, fuzzy
 msgid "Do you want to change the active library?"
-msgstr "Αποθήκευση της τρέχουσας ενεργής βιβλιοθήκης"
+msgstr "Αλλαγή τρέχουσας βιβλιοθήκης;"
 
 #: eeschema/libedit.cpp:180
-#, fuzzy, c-format
+#, c-format
 msgid "Part name '%s' not found in library '%s'"
-msgstr "Δεν βρέθηκε το όνομα υλικού \"%s\" στη βιβλιοθήκη \"%s\"."
+msgstr "Το όνομα '%s' δεν βρέθηκε στη βιβλιοθήκη '%s'"
 
 #: eeschema/libedit.cpp:315 eeschema/libeditframe.cpp:737
 msgid "No library specified."
@@ -6053,7 +6034,7 @@ msgstr "Σφάλμα κατά την αποθήκευση του αρχείου 
 #: eeschema/libedit.cpp:448
 #, c-format
 msgid "Failed to create component document library file <%s>"
-msgstr ""
+msgstr "Αποτυχία δημιουργίας αρχείου τεκμηρίωσης βιβλιοθήκης <%s>"
 
 #: eeschema/libedit.cpp:454
 #, c-format
@@ -6101,13 +6082,12 @@ msgid "Delete Entry Error"
 msgstr "Διαγραφή σφάλματος καταχώρησης"
 
 #: eeschema/libedit.cpp:549
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Select one of %zu components to delete\n"
 "from library '%s'."
 msgstr ""
-"Επιλέξτε 1 από τα %d υλικά για διαγραφή\n"
-"από τη βιβλιοθήκη <%s>."
+"Επιλέξτε ένα από τα %zu εξαρτήματα για διαγραφή από τη βιβλιοθήκη '%s'."
 
 #: eeschema/libedit.cpp:553
 msgid "Delete Part"
@@ -6380,21 +6360,21 @@ msgstr "Επεξεργαστής Βιβλιοθήκης"
 
 #: eeschema/libeditframe.cpp:323
 msgid "Save the changes in the library before closing?"
-msgstr ""
+msgstr "Αποθήκευση αλλαγών στη βιβλιοθήκη πριν το κλείσιμο;"
 
 #: eeschema/libeditframe.cpp:350
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Library '%s' was modified!\n"
 "Discard changes?"
 msgstr ""
-"Η βιβλιοθήκη \"%s\" έχει τροποποιηθεί!\n"
+"Η βιβλιοθήκη '%s' έχει τροποποιηθεί!\n"
 "Να απορριφθούν οι αλλαγές;"
 
 #: eeschema/libeditframe.cpp:456 eeschema/onrightclick.cpp:451
 #, c-format
 msgid "Unit %s"
-msgstr "Μονάδα %s"
+msgstr "Μέρος %s"
 
 #: eeschema/libeditframe.cpp:724
 msgid "No part to save."
@@ -6449,28 +6429,27 @@ msgid "Delete item"
 msgstr "Διαγραφή αντικειμένου"
 
 #: eeschema/libfield.cpp:57
-#, fuzzy
 msgid "Component Name"
-msgstr "Δεν υπάρχει όνομα υλικού!"
+msgstr "Όνομα Εξαρτήματος"
 
 #: eeschema/libfield.cpp:58
 msgid "Enter a name to create a new component based on this one."
-msgstr ""
+msgstr "Δώστε ένα όνομα για να δημιουργηθεί ένα νέο "
 
 #: eeschema/libfield.cpp:62
-#, fuzzy, c-format
+#, c-format
 msgid "Edit Field %s"
-msgstr "Επεξεργασία πεδίου"
+msgstr "Επεξεργασία Πεδίου %s"
 
 #: eeschema/libfield.cpp:63
 #, c-format
 msgid "Enter a new value for the %s field."
-msgstr ""
+msgstr "Δώστε μία νέα τιμή για το πεδίο %s."
 
 #: eeschema/libfield.cpp:79
-#, fuzzy, c-format
+#, c-format
 msgid "A %s field cannot be empty."
-msgstr " το πεδίο δεν μπορεί να είναι κενό."
+msgstr "Ένα πεδίο %s δεν μπορεί να είναι κενό."
 
 #: eeschema/libfield.cpp:88
 msgid "Illegal reference. A reference must start by a letter"
@@ -7837,6 +7816,9 @@ msgid ""
 "'%s'\n"
 "before closing?"
 msgstr ""
+"Αποθήκευση αλλαγών στο\n"
+"'%s'\n"
+"πριν το κλείσιμο;"
 
 #: eeschema/schframe.cpp:766
 msgid "Draw wires and buses in any direction"
@@ -8146,7 +8128,7 @@ msgstr "Επεξεργαστής Αποτυπωμάτων"
 
 #: eeschema/tool_sch.cpp:170
 msgid "Run CvPcb to associate components and footprints"
-msgstr ""
+msgstr "Εκτέλεση CvPcb για συσχετισμό εξαρτημάτων με αποτυπώματα"
 
 #: eeschema/tool_sch.cpp:174
 msgid "Run Pcbnew to layout printed circuit board"
@@ -8174,20 +8156,17 @@ msgstr "Οριζόντιος Κάθετος προσανατολισμός γι�
 
 #: eeschema/tool_viewlib.cpp:59 pcbnew/tool_modview.cpp:58
 msgid "Select library to browse"
-msgstr "Επιλέξτε τη βιβλιοθήκη στην οποία θέλετε να πλοηγηθείτε"
+msgstr "Επιλέξτε βιβλιοθήκη για πλοήγηση"
 
 #: eeschema/tool_viewlib.cpp:63
-#, fuzzy
 msgid "Select component to browse"
-msgstr "Επιλέξτε ένα εξάρτημα για πλοήγηση"
+msgstr "Επιλέξτε εξάρτημα για προβολή"
 
 #: eeschema/tool_viewlib.cpp:68
-#, fuzzy
 msgid "Display previous component"
 msgstr "Εμφάνιση του προηγούμενου εξαρτήματος"
 
 #: eeschema/tool_viewlib.cpp:72
-#, fuzzy
 msgid "Display next component"
 msgstr "Εμφάνιση του επόμενου εξαρτήματος"
 
@@ -8205,14 +8184,12 @@ msgid "Unit %c"
 msgstr "Μονάδα %c"
 
 #: eeschema/tool_viewlib.cpp:211 pcbnew/tool_modview.cpp:144
-#, fuzzy
 msgid "Set Current Library"
-msgstr "Αποθήκευση της τρέχουσας βιβλιοθήκης &ως"
+msgstr "Ορισμός Τρέχουσας Βιβλιοθήκης"
 
 #: eeschema/tool_viewlib.cpp:212 pcbnew/tool_modview.cpp:145
-#, fuzzy
 msgid "Select library to be displayed"
-msgstr "Επιλέξτε τη βιβλιοθήκη στην οποία θέλετε να πλοηγηθείτε"
+msgstr "Επιλογή βιβλιοθήκης προς προβολή"
 
 #: eeschema/tool_viewlib.cpp:218 pcbnew/menubar_modedit.cpp:150
 #: pcbnew/tool_modview.cpp:150
@@ -8220,9 +8197,8 @@ msgid "Cl&ose"
 msgstr "Κλείσιμο"
 
 #: eeschema/tool_viewlib.cpp:219
-#, fuzzy
 msgid "Close schematic component viewer"
-msgstr "Παρακαλούμε επιλέξτε μια βιβλιοθήκη υλικού."
+msgstr "Κλείσιμο προβολέα εξαρτημάτων"
 
 #: eeschema/viewlib_frame.cpp:99 eeschema/viewlibs.cpp:134
 #: pcbnew/modview_frame.cpp:707
@@ -8267,14 +8243,14 @@ msgid "Layer %d (%s, %s, %s)"
 msgstr "Επίπεδο %d (%s, %s, %s)"
 
 #: gerbview/class_GERBER.cpp:476
-#, fuzzy, c-format
+#, c-format
 msgid "Layer %d (%s, %s)"
-msgstr "Επίπεδο %d"
+msgstr "Επίπεδο %d (%s, %s)"
 
 #: gerbview/class_GERBER.cpp:482
-#, fuzzy, c-format
+#, c-format
 msgid "Layer %d *"
-msgstr "Επίπεδο %d"
+msgstr "Επίπεδο %d *"
 
 #: gerbview/class_GERBER.cpp:485 gerbview/select_layers_to_pcb.cpp:183
 #, c-format
@@ -8353,14 +8329,12 @@ msgid "Show All Layers"
 msgstr "Προβολή όλων των επιπέδων"
 
 #: gerbview/class_gerbview_layer_widget.cpp:155
-#, fuzzy
 msgid "Hide All Layers But Active"
-msgstr "Απόκρυψη όλων των επιπέδων"
+msgstr "Απόκρυψη Όλων των Επιπέδων Εκτός Ενεργού"
 
 #: gerbview/class_gerbview_layer_widget.cpp:158
-#, fuzzy
 msgid "Always Hide All Layers But Active"
-msgstr "Απόκρυψη όλων των επιπέδων"
+msgstr "Πάντα Απόκρυψη Όλων των Επιπέδων Εκτός Ενεργού"
 
 #: gerbview/class_gerbview_layer_widget.cpp:161
 msgid "Hide All Layers"
@@ -8375,9 +8349,8 @@ msgid "Layers selection:"
 msgstr "Επιλογή επιπέδων:"
 
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:56
-#, fuzzy
 msgid "Copper layers count:"
-msgstr "Επίπεδα χαλκού:"
+msgstr "Αριθμός επιπέδων χαλκού:"
 
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:60
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:61
@@ -8414,11 +8387,11 @@ msgstr "16 Επίπεδα"
 
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:80
 msgid "Store Choice"
-msgstr ""
+msgstr "Αποθήκευση Επιλογής"
 
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:83
 msgid "Get Stored Choice"
-msgstr ""
+msgstr "Λήψη Αποθηκευμένης Επιλογής"
 
 #: gerbview/dialogs/dialog_print_using_printer.cpp:107
 #: pcbnew/dialogs/dialog_print_for_modedit.cpp:87
@@ -10952,14 +10925,12 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:470
 #: pcbnew/dialogs/dialog_keepout_area_properties.cpp:223
-#, fuzzy
 msgid "No layer selected."
-msgstr "Δεν επιλέχθηκε επίπεδο"
+msgstr "Δεν επιλέχθηκε επίπεδο."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:481
-#, fuzzy
 msgid "No net selected."
-msgstr "Το δίκτυο δεν επιλέχτηκε"
+msgstr "Δεν επιλέχθηκε δίκτυο."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:488
 msgid ""
@@ -20680,9 +20651,8 @@ msgid "Annotate Schematic"
 msgstr "Σχολιασμός Σχηματικού"
 
 #: eeschema/dialogs/dialog_bom_base.h:93
-#, fuzzy
 msgid "Bill of Material"
-msgstr "Πίνακας υλικών"
+msgstr "Λίστα Υλικών"
 
 #: eeschema/dialogs/dialog_color_config_base.h:52
 msgid "EESchema Colors"
@@ -20698,9 +20668,8 @@ msgid "Text Editor"
 msgstr "Επεξεργαστής κειμένου"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.h:87
-#, fuzzy
 msgid "Field Properties"
-msgstr "Ιδιότητες πεδίων"
+msgstr "Ιδιότητες Πεδίου"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.h:139
 msgid "Schematic Editor Options"
@@ -20723,9 +20692,8 @@ msgid "Pin Table"
 msgstr "Πίνακας Ακροδεκτών"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.h:69
-#, fuzzy
 msgid "Library Text Properties"
-msgstr "Ιδιότητες βιβλιοθήκης υλικού"
+msgstr "Ιδιότητες Κειμένου Βιβλιοθήκης"
 
 #: eeschema/dialogs/dialog_libedit_options_base.h:80
 msgid "Library Editor Options"
@@ -20737,9 +20705,8 @@ msgid "Netlist"
 msgstr "Λίστα δικτύων"
 
 #: eeschema/dialogs/dialog_netlist_base.h:119
-#, fuzzy
 msgid "Plugins:"
-msgstr "Αρχεία Πρόσθετων:"
+msgstr "Πρόσθετα:"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.h:86
 msgid "Plot Schematic"
@@ -20750,9 +20717,8 @@ msgid "Project Rescue Helper"
 msgstr "Βοήθεια Διάσωσης Έργου"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.h:56
-#, fuzzy
 msgid "Sheet Pin Properties"
-msgstr "Ιδιότητες ακροδέκτη"
+msgstr "Ιδιότητες Ακροδέκτη Φύλλου"
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.h:60
 msgid "Schematic Sheet Properties"
