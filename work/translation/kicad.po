@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-10 18:29+0200\n"
+"PO-Revision-Date: 2015-09-11 12:12+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -1094,11 +1094,11 @@ msgstr "Η κλίμακα είναι πολύ μεγάλη για αυτή τη�
 
 #: common/dialogs/dialog_image_editor_base.cpp:33
 msgid "Mirror X"
-msgstr "Κάτοπτρο X"
+msgstr "Κατοπτρισμός X"
 
 #: common/dialogs/dialog_image_editor_base.cpp:36
 msgid "Mirror Y"
-msgstr "Κάτοπτρο Y"
+msgstr "Κατοπτρισμός Y"
 
 #: common/dialogs/dialog_image_editor_base.cpp:39
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:174
@@ -2726,7 +2726,7 @@ msgstr "Πρόβλημα σύγκρουσης μεταξύ ακροδεκτών.
 
 #: eeschema/class_drc_erc_item.cpp:52
 msgid "Mismatch between hierarchical labels and pins sheets"
-msgstr ""
+msgstr "Αναντιστοιχία μεταξύ ιεραρχικών ετικετών και ακροδεκτών φύλλων"
 
 #: eeschema/class_drc_erc_item.cpp:54
 msgid "A no connect symbol is connected to more than 1 pin"
@@ -3637,11 +3637,11 @@ msgstr "Επιλέξτε αν το εξάρτημα πρέπει να περισ
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:56
 msgid "Mirror ---"
-msgstr "Κάτοπτρο ---"
+msgstr "Κατοπτρισμός Χ"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:56
 msgid "Mirror |"
-msgstr "Κάτοπτρο |"
+msgstr "Κατοπτρισμός Υ"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:58
 #: gerbview/class_gerber_draw_item.cpp:574
@@ -4979,7 +4979,7 @@ msgstr "Ασπρόμαυρο"
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:109
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:21
 msgid "Mode"
-msgstr ""
+msgstr "Κατάσταση"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:111
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:77
@@ -6290,11 +6290,11 @@ msgstr "Αντιγραφή μπλοκ"
 
 #: eeschema/libedit_onrightclick.cpp:340 eeschema/onrightclick.cpp:849
 msgid "Mirror Block ||"
-msgstr "Μπλοκ κατόπτρου ||"
+msgstr "Κατοπτρισμός Μπλοκ Y"
 
 #: eeschema/libedit_onrightclick.cpp:342 eeschema/onrightclick.cpp:852
 msgid "Mirror Block --"
-msgstr "Μπλοκ κατόπτρου --"
+msgstr "Κατοπτρισμός Μπλοκ Χ"
 
 #: eeschema/libedit_onrightclick.cpp:344
 msgid "Rotate Block ccw"
@@ -6521,6 +6521,8 @@ msgid ""
 "Eeschema file dimension definition error line %d,\n"
 "Abort reading file.\n"
 msgstr ""
+"Σφάλμα στον ορισμό διαστάσεων του αρχείου Eeschema στη γραμμή %d,\n"
+"Ματαιώθηκε η ανάγνωση του αρχείου.\n"
 
 #: eeschema/menubar.cpp:69
 msgid "&New Schematic Project"
@@ -6529,6 +6531,8 @@ msgstr "Νέο Σχηματικό Έργο"
 #: eeschema/menubar.cpp:70
 msgid "Clear current schematic hierarchy and start a new schematic root sheet"
 msgstr ""
+"Καθαρισμός τρέχουσας ιεραρχίας σχηματικού και δημιουργία νέου ριζικού "
+"σχηματικού φύλλου"
 
 #: eeschema/menubar.cpp:73
 msgid "&Open Schematic Project"
@@ -7011,7 +7015,7 @@ msgstr "Εκτέλεση εντολής:"
 #: eeschema/netform.cpp:117
 #, c-format
 msgid "Command error. Return code %d"
-msgstr ""
+msgstr "Σφάλμα εντολής. Κωδικός επιστροφής %d"
 
 #: eeschema/netform.cpp:120
 msgid "Success"
@@ -7030,6 +7034,8 @@ msgid ""
 "Exporting the netlist requires a completely\n"
 "annotated schematic."
 msgstr ""
+"Η εξαγωγή λίστας δικτύων ένα πλήρως \n"
+"σχολιασμένο σχηματικό."
 
 #: eeschema/netlist.cpp:78
 msgid "Error: duplicate sheet names. Continue?"
@@ -7037,7 +7043,7 @@ msgstr "Σφάλμα: διπλά ονόματα φύλλων. Συνέχεια;"
 
 #: eeschema/netlist.cpp:172
 msgid "No Objects"
-msgstr ""
+msgstr "Κανένα Αντικείμενο"
 
 #: eeschema/netlist.cpp:176
 #, c-format
@@ -7136,12 +7142,12 @@ msgstr "Περιστροφή Αριστερόστροφα"
 #: eeschema/onrightclick.cpp:377 eeschema/onrightclick.cpp:769
 #: eeschema/onrightclick.cpp:889
 msgid "Mirror --"
-msgstr "Κάτοπτρο --"
+msgstr "Κατοπτρισμός Χ"
 
 #: eeschema/onrightclick.cpp:379 eeschema/onrightclick.cpp:771
 #: eeschema/onrightclick.cpp:892
 msgid "Mirror ||"
-msgstr "Κάτοπτρο ||"
+msgstr "Κατοπτρισμός Υ"
 
 #: eeschema/onrightclick.cpp:384
 msgid "Orient Component"
@@ -7343,7 +7349,7 @@ msgstr "Περιστροφή Φύλλου Αριστερόστροφα"
 
 #: eeschema/onrightclick.cpp:775
 msgid "Orient Sheet"
-msgstr ""
+msgstr "Προσανατολισμός Φύλλου"
 
 #: eeschema/onrightclick.cpp:780
 msgid "Place Sheet"
@@ -7530,12 +7536,12 @@ msgstr "Μετάβαση Δίαυλου σε Δίαυλο"
 #: eeschema/sch_collectors.cpp:432
 #, c-format
 msgid "Child item %s of parent item %s found in sheet %s"
-msgstr ""
+msgstr "Αντικείμενο %s, απόγονος του %s, βρέθηκε στο φύλλο %s"
 
 #: eeschema/sch_collectors.cpp:439
 #, c-format
 msgid "Item %s found in sheet %s"
-msgstr ""
+msgstr "Το αντικείμενο %s βρέθηκε στο φύλλο %s"
 
 #: eeschema/sch_component.cpp:1518
 msgid "Power symbol"
@@ -7552,7 +7558,7 @@ msgstr "Βιβλιοθήκη"
 
 #: eeschema/sch_component.cpp:1534
 msgid "<Unknown>"
-msgstr ""
+msgstr "<Άγνωστο>"
 
 #: eeschema/sch_component.cpp:1540
 msgid "Key Words"
@@ -7579,7 +7585,7 @@ msgstr "Οριζ."
 #: eeschema/sch_line.cpp:476
 #, c-format
 msgid "%s Graphic Line from (%s,%s) to (%s,%s) "
-msgstr ""
+msgstr "%s Γραμμή Γραφικών από (%s,%s) έως (%s,%s) "
 
 #: eeschema/sch_line.cpp:480
 #, c-format
@@ -7594,7 +7600,7 @@ msgstr "%s Δίαυλος από (%s,%s) έως (%s,%s)"
 #: eeschema/sch_line.cpp:488
 #, c-format
 msgid "%s Line on Unknown Layer from (%s,%s) to (%s,%s)"
-msgstr ""
+msgstr "%s Γραμμή σε Άγνωστο Επίπεδο από (%s,%s) έως (%s,%s)"
 
 #: eeschema/sch_marker.cpp:142
 msgid "Electronics Rule Check Error"
@@ -7809,7 +7815,7 @@ msgstr "Νέο Σχηματικό"
 #: eeschema/schframe.cpp:934
 #, c-format
 msgid "Schematic file '%s' already exists, use Open instead"
-msgstr ""
+msgstr "Το σχηματικό αρχείο '%s' υπάρχει ήδη, χρησιμοποιήστε Άνοιγμα"
 
 #: eeschema/schframe.cpp:954
 msgid "Open Schematic"
@@ -7842,7 +7848,7 @@ msgstr "Μη έγκυρο όνομα αρχείου!"
 #: eeschema/sheet.cpp:93
 #, c-format
 msgid "A sheet named \"%s\" already exists."
-msgstr ""
+msgstr "Υπάρχει ήδη ένα φύλλο με το όνομα \"%s\"."
 
 #: eeschema/sheet.cpp:126
 #, c-format
@@ -7852,7 +7858,7 @@ msgstr "Υπάρχει ήδη αρχείο με όνομα '%s' στην τρέ�
 #: eeschema/sheet.cpp:131
 #, c-format
 msgid "A file named '%s' already exists."
-msgstr ""
+msgstr "Υπάρχει ήδη ένα αρχείο με το όνομα '%s'."
 
 #: eeschema/sheet.cpp:134
 msgid ""
@@ -7860,10 +7866,13 @@ msgid ""
 "\n"
 "Do you want to create a sheet with the contents of this file?"
 msgstr ""
+"\n"
+"\n"
+"Δημιουργία φύλλου με τα περιεχόμενα αυτού του αρχείου;"
 
 #: eeschema/sheet.cpp:161
 msgid "Changing the sheet file name cannot be undone.  "
-msgstr ""
+msgstr "Η αλλαγή ονόματος του αρχείου σχηματικού δεν μπορεί να αναιρεθεί."
 
 #: eeschema/sheet.cpp:169
 #, c-format
@@ -7881,12 +7890,17 @@ msgid ""
 "\n"
 "Do you want to replace the sheet with the contents of this file?"
 msgstr ""
+"\n"
+"\n"
+"Αντικατάσταση του φύλλου με τα περιεχόμενα αυτού του αρχείου;"
 
 #: eeschema/sheet.cpp:191
 msgid ""
 "This sheet uses shared data in a complex hierarchy.\n"
 "\n"
 msgstr ""
+"Αυτό το φύλλο χρησιμοποιεί κοινόχρηστα δεδομένα σε μία σύνθετη ιεραρχία.\n"
+"\n"
 
 #: eeschema/sheet.cpp:192
 msgid "Do you wish to convert it to a simple hierarchical sheet?"
@@ -15253,7 +15267,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:70 pcbnew/muonde.cpp:812
 msgid "Mirrored"
-msgstr "Κατοπτρικό"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:88
 #, fuzzy
@@ -17443,7 +17457,7 @@ msgstr "Προσθήκη έδρας"
 #: pcbnew/menubar_modedit.cpp:282 pcbnew/menubar_pcbframe.cpp:411
 #: pcbnew/tool_modedit.cpp:170 pcbnew/tool_pcb.cpp:454
 msgid "Add graphic line or polygon"
-msgstr "Προσθήκη γραμμής ή πολυγώνου γραφικών"
+msgstr "Προσθήκη γραμμής γραφικών ή πολυγώνου γραφικών"
 
 #: pcbnew/menubar_modedit.cpp:292
 #, fuzzy
