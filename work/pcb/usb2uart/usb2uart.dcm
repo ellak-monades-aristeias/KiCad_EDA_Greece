@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CP2104
+D CP2104 - USB to UART converter
+F datasheets/cp2104.pdf
+$ENDCMP
+#
+$CMP bLED
+D bicolor LED
+K LED
+$ENDCMP
+#
+#End Doc Library

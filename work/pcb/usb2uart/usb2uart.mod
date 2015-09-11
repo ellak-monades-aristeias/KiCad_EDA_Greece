@@ -1,0 +1,284 @@
+PCBNEW-LibModule-V1  Wed 30 Apr 2014 04:56:42 PM EEST
+# encoding utf-8
+Units mm
+$INDEX
+bled_0603
+qfn24
+$EndINDEX
+$MODULE bled_0603
+Po 0 0 0 15 5360DD5E 00000000 ~~
+Li bled_0603
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.4 1 1 0 0.15 N V 21 N "bled_0603"
+T1 0 1.5 1 1 0 0.15 N V 21 N "VAL**"
+DS 0.3 -0.4 0.3 0.4 0.15 21
+DS -0.2 0.4 -0.2 -0.4 0.15 21
+DS -0.2 -0.4 0.3 0 0.15 21
+DS 0.3 0 -0.2 0.4 0.15 21
+DS -0.8 -0.4 0.8 -0.4 0.15 21
+DS 0.8 -0.4 0.8 0.4 0.15 21
+DS 0.8 0.4 -0.8 0.4 0.15 21
+DS -0.8 0.4 -0.8 -0.4 0.15 21
+$PAD
+Sh "1" R 0.7 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -0.35
+$EndPAD
+$PAD
+Sh "2" R 0.7 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 0.35
+$EndPAD
+$PAD
+Sh "3" R 0.7 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 -0.35
+$EndPAD
+$PAD
+Sh "4" R 0.7 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 0.35
+$EndPAD
+$SHAPE3D
+Na "contrib/walter/smd_leds/led_0603.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE bled_0603
+$MODULE qfn24
+Po 0 0 0 15 53610118 00000000 ~~
+Li qfn24
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.06
+At SMD
+T0 0 3.25 1 1 0 0.15 N V 21 N "qfn24"
+T1 0 -3.25 1 1 0 0.15 N V 21 N "VAL**"
+DS -2 -1 -1 -2 0.15 21
+DS -2 -2 2 -2 0.15 21
+DS 2 -2 2 2 0.15 21
+DS 2 2 -2 2 0.15 21
+DS -2 2 -2 -2 0.15 21
+$PAD
+Sh "1" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -1.25
+$EndPAD
+$PAD
+Sh "2" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -0.75
+$EndPAD
+$PAD
+Sh "3" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -0.25
+$EndPAD
+$PAD
+Sh "4" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0.25
+$EndPAD
+$PAD
+Sh "5" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0.75
+$EndPAD
+$PAD
+Sh "6" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 1.25
+$EndPAD
+$PAD
+Sh "7" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 2
+$EndPAD
+$PAD
+Sh "8" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 2
+$EndPAD
+$PAD
+Sh "9" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 2
+$EndPAD
+$PAD
+Sh "10" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 2
+$EndPAD
+$PAD
+Sh "11" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 2
+$EndPAD
+$PAD
+Sh "12" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 2
+$EndPAD
+$PAD
+Sh "13" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 1.25
+$EndPAD
+$PAD
+Sh "14" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 0.75
+$EndPAD
+$PAD
+Sh "15" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 0.25
+$EndPAD
+$PAD
+Sh "16" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -0.25
+$EndPAD
+$PAD
+Sh "17" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -0.75
+$EndPAD
+$PAD
+Sh "18" R 0.7 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -1.25
+$EndPAD
+$PAD
+Sh "19" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -2
+$EndPAD
+$PAD
+Sh "20" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -2
+$EndPAD
+$PAD
+Sh "21" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -2
+$EndPAD
+$PAD
+Sh "22" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -2
+$EndPAD
+$PAD
+Sh "23" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -2
+$EndPAD
+$PAD
+Sh "24" R 0.7 0.25 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -2
+$EndPAD
+$PAD
+Sh "25" R 2.75 2.75 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" R 1.1 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -0.65 -0.65
+$EndPAD
+$PAD
+Sh "" R 1.1 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 0.65 -0.65
+$EndPAD
+$PAD
+Sh "" R 1.1 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po 0.65 0.65
+$EndPAD
+$PAD
+Sh "" R 1.1 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00080000
+Ne 0 ""
+Po -0.65 0.65
+$EndPAD
+$SHAPE3D
+Na "contrib/walter/smd_qfn/qfn-24.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 90
+$EndSHAPE3D
+$EndMODULE qfn24
+$EndLIBRARY
