@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-11 12:12+0200\n"
+"PO-Revision-Date: 2015-09-14 10:27+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -2136,9 +2136,8 @@ msgid "Zoom auto (Home)"
 msgstr "Αυτόματη μεγέθυνση (Home)"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:238
-#, fuzzy
 msgid "3D Display (Alt+3)"
-msgstr "Εμφάνιση 3D"
+msgstr "Προβολή 3Δ (Alt+3)"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:250
 msgid "Show texts in filled mode"
@@ -2172,9 +2171,9 @@ msgid "Footprint: %s"
 msgstr "Αποτύπωμα: %s"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:500
-#, fuzzy, c-format
+#, c-format
 msgid "Lib: %s"
-msgstr "Βιβλιοθήκη: "
+msgstr "Βιβλιοθήκη: %s"
 
 #: cvpcb/cvframe.cpp:246
 #, fuzzy
@@ -2306,14 +2305,12 @@ msgid ""
 msgstr ""
 
 #: cvpcb/cvpcb.cpp:184 pcbnew/pcbnew.cpp:339
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "An error occurred attempting to load the global footprint library table:\n"
 "\n"
 "%s"
 msgstr ""
-"Συνέβη ένα σφάλμα κατά την προσπάθεια αποθήκευσης της βιβλιοθήκης υλικού <"
-"%s>."
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:99
 msgid "No editor defined in Kicad. Please chose it"
@@ -2329,9 +2326,8 @@ msgid "File '%s' already exists in list"
 msgstr "Το αρχείο '%s' υπάρχει ήδη στη λίστα"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:20
-#, fuzzy
 msgid "Footprint/Component equ files (.equ files)"
-msgstr "Αρχεία υλικών (."
+msgstr "Αρχεία equ Αποτυπώματος/Εξαρτήματος (αρχεία .equ)"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:39
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:48
@@ -2361,7 +2357,7 @@ msgstr "Επεξεργασία Αρχείου Equ"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:65
 msgid "Available environment variables for relative paths:"
-msgstr ""
+msgstr "Διαθέσιμες μεταβλητές περιβάλλοντος για σχετικές διαδρομές:"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:83
 #: eeschema/dialogs/dialog_color_config.cpp:79
@@ -2445,7 +2441,6 @@ msgid "Limit panning to scroll size"
 msgstr ""
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:37
-#, fuzzy
 msgid "Ref"
 msgstr "Παραπομπή"
 
@@ -2455,14 +2450,12 @@ msgid "Schematic assignment"
 msgstr "Μέγεθος σχήματος"
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:41
-#, fuzzy
 msgid "Cmp file assignment"
-msgstr "Μεταγλώττιση της υπερσύνδεσης...\n"
+msgstr "Αντιστοίχηση αρχείου cmp"
 
 #: cvpcb/menubar.cpp:69
-#, fuzzy
 msgid "&Save Edits\tCtrl+S"
-msgstr "&Αποθήκευση\tCtrl+S"
+msgstr "Αποθήκευση Αλλαγών\tCtrl+S"
 
 #: cvpcb/menubar.cpp:76 eeschema/dialogs/dialog_erc_base.cpp:110
 #: eeschema/menubar.cpp:170 gerbview/menubar.cpp:145 kicad/menubar.cpp:279
@@ -2471,20 +2464,17 @@ msgid "&Close"
 msgstr "&Κλείσιμο"
 
 #: cvpcb/menubar.cpp:76
-#, fuzzy
 msgid "Close CvPcb"
-msgstr "Κλείσιμο"
+msgstr "Κλείσιμο CvPcb"
 
 #: cvpcb/menubar.cpp:83
-#, fuzzy
 msgid "Footprint Li&braries"
-msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
+msgstr "Βιβλιοθήκες Αποτυπωμάτων"
 
 #: cvpcb/menubar.cpp:83 pcbnew/menubar_modedit.cpp:312
 #: pcbnew/menubar_pcbframe.cpp:487
-#, fuzzy
 msgid "Configure footprint libraries"
-msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
+msgstr "Ρυθμίσεις βιβλιοθηκών αποτυπωμάτων"
 
 #: cvpcb/menubar.cpp:89 kicad/menubar.cpp:306 pcbnew/menubar_modedit.cpp:318
 #: pcbnew/menubar_pcbframe.cpp:493
@@ -2498,31 +2488,30 @@ msgstr "Επεξεργασία μεταβλητών περιβάλλοντος �
 
 #: cvpcb/menubar.cpp:94
 msgid "Edit &Equ Files List"
-msgstr ""
+msgstr "Επεξεργασία Λίστας Αρχείων Equ"
 
 #: cvpcb/menubar.cpp:95
 msgid ""
 "Setup equ files list (.equ files)\n"
 "They are files which give the footprint name from the component value"
 msgstr ""
+"Ρύθμιση λίστα αρχείων equ (αρχεία .equ)\n"
+"Είναι αρχεία που αποδίδουν όνομα αποτυπώματος από την τιμή του εξαρτήματος"
 
 #: cvpcb/menubar.cpp:104
-#, fuzzy
 msgid "&Keep Open On Save"
-msgstr "Να παραμείνει ανοιχτό στην αποθήκευση"
+msgstr "Να Παραμείνει Ανοιχτό στην Αποθήκευση"
 
 #: cvpcb/menubar.cpp:105
-#, fuzzy
 msgid "Prevent CvPcb from exiting after saving netlist file"
 msgstr ""
-"Αποτροπή κλεισίματος του CVPcb μετά την αποθήκευση του αρχείου λίστας δικτύων"
+"Αποτροπή κλεισίματος του CvPcb μετά την αποθήκευση του αρχείου λίστας δικτύων"
 
 #: cvpcb/menubar.cpp:113
 msgid "&Save Project File"
 msgstr "&Αποθήκευση Αρχείου Έργου"
 
 #: cvpcb/menubar.cpp:114
-#, fuzzy
 msgid "Save changes to the project configuration file"
 msgstr "Αποθήκευση των αλλαγών στο αρχείο έργου"
 
@@ -2531,18 +2520,16 @@ msgid "&CvPcb Manual"
 msgstr "Εγχειρίδιο CvPcb "
 
 #: cvpcb/menubar.cpp:125
-#, fuzzy
 msgid "Open CvPcb manual"
-msgstr "Άνοιγμα του εγχειριδίου του cvpcb"
+msgstr "Άνοιγμα του εγχειριδίου του CvPcb"
 
 #: cvpcb/menubar.cpp:130
 msgid "&About CvPcb"
-msgstr "&Περί του %s"
+msgstr "&Περί του CvPcb"
 
 #: cvpcb/menubar.cpp:131
-#, fuzzy
 msgid "About CvPcb footprint selector"
-msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
+msgstr "&Περί του επιλογέα αποτυπωμάτων CvPcb"
 
 #: cvpcb/menubar.cpp:137 eeschema/menubar.cpp:515
 #: eeschema/menubar_libedit.cpp:288 eeschema/tool_viewlib.cpp:270
@@ -2559,38 +2546,39 @@ msgid ""
 "required FPID format? (If you answer no, then these assignments will be "
 "cleared out and you will have to re-assign these footprints yourself.)"
 msgstr ""
+"Μερικά από τα αποτυπώματα που έχουν αντιστοιχιστεί είναι παλαιότερου τύπου "
+"(λείπουν τα ψευδώνυμα βιβλιοθήκης). Να γίνει προσπάθεια μετατροπής από το "
+"CvPcb στη νέα απαιτούμενη μορφή FPID; (Αν όχι, τότε αυτές οι αντιστοιχίσεις "
+"θα σβηστούν και θα πρέπει να ξανά-αντιστοιχίσετε χειρωνακτικά  αυτά τα "
+"αποτυπώματα.)"
 
 #: cvpcb/readwrite_dlgs.cpp:229
-#, fuzzy, c-format
+#, c-format
 msgid "Component '%s' footprint '%s' was <b>not found</b> in any library.\n"
-msgstr ""
-"Υλικό %s: δεν βρέθηκε το αποτύπωμα %s σε καμία από τις βιβλιοθήκες "
-"αποτυπωμάτων της εργασίας."
+msgstr "Εξάρτημα %s: <b>δεν βρέθηκε</b> το αποτύπωμα %s σε καμία βιβλιοθήκη.\n"
 
 #: cvpcb/readwrite_dlgs.cpp:237
-#, fuzzy, c-format
+#, c-format
 msgid "Component '%s' footprint '%s' was found in <b>multiple</b> libraries.\n"
-msgstr ""
-"Υλικό %s: δεν βρέθηκε το αποτύπωμα %s σε καμία από τις βιβλιοθήκες "
-"αποτυπωμάτων της εργασίας."
+msgstr "Εξάρτημα %s:Tο αποτύπωμα %s βρέθηκε σε <b>πολλές</b> βιβλιοθήκες.\n"
 
 #: cvpcb/readwrite_dlgs.cpp:250
-#, fuzzy
 msgid "First check your footprint library table entries."
-msgstr "Αρχειοθέτηση ή προσθήκη αποτυπωμάτων σε ένα αρχείο βιβλιοθήκης"
+msgstr "Ελέγξτε τις καταχωρίσεις στον κατάλογο της βιβλιοθήκης εξαρτημάτων."
 
 #: cvpcb/readwrite_dlgs.cpp:252
-#, fuzzy
 msgid "Problematic Footprint Library Tables"
-msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
+msgstr "Προβληματικός κατάλογος βιβλιοθήκης εξαρτημάτων"
 
 #: cvpcb/readwrite_dlgs.cpp:260
-#, fuzzy
 msgid ""
 "The following errors occurred attempting to convert the footprint "
 "assignments:\n"
 "\n"
-msgstr "Συνέβη ένα σφάλμα κατά την προσπάθεια εκτύπωσης του σχήματος."
+msgstr ""
+"Συνέβησαν τα παρακάτω σφάλματα κατά τη μετατροπή των αντιστοιχήσεων "
+"αποτυπωμάτων:\n"
+"\n"
 
 #: cvpcb/readwrite_dlgs.cpp:263
 msgid ""
@@ -2598,29 +2586,29 @@ msgid ""
 "You will need to reassign them manually if you want them to be updated "
 "correctly the next time you import the netlist in Pcbnew."
 msgstr ""
+"\n"
+" Θα πρέπει να τα ξανά-αντιστοιχίσετε χειρωνακτικά αν θέλετε να ενημερωθούν "
+"σωστά την επόμενη φορά που θα εισάγετε τη λίστα δικτύων στο Pcbnew."
 
 #: cvpcb/readwrite_dlgs.cpp:379
 msgid "Edits sent to Eeschema"
-msgstr ""
+msgstr "Οι αλλαγές στάλθηκαν στο Eeschema"
 
 #: cvpcb/tool_cvpcb.cpp:57
-#, fuzzy
 msgid "Edit footprint library table"
-msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
+msgstr "Επεξεργασία πίνακα βιβλιοθήκης εξαρτημάτων"
 
 #: cvpcb/tool_cvpcb.cpp:62
 msgid "View selected footprint"
 msgstr "Προβολή επιλεγμένου αποτυπώματος"
 
 #: cvpcb/tool_cvpcb.cpp:67
-#, fuzzy
 msgid "Select previous unlinked component"
-msgstr "Επιλογή του προηγούμενου ελεύθερου υλικού"
+msgstr "Επιλογή του προηγούμενου ελεύθερου εξαρτήματος"
 
 #: cvpcb/tool_cvpcb.cpp:71
-#, fuzzy
 msgid "Select next unlinked component"
-msgstr "Επιλογή του επόμενου ελεύθερου υλικού"
+msgstr "Επιλογή του επόμενου ελεύθερου εξαρτήματος"
 
 #: cvpcb/tool_cvpcb.cpp:76
 msgid "Perform automatic footprint association"
