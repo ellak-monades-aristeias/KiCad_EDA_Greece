@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-14 10:27+0200\n"
+"PO-Revision-Date: 2015-09-14 16:40+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -73,7 +73,7 @@ msgstr "Μετακίνηση επάνω ^"
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:151
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:72
 msgid "Move Down"
-msgstr "Μετακίνηση κάτω v"
+msgstr "Μετακίνηση Κάτω"
 
 #: 3d-viewer/3d_canvas.cpp:518
 #, c-format
@@ -2049,9 +2049,9 @@ msgid "Equ files Load Error"
 msgstr "Σφάλμα Φόρτωσης αρχείων equ"
 
 #: cvpcb/autosel.cpp:187
-#, fuzzy, c-format
+#, c-format
 msgid "%d footprint/cmp equivalences found."
-msgstr "Βρέθηκαν %d ψευδώνυμα αποτυπωμάτων."
+msgstr "Βρέθηκαν %d αντιστοιχίσεις αποτυπώματος/εξαρτήματος"
 
 #: cvpcb/autosel.cpp:253
 #, c-format
@@ -2176,27 +2176,28 @@ msgid "Lib: %s"
 msgstr "Βιβλιοθήκη: %s"
 
 #: cvpcb/cvframe.cpp:246
-#, fuzzy
 msgid ""
 "Component to Footprint links modified.\n"
 "Save before exit ?"
 msgstr ""
-"Έχει γίνει τροποποίηση στις λίστες δικτύων και υλικών.\n"
-"Να γίνε αποθήκευση πριν την έξοδο ;"
+"Υπάρχουν αλλαγές στις συσχετίσεις Εξαρτημάτων με Αποτυπώματα.\n"
+"Αποθήκευση πριν την έξοδο;"
 
 #: cvpcb/cvframe.cpp:373
 msgid "Delete selections"
 msgstr "Διαγραφή επιλεγμένων"
 
 #: cvpcb/cvframe.cpp:453
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error occurred saving the global footprint library table:\n"
 "'%s'\n"
 "%s"
 msgstr ""
-"Συνέβη ένα σφάλμα κατά την προσπάθεια αποθήκευσης της βιβλιοθήκης υλικού <"
-"%s>."
+"Σφάλμα κατά την αποθήκευση του καθολικού καταλόγου βιβλιοθήκης "
+"αποτυπωμάτων:\n"
+"'%s'\n"
+"%s"
 
 #: cvpcb/cvframe.cpp:457 cvpcb/cvframe.cpp:477 pcbnew/moduleframe.cpp:862
 #: pcbnew/moduleframe.cpp:882 pcbnew/pcbnew_config.cpp:142
@@ -2205,19 +2206,21 @@ msgid "File Save Error"
 msgstr "Σφάλμα Αποθήκευσης Αρχείου"
 
 #: cvpcb/cvframe.cpp:473
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error occurred saving the project footprint library table:\n"
 "'%s'\n"
 "%s"
 msgstr ""
-"Συνέβη ένα σφάλμα κατά την προσπάθεια αποθήκευσης της βιβλιοθήκης υλικού <"
-"%s>."
+"Σφάλμα κατά την αποθήκευση του καταλόγου βιβλιοθήκης αποτυπωμάτων του "
+"έργου:\n"
+"'%s'\n"
+"%s"
 
 #: cvpcb/cvframe.cpp:605
-#, fuzzy, c-format
+#, c-format
 msgid "Components: %d, unassigned: %d"
-msgstr "Υλικά: %d (ελεύθερα: %d)"
+msgstr "Εξαρτήματα: %d, ελεύθερα: %d"
 
 #: cvpcb/cvframe.cpp:623
 msgid "Filter list: "
@@ -2250,13 +2253,14 @@ msgstr "Χωρίς φίλτρο"
 #: cvpcb/cvframe.cpp:671
 #, c-format
 msgid "Filtered by %s"
-msgstr ""
+msgstr "Φιλτράρισμα με βάση %s"
 
 #: cvpcb/cvframe.cpp:687
-#, fuzzy
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
-msgstr "Δεν βρέθηκαν βιβλιοθήκες αποτυπωμάτων PCB στο τρέχον αρχείο έργου."
+msgstr ""
+"Δεν βρέθηκαν βιβλιοθήκες αποτυπωμάτων PCB στον κατάλογο βιβλιοθήκης "
+"εξαρτημάτων"
 
 #: cvpcb/cvframe.cpp:688
 msgid "Configuration Error"
@@ -2547,7 +2551,7 @@ msgid ""
 "cleared out and you will have to re-assign these footprints yourself.)"
 msgstr ""
 "Μερικά από τα αποτυπώματα που έχουν αντιστοιχιστεί είναι παλαιότερου τύπου "
-"(λείπουν τα ψευδώνυμα βιβλιοθήκης). Να γίνει προσπάθεια μετατροπής από το "
+"(λείπουν οι συντμήσεις βιβλιοθήκης). Να γίνει προσπάθεια μετατροπής από το "
 "CvPcb στη νέα απαιτούμενη μορφή FPID; (Αν όχι, τότε αυτές οι αντιστοιχίσεις "
 "θα σβηστούν και θα πρέπει να ξανά-αντιστοιχίσετε χειρωνακτικά  αυτά τα "
 "αποτυπώματα.)"
@@ -3234,7 +3238,7 @@ msgstr "Ιδιότητες Βιβλιοθήκης Εξαρτημάτων"
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:81
 #, c-format
 msgid "Properties for %s (alias of %s)"
-msgstr "Ιδιότητες για %s (ψευδώνυμο του %s)"
+msgstr "Ιδιότητες για %s (συνώνυμο του %s)"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:86
 #, c-format
@@ -3250,30 +3254,30 @@ msgstr "Αριθμός Μερών (μέγιστο %d)"
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:375
 #, c-format
 msgid "Alias <%s> cannot be removed while it is being edited!"
-msgstr "Το ψευδώνυμο <%s> δεν μπορεί να αφαιρεθεί ενώ είναι σε επεξεργασία!"
+msgstr "Το συνώνυμο <%s> δεν μπορεί να αφαιρεθεί ενώ είναι σε επεξεργασία!"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:305
 msgid "Remove all aliases from list?"
-msgstr "Αφαίρεση όλων των ψευδωνύμων από τη λίστα;"
+msgstr "Αφαίρεση όλων των συνώνυμων από τη λίστα;"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:326
 msgid "New alias:"
-msgstr "Νέο ψευδώνυμο:"
+msgstr "Νέο συνώνυμο:"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:326
 msgid "Component Alias"
-msgstr "Ψευδώνυμο Εξαρτήματος"
+msgstr "Συνώνυμο Εξαρτήματος"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:340
 #, c-format
 msgid "Alias or component name <%s> already in use."
-msgstr "Το ψευδώνυμο ή το όνομα εξαρτήματος <%s> χρησιμοποιείται ήδη."
+msgstr "Το συνώνυμο ή το όνομα εξαρτήματος <%s> χρησιμοποιείται ήδη."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:349
 #, c-format
 msgid "Alias or component name <%s> already exists in library <%s>."
 msgstr ""
-"Το ψευδώνυμο ή το όνομα εξαρτήματος <%s> υπάρχει ήδη στη βιβλιοθήκη <%s>."
+"Το συνώνυμο ή το όνομα εξαρτήματος <%s> υπάρχει ήδη στη βιβλιοθήκη <%s>."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:406
 msgid "Delete extra parts from component?"
@@ -3454,7 +3458,7 @@ msgstr "Πλοήγηση σε αρχεία"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:171
 msgid "Alias List"
-msgstr "Λίστα Ψευδωνύμων"
+msgstr "Λίστα Συνώνυμων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:173
 msgid ""
@@ -3462,7 +3466,7 @@ msgid ""
 "It has its own documentation and keywords.\n"
 "A fast way to extend a library with similar components"
 msgstr ""
-"Ένα ψευδώνυμο είναι ένα εξάρτημα που χρησιμοποιεί το σώμα του αρχικού "
+"Ένα συνώνυμο είναι ένα εξάρτημα που χρησιμοποιεί το σώμα του αρχικού "
 "εξαρτήματός του.\n"
 "Έχει τη δική του τεκμηρίωση και τις δικές του λέξεις κλειδιά.\n"
 "Είναι ένας γρήγορος τρόπος να επεκτείνετε μια βιβλιοθήκη με παρόμοια "
@@ -3476,7 +3480,7 @@ msgstr "Διαγραφή όλων"
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:202
 #: eeschema/libedit.cpp:488 eeschema/viewlibs.cpp:307
 msgid "Alias"
-msgstr "Ψευδώνυμο"
+msgstr "Συνώνυμο"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:210
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:37
@@ -4006,7 +4010,7 @@ msgid ""
 "Cannot update this component"
 msgstr ""
 "Έχει εισαχθεί ένα νέο όνομα γι' αυτό το εξάρτημα\n"
-"Υπάρχει ήδη ένα ψευδώνυμο %s!\n"
+"Υπάρχει ήδη ένα συνώνυμο %s!\n"
 "Δεν ήταν δυνατή η ενημέρωση αυτού του εξαρτήματος"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:110
@@ -6434,7 +6438,7 @@ msgid ""
 "\n"
 "Do you wish to remove this alias from the component?"
 msgstr ""
-"Το τρέχον εξάρτημα έχει ήδη ένα ψευδώνυμο '%s'.\n"
+"Το τρέχον εξάρτημα έχει ήδη ένα συνώνυμο '%s'.\n"
 "\n"
 "Να αφαιρεθεί αυτό το ψευδώνυμο από το εξάρτημα;"
 
@@ -6446,7 +6450,7 @@ msgid ""
 "\n"
 "Do you wish to remove all of the conflicting aliases from this component?"
 msgstr ""
-"Το νέο εξάρτημα περιέχει ψευδώνυμα που συγκρούονται με καταχωρίσεις στη "
+"Το νέο εξάρτημα περιέχει συνώνυμα που συγκρούονται με καταχωρίσεις στη "
 "βιβλιοθήκη εξαρτημάτων '%s'.\n"
 "\n"
 "Θέλετε να αφαιρέσετε όλα τα προβληματικά ψευδώνυμα από αυτό το εξάρτημα;"
@@ -6820,7 +6824,7 @@ msgstr "Δημιουργία Λίστας Υλικών"
 
 #: eeschema/menubar.cpp:471
 msgid "A&ssign Component Footprint"
-msgstr "Απόδοση Αποτυπώματος Εξαρτήματος"
+msgstr "Αντιστοίχιση Αποτυπωμάτων με Εξαρτήματα"
 
 #: eeschema/menubar.cpp:472
 msgid "Run CvPcb"
@@ -7537,7 +7541,7 @@ msgstr "Σύμβολο ισχύος"
 
 #: eeschema/sch_component.cpp:1526
 msgid "Alias of"
-msgstr "Ψευδώνυμο του"
+msgstr "Συνώνυμο του"
 
 #: eeschema/sch_component.cpp:1528
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:185 pcbnew/loadcmp.cpp:437
@@ -12629,19 +12633,16 @@ msgid "Find Marker"
 msgstr "Εύρεση Σημαδιού"
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:204 pcbnew/librairi.cpp:790
-#, fuzzy
 msgid "Nickname"
-msgstr "ΌνομαNet"
+msgstr "Σύντμηση"
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:205
-#, fuzzy
 msgid "Library Path"
-msgstr "Βιβλιοθήκη"
+msgstr "Διαδρομή Βιβλιοθήκης"
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:208
-#, fuzzy
 msgid "Plugin Type"
-msgstr "Αρχεία Πρόσθετων:"
+msgstr "Τύπος Πρόσθετου"
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:432
 #, c-format
@@ -12663,68 +12664,58 @@ msgid "Please Delete or Modify One"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:20
-#, fuzzy
 msgid "Library Tables by Scope"
-msgstr "Η βιβλιοθήκη χρησιμοποιείται ήδη"
+msgstr "Κατάλογοι Βιβλιοθήκης ως προς Εμβέλεια"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:32
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:84
-#, fuzzy
 msgid "Table:"
-msgstr "Ενεργοποιημένο"
+msgstr "Κατάλογος:"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:36
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:88
-#, fuzzy
 msgid "Table Name"
-msgstr "Όνομα δικτύου"
+msgstr "Όνομα Καταλόγου"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:74
-#, fuzzy
 msgid "Global Libraries"
-msgstr "Ιδιότητες γενικών ετικετών"
+msgstr "Καθολικές Βιβλιοθήκες"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:126
 msgid "Project Specific Libraries"
-msgstr ""
+msgstr "Βιβλιοθήκες Σχετικές με Έργο"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:133
-#, fuzzy
 msgid "Append with Wizard"
-msgstr "&Προσθήκη πλακέτας"
+msgstr "Προσθήκη με Οδηγό"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:136
-#, fuzzy
 msgid "Append Library"
-msgstr "Νέα βιβλιοθήκη"
+msgstr "Προσθήκη Βιβλιοθήκης"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:137
 msgid "Add a PCB library row to this table"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:141
-#, fuzzy
 msgid "Remove Library"
-msgstr "Νέα βιβλιοθήκη"
+msgstr "Κατάργηση Βιβλιοθήκης"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:142
 msgid "Remove a PCB library from this library table"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:147
-#, fuzzy
 msgid "Move the currently selected row up one position"
-msgstr "Μετακίνηση επιλεγμένης κλάσης δικτύου επάνω κατά μία γραμμή"
+msgstr "Μετακίνηση επιλεγμένης σειράς επάνω κατά μία γραμμή"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:152
-#, fuzzy
 msgid "Move the currently selected row down one position"
-msgstr "Μετακίνηση επιλεγμένης κλάσης δικτύου επάνω κατά μία γραμμή"
+msgstr "Μετακίνηση επιλεγμένης σειράς κάτω κατά μία γραμμή"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:156
-#, fuzzy
 msgid "Options Editor"
-msgstr "Επιλογές"
+msgstr "Επεξεργαστής Επιλογών"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:157
 msgid "Zoom into the options table for current row"
@@ -12732,84 +12723,78 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:168
 msgid "Path Substitutions"
-msgstr ""
+msgstr "Αντικαταστάσεις Διαδρομών"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:186
 msgid "Environment Variable"
-msgstr ""
+msgstr "Μεταβλητή Περιβάλλοντος"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:187
-#, fuzzy
 msgid "Path Segment"
-msgstr "Σύρσιμο τμήματος"
+msgstr "Διαδρομή"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:199
 msgid "This is a read-only table which shows pertinent environment variables."
 msgstr ""
+"Αυτό είναι ένας μη εγγράψιμος κατάλογος ο οποίος δείχνει σχετικές μεταβλητές "
+"περιβάλλοντος"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options.cpp:35
 msgid ""
 "Select an <b>Option Choice</b> in the listbox above, and then click the "
 "<b>Append Selected Option</b> button."
 msgstr ""
+"Επιλέξτε μία <b>Επιλογή</b> από την παραπάνω λίστα και μετά κάντε κλικ στο "
+"κουμπί <b>Προσθήκη Επιλογής</b>."
 
 #: pcbnew/dialogs/dialog_fp_plugin_options.cpp:64
 #, c-format
 msgid "Options for Library '%s'"
-msgstr ""
+msgstr "Επιλογές για Βιβλιοθήκη '%s'"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:23
-#, fuzzy
 msgid "Plugin Options:"
-msgstr "Επιλογές PostScript:"
+msgstr "Επιλογές Πρόσθετου:"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:39
-#, fuzzy
 msgid "Option"
-msgstr "Επιλογές"
+msgstr "Επιλογή"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:57
-#, fuzzy
 msgid "Append"
-msgstr "&Προσθήκη πλακέτας"
+msgstr "Προσθήκη"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:58
 msgid "Append a blank row"
-msgstr ""
+msgstr "Προσθήκη κενής σειράς"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:63
-#, fuzzy
 msgid "Delete the selected row"
-msgstr "Διαγραφή επιλεγμένων"
+msgstr "Διαγραφή επιλεγμένης σειράς"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:68
-#, fuzzy
 msgid "Move the selected row up one position"
-msgstr ""
-"Μετακίνηση των επιλεγμένων προαιρετικών πεδίων κατά μια θέση προς τα επάνω"
+msgstr "Μετακίνηση της επιλεγμένης σειράς επάνω κατά μία θέση"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:73
-#, fuzzy
 msgid "Move the selected row down one position"
-msgstr ""
-"Μετακίνηση των επιλεγμένων προαιρετικών πεδίων κατά μια θέση προς τα επάνω"
+msgstr "Μετακίνηση της επιλεγμένης σειράς κάτω κατά μία θέση"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:90
-#, fuzzy
 msgid "Option Choices:"
-msgstr "Προτιμήσεις:"
+msgstr "Επιλογές:"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:94
 msgid "Options supported by current plugin"
-msgstr ""
+msgstr "Επιλογές που υποστηρίζονται από το τρέχον πρόσθετο"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:98
 msgid "<< Append Selected Option"
-msgstr ""
+msgstr "<< Προσθήκη Επιλογής"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:101
 msgid "Option Specific Help:"
-msgstr ""
+msgstr "Βοήθεια Σχετική με το Πρόσθετο:"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange.cpp:90
 msgid "Freeroute Help"
@@ -12817,7 +12802,7 @@ msgstr "Βοήθεια για το Freeroute"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange.cpp:111
 msgid "Do you want to rebuild connectivity data ?"
-msgstr ""
+msgstr "Να ξαναδημιουργηθούν τα δεδομένα συνδεσιμότητας;"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange.cpp:155
 msgid ""
@@ -12826,9 +12811,8 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_freeroute_exchange.cpp:158
-#, fuzzy
 msgid "Pcbnew Error"
-msgstr "Σφάλμα CVPcb"
+msgstr "Σφάλμα Pcbnew"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange.cpp:194
 #: pcbnew/specctra_export.cpp:140
@@ -15854,7 +15838,7 @@ msgstr "Επιλέξτε έναν φάκελο"
 
 #: pcbnew/dialogs/dialog_select_pretty_lib_base.cpp:30
 msgid "Library Path (.pretty will be appended to folder)"
-msgstr ""
+msgstr "Διαδρομή Βιβλιοθήκης (θα προστεθεί .pretty στον φάκελο)"
 
 #: pcbnew/dialogs/dialog_set_grid.cpp:233
 #, c-format
@@ -15983,7 +15967,7 @@ msgstr ""
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader.cpp:459
 msgid "Aborted by user"
-msgstr ""
+msgstr "Ακυρώθηκε από τον χρήστη"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:25
 msgid "Welcome to the 3D shape Libraries downloader Wizard!"
@@ -15996,11 +15980,11 @@ msgstr ""
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:39
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:49
 msgid "http://github.com/KiCad"
-msgstr ""
+msgstr "http://github.com/KiCad"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:53
 msgid "3D shape local folder:"
-msgstr ""
+msgstr "Τοπικός φάκελος 3Δ σχημάτων:"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:69
 msgid "Default 3D Path"
@@ -16019,88 +16003,86 @@ msgstr ""
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:106
 msgid "Visit our official Kicad repository on Github and get more libraries"
 msgstr ""
+"Επισκεφθείτε το επίσημο αποθετήριο του KiCad στο Github για περισσότερες "
+"βιβλιοθήκες"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:114
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:140
-#, fuzzy
 msgid "Select Github libraries to add:"
-msgstr "Επιλέξτε τη βιβλιοθήκη στην οποία θέλετε να πλοηγηθείτε"
+msgstr "Επιλέξτε βιβλιοθήκες του Github για προσθήκη:"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:125
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:151
-#, fuzzy
 msgid "Select all"
-msgstr "<< Επιλογή όλων"
+msgstr "Επιλογή όλων"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:128
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:154
-#, fuzzy
 msgid "Unselect all"
-msgstr "<< Επιλογή όλων"
+msgstr "Κατάργηση επιλογής όλων"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:154
-#, fuzzy
 msgid "Local library folder:"
-msgstr "Αρχεία βιβλιοθήκης:"
+msgstr "Τοπικός φάκελος βιβλιοθήκης:"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:158
 msgid "dummy"
-msgstr ""
+msgstr "εικονικό"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:162
-#, fuzzy
 msgid "3D shape libraries to be downloaded:"
-msgstr "Δεν έχει γίνει φόρτωση βιβλιοθηκών υλικού."
+msgstr "Βιβλιοθήκες 3Δ σχημάτων προς λήψη:"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:180
-#, fuzzy
 msgid "Libraries"
-msgstr "Αρχεία βιβλιοθήκης:"
+msgstr "Βιβλιοθήκες"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:76
 msgid "All supported library formats|"
-msgstr ""
+msgstr "Όλες οι υποστηριζόμενες μορφές βιβλιοθήκης|"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:200
 #: pcbnew/dialogs/wizard_add_fplib.cpp:220
 msgid "UNKNOWN"
-msgstr ""
+msgstr "ΑΓΝΩΣΤΟ"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:630
-#, fuzzy
 msgid "Downloading libraries"
-msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
+msgstr "Λήψη βιβλιοθηκών"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:669
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error:\n"
 "'%s'\n"
 "while downloading library:\n"
 "'%s'"
-msgstr "Σφάλμα κατά την αποθήκευση του αρχείου βιβλιοθήκης \""
+msgstr ""
+"Σφάλμα:\n"
+"'%s'\n"
+" κατά τη λήψη βιβλιοθήκης:\n"
+"'%s'"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:811
 msgid "Please wait..."
-msgstr ""
+msgstr "Παρακαλώ περιμένετε..."
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:811
-#, fuzzy
 msgid "Validating libraries"
-msgstr "Αρχεία βιβλιοθήκης αποτυπωμάτων"
+msgstr "Επικύρωση βιβλιοθηκών"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:837
 msgid "NOT CHECKED"
-msgstr ""
+msgstr "ΜΗ ΕΛΕΓΜΕΝΟ"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:845
 msgid "INVALID"
-msgstr ""
+msgstr "ΑΚΥΡΟ"
 
 #: pcbnew/dialogs/wizard_add_fplib.cpp:854
 #, c-format
 msgid "Validating libraries %d/%d"
-msgstr ""
+msgstr "Επικύρωση βιβλιοθηκών %d/%d"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:31
 msgid ""
@@ -16108,6 +16090,9 @@ msgid ""
 "\n"
 "Please select the source for the libraries to add:"
 msgstr ""
+"Καλώς ήρθατε στον Οδηγό Προσθήκης Βιβλιοθήκης!\n"
+"\n"
+"Επιλέξτε την προέλευση των βιβλιοθηκών για προσθήκη:"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:38
 msgid "Files on my computer"
@@ -16123,24 +16108,23 @@ msgstr "Αποθήκευση τοπικού αντίγραφου σε:"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:121
 msgid "Select files or folders to add:"
-msgstr ""
+msgstr "Επιλέξτε αρχεία ή φακέλους για προσθήκη"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:180
 msgid "Review and confirm the changes to the libraries:"
-msgstr ""
+msgstr "Ελέγξτε και επιβεβαιώστε τις αλλαγές στις βιβλιοθήκες"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:200
 msgid "Where do you wish the new libraries to be added:"
-msgstr ""
+msgstr "Που θέλετε να προστεθούν οι νέες βιβλιοθήκες:"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:204
 msgid "To global library configuration (visible by all projects)"
-msgstr ""
+msgstr "Στις καθολικές ρυθμίσεις βιβλιοθήκης (ορατότητα από όλα τα έργα)"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:207
-#, fuzzy
 msgid "To the current project only"
-msgstr "Χρήση μόνο της τρέχουσας &σελίδας"
+msgstr "Μόνο στο τρέχον έργο"
 
 #: pcbnew/dimension.cpp:149
 msgid ""
@@ -20474,9 +20458,8 @@ msgid "No footprints!"
 msgstr "Δεν υπάρχουν αποτυπώματα!"
 
 #: pcbnew/xchgmod.cpp:536
-#, fuzzy
 msgid "Save Footprint Association File"
-msgstr "Αρχείο τεκμηρίωσης αποτυπωμάτων"
+msgstr "Αποθήκευση Αρχείου Συσχέτισης Αποτυπωμάτων"
 
 #: pcbnew/xchgmod.cpp:547
 #, c-format
@@ -20562,6 +20545,8 @@ msgstr "Ρυθμίσεις Σελίδας"
 #: cvpcb/common_help_msg.h:28
 msgid "Save footprint association in schematic component footprint fields"
 msgstr ""
+"Αποθήκευση συσχέτισης αποτυπώματος στα πεδία αποτυπώματος των σχηματικών "
+"εξαρτημάτων"
 
 #: cvpcb/dialogs/dialog_display_options_base.h:63
 msgid "Display Options"
@@ -20861,34 +20846,28 @@ msgid "Pad enumeration settings"
 msgstr "Γενικές ρυθμίσεις"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.h:71
-#, fuzzy
 msgid "Change Footprint"
-msgstr "Αποτύπωμα"
+msgstr "Αλλαγή Αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_export_idf_base.h:62
-#, fuzzy
 msgid "Export IDFv3"
-msgstr "Εξαγωγή"
+msgstr "Εξαγωγή IDFv3"
 
 #: pcbnew/dialogs/dialog_export_vrml_base.h:77
-#, fuzzy
 msgid "VRML Export Options"
-msgstr "Επιλογές εξαγωγής πλακέτας Vrml:"
+msgstr "Επιλογές Εξαγωγής VRML"
 
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.h:51
-#, fuzzy
 msgid "Footprint Wizards"
-msgstr "Αποτύπωμα"
+msgstr "Οδηγοί Αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.h:81
-#, fuzzy
 msgid "PCB Library Tables"
-msgstr "Αρχεία βιβλιοθήκης:"
+msgstr "Κατάλογοι Βιβλιοθηκών PCB"
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.h:62
-#, fuzzy
 msgid "Generate Component Position Files"
-msgstr "Αποθήκευση αρχείων υλικών"
+msgstr "Δημιουργία Αρχείων Θέσης Εξαρτημάτων"
 
 #: pcbnew/dialogs/dialog_gendrill_base.h:80
 msgid "Drill Files Generation"
@@ -21001,12 +20980,11 @@ msgstr "Γραμμές και οπές:"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.h:80
 msgid "Add 3D Shape Libraries Wizard"
-msgstr ""
+msgstr "Οδηγός Προσθήκης 3Δ Σχημάτων"
 
 #: pcbnew/dialogs/wizard_add_fplib_base.h:88
-#, fuzzy
 msgid "Add Footprint Libraries Wizard"
-msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
+msgstr "Οδηγός Προσθήκης Βιβλιοθηκών Εξαρτημάτων"
 
 #: pcbnew/help_common_strings.h:17
 msgid "Find components and text in current loaded board"
