@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-14 17:25+0200\n"
+"PO-Revision-Date: 2015-09-14 19:10+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -8223,7 +8223,7 @@ msgstr "D Code"
 
 #: gerbview/class_gerber_draw_item.cpp:557
 msgid "Graphic Layer"
-msgstr ""
+msgstr "Επίπεδο Γραφικών"
 
 #: gerbview/class_gerber_draw_item.cpp:564
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:68
@@ -8277,11 +8277,11 @@ msgstr "Προβολή της ταυτότητας των DCodes"
 
 #: gerbview/class_gerbview_layer_widget.cpp:112
 msgid "Neg. Obj."
-msgstr ""
+msgstr "Αρν. Αντ."
 
 #: gerbview/class_gerbview_layer_widget.cpp:113
 msgid "Show negative objects in this color"
-msgstr ""
+msgstr "Προβολή αρνητικών αντικειμένων σε αυτό το χρώμα"
 
 #: gerbview/class_gerbview_layer_widget.cpp:152
 msgid "Show All Layers"
@@ -8620,9 +8620,8 @@ msgid "Polygons"
 msgstr "Πολύγωνα"
 
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:77
-#, fuzzy
 msgid "Full size without limits"
-msgstr "Πλήρες μέγεθος. Να μην προβάλλονται τα όρια σελίδας"
+msgstr "Πλήρες μέγεθος χωρίς περιορισμούς"
 
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:79
 msgid "Page"
@@ -8634,12 +8633,12 @@ msgstr "Όχι κεντράρισμα κέρσορα κατά τη μεγέθυ�
 
 #: gerbview/events_called_functions.cpp:268
 msgid "No editor defined. Please select one"
-msgstr ""
+msgstr "Δεν έχει οριστεί επεξεργαστής. Παρακαλώ επιλέξτε έναν"
 
 #: gerbview/events_called_functions.cpp:274
 #, c-format
 msgid "No file loaded on the active layer %d"
-msgstr ""
+msgstr "Δεν φορτώθηκε αρχείο στο ενεργό επίπεδο %d"
 
 #: gerbview/events_called_functions.cpp:318 gerbview/gerbview_frame.cpp:146
 #: pcbnew/moduleframe.cpp:288 pcbnew/pcbframe.cpp:401 pcbnew/pcbframe.cpp:895
@@ -8659,9 +8658,8 @@ msgid "Show &Layers Manager"
 msgstr "Προβολή διαχειριστή &Επιπέδων"
 
 #: gerbview/excellon_read_drill_file.cpp:189
-#, fuzzy
 msgid "No room to load file"
-msgstr "Έγινε εγγραφή του αρχείου: "
+msgstr "Δεν υπάρχει χώρος για φόρτωση αρχείου"
 
 #: gerbview/excellon_read_drill_file.cpp:199 pcbnew/pcbnew_config.cpp:227
 #: pcbnew/pcbnew_config.cpp:504
@@ -8675,34 +8673,34 @@ msgstr "Τα αρχεία δεν βρέθηκαν"
 
 #: gerbview/excellon_read_drill_file.cpp:388
 msgid "METRIC command has no parameter"
-msgstr ""
+msgstr "Η εντολή METRIC δεν έχει καμία παράμετρο"
 
 #: gerbview/excellon_read_drill_file.cpp:406
 msgid "INCH command has no parameter"
-msgstr ""
+msgstr "Η εντολή INCH δεν έχει καμία παράμετρο"
 
 #: gerbview/excellon_read_drill_file.cpp:434
 msgid "ICI command has no parameter"
-msgstr ""
+msgstr "Η εντολή ICI δεν έχει καμία παράμετρο"
 
 #: gerbview/excellon_read_drill_file.cpp:444
 msgid "ICI command has incorrect parameter"
-msgstr ""
+msgstr "Η εντολή ICI έχει λάθος παράμετρο"
 
 #: gerbview/excellon_read_drill_file.cpp:482
 #, c-format
 msgid "Tool definition <%c> not supported"
-msgstr ""
+msgstr "Ο ορισμός εργαλείου <%c> δεν υποστηρίζεται"
 
 #: gerbview/excellon_read_drill_file.cpp:534
-#, fuzzy, c-format
+#, c-format
 msgid "Tool <%d> not defined"
-msgstr "Το εξάρτημα <%s> δεν βρέθηκε"
+msgstr "Το εργαλείο <%d> δεν έχει οριστεί"
 
 #: gerbview/excellon_read_drill_file.cpp:661
 #, c-format
 msgid "Unknown Excellon G Code: &lt;%s&gt;"
-msgstr ""
+msgstr "Άγνωστος Excellon G Code: &lt;%s&gt;"
 
 #: gerbview/export_to_pcbnew.cpp:172
 msgid "None of the Gerber layers contain any data"
@@ -8726,9 +8724,8 @@ msgid "Gerber files"
 msgstr "Αρχεία Gerber"
 
 #: gerbview/files.cpp:60
-#, fuzzy
 msgid "Drill files"
-msgstr "Αρχείο &διατρήσεων"
+msgstr "Αρχεία Διατρήσεων"
 
 #: gerbview/files.cpp:121
 msgid "Gerber files (.g* .lgr .pho)"
@@ -8787,9 +8784,8 @@ msgid "Open Gerber File"
 msgstr "Άνοιγμα αρχείου Gerber"
 
 #: gerbview/files.cpp:232
-#, fuzzy
 msgid "Open Drill File"
-msgstr "Αποθήκευση αρχείου διατρήσεων"
+msgstr "Άνοιγμα Αρχείου Διατρήσεων"
 
 #: gerbview/gerbview_frame.cpp:455
 #, fuzzy
@@ -8799,7 +8795,7 @@ msgstr "D Code"
 #: gerbview/gerbview_frame.cpp:482
 #, c-format
 msgid "Layer %d not in use"
-msgstr ""
+msgstr "Το επίπεδο %d δεν χρησιμοποείται"
 
 #: gerbview/gerbview_frame.cpp:488
 msgid "File:"
@@ -8811,9 +8807,9 @@ msgid "(with X2 Attributes)"
 msgstr "Ιδιότητες:"
 
 #: gerbview/gerbview_frame.cpp:497
-#, fuzzy, c-format
+#, c-format
 msgid "Image name: '%s'  Layer name: '%s'"
-msgstr "Όνομα εικόνας: \"%s\"  Όνομα επιπέδου: \"%s\""
+msgstr "Όνομα εικόνας: '%s'  Όνομα επιπέδου: '%s'"
 
 #: gerbview/gerbview_frame.cpp:510
 msgid "X2 attr"
@@ -8829,9 +8825,8 @@ msgid "Clear layer %d?"
 msgstr "Να γίνει εκκαθάριση του επιπέδου %d;"
 
 #: gerbview/menubar.cpp:64
-#, fuzzy
 msgid "Load &Gerber File"
-msgstr "Φόρτωση αρχείου Gerber"
+msgstr "Φόρτωση Αρχείου Gerber"
 
 #: gerbview/menubar.cpp:65 gerbview/toolbars_gerber.cpp:62
 msgid ""
@@ -8841,52 +8836,44 @@ msgstr ""
 "θα διαγραφούν"
 
 #: gerbview/menubar.cpp:71
-#, fuzzy
 msgid "Load &EXCELLON Drill File"
-msgstr "Φόρτωση αρχείου EXCELLON Drill"
+msgstr "Φόρτωση αρχείου Διάτρησης EXCELLON"
 
 #: gerbview/menubar.cpp:72
 msgid "Load excellon drill file"
-msgstr "Φόρτωση αρχείου excellon drill"
+msgstr "Φόρτωση αρχείου Διάτρησης excellon"
 
 #: gerbview/menubar.cpp:90
-#, fuzzy
 msgid "Open &Recent Gerber File"
-msgstr "Άνοιγμα αρχείου Gerber"
+msgstr "Άνοιγμα Πρόσφατου Αρχείου Gerber"
 
 #: gerbview/menubar.cpp:91
-#, fuzzy
 msgid "Open a recent opened Gerber file"
-msgstr "Άνοιγμα μιας πρόσφατα ανοιγμένης πλακέτας"
+msgstr "Άνοιγμα ενός αρχείου Gerber που ανοίχτηκε πρόσφατα"
 
 #: gerbview/menubar.cpp:105
-#, fuzzy
 msgid "Open Recent Dri&ll File"
-msgstr "Άνοιγμα αρχείου Gerber"
+msgstr "Άνοιγμα Πρόσφατου Αρχείου Διάτρησης"
 
 #: gerbview/menubar.cpp:106
-#, fuzzy
 msgid "Open a recent opened drill file"
-msgstr "Άνοιγμα μιας πρόσφατα ανοιγμένης πλακέτας"
+msgstr "Άνοιγμα ενός αρχείου διάτρησης που ανοίχτηκε πρόσφατα"
 
 #: gerbview/menubar.cpp:115
-#, fuzzy
 msgid "Clear &All"
-msgstr "&Εκκαθάριση όλων"
+msgstr "Εκκαθάριση Όλων"
 
 #: gerbview/menubar.cpp:116
 msgid "Clear all layers. All data will be deleted"
 msgstr "Εκκαθάριση όλων των επιπέδων. Όλα τα δεδομένα θα διαγραφούν"
 
 #: gerbview/menubar.cpp:125
-#, fuzzy
 msgid "E&xport to Pcbnew"
-msgstr "&Εξαγωγή σε Pcbnew"
+msgstr "Εξαγωγή σε Pcbnew"
 
 #: gerbview/menubar.cpp:126
-#, fuzzy
 msgid "Export data in Pcbnew format"
-msgstr "Εξαγωγή των δεδομένων σε μορφή pcbnew"
+msgstr "Εξαγωγή των δεδομένων σε μορφή Pcbnew"
 
 #: gerbview/menubar.cpp:135 pcbnew/menubar_modedit.cpp:141
 #: pcbnew/menubar_pcbframe.cpp:237
@@ -8951,9 +8938,8 @@ msgid "&About GerbView"
 msgstr "Περί του Gerbview"
 
 #: gerbview/menubar.cpp:232
-#, fuzzy
 msgid "About GerbView gerber and drill viewer"
-msgstr "Περί του gerbview, προγράμματος προβολής gerber και drill"
+msgstr "Περί του GerbView, προγράμματος προβολής αρχείων gerber και διάτρησης"
 
 #: gerbview/menubar.cpp:238
 msgid "&Miscellaneous"
@@ -8980,9 +8966,8 @@ msgid "RS274X: Command \"IR\" rotation value not allowed"
 msgstr "RS274X: Δεν επιτρέπεται η τιμή περιστροφής στην εντολή \"IR\""
 
 #: gerbview/rs274x.cpp:535
-#, fuzzy
 msgid "RS274X: Command KNOCKOUT ignored by GerbView"
-msgstr "RS274X: Το Gerbview αγνόησε την εντολή KNOCKOUT"
+msgstr "RS274X: Το GerbView αγνόησε την εντολή KNOCKOUT"
 
 #: gerbview/rs274x.cpp:597
 msgid "Too many include files!!"
@@ -8993,23 +8978,25 @@ msgid ""
 "The exported board has not enough copper layers to handle selected inner "
 "layers"
 msgstr ""
+"Η πλακέτα που εξάχθηκε δεν έχει αρκετά επίπεδα χαλκού για να χειριστεί τα "
+"επιλεγμένα εσωτερικά επίπεδα"
 
 #: gerbview/toolbars_gerber.cpp:59
 msgid "Erase all layers"
 msgstr "Διαγραφή όλων των επιπέδων"
 
 #: gerbview/toolbars_gerber.cpp:66
-#, fuzzy
 msgid ""
 "Load an excellon drill file on the current layer. Previous data will be "
 "deleted"
 msgstr ""
-"Φόρτωση ενός νέου αρχείου Gerber στο τρέχον επίπεδο. Τα προηγούμενα δεδομένα "
-"θα διαγραφούν"
+"Φόρτωση ενός αρχείου διάτρησης excellon στο τρέχον επίπεδο. Τα προηγούμενα "
+"δεδομένα θα διαγραφούν"
 
 #: gerbview/toolbars_gerber.cpp:70
 msgid "Show/hide frame reference and select paper size for printing"
 msgstr ""
+"Εμφάνιση/Απόκρυψη αναφοράς πλαισίου και επιλογή μεγέθους χαρτιού για εκτύπωση"
 
 #: gerbview/toolbars_gerber.cpp:74
 msgid "Print layers"
@@ -9049,7 +9036,7 @@ msgstr "Προβολή πολύγωνων στη λειτουργία σχεδί
 
 #: gerbview/toolbars_gerber.cpp:185
 msgid "Show negatives objects in ghost color"
-msgstr ""
+msgstr "Προβολή αρνητικών αντικειμένων σε ψευδές χρώμα"
 
 #: gerbview/toolbars_gerber.cpp:190
 msgid "Show dcode number"
@@ -9078,14 +9065,12 @@ msgid "Show/hide the layers manager toolbar"
 msgstr "Προβολή/απόκρυψη της γραμμής εργαλείων διαχείρισης επιπέδων"
 
 #: gerbview/toolbars_gerber.cpp:287
-#, fuzzy
 msgid "Hide layers manager"
-msgstr "Απόκρυψη διαχειριστή &Επιπέδων"
+msgstr "Απόκρυψη διαχειριστή επιπέδων"
 
 #: gerbview/toolbars_gerber.cpp:289
-#, fuzzy
 msgid "Show layers manager"
-msgstr "Προβολή διαχειριστή &Επιπέδων"
+msgstr "Εμφάνιση διαχειριστή επιπέδων"
 
 #: kicad/class_treeproject_item.cpp:111
 msgid ""
@@ -9108,33 +9093,29 @@ msgid "Permission error ?"
 msgstr "Σφάλμα δικαιωμάτων ;"
 
 #: kicad/class_treeproject_item.cpp:135
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to delete '%s'"
-msgstr "Σίγουρα θέλετε να γίνει η διαγραφή "
+msgstr "Σίγουρα θέλετε να γίνει η διαγραφή του  '%s'"
 
 #: kicad/class_treeproject_item.cpp:140
 msgid "Delete File"
 msgstr "Διαγραφή αρχείου"
 
 #: kicad/commandframe.cpp:67
-#, fuzzy
 msgid "Eeschema - Electronic schematic editor"
-msgstr "EESchema (Επεξεργαστής σχημάτων)"
+msgstr "EESchema - Ηλεκτρονικός επεξεργαστής σχηματικών"
 
 #: kicad/commandframe.cpp:70
-#, fuzzy
 msgid "Schematic library editor"
-msgstr "Επεξεργαστής βιβλιοθήκης"
+msgstr "Επεξεργαστής βιβλιοθήκης σχηματικών"
 
 #: kicad/commandframe.cpp:73
-#, fuzzy
 msgid "Pcbnew - Printed circuit board editor"
-msgstr "Περί του σχεδιαστή πλακέτας τυπωμένων κυκλωμάτων PCBNew"
+msgstr "Pcbnew - Επεξεργαστής τυπωμένης πλακέτας κυκλώματος"
 
 #: kicad/commandframe.cpp:76
-#, fuzzy
 msgid "PCB footprint editor"
-msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
+msgstr "Επεξεργαστή αποτυπώματος PCB"
 
 #: kicad/commandframe.cpp:79
 msgid "GerbView - Gerber viewer"
@@ -9158,7 +9139,7 @@ msgstr "Pl_editor - Επεξεργαστής Σχεδίασης Σελίδας"
 
 #: kicad/dialogs/dialog_template_selector.cpp:120
 msgid "<html><h1>Template Selector</h1></html>"
-msgstr ""
+msgstr "<html><h1>Επιλογέας Πρότυπυ</h1></html>"
 
 #: kicad/dialogs/dialog_template_selector.cpp:211
 msgid "Select Templates Directory"
@@ -9170,7 +9151,7 @@ msgstr "Διαδρομή προτύπων"
 
 #: kicad/dialogs/dialog_template_selector_base.cpp:39
 msgid "Validate"
-msgstr ""
+msgstr "Επικύρωση"
 
 #: kicad/dialogs/dialog_template_selector_base.cpp:114
 msgid "Project Template Title"
@@ -9203,9 +9184,9 @@ msgid "Unzipping project in '%s'\n"
 msgstr "Αποσυμπίεση έργου σε '%s'\n"
 
 #: kicad/files-io.cpp:116
-#, fuzzy, c-format
+#, c-format
 msgid "Extract file '%s'"
-msgstr "Αποσυμπίεση αρχείου "
+msgstr "Εξαγωγή αρχείου '%s'"
 
 #: kicad/files-io.cpp:126
 msgid " OK\n"
@@ -9222,12 +9203,12 @@ msgstr "Αρχειοθέτηση αρχείων έργου"
 #: kicad/files-io.cpp:200
 #, c-format
 msgid "Archive file <%s>"
-msgstr ""
+msgstr "Αρχείο αποθήκευσης <%s>"
 
 #: kicad/files-io.cpp:214
 #, c-format
 msgid "(%d bytes, compressed %d bytes)\n"
-msgstr ""
+msgstr "(%d byte, συμπιεσμένο %d byte)\n"
 
 #: kicad/files-io.cpp:220
 msgid " >>Error\n"
@@ -9474,15 +9455,15 @@ msgstr "Πρότυπα Χρήστη"
 
 #: kicad/prjconfig.cpp:131
 msgid "Portable Templates"
-msgstr ""
+msgstr "Φορητά Πρότυπα"
 
 #: kicad/prjconfig.cpp:141
 msgid "No project template was selected.  Cannot generate new project."
-msgstr ""
+msgstr "δεν επιλέχθηκε κάποιο πρότυπο έργου. Αδυναμία δημιουργίας νέου έργου."
 
 #: kicad/prjconfig.cpp:154
 msgid "Problem whilst creating new project from template!"
-msgstr ""
+msgstr "Πρόβλημα κατά τη δημιουργία νέου έργου από πρότυπο!"
 
 #: kicad/prjconfig.cpp:155
 msgid "Template Error"
@@ -9516,6 +9497,8 @@ msgstr "Το αρχείο έργου KiCad %s δεν βρέθηκε"
 #: kicad/prjconfig.cpp:321
 msgid "To proceed, you can use the File menu to start a new project."
 msgstr ""
+"Για να συνεχίσετε, μπορείτε να χρησιμοποιήσετε το μενού Αρχείου για να "
+"ξεκινήσετε ένα νέο έργο."
 
 #: kicad/prjconfig.cpp:361
 msgid "New Project Folder"
@@ -9571,9 +9554,9 @@ msgid "&Delete File"
 msgstr "&Διαγραφή αρχείου"
 
 #: kicad/tree_project_frame.cpp:752
-#, fuzzy, c-format
+#, c-format
 msgid "Change filename: '%s'"
-msgstr "Αλλαγή ονόματος αρχείου: "
+msgstr "Αλλαγή ονόματος αρχείου: '%s'"
 
 #: kicad/tree_project_frame.cpp:755
 msgid "Change filename"
@@ -9586,6 +9569,8 @@ msgid ""
 "Error loading board.\n"
 "%s"
 msgstr ""
+"Σφάλμα κατά τη φόρτωση πλακέτας.\n"
+"%s"
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:165
 msgid "Footprints NOT LOCKED will be moved"
@@ -9596,9 +9581,9 @@ msgid "Footprints NOT PLACED will be moved"
 msgstr "Τα ΜΗ ΤΟΠΟΘΕΤΗΜΕΝΑ αποτυπώματα θα μετακινηθούν"
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:281
-#, fuzzy, c-format
+#, c-format
 msgid "Place footprint %d of %d"
-msgstr "Κλείσιμο του επεξεργαστή αποτυπώματος"
+msgstr ""
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:466
 msgid "No PCB edge found, unknown board size!"
@@ -9613,18 +9598,16 @@ msgid "Cells."
 msgstr "Κελιά."
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:692
-#, fuzzy
 msgid "OK to abort?"
-msgstr "ΟΚ γιά ακύρωση;"
+msgstr "ΟΚ για ακύρωση;"
 
 #: pcbnew/autorouter/autorout.cpp:90
 msgid "Net not selected"
 msgstr "Το δίκτυο δεν επιλέχτηκε"
 
 #: pcbnew/autorouter/autorout.cpp:98
-#, fuzzy
 msgid "Footprint not selected"
-msgstr "Το δίκτυο δεν επιλέχτηκε"
+msgstr "Δεν επιλέχθηκε αποτύπωμα"
 
 #: pcbnew/autorouter/autorout.cpp:108
 msgid "Pad not selected"
@@ -9639,14 +9622,13 @@ msgid "Place Cells"
 msgstr "Τοποθέτηση κελιών"
 
 #: pcbnew/autorouter/move_and_route_event_functions.cpp:133
-#, fuzzy
 msgid "Not locked footprints inside the board will be moved. OK?"
-msgstr "Εξαναγκασμός τροποποίησης κλειδωμένων αποτυπωμάτων"
+msgstr ""
+"Αποτυπώματα που δεν είναι κλειδωμένα εντός της πλακέτας, θα μετακινηθούν. ΟΚ;"
 
 #: pcbnew/autorouter/move_and_route_event_functions.cpp:139
-#, fuzzy
 msgid "No footprint found!"
-msgstr "Βρέθηκαν %d ψευδώνυμα αποτυπωμάτων."
+msgstr "Δεν βρέθηκαν αποτυπώματα."
 
 #: pcbnew/autorouter/solve.cpp:301
 msgid "Abort routing?"
@@ -9668,9 +9650,8 @@ msgid "Show pads in fill mode"
 msgstr "Προβολή εδρών στη λειτουργία γεμίσματος"
 
 #: pcbnew/basepcbframe.cpp:837 pcbnew/tools/common_actions.cpp:210
-#, fuzzy
 msgid "Zoom Auto"
-msgstr "Αυτόματη μεγέθυνση"
+msgstr "Αυτόματη Μεγέθυνση"
 
 #: pcbnew/basepcbframe.cpp:842
 msgid "Zoom "
@@ -9750,9 +9731,8 @@ msgid "Links"
 msgstr "Σύνδεσμοι"
 
 #: pcbnew/class_board.cpp:974
-#, fuzzy
 msgid "Connections"
-msgstr "συνδέσεις"
+msgstr "Συνδέσεις"
 
 #: pcbnew/class_board.cpp:977 pcbnew/dialogs/dialog_drc_base.cpp:184
 #: pcbnew/pcb_draw_panel_gal.cpp:403
@@ -9767,42 +9747,46 @@ msgstr ""
 #: pcbnew/class_board.cpp:2309
 #, c-format
 msgid "Adding new component \"%s:%s\" footprint \"%s\".\n"
-msgstr ""
+msgstr "Προσθήκη νέου εξαρτήματος \"%s:%s\" αποτύπωμα \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2318
 #, c-format
 msgid "Cannot add new component \"%s:%s\" due to missing footprint \"%s\".\n"
 msgstr ""
+"Αδυναμία προσθήκης νέου εξαρτήματος \"%s:%s\" λόγω μη ύπαρξης αποτυπώματος "
+"\"%s\".\n"
 
 #: pcbnew/class_board.cpp:2350
 #, c-format
 msgid "Replacing component \"%s:%s\" footprint \"%s\" with \"%s\".\n"
-msgstr ""
+msgstr "Αντικατάσταση εξαρτήματος \"%s:%s\" αποτύπωμα \"%s\" με \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2361
 #, c-format
 msgid "Cannot replace component \"%s:%s\" due to missing footprint \"%s\".\n"
 msgstr ""
+"Αδυναμία αντικατάστασης εξαρτήματος \"%s:%s\" λόγω μη ύπαρξης αποτυπώματος "
+"\"%s\".\n"
 
 #: pcbnew/class_board.cpp:2394
 #, c-format
 msgid "Changing component \"%s:%s\" reference to \"%s\".\n"
-msgstr ""
+msgstr "Αλλαγή αναφοράς εξαρτήματος \"%s:%s\" σε \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2410
 #, c-format
 msgid "Changing component \"%s:%s\" value from \"%s\" to \"%s\".\n"
-msgstr ""
+msgstr "Αλλαγή τιμής εξαρτήματος \"%s:%s\" από \"%s\" σε \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2427
 #, c-format
 msgid "Changing component path \"%s:%s\" to \"%s\".\n"
-msgstr ""
+msgstr "Αλλαγή διαδρομής εξαρτήματος \"%s:%s\" σε \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2451
-#, fuzzy, c-format
+#, c-format
 msgid "Clearing component \"%s:%s\" pin \"%s\" net name.\n"
-msgstr "Υλικό %s %s ακροδέκτης %s : διαφορετικά δίκτυα"
+msgstr ""
 
 #: pcbnew/class_board.cpp:2467
 #, c-format
@@ -9813,7 +9797,7 @@ msgstr ""
 #: pcbnew/class_board.cpp:2516
 #, c-format
 msgid "Removing unused component \"%s:%s\".\n"
-msgstr ""
+msgstr "Αφαίρεση μη χρησιμοποιούμενου εξαρτήματος \"%s:%s\".\n"
 
 #: pcbnew/class_board.cpp:2576
 #, c-format
@@ -9821,9 +9805,9 @@ msgid "Remove single pad net \"%s\" on \"%s\" pad '%s'\n"
 msgstr ""
 
 #: pcbnew/class_board.cpp:2631
-#, fuzzy, c-format
+#, c-format
 msgid "Component '%s' pad '%s' not found in footprint '%s'\n"
-msgstr "Δεν βρέθηκε το όνομα υλικού \"%s\" στη βιβλιοθήκη \"%s\"."
+msgstr ""
 
 #: pcbnew/class_board.cpp:2649
 #, c-format
@@ -9840,9 +9824,8 @@ msgstr "Καμπύλη Μπεζιέ"
 
 #: pcbnew/class_board_item.cpp:47
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:205
-#, fuzzy
 msgid "Polygon"
-msgstr "Πολύγωνα"
+msgstr "Πολύγωνο"
 
 #: pcbnew/class_dimension.cpp:500
 #, fuzzy, c-format
@@ -13055,9 +13038,8 @@ msgid "Buried Vias:"
 msgstr "Ενταφιασμένα Via:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:170
-#, fuzzy
 msgid "Drill File"
-msgstr "Αρχείο &διατρήσεων"
+msgstr "Αρχείο Διατρήσεων"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:174
 #, fuzzy
@@ -13065,9 +13047,8 @@ msgid "Map File"
 msgstr "Αρχείο &BOM"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:177
-#, fuzzy
 msgid "Report File"
-msgstr "Δημιουργία αρχείου αναφοράς"
+msgstr "Αρχείο Αναφοράς"
 
 #: pcbnew/dialogs/dialog_general_options.cpp:232 pcbnew/pcbnew_config.cpp:90
 #, fuzzy
@@ -13342,24 +13323,20 @@ msgid "Unlocked footprints"
 msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:82
-#, fuzzy
 msgid "All layers"
-msgstr "Όλα τα επίπεδα ενεργά"
+msgstr "Όλα τα επίπεδα"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:82
-#, fuzzy
 msgid "Current layer only"
-msgstr "Εκκαθάριση του τρέχοντος επιπέδου"
+msgstr "Μόνο τρέχον επίπεδο"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:84
-#, fuzzy
 msgid "Layer Filter"
-msgstr "Φίλτρο δικτύων"
+msgstr "Φίλτρο Επιπέδων"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:88
-#, fuzzy
 msgid "Current layer:"
-msgstr "Εκκαθάριση του τρέχοντος επιπέδου"
+msgstr "Τρέχον επίπεδο:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:173
 msgid "Set current Net tracks and vias sizes and drill to the current values?"
@@ -13603,47 +13580,40 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:330
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:333
-#, fuzzy
 msgid "Error list"
-msgstr "Σφάλμα"
+msgstr "Λίστα σφαλμάτων"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:30
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:27
-#, fuzzy
 msgid "Start point X"
 msgstr "Σημείο έναρξης X"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:42
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:39
-#, fuzzy
 msgid "Start point Y"
 msgstr "Σημείο έναρξης Y"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:54
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:51
-#, fuzzy
 msgid "End point X"
-msgstr "Σημείο X"
+msgstr "Σημείο τελικό X"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:66
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:63
-#, fuzzy
 msgid "End point Y"
-msgstr "Σημείο Y"
+msgstr "Σημείο τελικό Y"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:93
-#, fuzzy
 msgid "Arc angle:"
-msgstr "Προσθήκη ορθογωνίου"
+msgstr "Γωνία τόξου:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:101
 msgid "0.1 degree"
-msgstr ""
+msgstr "0,1 βαθμοί"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:105
-#, fuzzy
 msgid "Item thickness:"
-msgstr "Πάχος"
+msgstr "Πάχος αντικειμένου:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:117
 msgid "Default thickness:"
@@ -13716,9 +13686,8 @@ msgid "Tracks, vias and pads are allowed. The keepout is useless"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:43
-#, fuzzy
 msgid "Properties:"
-msgstr "Ιδιότητες"
+msgstr "Ιδιότητες:"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:47
 #: pcbnew/dialogs/dialog_non_copper_zones_properties_base.cpp:46
@@ -20097,42 +20066,36 @@ msgid "Deletes selected item(s)"
 msgstr "Συμφωνείτε με τη διαγραφή των επιλεγμένων αντικειμένων;"
 
 #: pcbnew/tools/common_actions.cpp:133
-#, fuzzy
 msgid "Properties..."
-msgstr "Ιδιότητες"
+msgstr "Ιδιότητες..."
 
 #: pcbnew/tools/common_actions.cpp:133
 msgid "Displays item properties dialog"
 msgstr ""
 
 #: pcbnew/tools/common_actions.cpp:139
-#, fuzzy
 msgid "Draw a line"
-msgstr "Σχέδια"
+msgstr "Σχεδίαση γραμμής"
 
 #: pcbnew/tools/common_actions.cpp:143
-#, fuzzy
 msgid "Draw a circle"
-msgstr "Προσθήκη κύκλου"
+msgstr "Σχεδίαση κύκλου"
 
 #: pcbnew/tools/common_actions.cpp:147
 msgid "Draw an arc"
-msgstr ""
+msgstr "Σχεδίαση τόξου"
 
 #: pcbnew/tools/common_actions.cpp:151
-#, fuzzy
 msgid "Add a text"
 msgstr "Προσθήκη κειμένου"
 
 #: pcbnew/tools/common_actions.cpp:155
-#, fuzzy
 msgid "Add a dimension"
 msgstr "Προσθήκη διάστασης"
 
 #: pcbnew/tools/common_actions.cpp:159
-#, fuzzy
 msgid "Add a filled zone"
-msgstr "Προσθήκη γεμισμένων ζωνών"
+msgstr "Προσθήκη γεμισμένης ζώνης"
 
 #: pcbnew/tools/common_actions.cpp:163
 #, fuzzy
@@ -20145,14 +20108,12 @@ msgid "Place the footprint anchor"
 msgstr "Τοποθέτηση της αγκίστρωσης αναφοράς του εξαρτήματος αποτυπώματος"
 
 #: pcbnew/tools/common_actions.cpp:176
-#, fuzzy
 msgid "Increase the line width"
-msgstr "Προκαθορισμένο πλάτος γραμμής:"
+msgstr "Αύξηση πάχους γραμμής"
 
 #: pcbnew/tools/common_actions.cpp:180
-#, fuzzy
 msgid "Decrease the line width"
-msgstr "Προκαθορισμένο πλάτος γραμμής:"
+msgstr "Μείωση πάχους γραμμής"
 
 #: pcbnew/tools/common_actions.cpp:184
 #, fuzzy
@@ -20168,47 +20129,40 @@ msgid "Zoom Out"
 msgstr "Σμίκρυνση"
 
 #: pcbnew/tools/common_actions.cpp:363
-#, fuzzy
 msgid "Fill"
-msgstr "Γεμισμένο"
+msgstr "Γέμισμα"
 
 #: pcbnew/tools/common_actions.cpp:363
-#, fuzzy
 msgid "Fill zone(s)"
-msgstr "Γέμισμα ζωνών...\n"
+msgstr "Γέμισμα ζώνης/ζωνών"
 
 #: pcbnew/tools/common_actions.cpp:367
-#, fuzzy
 msgid "Fill all"
-msgstr "Γέμισμα &έδρας"
+msgstr "Γέμισμα όλων"
 
 #: pcbnew/tools/common_actions.cpp:367
-#, fuzzy
 msgid "Fill all zones"
-msgstr "Γέμισμα ζωνών...\n"
+msgstr "Γέμισμα όλων των ζωνών"
 
 #: pcbnew/tools/common_actions.cpp:371
 msgid "Unfill"
-msgstr ""
+msgstr "Άδειασμα"
 
 #: pcbnew/tools/common_actions.cpp:371
-#, fuzzy
 msgid "Unfill zone(s)"
-msgstr "Προσθήκη γεμισμένων ζωνών"
+msgstr "Άδειασμα ζώνης/ζωνών"
 
 #: pcbnew/tools/common_actions.cpp:375
 msgid "Unfill all"
-msgstr ""
+msgstr "Άδειασμα όλων"
 
 #: pcbnew/tools/common_actions.cpp:375
-#, fuzzy
 msgid "Unfill all zones"
-msgstr "Προσθήκη γεμισμένων ζωνών"
+msgstr "Άδειασμα όλων των ζωνών"
 
 #: pcbnew/tools/common_actions.cpp:379
-#, fuzzy
 msgid "Merge zones"
-msgstr "Συγχώνευση: "
+msgstr "Συγχώνευση ζωνών"
 
 #: pcbnew/tools/common_actions.cpp:388
 msgid "Add modules"
@@ -20220,14 +20174,12 @@ msgid "Enumerate pads"
 msgstr "Συμπερίληψη εδρών"
 
 #: pcbnew/tools/common_actions.cpp:422
-#, fuzzy
 msgid "Copy items"
-msgstr "Αντιγραφή επιλεγμένου αντικειμένου"
+msgstr "Αντιγραφή αντικειμένων"
 
 #: pcbnew/tools/common_actions.cpp:426
-#, fuzzy
 msgid "Paste items"
-msgstr "Αντικείμενα της λίστας:"
+msgstr "Επικόλληση αντικειμένων"
 
 #: pcbnew/tools/common_actions.cpp:506 pcbnew/tools/common_actions.cpp:507
 msgid "Run push & shove router (single tracks)"
@@ -20250,77 +20202,68 @@ msgid "Tune skew of a differential pair"
 msgstr ""
 
 #: pcbnew/tools/common_actions.cpp:547
-#, fuzzy
 msgid "Create corner"
 msgstr "Δημιουργία γωνίας"
 
 #: pcbnew/tools/common_actions.cpp:551
-#, fuzzy
 msgid "Remove corner"
-msgstr "Μετακίνηση γωνίας"
+msgstr "Αφαίρεση γωνίας"
 
 #: pcbnew/tools/common_actions.cpp:556
-#, fuzzy
 msgid "Align items to the top"
-msgstr "Μέγεθος ακροδέκτη για τους άλλους"
+msgstr "Στοίχιση στοιχείων επάνω"
 
 #: pcbnew/tools/common_actions.cpp:557
 msgid "Aligns selected items to the top edge"
-msgstr "Στοίχιση επιλεγμένων στοιχείων στο άνω άκρο"
+msgstr "Στοίχιση επιλεγμένων στοιχείων στο επάνω άκρο"
 
 #: pcbnew/tools/common_actions.cpp:561
-#, fuzzy
 msgid "Align items to the bottom"
-msgstr "Στοίχιση προς τα κάτω"
+msgstr "Στοίχιση στοιχείων κάτω"
 
 #: pcbnew/tools/common_actions.cpp:562
 msgid "Aligns selected items to the bottom edge"
-msgstr ""
+msgstr "Στοίχιση επιλεγμένων στοιχείων στο κάτω άκρο"
 
 #: pcbnew/tools/common_actions.cpp:566
-#, fuzzy
 msgid "Align items to the left"
-msgstr "Αντικείμενα προς διαγραφή"
+msgstr "Στοίχιση στοιχείων αριστερά"
 
 #: pcbnew/tools/common_actions.cpp:567
 msgid "Aligns selected items to the left edge"
-msgstr ""
+msgstr "Στοίχιση επιλεγμένων στοιχείων στο αριστερό άκρο"
 
 #: pcbnew/tools/common_actions.cpp:571
-#, fuzzy
 msgid "Align items to the right"
-msgstr "Δεξιά στοίχιση"
+msgstr "Στοίχιση στοιχείων δεξιά"
 
 #: pcbnew/tools/common_actions.cpp:572
 msgid "Aligns selected items to the right edge"
-msgstr ""
+msgstr "Στοίχιση επιλεγμένων στοιχείων στο δεξί άκρο"
 
 #: pcbnew/tools/common_actions.cpp:576
-#, fuzzy
 msgid "Distribute horizontally"
-msgstr "Οριζόντια"
+msgstr "Διανομή οριζόντια"
 
 #: pcbnew/tools/common_actions.cpp:577
 msgid "Distributes selected items along the horizontal axis"
-msgstr ""
+msgstr "Διανομή επιλεγμένων αντικειμένων κατά μήκος του οριζόντιου άξονα"
 
 #: pcbnew/tools/common_actions.cpp:581
 msgid "Distribute vertically"
-msgstr ""
+msgstr "Διανομή κάθετα"
 
 #: pcbnew/tools/common_actions.cpp:582
 msgid "Distributes selected items along the vertical axis"
-msgstr ""
+msgstr "Διανομή επιλεγμένων αντικειμένων κατά μήκος του κάθετου άξονα"
 
 #: pcbnew/tools/edit_tool.cpp:582
-#, fuzzy
 msgid "Cannot delete component reference."
-msgstr "Αναφορά υλικού"
+msgstr "Αδυναμία διαγραφής αναφοράς εξαρτήματος"
 
 #: pcbnew/tools/edit_tool.cpp:586
-#, fuzzy
 msgid "Cannot delete component value."
-msgstr "Τιμή υλικού"
+msgstr "Αδυναμία διαγραφής τιμής εξαρτήματος"
 
 #: pcbnew/tools/edit_tool.cpp:781
 #, fuzzy, c-format
@@ -20332,9 +20275,8 @@ msgid "Hold left mouse button and move cursor over pads to enumerate them"
 msgstr ""
 
 #: pcbnew/tools/module_tools.cpp:326
-#, fuzzy
 msgid "Select reference point"
-msgstr "Επιλέξτε το επεξεργαστή που επιθυμείτε"
+msgstr ""
 
 #: pcbnew/tools/module_tools.cpp:377
 #, c-format
@@ -20362,9 +20304,8 @@ msgid "Select..."
 msgstr "Επιλογή..."
 
 #: pcbnew/tools/selection_tool.cpp:113
-#, fuzzy
 msgid "Zoom"
-msgstr "Μεγέθυνση "
+msgstr "Μεγέθυνση"
 
 #: pcbnew/tools/selection_tool.cpp:536
 #, fuzzy
@@ -20374,9 +20315,8 @@ msgstr ""
 " Θέλετε να συνεχίσετε ?"
 
 #: pcbnew/tools/selection_tool.cpp:785
-#, fuzzy
 msgid "Clarify selection"
-msgstr "Επιλογή επιπέδου:"
+msgstr "Διευκρίνηση Επιλογής"
 
 #: pcbnew/tools/size_menu.cpp:45
 #, fuzzy
@@ -20422,33 +20362,33 @@ msgid "Change footprints '%s'"
 msgstr "Αλλαγή  αποτυπωμάτων '%s'"
 
 #: pcbnew/xchgmod.cpp:217
-#, fuzzy, c-format
+#, c-format
 msgid "File '%s' created\n"
-msgstr "Το αρχείο σχεδιασμού <%s> δημιουργήθηκε"
+msgstr "Το αρχείο '%s' δημιουργήθηκε\n"
 
 #: pcbnew/xchgmod.cpp:222
-#, fuzzy, c-format
+#, c-format
 msgid "** Could not create file '%s' ***\n"
-msgstr "Αδυναμία δημιουργίας του αρχείου %s"
+msgstr "** Αδυναμία δημιουργίας του αρχείου '%s' ***\n"
 
 #: pcbnew/xchgmod.cpp:282
-#, fuzzy, c-format
+#, c-format
 msgid "Change footprint %s -> %s (for value = %s)?"
-msgstr "Αλλαγή εξαρτημάτων <%s> -> <%s> (τιμή = %s)?"
+msgstr "Αλλαγή αποτυπώματος %s -> %s (για τιμή = %s);"
 
 #: pcbnew/xchgmod.cpp:289
-#, fuzzy, c-format
+#, c-format
 msgid "Change footprint %s -> %s ?"
-msgstr "Αλλαγή εξαρτημάτων <%s> -> <%s> ?"
+msgstr "Αλλαγή αποτυπώματος %s -> %s;"
 
 #: pcbnew/xchgmod.cpp:344
 msgid "Are you sure you want to change all footprints?"
-msgstr ""
+msgstr "Είστε σίγουροι  ότι θέλετε να αλλάξετε όλα τα αποτυπώματα;"
 
 #: pcbnew/xchgmod.cpp:394
 #, c-format
 msgid "Change footprint '%s' (from '%s') to '%s'"
-msgstr ""
+msgstr "Αλλαγή αποτυπώματος '%s' (από '%s') σε '%s'"
 
 #: pcbnew/xchgmod.cpp:525
 msgid "No footprints!"
@@ -20507,7 +20447,7 @@ msgstr "Γέμισμα ζώνης"
 
 #: pcbnew/zones_by_polygon_fill_functions.cpp:146
 msgid "Starting zone fill..."
-msgstr ""
+msgstr "Έναρξη γεμίσματος ζώνης..."
 
 #: pcbnew/zones_by_polygon_fill_functions.cpp:175
 #, fuzzy
@@ -20515,9 +20455,8 @@ msgid "Updating ratsnest..."
 msgstr "Μεταγλώττιση της υπερσύνδεσης...\n"
 
 #: 3d-viewer/dialogs/dialog_3D_view_option_base.h:79
-#, fuzzy
 msgid "3D Display Options"
-msgstr "Επιλογές εμφάνισης"
+msgstr "Επιλογές 3Δ Εμφάνισης"
 
 #: common/dialog_about/dialog_about_base.h:51
 msgid "About..."
@@ -20789,29 +20728,24 @@ msgid "Gerbview Options"
 msgstr "Επιλογές Gerbview"
 
 #: kicad/dialogs/dialog_template_selector_base.h:68
-#, fuzzy
 msgid "Project Template Selector"
-msgstr "Δεν ήταν δυνατή η εύρεση του αρχείου πρότυπου έργου <kicad.pro> "
+msgstr "Επιλογέας Πρότυπου Έργου"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.h:73
-#, fuzzy
 msgid "Export SVG file"
-msgstr "Δημιουργία αρχείου SVG"
+msgstr "Εξαγωγή αρχείου SVG"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.h:54
-#, fuzzy
 msgid "Cleaning Options"
-msgstr "Επιλογές εκκαθάρισης"
+msgstr "Επιλογές Εκκαθάρισης"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.h:130
-#, fuzzy
 msgid "Copper Zone Properties"
-msgstr "Ιδιότητες μη χάλκινων ζωνών"
+msgstr "Ιδιότητες Χάλκινης Ζώνης"
 
 #: pcbnew/dialogs/dialog_create_array_base.h:114
-#, fuzzy
 msgid "Create Array"
-msgstr "Δημιουργία γωνίας"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_design_rules_base.h:114
 msgid "Design Rules Editor"
@@ -20828,14 +20762,12 @@ msgstr "Έλεγχος DRC"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.h:140
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.h:122
-#, fuzzy
 msgid "Footprint Properties"
-msgstr "Ιδιότητες κειμένου αποτυπωμάτων"
+msgstr "Ιδιότητες Αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_edit_module_text_base.h:70
-#, fuzzy
 msgid "Footprint Text Properties"
-msgstr "Ιδιότητες κειμένου αποτυπωμάτων"
+msgstr "Ιδιότητες Κειμένου Αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_enum_pads_base.h:53
 #, fuzzy
@@ -20879,18 +20811,16 @@ msgid "Global Edition of Tracks and Vias"
 msgstr "Γενική επεξεργασία πιστών και via"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.h:68
-#, fuzzy
 msgid "Set Text Size"
-msgstr "Μέγεθος κειμένου κάθετα"
+msgstr "Ορισμός Μεγέθους Κειμένου"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.h:58
 msgid "Global Pads Edition"
 msgstr "Γενική επεξεργασία εδρών"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.h:79
-#, fuzzy
 msgid "Graphic Item Properties"
-msgstr "Ιδιότητες κειμένου γραφικών:"
+msgstr "Ιδιότητες Αντικειμένου Γραφικών"
 
 #: pcbnew/dialogs/dialog_graphic_items_options_base.h:71
 msgid "Texts and Drawings"
@@ -20915,14 +20845,12 @@ msgid "Pads Mask Clearance"
 msgstr "Διάκενο μάσκας εδρών"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.h:86
-#, fuzzy
 msgid "Footprint Editor Options"
-msgstr "Προσανατολισμός αποτυπώματος"
+msgstr "Επιλογές Επεξεργαστή Αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_move_exact_base.h:74
-#, fuzzy
 msgid "Move Item"
-msgstr "Μετακίνηση κόμβου"
+msgstr "Μετακίνηση Αντικειμένου"
 
 #: pcbnew/dialogs/dialog_non_copper_zones_properties_base.h:67
 msgid "Non Copper Zones Properties"
