@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-14 16:40+0200\n"
+"PO-Revision-Date: 2015-09-14 17:25+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -2446,7 +2446,7 @@ msgstr ""
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:37
 msgid "Ref"
-msgstr "Παραπομπή"
+msgstr "Αναφορά"
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:38
 #, fuzzy
@@ -2827,12 +2827,12 @@ msgstr ""
 #: eeschema/component_references_lister.cpp:521
 #, c-format
 msgid "Item not annotated: %s%s (unit %d)\n"
-msgstr "Μη σχολιασμένο αντικείμενο: %s%s (μέρος %d)\n"
+msgstr "Αντικείμενο χωρίς ονομασία αναφοράς: %s%s (μέρος %d)\n"
 
 #: eeschema/component_references_lister.cpp:528
 #, c-format
 msgid "Item not annotated: %s%s\n"
-msgstr "Μη σχολιασμένο αντικείμενο: %s%s\n"
+msgstr "Αντικείμενο χωρίς ονομασία αναφοράς: %s%s\n"
 
 #: eeschema/component_references_lister.cpp:551
 #, c-format
@@ -2890,19 +2890,19 @@ msgstr "Διευκρίνηση Επιλογής"
 
 #: eeschema/dialogs/dialog_annotate.cpp:195
 msgid "Clear and annotate all of the components on the entire schematic?"
-msgstr "Εκκαθάριση και σχολιασμός όλων των εξαρτημάτων σε όλο το σχηματικό;"
+msgstr "Εκκαθάριση και ονοματοδοσία όλων των εξαρτημάτων σε όλο το σχηματικό;"
 
 #: eeschema/dialogs/dialog_annotate.cpp:197
 msgid "Clear and annotate all of the components on the current sheet?"
-msgstr "Εκκαθάριση και σχολιασμός όλων των εξαρτημάτων στο τρέχον φύλλο;"
+msgstr "Εκκαθάριση και ονοματοδοσία όλων των εξαρτημάτων στο τρέχον φύλλο;"
 
 #: eeschema/dialogs/dialog_annotate.cpp:203
 msgid "Annotate only the unannotated components on the entire schematic?"
-msgstr "Σχολιασμός μόνο των μη σχολιασμένων εξαρτημάτων σε όλο το σχηματικό;"
+msgstr "Ονοματοδοσία μόνο των μη ονομασμένων εξαρτημάτων σε όλο το σχηματικό;"
 
 #: eeschema/dialogs/dialog_annotate.cpp:205
 msgid "Annotate only the unannotated components on the current sheet?"
-msgstr "Σχολιασμός μόνο των μη σχολιασμένων εξαρτημάτων στο τρέχον φύλλο;"
+msgstr "Ονοματοδοσία μόνο των μη ονομασμένων εξαρτημάτων στο τρέχον φύλλο;"
 
 #: eeschema/dialogs/dialog_annotate.cpp:208
 msgid ""
@@ -2956,7 +2956,7 @@ msgstr "Μηδενισμός τρέχοντος σχολιασμού"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:52
 msgid "R&eset, but do not swap any annotated multi-unit parts"
-msgstr "Επαναφορά, αλλά να μην αλλαχθούν σχολιασμένα εξαρτήματα με πολλά μέρη"
+msgstr "Επαναφορά, αλλά να μην αλλαχθούν ονομασμένα εξαρτήματα με πολλά μέρη"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:61
 msgid "Annotation Order"
@@ -3000,11 +3000,11 @@ msgstr "Να ζητείται πάντα επιβεβαίωση"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:215
 msgid "Clear Annotation"
-msgstr "Εκκαθάριση Σχολίασμού"
+msgstr "Εκκαθάριση Σχολιασμού"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:218
 msgid "Annotate"
-msgstr "Σχολιασμός"
+msgstr "Ονοματοδοσία"
 
 #: eeschema/dialogs/dialog_bom.cpp:321
 #, c-format
@@ -3150,7 +3150,7 @@ msgstr "Όνομα ακροδέκτη"
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:42
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:33
 msgid "Reference"
-msgstr "Παραπομπή"
+msgstr "Ονομασία Αναφοράς"
 
 #: eeschema/dialogs/dialog_color_config.cpp:80
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:114
@@ -3538,7 +3538,7 @@ msgstr "Το εξάρτημα '%s' δεν βρέθηκε!"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:393
 msgid "Illegal reference. A reference must start with a letter"
-msgstr "Απαγορευμένη παραπομπή. Μία παραπομπή πρέπει να ξεκινάει με ένα γράμμα"
+msgstr "Απαγορευμένη αναφορά. Μία αναφορά πρέπει να ξεκινάει με ένα γράμμα"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:419
 #, c-format
@@ -3698,7 +3698,7 @@ msgid ""
 "This is an alternate identifier to the reference."
 msgstr ""
 "Μία μοναδική ταυτότητα (μία χρονική σφραγίδα) που χαρακτηρίζει το εξάρτημα.\n"
-"Αυτό είναι ένα εναλλακτικό αναγνωριστικό της παραπομπής."
+"Αυτό είναι ένα εναλλακτικό αναγνωριστικό της αναφοράς."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:105
 msgid "Reset to Library Defaults"
@@ -3999,8 +3999,7 @@ msgstr "Σ&χήμα"
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:243
 msgid "Illegal reference prefix. A reference must start by a letter"
 msgstr ""
-"Απαγορευμένο πρόθεμα παραπομπής. Μία παραπομπή πρέπει να ξεκινάει με ένα "
-"γράμμα"
+"Απαγορευμένο πρόθεμα αναφοράς. Μία αναφορά πρέπει να ξεκινάει με ένα γράμμα"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:259
 #, c-format
@@ -4038,7 +4037,7 @@ msgid ""
 "lib).\n"
 "The text you entered has been converted to use underscores: %s"
 msgstr ""
-"Δεν επιτρέπονται κενοί χαρακτήρες μέσα σε παραπομπές ή τιμές (ονόματα "
+"Δεν επιτρέπονται κενοί χαρακτήρες μέσα σε αναφορές ή τιμές (ονόματα "
 "συμβόλων).\n"
 "Το κείμενο μετατράπηκε ώστε να χρησιμοποιεί _: %s"
 
@@ -4602,7 +4601,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:44
 msgid "Default reference designator:"
-msgstr "Προκαθορισμένη ένδειξη παραπομπής:"
+msgstr "Προκαθορισμένη ένδειξη αναφοράς:"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:48
 msgid "U"
@@ -4685,7 +4684,7 @@ msgstr "Προκαθορισμένη μορφή"
 
 #: eeschema/dialogs/dialog_netlist.cpp:381
 msgid "Prefix references 'U' and 'IC' with 'X'"
-msgstr "Πρόθεμα 'U' για παραπομπές και 'X' για ολοκληρωμένα"
+msgstr "Πρόθεμα αναφορών 'U' και 'X' για ολοκληρωμένα"
 
 #: eeschema/dialogs/dialog_netlist.cpp:386
 msgid "Use net number as net name"
@@ -4994,7 +4993,7 @@ msgstr "Σχεδιογράφηση πλαισίου και μπλοκ τίτλο
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:30
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:96
 msgid "Print (or not) the Frame references."
-msgstr "Εκτύπωση (ή μη) των παραπομπών Πλαισίου."
+msgstr "Εκτύπωση (ή μη) των αναφορών Πλαισίου."
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:126
 msgid "Plot Current Page"
@@ -5035,7 +5034,7 @@ msgstr "Επιλογές εκτύπωσης:"
 
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:28
 msgid "Print sheet &reference and title block"
-msgstr "Εκτύπωση της &παραπομπής φύλλου και του μπλοκ τίτλου"
+msgstr "Εκτύπωση της &αναφοράς φύλλου και του μπλοκ τίτλου"
 
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:34
 msgid "Print in &black and white only"
@@ -5224,7 +5223,7 @@ msgstr "Αναζήτηση μόνο στο τρέχον φύλλο"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:97
 msgid "Replace componen&t reference designators"
-msgstr "Αντικατάσταση προκαθορισμένων ενδείξεων παραπομπής:"
+msgstr "Αντικατάσταση προκαθορισμένων ενδείξεων αναφοράς:"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:102
 msgid "D&o not warp cursor to found item"
@@ -5263,11 +5262,11 @@ msgstr "Επεξεργασία Πεδίου %s"
 
 #: eeschema/edit_component_in_schematic.cpp:108
 msgid "Illegal reference string!  No change"
-msgstr "Απαγορευμένο αλφαριθμητικό παραπομπής! Δεν έγιναν αλλαγές"
+msgstr "Απαγορευμένο αλφαριθμητικό αναφοράς! Δεν έγιναν αλλαγές"
 
 #: eeschema/edit_component_in_schematic.cpp:117
 msgid "The reference field cannot be empty!  No change"
-msgstr "Το πεδίο παραπομπής δεν μπορεί να είναι κενό! Δεν έγιναν αλλαγές"
+msgstr "Το πεδίο αναφοράς δεν μπορεί να είναι κενό! Δεν έγιναν αλλαγές"
 
 #: eeschema/edit_component_in_schematic.cpp:127
 msgid "The value field cannot be empty!  No change"
@@ -5536,7 +5535,7 @@ msgstr "ακροδέκτης %s"
 #: eeschema/find.cpp:251
 #, c-format
 msgid "reference %s"
-msgstr "παραπομπή %s"
+msgstr "αναφορά %s"
 
 #: eeschema/find.cpp:255
 msgid "value"
@@ -6411,7 +6410,7 @@ msgstr "Ένα πεδίο %s δεν μπορεί να είναι κενό."
 
 #: eeschema/libfield.cpp:88
 msgid "Illegal reference. A reference must start by a letter"
-msgstr "Απαγορευμένη παραπομπή. Μία παραπομπή πρέπει να ξεκινάει με ένα γράμμα"
+msgstr "Απαγορευμένη αναφορά. Μία αναφορά πρέπει να ξεκινάει με ένα γράμμα"
 
 #: eeschema/libfield.cpp:108
 #, c-format
@@ -6581,7 +6580,7 @@ msgstr "Ρυθμίσεις Σελίδας"
 
 #: eeschema/menubar.cpp:136
 msgid "Setting for sheet size and frame references"
-msgstr "Ρυθμίσεις για μέγεθος φύλλου και παραπομπές πλαισίου"
+msgstr "Ρυθμίσεις για μέγεθος φύλλου και αναφορές πλαισίου"
 
 #: eeschema/menubar.cpp:141
 msgid "Pri&nt"
@@ -6776,7 +6775,7 @@ msgstr "Αποθήκευση προτιμήσεων εφαρμογής"
 
 #: eeschema/menubar.cpp:415 pcbnew/menubar_pcbframe.cpp:599
 msgid "Load Prefe&rences"
-msgstr "Φόρτωση προτιμήσεων"
+msgstr "Φόρτωση Προτιμήσεων"
 
 #: eeschema/menubar.cpp:416 pcbnew/menubar_pcbframe.cpp:600
 msgid "Load application preferences"
@@ -6800,7 +6799,7 @@ msgstr "Εύρεση παλιών εξαρτημάτων στο έργο και 
 
 #: eeschema/menubar.cpp:442
 msgid "&Annotate Schematic"
-msgstr "Σχολιασμός Σχηματικού"
+msgstr "Ονοματοδοσία Σχηματικού"
 
 #: eeschema/menubar.cpp:448
 msgid "Electrical Rules &Checker"
@@ -7026,8 +7025,8 @@ msgid ""
 "Exporting the netlist requires a completely\n"
 "annotated schematic."
 msgstr ""
-"Η εξαγωγή λίστας δικτύων ένα πλήρως \n"
-"σχολιασμένο σχηματικό."
+"Η εξαγωγή λίστας δικτύων ένα \n"
+"σχηματικό με ονομασίες σε όλα τα εξαρτήματα."
 
 #: eeschema/netlist.cpp:78
 msgid "Error: duplicate sheet names. Continue?"
@@ -7072,7 +7071,7 @@ msgstr "Διαγραφή σχεδίου"
 
 #: eeschema/onrightclick.cpp:303
 msgid "Move Reference"
-msgstr "Μετακίνηση Παραπομπής"
+msgstr "Μετακίνηση Αναφοράς"
 
 #: eeschema/onrightclick.cpp:304
 msgid "Move Value"
@@ -7084,7 +7083,7 @@ msgstr "Μετακίνηση Πεδίου Αποτυπώματος"
 
 #: eeschema/onrightclick.cpp:316
 msgid "Rotate Reference"
-msgstr "Περιστροφή Παραπομπής"
+msgstr "Περιστροφή Αναφοράς"
 
 #: eeschema/onrightclick.cpp:317
 msgid "Rotate Value"
@@ -7100,7 +7099,7 @@ msgstr "Περιστροφή πεδίου"
 
 #: eeschema/onrightclick.cpp:331
 msgid "Edit Reference"
-msgstr "Επεξεργασία Παραπομπής"
+msgstr "Επεξεργασία Αναφοράς"
 
 #: eeschema/onrightclick.cpp:335
 msgid "Edit Value"
@@ -9720,7 +9719,7 @@ msgstr "Προσδιορισμός"
 
 #: pcbnew/build_BOM_from_board.cpp:121
 msgid "Supplier and ref"
-msgstr "Προμηθευτής και παραπομπή"
+msgstr "Προμηθευτής και αναφορά"
 
 #: pcbnew/class_board.cpp:99
 msgid "This is the default net class."
@@ -10305,11 +10304,11 @@ msgstr "Εμφάνιση των τιμών των αποτυπωμάτων"
 
 #: pcbnew/class_pcb_layer_widget.cpp:79
 msgid "References"
-msgstr "Παραπομπές"
+msgstr "Αναφορές"
 
 #: pcbnew/class_pcb_layer_widget.cpp:79
 msgid "Show footprint's references"
-msgstr "Εμφάνιση των παραπομπών των αποτυπωμάτων"
+msgstr "Εμφάνιση των αναφορών των αποτυπωμάτων"
 
 #: pcbnew/class_pcb_layer_widget.cpp:166
 #, fuzzy
@@ -10437,7 +10436,7 @@ msgstr ""
 
 #: pcbnew/class_text_mod.cpp:365
 msgid "Ref."
-msgstr "Παραπομπή"
+msgstr "Αναφορά"
 
 #: pcbnew/class_text_mod.cpp:382
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:85
@@ -10456,7 +10455,7 @@ msgstr " Όχι"
 #: pcbnew/class_text_mod.cpp:416
 #, c-format
 msgid "Reference %s"
-msgstr "Παραπομπή %s"
+msgstr "Αναφορά %s"
 
 #: pcbnew/class_text_mod.cpp:420
 #, c-format
@@ -10749,7 +10748,7 @@ msgstr "Λειτουργία εκτύπωσης"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:81
 msgid "Full page with  frame ref"
-msgstr "Πλήρης σελίδα με παραπομπές πλαισίου"
+msgstr "Πλήρης σελίδα με αναφορές πλαισίου"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:81
 #, fuzzy
@@ -12406,7 +12405,7 @@ msgstr "Κείμενο:"
 #: pcbnew/dialogs/dialog_edit_module_text.cpp:130
 #: pcbnew/dialogs/dialog_edit_module_text_base.cpp:40 pcbnew/modules.cpp:66
 msgid "Reference:"
-msgstr "Παραπομπή:"
+msgstr "Αναφορά:"
 
 #: pcbnew/dialogs/dialog_edit_module_text.cpp:175
 msgid ""
@@ -12453,7 +12452,7 @@ msgstr "Τιμή εξαρτήματος"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:33
 msgid "Component reference"
-msgstr "Παραπομπή εξαρτήματος"
+msgstr "Αναφορά εξαρτήματος"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:46
 #, fuzzy
@@ -12523,7 +12522,7 @@ msgstr "Εισάγετε το όνομα του αρχείου αναφοράς"
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:50
 #, fuzzy
 msgid "Grid Reference Point:"
-msgstr "Παραπομπή:"
+msgstr "Αναφορά:"
 
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:36
 #, fuzzy
@@ -13459,7 +13458,7 @@ msgstr "Φίλτρο αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:28
 msgid "Reference designator"
-msgstr "Ένδειξη παραπομπής"
+msgstr "Ένδειξη αναφοράς"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:34
 #, fuzzy
@@ -14492,9 +14491,8 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:106
-#, fuzzy
 msgid "&Reference"
-msgstr "Παραπομπή"
+msgstr "Αναφορά"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:111
 msgid ""
@@ -14674,7 +14672,7 @@ msgid ""
 "or their time stamp (special setting after a full schematic reannotation)"
 msgstr ""
 "Επιλέξτε πως θα αναγνωρίζονται τα αποτυπώματα:\n"
-"από την παραπομπή τους (U1, R3...) (κανονική ρύθμιση)\n"
+"από την αναφορά τους (U1, R3...) (κανονική ρύθμιση)\n"
 "ή από τη χρονική τους σφραγίδα (ειδική ρύθμιση μετά από έναν πλήρη "
 "επανασχολιασμό σχηματικού)"
 
@@ -14834,7 +14832,7 @@ msgstr "Νέος προσανατολισμός (ανάλυση 0.1 μοίρες
 
 #: pcbnew/dialogs/dialog_orient_footprints_base.cpp:36
 msgid "Filter to select footprints by reference"
-msgstr "Φίλτρο για την επιλογή αποτυπωμάτων από παραπομπές"
+msgstr "Φίλτρο για την επιλογή αποτυπωμάτων με βάση αναφορές"
 
 #: pcbnew/dialogs/dialog_orient_footprints_base.cpp:43
 msgid "Include Locked Footprints"
@@ -15299,7 +15297,7 @@ msgstr "Τύπος διαγράμματος"
 #: pcbnew/dialogs/dialog_plot_base.cpp:93
 #, fuzzy
 msgid "Plot sheet reference on all layers"
-msgstr "Εκτύπωση της &παραπομπής φύλλου και του μπλοκ τίτλου"
+msgstr "Εκτύπωση της &αναφοράς φύλλου και του μπλοκ τίτλου"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:96
 #, fuzzy
@@ -15325,15 +15323,15 @@ msgstr "Σχεδιογράφηση τιμών αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:105
 msgid "Plot footprint references"
-msgstr "Σχεδιογράφηση παραπομπών αποτυπωμάτων "
+msgstr "Σχεδιογράφηση αναφορών αποτυπωμάτων "
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:108
 msgid "Force plotting of invisible values/references"
-msgstr "Εξαναγκασμός σχεδιογράφησης αόρατων τιμών/παραπομπών"
+msgstr "Εξαναγκασμός σχεδιογράφησης αόρατων τιμών/αναφορών"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:109
 msgid "Force plot invisible values and/or references"
-msgstr "Εξαναγκασμός σχεδιογράφησης αόρατων τιμών/παραπομπών"
+msgstr "Εξαναγκασμός σχεδιογράφησης αόρατων τιμών/αναφορών"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:113
 #, fuzzy
@@ -15424,7 +15422,7 @@ msgstr "Προκαθορισμένο πλάτος γραμμής"
 #: pcbnew/dialogs/dialog_plot_base.cpp:178
 #, fuzzy
 msgid "Line width for, e.g., sheet references."
-msgstr "Εκτύπωση παραπομπής φύλλου"
+msgstr "Εκτύπωση αναφοράς φύλλου"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:192
 #, fuzzy
@@ -15796,7 +15794,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:94
 msgid "Print frame ref"
-msgstr "Εκτύπωση παραπομπών πλαισίου"
+msgstr "Εκτύπωση αναφορών πλαισίου"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:106
 msgid "No drill mark"
@@ -16944,8 +16942,7 @@ msgstr ""
 
 #: pcbnew/legacy_netlist_reader.cpp:145
 msgid "Cannot parse reference designator in component section of netlist."
-msgstr ""
-"Αδυναμία ανάλυσης ένδειξης παραπομπής στα εξαρτήματα της λίστας δικτύων."
+msgstr "Αδυναμία ανάλυσης ένδειξης αναφοράς στα εξαρτήματα της λίστας δικτύων."
 
 #: pcbnew/legacy_netlist_reader.cpp:155
 msgid "Cannot parse value in component section of netlist."
@@ -17448,7 +17445,7 @@ msgstr "Αγκίστρωση"
 #: pcbnew/menubar_modedit.cpp:300
 #, fuzzy
 msgid "Place footprint reference anchor"
-msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος αποτυπώματος"
+msgstr "Τοποθέτηση της αγκίστρωσης αναφοράς του εξαρτήματος αποτυπώματος"
 
 #: pcbnew/menubar_modedit.cpp:308 pcbnew/menubar_pcbframe.cpp:483
 #, fuzzy
@@ -19563,12 +19560,12 @@ msgstr ""
 #: pcbnew/specctra_export.cpp:1455
 #, fuzzy, c-format
 msgid "Component with value of '%s' has empty reference id."
-msgstr "Το εξάρτημα με την τιμή \"%s\" έχει κενό ID παραπομπής."
+msgstr "Το εξάρτημα με την τιμή \"%s\" έχει κενό ID αναφοράς."
 
 #: pcbnew/specctra_export.cpp:1463
 #, fuzzy, c-format
 msgid "Multiple components have identical reference IDs of '%s'."
-msgstr "Πολλαπλά υλικά έχουν το ίδιο ID παραπομπής \"%s\"."
+msgstr "Πολλαπλά υλικά έχουν το ίδιο ID αναφοράς \"%s\"."
 
 #: pcbnew/specctra_import.cpp:84
 msgid "Merge Specctra Session file:"
@@ -19616,7 +19613,7 @@ msgstr "Από το αρχείο συνεδρίας απουσιάζει το τ
 #: pcbnew/specctra_import.cpp:398
 #, c-format
 msgid "Session file has 'reference' to non-existent component \"%s\""
-msgstr "Το αρχείο συνεδρίας έχει 'παραπομπή' σε μη υπάρχον εξάρτημα \"%s\""
+msgstr "Το αρχείο συνεδρίας έχει 'αναφορά' σε μη υπάρχον εξάρτημα \"%s\""
 
 #: pcbnew/specctra_import.cpp:546
 #, c-format
@@ -19726,7 +19723,7 @@ msgstr "Προσθήκη κειμένου"
 #: pcbnew/tool_modedit.cpp:183
 #, fuzzy
 msgid "Place the footprint reference anchor"
-msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος αποτυπώματος"
+msgstr "Τοποθέτηση της αγκίστρωσης αναφοράς του εξαρτήματος αποτυπώματος"
 
 #: pcbnew/tool_modedit.cpp:212
 msgid "Display Polar Coord ON"
@@ -20145,7 +20142,7 @@ msgstr "Προσθήκη περιοχής αποκοπής"
 #: pcbnew/tools/common_actions.cpp:171 pcbnew/tools/drawing_tool.cpp:593
 #, fuzzy
 msgid "Place the footprint anchor"
-msgstr "Τοποθέτηση της αγκίστρωσης παραπομπής του εξαρτήματος αποτυπώματος"
+msgstr "Τοποθέτηση της αγκίστρωσης αναφοράς του εξαρτήματος αποτυπώματος"
 
 #: pcbnew/tools/common_actions.cpp:176
 #, fuzzy
@@ -20318,7 +20315,7 @@ msgstr ""
 #: pcbnew/tools/edit_tool.cpp:582
 #, fuzzy
 msgid "Cannot delete component reference."
-msgstr "Παραπομπή υλικού"
+msgstr "Αναφορά υλικού"
 
 #: pcbnew/tools/edit_tool.cpp:586
 #, fuzzy
@@ -20554,7 +20551,7 @@ msgstr "Επιλογές εμφάνισης"
 
 #: eeschema/dialogs/dialog_annotate_base.h:89
 msgid "Annotate Schematic"
-msgstr "Σχολιασμός Σχηματικού"
+msgstr "Ονοματοδοσία Σχηματικού"
 
 #: eeschema/dialogs/dialog_bom_base.h:93
 msgid "Bill of Material"
@@ -20729,7 +20726,7 @@ msgstr "Τοποθέτηση κειμένου"
 
 #: eeschema/help_common_strings.h:76
 msgid "Annotate schematic components"
-msgstr "Σχολιασμός εξαρτημάτων σχηματικού"
+msgstr "Απόδοση ονομασίας στα εξαρτήματα σχηματικού"
 
 #: eeschema/help_common_strings.h:77
 msgid "Library Editor - Create/edit components"
@@ -21565,7 +21562,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ msgstr "Ασπρόμαυρο"
 
 #~ msgid "Print Frame Ref"
-#~ msgstr "Εκτύπωση παραπομπής πλαισίου"
+#~ msgstr "Εκτύπωση αναφοράς πλαισίου"
 
 #~ msgid "Print Selected"
 #~ msgstr "Εκτύπωση επιλεγμένου"
@@ -21655,7 +21652,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ msgstr "Εκτύπωση τιμής εξαρτήματος"
 
 #~ msgid "Print module reference"
-#~ msgstr "Εκτύπωση παραπομπής εξαρτήματος"
+#~ msgstr "Εκτύπωση αναφοράς εξαρτήματος"
 
 #~ msgid "Enable/disable print/plot module field texts on silkscreen layers"
 #~ msgstr ""
@@ -21834,7 +21831,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ msgstr "Δημιουργία εξαρτήματος"
 
 #~ msgid "No reference, aborted"
-#~ msgstr "Δεν υπάρχει παραπομπή, ακύρωση"
+#~ msgstr "Δεν υπάρχει αναφορά, ακύρωση"
 
 #~ msgid "Active Lib:"
 #~ msgstr "Ενεργή βιβλιοθήκη:"
@@ -22562,7 +22559,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ "#Cmp ( order = Reference )"
 #~ msgstr ""
 #~ "\n"
-#~ "#Cmp ( σειρά = παραπομπή )"
+#~ "#Cmp ( σειρά = αναφορά )"
 
 #~ msgid " (with SubCmp)"
 #~ msgstr " (με SubCmp)"
@@ -22717,7 +22714,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ msgstr "Μέγεθος &κειμένου:"
 
 #~ msgid "Components by reference"
-#~ msgstr "Υλικά βάσει παραπομπής"
+#~ msgstr "Υλικά βάσει αναφοράς"
 
 #~ msgid "Sub components (i.e. U2A, U2B ...)"
 #~ msgstr "Υπό-υλικά (π.χ. U2A, U2B ...)"
@@ -22816,8 +22813,8 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ "This is the reference used in schematic for annotation.\n"
 #~ "Do not use digits in reference."
 #~ msgstr ""
-#~ "Αυτή είναι η παραπομπή που χρησιμοποιείτε στο σχήμα για σχολιασμό.\n"
-#~ "Μη χρησιμοποιείτε ψηφία στην παραπομπή."
+#~ "Αυτή είναι η αναφορά που χρησιμοποιείτε στο σχήμα για σχολιασμό.\n"
+#~ "Μη χρησιμοποιείτε ψηφία στην αναφορά."
 
 #~ msgid ""
 #~ "This is the number of parts in this component package.\n"
@@ -22846,7 +22843,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ "Τα σύμβολα ισχύος έχουν ειδικές ιδιότητες για το Eeschema:\n"
 #~ "- Η τιμή δεν μπορεί να επεξεργαστεί (για να αποφευχθούν λάθη) γιατί αυτό "
 #~ "είναι το όνομα του ακροδέκτη που είναι σημαντικό για ένα σύμβολο ισχύος\n"
-#~ "- Η παραπομπή ενημερώνεται αυτόματα όταν δημιουργείται μια λίστα δικτύων "
+#~ "- Η αναφορά ενημερώνεται αυτόματα όταν δημιουργείται μια λίστα δικτύων "
 #~ "(δεν χρειάζεται να εκτελέσετε το σχολιασμό)"
 
 #~ msgid "Parts in package locked (cannot be swapped)"
@@ -22976,7 +22973,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ msgstr "Α/Μ"
 
 #~ msgid "Print page references"
-#~ msgstr "Εκτύπωση παραπομπών σελίδας"
+#~ msgstr "Εκτύπωση αναφορών σελίδας"
 
 #~ msgid "Plot A&LL"
 #~ msgstr "Εκτύπωση &ΟΛΩΝ"
