@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-16 18:22+0200\n"
+"PO-Revision-Date: 2015-09-16 20:30+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: el_GR\n"
 "X-Source-Language: C\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: pcbnew\n"
 "X-Poedit-SearchPath-1: eeschema\n"
 "X-Poedit-SearchPath-2: cvpcb\n"
@@ -9982,7 +9982,7 @@ msgstr "Έδρας μέσα σε καθαρή περιοχή"
 
 #: pcbnew/class_drc_item.cpp:117
 msgid "Via inside a text"
-msgstr ""
+msgstr "Via μέσα σε κείμενο"
 
 #: pcbnew/class_drc_item.cpp:120
 #, fuzzy
@@ -9991,7 +9991,7 @@ msgstr "Μέγεθος αποτυπώματος"
 
 #: pcbnew/class_drc_item.cpp:123
 msgid "Pad inside a text"
-msgstr ""
+msgstr "Έδρα μέσα σε κείμενο"
 
 #: pcbnew/class_edge_mod.cpp:263
 msgid "TimeStamp"
@@ -10013,7 +10013,7 @@ msgstr "Σημάδι"
 #: pcbnew/class_marker_pcb.cpp:101
 #, c-format
 msgid "ErrType (%d)- %s:"
-msgstr ""
+msgstr "ΣφάλμαΤύπος (%d)- %s:"
 
 #: pcbnew/class_marker_pcb.cpp:134
 #, c-format
@@ -10221,9 +10221,8 @@ msgid "Text Front"
 msgstr "Κείμενο πάνω όψης"
 
 #: pcbnew/class_pcb_layer_widget.cpp:69
-#, fuzzy
 msgid "Show footprint text on board's front"
-msgstr "Προβολή έδρών αποτυπώματος στην πάνω όψη της πλακέτας"
+msgstr "Εμφάνιση κειμένου αποτυπώματος στη μπροστινή πλευρά της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:70
 msgid "Text Back"
@@ -10258,18 +10257,16 @@ msgid "Show a marker on pads which have no net connected"
 msgstr "Εμφάνιση σημαδιού σε έδρες που δεν έχουν συνδεδεμένο δίκτυο"
 
 #: pcbnew/class_pcb_layer_widget.cpp:76
-#, fuzzy
 msgid "Footprints Front"
-msgstr "Δοκιμή αποτυπωμάτων"
+msgstr "Αποτυπώματα Μπροστά"
 
 #: pcbnew/class_pcb_layer_widget.cpp:76
 msgid "Show footprints that are on board's front"
 msgstr "Εμφάνιση των αποτυπωμάτων που βρίσκονται στην πάνω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:77
-#, fuzzy
 msgid "Footprints Back"
-msgstr "Αποτυπώματα"
+msgstr "Αποτυπώματα Πίσω"
 
 #: pcbnew/class_pcb_layer_widget.cpp:77
 msgid "Show footprints that are on board's back"
@@ -10292,23 +10289,20 @@ msgid "Show footprint's references"
 msgstr "Εμφάνιση των αναφορών των αποτυπωμάτων"
 
 #: pcbnew/class_pcb_layer_widget.cpp:166
-#, fuzzy
 msgid "Show All Copper Layers"
-msgstr "Προβολή όλων των επιπέδων"
+msgstr "Προβολή Όλων των Επιπέδων Χαλκού"
 
 #: pcbnew/class_pcb_layer_widget.cpp:168
-#, fuzzy
 msgid "Hide All Copper Layers But Active"
-msgstr "Απόκρυψη όλων των επιπέδων"
+msgstr "Απόκρυψη Όλων των Επιπέδων Χαλκού Εκτός Ενεργού"
 
 #: pcbnew/class_pcb_layer_widget.cpp:170
 msgid "Always Hide All Copper Layers But Active"
-msgstr ""
+msgstr "Πάντα Απόκρυψη Όλων των Επιπέδων Χαλκού Εκτός Ενεργού"
 
 #: pcbnew/class_pcb_layer_widget.cpp:172
-#, fuzzy
 msgid "Hide All Copper Layers"
-msgstr "Απόκρυψη όλων των επιπέδων"
+msgstr "Απόκρυψη Όλων των Επιπέδων Χαλκού"
 
 #: pcbnew/class_pcb_layer_widget.cpp:333
 msgid "Front copper layer"
@@ -10319,9 +10313,8 @@ msgid "Back copper layer"
 msgstr "Κάτω επίπεδο χαλκού"
 
 #: pcbnew/class_pcb_layer_widget.cpp:341
-#, fuzzy
 msgid "Inner copper layer"
-msgstr "Ένα εσωτερικό επίπεδο χαλκού"
+msgstr "Εσωτερικό επίπεδο χαλκού"
 
 #: pcbnew/class_pcb_layer_widget.cpp:365
 msgid "Adhesive on board's front"
@@ -10364,9 +10357,8 @@ msgid "Explanatory comments"
 msgstr "Επεξηγηματικά σχόλια"
 
 #: pcbnew/class_pcb_layer_widget.cpp:375 pcbnew/class_pcb_layer_widget.cpp:376
-#, fuzzy
 msgid "User defined meaning"
-msgstr "Διαδρομή αναζήτησης που έχει καθοριστεί από το χρήστη"
+msgstr ""
 
 #: pcbnew/class_pcb_layer_widget.cpp:377
 msgid "Board's perimeter definition"
@@ -10413,7 +10405,7 @@ msgstr "Πάχος"
 #: pcbnew/class_pcb_text.cpp:191
 #, c-format
 msgid "Pcb Text \"%s\" on %s"
-msgstr ""
+msgstr "Κείμενο Pcb \"%s\" στο %s"
 
 #: pcbnew/class_text_mod.cpp:365
 msgid "Ref."
@@ -10477,29 +10469,24 @@ msgid "Pad To Die Length"
 msgstr ""
 
 #: pcbnew/class_track.cpp:1061
-#, fuzzy
 msgid "NC Name"
-msgstr "Όνομα δικτύου"
+msgstr "ΜΣ - Όνομα"
 
 #: pcbnew/class_track.cpp:1062
-#, fuzzy
 msgid "NC Clearance"
-msgstr "Διάκενο"
+msgstr "ΜΣ - Διάκενο"
 
 #: pcbnew/class_track.cpp:1065
-#, fuzzy
 msgid "NC Width"
-msgstr "Νέο πλάτος:"
+msgstr "ΜΣ - Πλάτος"
 
 #: pcbnew/class_track.cpp:1068
-#, fuzzy
 msgid "NC Via Size"
-msgstr "Προσαρμοσμένα μεγέθη οπών:"
+msgstr "ΜΣ - Μέγεθος Via"
 
 #: pcbnew/class_track.cpp:1071
-#, fuzzy
 msgid "NC Via Drill"
-msgstr "Διάτρηση οπής"
+msgstr ""
 
 #: pcbnew/class_track.cpp:1091 pcbnew/class_zone.cpp:615
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:46
@@ -10520,9 +10507,8 @@ msgid "Segment Length"
 msgstr "Μήκος τμήματος"
 
 #: pcbnew/class_track.cpp:1169
-#, fuzzy
 msgid "Zone "
-msgstr "Μάσκα"
+msgstr "Ζώνη"
 
 #: pcbnew/class_track.cpp:1209
 msgid "Blind/Buried Via"
@@ -10549,7 +10535,6 @@ msgid "(NetClass)"
 msgstr "Κλάση δικτύου"
 
 #: pcbnew/class_track.cpp:1581
-#, fuzzy
 msgid "Not found"
 msgstr "Δεν βρέθηκε"
 
@@ -10604,9 +10589,8 @@ msgid "Segments"
 msgstr "Τμήματα"
 
 #: pcbnew/class_zone.cpp:640
-#, fuzzy
 msgid "Fill Mode"
-msgstr "Λειτουργία γεμίσματος"
+msgstr "Λειτουργία Γεμίσματος"
 
 #: pcbnew/class_zone.cpp:644
 #, fuzzy
@@ -10662,9 +10646,8 @@ msgstr "Διαγραφή ΔΙΚΤΥΟΥ;"
 #: pcbnew/dialogs/dialog_SVG_print.cpp:222
 #: pcbnew/dialogs/dialog_gendrill.cpp:300
 #: pcbnew/exporters/gen_modules_placefile.cpp:184
-#, fuzzy
 msgid "Use a relative path? "
-msgstr "Να χρησιμοποιηθεί μια σχετική διαδρομή;"
+msgstr "Χρήση σχετικής διαδρομή;"
 
 #: pcbnew/dialogs/dialog_SVG_print.cpp:233
 #: pcbnew/exporters/gen_modules_placefile.cpp:193
@@ -10673,15 +10656,15 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_SVG_print.cpp:306
-#, fuzzy, c-format
+#, c-format
 msgid "Plot: '%s' OK."
-msgstr "Εκτύπωση: %s "
+msgstr "Σχεδιογράφηση: '%s ' ΟΚ"
 
 #: pcbnew/dialogs/dialog_SVG_print.cpp:312 pcbnew/dialogs/dialog_plot.cpp:819
 #: pcbnew/exporters/gen_modules_placefile.cpp:310
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to create file '%s'."
-msgstr "Αδυναμία δημιουργίας του αρχείου %s"
+msgstr "Αδυναμία δημιουργίας αρχείου '%s'"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:30
 msgid ""
@@ -10713,13 +10696,12 @@ msgid "Default pen size"
 msgstr "Προκαθορισμένο μέγεθος πένας"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:65
-#, fuzzy
 msgid ""
 "Selection of the pen size used to draw items which have no pen size "
 "specified."
 msgstr ""
-"Επιλογή του προκαθορισμένου πάχους της γραφίδας που χρησιμοποιείται στη "
-"σχεδίαση αντικειμένων, όταν το πάχος τους έχει οριστεί στο 0."
+"Επιλογή μεγέθους πένας που χρησιμοποιείται στη σχεδίαση αντικειμένων για τα "
+"οποίοα δεν έχει οριστεί μέγεθος πένας."
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:75
 msgid "Print mode"
@@ -10730,18 +10712,16 @@ msgid "Full page with  frame ref"
 msgstr "Πλήρης σελίδα με αναφορές πλαισίου"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:81
-#, fuzzy
 msgid "Current page size"
-msgstr "Μέγεθος ονόματος τρέχοντος ακροδέκτη:"
+msgstr "Μέγεθος τρέχουσας σελίδας"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:81
 msgid "Board area only"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:83
-#, fuzzy
 msgid "SVG Page Size"
-msgstr "Μέγεθος σελίδας:"
+msgstr "Μέγεθος Σελίδας SVG"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:87
 #, fuzzy
@@ -10763,19 +10743,16 @@ msgid "Print the layer(s) horizontally mirrored"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:104
-#, fuzzy
 msgid "One file per layer"
-msgstr "Ένα εσωτερικό επίπεδο χαλκού"
+msgstr "Ένα αρχείο ανά επίπεδο"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:104
-#, fuzzy
 msgid "All in one file"
-msgstr " [δεν υπάρχει αρχείο]"
+msgstr "Όλα σε ένα αρχείο"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:106
-#, fuzzy
 msgid "File option:"
-msgstr "Το αρχείο δεν βρέθηκε"
+msgstr "Ρύθμιση αρχείου:"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:110
 #: pcbnew/dialogs/dialog_plot_base.cpp:382
@@ -10838,9 +10815,8 @@ msgstr ""
 "συγχώνευση ευθυγραμμισμένων τμημάτων γραμμής και αφαίρεση μηδενικών τμημάτων"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:32
-#, fuzzy
 msgid "D&elete unconnected tracks"
-msgstr "Διαγραφή μη συνδεδεμένων πιστών"
+msgstr "Διαγραφή μη συνδεδεμένων διαδρομών"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:33
 msgid "delete track segment having a dangling end"
@@ -10929,13 +10905,12 @@ msgid "Hidden net filter:"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:79
-#, fuzzy
 msgid ""
 "Pattern to filter net names in filtered list.\n"
 "Net names matching this pattern are not displayed."
 msgstr ""
-"Μοτίβο σε προχωρημένη λειτουργία, για φιλτράρισμα ονομάτων δικτύου σε λίστα\n"
-"Τα ονόματα δικτύου που ταιριάζουν σε αυτό το μοτίβο, δεν εμφανίζονται"
+"Μοτίβο για φιλτράρισμα ονομάτων δικτύου σε φιλτραρισμένες λίστες.\n"
+"Τα ονόματα δικτύου που ταιριάζουν σε αυτό το μοτίβο. δεν εμφανίζονται."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:83
 msgid "Visible net filter:"
@@ -10947,22 +10922,20 @@ msgid "*"
 msgstr "*"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:89
-#, fuzzy
 msgid ""
 "Pattern to filter net names in filtered list.\n"
 "Only net names matching this pattern are displayed."
 msgstr ""
-"Μοτίβο σε προχωρημένη λειτουργία, για φιλτράρισμα ονομάτων δικτύου σε λίστα\n"
-"Εμφανίζονται μόνο τα ονόματα δικτύου που ταιριάζουν σε αυτό το μοτίβο"
+"Μοτίβο για φιλτράρισμα ονομάτων δικτύου σε φιλτραρισμένες λίστες.\n"
+"Εμφανίζονται μόνο τα ονόματα δικτύου που ταιριάζουν σε αυτό το μοτίβο."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:93
 msgid "Apply Filters"
 msgstr "Εφαρμογή φίλτρων"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:103
-#, fuzzy
 msgid "Settings"
-msgstr "Ρυθμίσεις έδρας"
+msgstr "Ρυθμίσεις"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:108
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:48
@@ -10971,14 +10944,12 @@ msgid "Clearance"
 msgstr "Διάκενο"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:116
-#, fuzzy
 msgid "Minimum width"
-msgstr "Πλάτος γραμμής"
+msgstr "Ελάχιστο πλάτος"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:118
-#, fuzzy
 msgid "Minimun thickness of filled areas."
-msgstr "Τιμή ελάχιστου πάχους των γεμισμένων περιοχών"
+msgstr "Ελάχιστο πάχος γεμισμένων περιοχών."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:126
 msgid "Corner smoothing:"
@@ -12009,9 +11980,9 @@ msgstr "Σχήμα 3D:"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor.cpp:508
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit.cpp:379
-#, fuzzy, c-format
+#, c-format
 msgid "Use a path relative to '%s'?"
-msgstr "Να χρησιμοποιηθεί μια σχετική διαδρομή;"
+msgstr "Χρήση διαδρομής σχετικής με '%s';"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:60
 msgid "Top side"
@@ -12106,9 +12077,8 @@ msgid "Pad connection to zones:"
 msgstr "συνδέσεις"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:200
-#, fuzzy
 msgid "Use zone setting"
-msgstr "Γενικές ρυθμίσεις"
+msgstr "Χρήση ρυθμίσεων ζώνης"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:209
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:148
@@ -12432,9 +12402,8 @@ msgid "Export Footprint Association File"
 msgstr "Εξαγωγή Αρχείου Συσχέτισης Αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:61
-#, fuzzy
 msgid "List Footprints"
-msgstr "Εκτύπωση αποτυπωμάτων"
+msgstr "Λίστα Αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:64
 msgid "View Footprints"
@@ -12597,9 +12566,9 @@ msgid "No Colon in Nicknames"
 msgstr "Δεν υπάρχει όνομα υλικού!"
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:476
-#, fuzzy, c-format
+#, c-format
 msgid "Duplicate Nickname: '%s' in rows %d and %d"
-msgstr "διπλή χρονική σφραγίδα (%s) για %s%d και %s%d"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:491
 msgid "Please Delete or Modify One"
@@ -12806,9 +12775,8 @@ msgid "One file per side"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:61
-#, fuzzy
 msgid "One file for board"
-msgstr "Επαναφόρτωση πλακέτας"
+msgstr "Ένα αρχείο ανά πλακέτα"
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:63
 msgid "Files:"
@@ -12829,9 +12797,8 @@ msgid "Force INSERT attribute for all SMD footprints"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:71
-#, fuzzy
 msgid "Footprints Selection:"
-msgstr "Προσανατολισμός αποτυπωμάτων"
+msgstr "Επιλογή Αποτυπωμάτων:"
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:73
 msgid ""
@@ -12863,9 +12830,9 @@ msgid "** Unable to create %s **\n"
 msgstr "** Αδυναμία δημιουργίας %s **\n"
 
 #: pcbnew/dialogs/dialog_gendrill.cpp:420
-#, fuzzy, c-format
+#, c-format
 msgid "Report file %s created\n"
-msgstr "Δημιουργήθηκε το αρχείο αναφοράς \"%s\""
+msgstr "Δημιουργήθηκε το αρχείο αναφοράς %s\n"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:46
 msgid "Drill Units:"
@@ -13008,9 +12975,8 @@ msgid "Report File"
 msgstr "Αρχείο Αναφοράς"
 
 #: pcbnew/dialogs/dialog_general_options.cpp:232 pcbnew/pcbnew_config.cpp:90
-#, fuzzy
 msgid "Hide Microwave Toolbar"
-msgstr "Δημιουργία κενού μικροκυμάτων"
+msgstr "Απόκρυψη Εργαλειομπάρας Μικροκυμάτων"
 
 #: pcbnew/dialogs/dialog_general_options.cpp:232
 #: pcbnew/menubar_pcbframe.cpp:513 pcbnew/pcbnew_config.cpp:90
@@ -13038,9 +13004,8 @@ msgid "Main cursor shape selection (small cross or large cursor)"
 msgstr "Επιλογή σχήματος κύριου κέρσορα (μικρός σταυρός ή μεγάλος κέρσορας)"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:60
-#, fuzzy
 msgid "&Maximum links:"
-msgstr "Μέγιστες συνδέσεις:"
+msgstr "Μέγιστος αριθμός συνδέσεων:"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:65
 msgid "Adjust the number of ratsnets shown from cursor to closest pads"
@@ -13049,7 +13014,6 @@ msgstr ""
 "τις πλησιέστερες έδρες"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:69
-#, fuzzy
 msgid "&Auto save (minutes):"
 msgstr "Αυτόματη αποθήκευση (λεπτά):"
 
@@ -13065,9 +13029,8 @@ msgid "Ma&ximum undo items:"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:85
-#, fuzzy
 msgid "&Rotation angle:"
-msgstr "Περιστροφή:"
+msgstr "Γωνία περιστροφής:"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:90
 msgid "Context menu and hot key footprint rotation increment."
@@ -13107,9 +13070,8 @@ msgstr ""
 "Αυτή η φωλιά συνδέσεων είναι χρήσιμη για την τοποθέτηση ενός αποτυπώματος."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:117
-#, fuzzy
 msgid "&Delete unconnected tracks"
-msgstr "Διαγραφή μη συνδεδεμένων πιστών"
+msgstr "Διαγραφή μη συνδεδεμένων δρόμων"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:118
 msgid "Enable/disable the automatic track deletion when recreating a track."
@@ -13118,9 +13080,8 @@ msgstr ""
 "επαναδημιουργείται μία γραμμή."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:122
-#, fuzzy
 msgid "&Limit tracks to 45 degrees"
-msgstr "Γραμμή μόνο 45 μοίρες"
+msgstr "Περιορισμός γραμμών στις 45 μοίρες"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:123
 msgid ""
@@ -13201,23 +13162,20 @@ msgstr ""
 "μετακίνηση ενός αντικειμένου."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:190
-#, fuzzy
 msgid "Advanced/Developer"
-msgstr "Προγραμματιστές"
+msgstr "Προχωρημένα/Προγραμματιστών"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:192
 msgid "Dump zone geometry to files when filling"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_global_deletion.cpp:103
-#, fuzzy
 msgid "Are you sure you want to delete the selected items?"
-msgstr "Συμφωνείτε με τη διαγραφή των επιλεγμένων αντικειμένων;"
+msgstr "Είστε σίγουροι για τη διαγραφή των επιλεγμένων αντικειμένων;"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:23
-#, fuzzy
 msgid "Items to Delete"
-msgstr "Αντικείμενα προς διαγραφή"
+msgstr "Αντικείμενα προς Διαγραφή"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:25
 #: pcbnew/onrightclick.cpp:724 pcbnew/tools/pcb_editor_control.cpp:121
@@ -13248,9 +13206,8 @@ msgid "Clear Board"
 msgstr "Εκκαθάριση πλακέτας"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:55
-#, fuzzy
 msgid "Filter Settings"
-msgstr "Ρυθμίσεις σελίδας"
+msgstr "Ρυθμίσεις Φίλτρου"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:57
 msgid "Automatically routed tracks"
@@ -13271,9 +13228,8 @@ msgid "Locked footprints"
 msgstr "Κλειδωμένα Αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:75
-#, fuzzy
 msgid "Unlocked footprints"
-msgstr "Συμπερίληψη κλειδωμένων αποτυπωμάτων"
+msgstr "Ξεκλείδωτα αποτυπώματα"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:82
 msgid "All layers"
@@ -13382,9 +13338,8 @@ msgid "Set all tracks (no via) to their Netclass value"
 msgstr "Ορισμός όλων των πιστών (χωρίς via) στην τιμή της κλάσης δικτύου τους"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:26
-#, fuzzy
 msgid "Footprint Fields"
-msgstr "Φίλτρο αποτυπώματος"
+msgstr "Πεδία Αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:28
 msgid "Reference designator"
@@ -13395,9 +13350,8 @@ msgid "User defined"
 msgstr "Ορισμένο από χρήστη"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:40
-#, fuzzy
 msgid "Footprint Filter:"
-msgstr "Φίλτρο αποτυπώματος"
+msgstr "Φίλτρο Αποτυπώματος:"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:42
 msgid ""
@@ -13407,15 +13361,13 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:57
-#, fuzzy
 msgid "Current Text Dimensions"
-msgstr "Διαγραφή διάστασης"
+msgstr "Τρέχουσες Διαστάσεις Κειμένου"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:89
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:112
-#, fuzzy
 msgid "Thickness:"
-msgstr "Πάχος"
+msgstr "Πάχος:"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:23
 msgid "Pad Filter :"
@@ -13574,13 +13526,12 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:227
-#, fuzzy
 msgid ""
 "The graphic item will be on a copper layer. This is very dangerous. Are you "
 "sure?"
 msgstr ""
-"Αντικείμενο γραφικών πάνω σε επίπεδο χαλκού. Αυτό είναι πολύ επικίνδυνο. "
-"Είστε σίγουροι;"
+"Αντικείμενο γραφικών σε επίπεδο χαλκού. Αυτό είναι πολύ επικίνδυνο. Είστε "
+"σίγουροι;"
 
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:23
 msgid "Graphics:"
@@ -13672,29 +13623,24 @@ msgid "Keepout Options:"
 msgstr "Επιλογές Καθαρής Περιοχής"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:62
-#, fuzzy
 msgid "No Tracks"
-msgstr "Αποτυπώματα:"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:65
-#, fuzzy
 msgid "No Vias"
-msgstr "Όπές"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:68
-#, fuzzy
 msgid "No Copper Pour"
-msgstr "Μη χάλκινη ζώνη"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_layer_selection_base.cpp:116
-#, fuzzy
 msgid "Top/Front Layer"
-msgstr "Πάνω επίπεδο"
+msgstr "Πάνω/Μπροστά επίπεδο"
 
 #: pcbnew/dialogs/dialog_layer_selection_base.cpp:154
-#, fuzzy
 msgid "Bottom/Back Layer"
-msgstr "Κάτω επίπεδο"
+msgstr "Κάτω/Πίσω Επίπεδο"
 
 #: pcbnew/dialogs/dialog_layers_setup.cpp:344
 msgid "Enabled"
@@ -13806,14 +13752,12 @@ msgid "30"
 msgstr "30"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:57
-#, fuzzy
 msgid "Board Thickness"
-msgstr "Πάχος"
+msgstr "Πάχος Πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:110
-#, fuzzy
 msgid "CrtYd_Front_later"
-msgstr "Πάνω επίπεδο"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:124
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1336
@@ -14331,9 +14275,8 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_mask_clearance_base.cpp:54
 #: pcbnew/dialogs/dialog_plot_base.cpp:209
-#, fuzzy
 msgid "Solder mask min width:"
-msgstr "Μάσκα συγκόλλησης Επ. Εξαρ/των"
+msgstr "Ελάχιστο πλάτος μάσκας συγκόλλησης:"
 
 #: pcbnew/dialogs/dialog_mask_clearance_base.cpp:56
 msgid ""
@@ -14377,24 +14320,20 @@ msgid "On new graphic item creation:"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:34
-#, fuzzy
 msgid "&Graphic line width"
-msgstr "Πλάτος τμήματος γραφικών"
+msgstr "Πλάτος γραμμής γραφικών"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:46
-#, fuzzy
 msgid "Text line width"
-msgstr "Προκαθορισμένο πλάτος γραμμής:"
+msgstr "Πλάτος γραμμής κειμένων"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:58
-#, fuzzy
 msgid "Text &height"
-msgstr "Ε&πεξεργαστής κειμένου"
+msgstr "Ύψος κειμένου"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:70
-#, fuzzy
 msgid "Text &width"
-msgstr "Ορισμός πλάτους"
+msgstr "Πλάτος κειμένου"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:88
 msgid "Default values on new footprint creation:"
@@ -14417,18 +14356,15 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:119
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:148
-#, fuzzy
 msgid "SilkScreen"
-msgstr "Μεταξοτυπία εξαρτημάτων"
+msgstr "Μεταξοτυπία"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:119
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:148
-#, fuzzy
 msgid "Fab. Layer"
-msgstr "Επίπεδo"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:135
-#, fuzzy
 msgid "V&alue"
 msgstr "Τιμή"
 
@@ -14439,23 +14375,20 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:170
-#, fuzzy
 msgid "General options:"
-msgstr "Γενικές επιλογές"
+msgstr "Γενικές επιλογές:"
 
 #: pcbnew/dialogs/dialog_move_exact.cpp:135
 msgid "Distance:"
 msgstr "Απόσταση"
 
 #: pcbnew/dialogs/dialog_move_exact.cpp:142
-#, fuzzy
 msgid "Move vector X:"
-msgstr "Μετακίνηση προς τα αριστερά <-"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_move_exact.cpp:143
-#, fuzzy
 msgid "Move vector Y:"
-msgstr "Μετακίνηση προς τα αριστερά <-"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:19
 msgid "Use polar coordinates"
@@ -14488,9 +14421,9 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_netlist.cpp:170
-#, fuzzy, c-format
+#, c-format
 msgid "Reading netlist file \"%s\".\n"
-msgstr "Γίνεται ανάγνωση λίστας δικτύων \"%s\""
+msgstr "Ανάγνωση αρχείου λίστας δικτύων \"%s\".\n"
 
 #: pcbnew/dialogs/dialog_netlist.cpp:174
 msgid "Using time stamps to match components and footprints.\n"
@@ -14546,26 +14479,26 @@ msgid "Cannot write message contents to file \"%s\"."
 msgstr ""
 
 #: pcbnew/dialogs/dialog_netlist.cpp:364
-#, fuzzy
 msgid "File Write Error"
-msgstr "Σφάλμα αρχείου"
+msgstr "Σφάλμα Εγγραφής Αρχείου"
 
 #: pcbnew/dialogs/dialog_netlist.cpp:403 pcbnew/netlist.cpp:82
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot open netlist file \"%s\"."
-msgstr "Δεν ήταν δυνατό το άνοιγμα της βιβλιοθήκης υλικού <%s>."
+msgstr "Αδυναμία ανοίγματος αρχείου λίστας δικτύων \"%s\"."
 
 #: pcbnew/dialogs/dialog_netlist.cpp:404 pcbnew/netlist.cpp:83
-#, fuzzy
 msgid "Netlist Load Error."
-msgstr "Σφάλμα φόρτωσης:"
+msgstr "Σφάλμα Φόρτωσης Λίστας Δικτύων."
 
 #: pcbnew/dialogs/dialog_netlist.cpp:413
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error loading netlist file:\n"
 "%s"
-msgstr "Σφάλμα κατά την αποθήκευση του αρχείου βιβλιοθήκης \""
+msgstr ""
+"Σφάλμα κατά τη φόρτωση αρχείου λίστας δικτύων:\n"
+"%s"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:35
 msgid "Footprint Selection"
@@ -14606,9 +14539,8 @@ msgstr ""
 "διαφορετική έδρα"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:57
-#, fuzzy
 msgid "Unconnected Tracks"
-msgstr "Μη συνδεδεμένες έδρες"
+msgstr "Μη συνδεδεμένα Tracks"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:59
 msgid "Keep or delete bad tracks after a netlist change"
@@ -14662,9 +14594,8 @@ msgid "Rebuild the full ratsnest (usefull after a manual pad netname edition)"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:108
-#, fuzzy
 msgid "Save Messages to File"
-msgstr "Αποθήκευση αρχείου λίστας δικτύων"
+msgstr "Αποθήκευση Μηνυμάτων σε Αρχείο"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:123
 msgid "Dry run. Only report changes in message panel"
@@ -14678,9 +14609,8 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:128
-#, fuzzy
 msgid "Silent mode"
-msgstr "Λειτουργία εκτύπωσης"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:129
 msgid ""
@@ -14693,14 +14623,13 @@ msgid "Netlist File:"
 msgstr "Αρχείο λίστας δικτύων:"
 
 #: pcbnew/dialogs/dialog_non_copper_zones_properties.cpp:196
-#, fuzzy
 msgid ""
 "Error :\n"
 "you must choose a min thickness value bigger than 0.001 inch (or 0.0254 mm)"
 msgstr ""
 "Σφάλμα :\n"
-"Πρέπει να επιλέξετε μια ελάχιστη τιμή πάχους χαλκού μεγαλύτερη από 0.001 "
-"ίντσες (ή 0.0254 mm)"
+"Πρέπει να επιλέξετε μια ελάχιστη τιμή πάχους μεγαλύτερη από 0,001 ίντσες (ή "
+"0,0254 mm)"
 
 #: pcbnew/dialogs/dialog_non_copper_zones_properties.cpp:232
 msgid "Error : you must choose a layer"
@@ -14720,10 +14649,9 @@ msgid "Zone min thickness value"
 msgstr "Ελάχιστη τιμή πάχους μάσκας"
 
 #: pcbnew/dialogs/dialog_orient_footprints.cpp:119
-#, fuzzy, c-format
+#, c-format
 msgid "OK to set footprints orientation to %.1f degrees ?"
-msgstr ""
-"Συμφωνείτε να οριστεί ο προσανατολισμός των αποτυπωμάτων στις %g μοίρες;"
+msgstr "Συμφωνείτε να οριστεί ο προσανατολισμός αποτυπωμάτων στις %.1f μοίρες;"
 
 #: pcbnew/dialogs/dialog_orient_footprints.cpp:150
 msgid "Bad value for footprints orientation"
@@ -14760,14 +14688,12 @@ msgstr ""
 "μέγεθος της έδρας"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:756
-#, fuzzy
 msgid "Error: pad has no layer"
-msgstr "Σφάλμα : πρέπει να επιλέξετε ένα επίπεδο"
+msgstr "Σφάλμα : η έδρα δεν έχει επίπεδο"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:763
-#, fuzzy
 msgid "Error: the pad is not on a copper layer and has a hole"
-msgstr "Σφάλμα: ή εδρα δεν βρίσκεται πάνω σε επίπεδο χαλκού και έχει οπή"
+msgstr "Σφάλμα: ή εδρα δεν βρίσκεται σε επίπεδο χαλκού και έχει τρύπα"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:768
 msgid ""
@@ -14950,9 +14876,8 @@ msgid "Front adhesive"
 msgstr "Πάνω όψη?????"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:339
-#, fuzzy
 msgid "Back adhesive"
-msgstr "Ασπρόμαυρο"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:342
 msgid "Front solder paste"
@@ -14979,9 +14904,8 @@ msgid "Back solder mask"
 msgstr "Πίσω μάσκα συγκόλλησης"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:360
-#, fuzzy
 msgid "Drafting notes"
-msgstr "Ιδιότητες σχεδίασης"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:363
 msgid "E.C.O.1"
@@ -15102,14 +15026,12 @@ msgid "Mirrored"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:88
-#, fuzzy
 msgid "Justification:"
-msgstr "Κόμβος"
+msgstr "Στοίχιση:"
 
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:116
-#, fuzzy
 msgid "Orientation (0.1 deg):"
-msgstr "Προσανατολισμός (σε 0.1 μοίρες)"
+msgstr "Προσανατολισμός (0,1 μοίρες):"
 
 #: pcbnew/dialogs/dialog_plot.cpp:595
 msgid "HPGL pen size constrained."
@@ -15120,9 +15042,8 @@ msgid "HPGL pen overlay constrained."
 msgstr ""
 
 #: pcbnew/dialogs/dialog_plot.cpp:620
-#, fuzzy
 msgid "Default line width constrained."
-msgstr "Προκαθορισμένο πλάτος γραμμής:"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_plot.cpp:633
 msgid "X scale constrained."
@@ -15147,24 +15068,21 @@ msgstr ""
 "Δεν ήταν δυνατή η εγγραφή των αρχείων σχεδιογράφησης στον φάκελο \"%s\"."
 
 #: pcbnew/dialogs/dialog_plot.cpp:814
-#, fuzzy, c-format
+#, c-format
 msgid "Plot file '%s' created."
-msgstr "Το αρχείο σχεδιασμού <%s> δημιουργήθηκε"
+msgstr "Το αρχείο σχεδιογράφησης '%s' δημιουργήθηκε."
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:29
-#, fuzzy
 msgid "Plot format:"
-msgstr "Τύπος διαγράμματος"
+msgstr "Μορφή σχεδιογράφησης:"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:93
-#, fuzzy
 msgid "Plot sheet reference on all layers"
-msgstr "Εκτύπωση της &αναφοράς φύλλου και του μπλοκ τίτλου"
+msgstr "Σχεδιογράφηση της αναφοράς φύλλου σε όλα τα επίπεδα"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:96
-#, fuzzy
 msgid "Plot pads on silkscreen"
-msgstr "Εκτύπωση εδρών στή μεταξοτυπία"
+msgstr "Σχεδιογράφηση εδρών στη μεταξοτυπία"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:97
 #, fuzzy
@@ -15244,9 +15162,8 @@ msgid "Small"
 msgstr "Μικρό/ή"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:144
-#, fuzzy
 msgid "Actual size"
-msgstr "Πλήρες μέγεθος"
+msgstr "Πραγματικό μέγεθος"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:150
 msgid "Scaling:"
@@ -15282,27 +15199,21 @@ msgid "Default line width"
 msgstr "Προκαθορισμένο πλάτος γραμμής"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:178
-#, fuzzy
 msgid "Line width for, e.g., sheet references."
-msgstr "Εκτύπωση αναφοράς φύλλου"
+msgstr "Πλάτος γραμμής για, π.χ., αναφορές φύλλου."
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:192
-#, fuzzy
 msgid "Current solder mask settings:"
-msgstr "Τρέχουσες ρυθμίσεις:"
+msgstr "Τρέχουσες ρυθμίσεις μάσκας συγκόλησης:"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:201
-#, fuzzy
 msgid "Margin between pads and solder mask"
-msgstr ""
-"Προσαρμογή του γενικού διάκενου μεταξύ των εδρών και της αντικολλητικής "
-"μάσκας"
+msgstr "Περιθώριο ανάμεσα σε έδρες και μάσκα συγκόλλησης"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:205
 #: pcbnew/dialogs/dialog_plot_base.cpp:215
-#, fuzzy
 msgid "val"
-msgstr "Έλλειψη"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:211
 msgid ""
@@ -15311,14 +15222,12 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:225
-#, fuzzy
 msgid "Gerber Options"
-msgstr "Επιλογές Gerbview"
+msgstr "Επιλογές Gerber"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:230
-#, fuzzy
 msgid "Use Protel filename extensions"
-msgstr "Χρηση κατάλληλων επεκτάσεων Gerber"
+msgstr "Χρηση επεκτάσεων ονομάτων αρχείου Protel"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:231
 #, fuzzy
@@ -15344,14 +15253,12 @@ msgid "Remove silkscreen from areas without soldermask"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:248
-#, fuzzy
 msgid "4.5 (unit mm)"
-msgstr " (μονάδα %d)"
+msgstr "4,5 (μονάδα mm)"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:248
-#, fuzzy
 msgid "4.6 (unit mm)"
-msgstr " (μονάδα %d)"
+msgstr "4,6 (μονάδα mm)"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:252
 msgid ""
