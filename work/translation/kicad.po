@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-18 17:34+0200\n"
+"PO-Revision-Date: 2015-09-18 20:43+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -286,14 +286,15 @@ msgstr "Απόδοση Υφής"
 #: 3d-viewer/3d_toolbar.cpp:176
 msgid "Apply a grid/cloud textures to Board, Solder Mask and Silkscreen"
 msgstr ""
+"Εφαρμογή πλέγματος/υφης στην Πλακέτα, τη Μάσκα Συγκόλησης και τη Μεταξοτυπία"
 
 #: 3d-viewer/3d_toolbar.cpp:180
 msgid "Render Smooth Normals"
-msgstr ""
+msgstr "Απόδοση Εξομαλυσμένων Βασικών Στοιχείων"
 
 #: 3d-viewer/3d_toolbar.cpp:184
 msgid "Use Model Normals"
-msgstr ""
+msgstr "Χρήση Βασικών Στοιχείων Μοντέλων"
 
 #: 3d-viewer/3d_toolbar.cpp:188
 msgid "Render Material Properties"
@@ -301,7 +302,7 @@ msgstr "Απόδοση Ιδιοτήτων Υλικού"
 
 #: 3d-viewer/3d_toolbar.cpp:192
 msgid "Show Model Bounding Boxes"
-msgstr ""
+msgstr "Εμφάνιση Πλαίσιου Οριοθέτησης Μοντέλων"
 
 #: 3d-viewer/3d_toolbar.cpp:200
 msgid "Choose Colors"
@@ -325,7 +326,7 @@ msgstr "Χρώμα Μεταξοτυπίας"
 
 #: 3d-viewer/3d_toolbar.cpp:222
 msgid "Copper/Surface Finish Color"
-msgstr ""
+msgstr "Χρώμα Χαλκού/Επιφάνειας"
 
 #: 3d-viewer/3d_toolbar.cpp:228
 msgid "Show 3D &Axis"
@@ -1920,7 +1921,7 @@ msgstr "Αρχείο KiCad αποτυπώματος s-expre (*.mod)|*.mod"
 
 #: common/wildcards_and_files_ext.cpp:81
 msgid "KiCad footprint s-expre library path (*.pretty)|*.pretty"
-msgstr ""
+msgstr "Διαδρομή βιβλιοθήκης s-expre αποτυπώματος KiCad (*.pretty)|*.pretty"
 
 #: common/wildcards_and_files_ext.cpp:82
 msgid "Legacy footprint library file (*.mod)|*.mod"
@@ -2322,6 +2323,14 @@ msgid ""
 "See the \"Footprint Library Table\" section of the CvPcb documentation for "
 "more information."
 msgstr ""
+"Έχετε εκτελέσει το CvPcb για πρώτη φορά χρησιμοποιώντας τη νέα μέθοδο "
+"καταλόγου βιβλιοθήκης αποτυπωμάτων για εύρεση αποτυπωμάτων. Το CvPcb έχει "
+"αντιγράψει τον προκαθορισμένο κατάλογο ή έχει δημιουργήσει έναν άδειο "
+"κατάλογο στον φάκελο χρήστη του υπολογιστή σας. Πρέπει αρχικά να ρυθμίσετε "
+"τον κατάλογο βιβλιοθήκης για να περιλαμβάνει όλες τις βιβλιοθήκες "
+"αποτυπωμάτων που δεν περιλαμβάνονται στο KiCad. Δείτε το κεφάλαιο "
+"\"Κατάλογος Βιβλιοθήκης Αποτυπωμάτων\" της τεκμηρίωσης του CvPcb για "
+"περισσότερες πληροφορίες."
 
 #: cvpcb/cvpcb.cpp:184 pcbnew/pcbnew.cpp:339
 #, c-format
@@ -4985,7 +4994,7 @@ msgstr "Ασπρόμαυρο"
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:109
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:21
 msgid "Mode"
-msgstr "Κατάσταση"
+msgstr "Λειτουργία"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:111
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:77
@@ -8313,7 +8322,7 @@ msgstr "Απόκρυψη όλων των επιπέδων"
 
 #: gerbview/class_gerbview_layer_widget.cpp:165
 msgid "Sort Layers if X2 Mode"
-msgstr ""
+msgstr "Ταξινόμηση Επιπέδων αν Λειτουργία X2"
 
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:31
 msgid "Layers selection:"
@@ -8825,7 +8834,7 @@ msgstr "Όνομα εικόνας: '%s'  Όνομα επιπέδου: '%s'"
 
 #: gerbview/gerbview_frame.cpp:510
 msgid "X2 attr"
-msgstr ""
+msgstr "ιδιότητα X2"
 
 #: gerbview/init_gbr_drawlayers.cpp:48
 msgid "Current data will be lost?"
@@ -8942,7 +8951,7 @@ msgstr "Επιλέξτε τον επεξεργαστή κειμένου που �
 
 #: gerbview/menubar.cpp:225
 msgid "Open the GerbView handbook"
-msgstr ""
+msgstr "Άνοιγμα εγχειριδίου του GerbView"
 
 #: gerbview/menubar.cpp:231
 msgid "&About GerbView"
@@ -13759,7 +13768,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:137
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1346
 msgid "Off-board, testing"
-msgstr ""
+msgstr "Εκτός πλακέτας, δοκιμές"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:141
 msgid "Fab_Front_later"
@@ -14378,11 +14387,11 @@ msgstr "Απόσταση"
 
 #: pcbnew/dialogs/dialog_move_exact.cpp:142
 msgid "Move vector X:"
-msgstr ""
+msgstr "Μετακίνηση Χ:"
 
 #: pcbnew/dialogs/dialog_move_exact.cpp:143
 msgid "Move vector Y:"
-msgstr ""
+msgstr "Μετακίνηση Υ:"
 
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:19
 msgid "Use polar coordinates"
@@ -15376,23 +15385,23 @@ msgstr "Μικρο-Ρύθμιση Απόκλισης Διαφορικού Ζεύ
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings.cpp:66
 msgid "Target skew: "
-msgstr ""
+msgstr "Στόχος απόκλισης:"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:20
 msgid "Length/skew"
-msgstr ""
+msgstr "Μήκος/απόκλιση"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:28
 msgid "Tune from:"
-msgstr ""
+msgstr "Ρύθμιση από:"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:40
 msgid "Tune to:"
-msgstr ""
+msgstr "Ρύθμιση έως:"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:52
 msgid "Constraint:"
-msgstr ""
+msgstr "Περιορισμός"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:56
 msgid "From Design Rules"
@@ -15400,15 +15409,15 @@ msgstr "Από Κανόνες Σχεδιασμού"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:56
 msgid "Manual"
-msgstr ""
+msgstr "Χειρωνακτικό"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:67
 msgid "Target length:"
-msgstr ""
+msgstr "Επιθυμητό μήκος:"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:85
 msgid "Meandering"
-msgstr ""
+msgstr "Μαίανδρος"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:96
 msgid "Min amplitude (Amin):"
@@ -15420,15 +15429,15 @@ msgstr "Μέγιστο πλάτος (Amax):"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:118
 msgid "Spacing (s):"
-msgstr "Αποστάσεις:"
+msgstr "Απόσταση (s):"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:129
 msgid "Miter radius (r):"
-msgstr ""
+msgstr "Ακτίνα μαιάνδρου (r):"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:140
 msgid "Miter style:"
-msgstr ""
+msgstr "Τύπος μαιάνδρου:"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:146
 msgid "45 degree"
@@ -15440,15 +15449,15 @@ msgstr "τόξο"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:19
 msgid "Highlight collisions"
-msgstr ""
+msgstr "Φωτισμός συγκρούσεων"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:19
 msgid "Shove"
-msgstr ""
+msgstr "Σπρώξιμο"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:19
 msgid "Walk around"
-msgstr " σημάδι"
+msgstr "Παράκαμψη"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:19
 msgid "Figure out what's best"
@@ -15464,19 +15473,19 @@ msgstr "μετακίνηση αντικειμένου"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:38
 msgid "interactive drag"
-msgstr ""
+msgstr "διαδραστικό σύρσιμο"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:47
 msgid "Free angle mode (no shove/walkaround)"
-msgstr ""
+msgstr "Λειτουργία ελεύθερης γωνίας (χωρίς σπρώξιμο/παράκαμψη)"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:50
 msgid "Shove vias"
-msgstr ""
+msgstr "Σπρώξιμο των via"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:55
 msgid "Jump over obstacles"
-msgstr ""
+msgstr "Άλμα πάνω από εμπόδια"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:58
 msgid "Remove redundant tracks"
@@ -15484,11 +15493,11 @@ msgstr "Διαγραφή περιττών ιχνών"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:61
 msgid "Automatic neckdown"
-msgstr ""
+msgstr "Αυτόματη αναλογία πλάτους δρόμου/έδρας"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:64
 msgid "Smooth dragged segments"
-msgstr ""
+msgstr "Εξομάλυνση τμημάτων που σύρθηκαν"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:67
 msgid "Allow DRC violations"
@@ -15496,11 +15505,11 @@ msgstr "Να επιτρέπονται παραβιάσεις του ΕΚΣ"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:70
 msgid "Suggest track finish"
-msgstr ""
+msgstr "Να προτείνεται τερματισμός του δρόμου"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:81
 msgid "Optimizer effort"
-msgstr ""
+msgstr "Ένταση προσπάθειας βελτιστοποιητή"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:97
 msgid "low"
@@ -15969,7 +15978,7 @@ msgstr "Διάκενα ιχνών"
 #: pcbnew/eagle_plugin.cpp:1674
 #, c-format
 msgid "<package> name: '%s' duplicated in eagle <library>: '%s'"
-msgstr ""
+msgstr "όνομα <πακέτου>: '%s' υπάρχει και στη <βιβλιοθήκη> eagle: '%s'"
 
 #: pcbnew/eagle_plugin.cpp:1731
 #, c-format
@@ -16095,7 +16104,7 @@ msgstr "Αδυναμία διαγραφής ΤΙΜΗΣ!"
 
 #: pcbnew/editrack.cpp:815
 msgid "Track Len"
-msgstr "Μήκος αποτυπώματος"
+msgstr ""
 
 #: pcbnew/editrack.cpp:819
 msgid "Full Len"
@@ -18945,7 +18954,7 @@ msgstr " ενός υπάρχοντος έργου"
 
 #: pcbnew/router/length_tuner_tool.cpp:54
 msgid "Stops laying the current meander."
-msgstr ""
+msgstr "Σταματάει την τοποθέτηση του τρέχοντος μαιάνδρου."
 
 #: pcbnew/router/length_tuner_tool.cpp:57
 msgid "Length Tuning Settings"
@@ -18962,31 +18971,31 @@ msgstr "Αύξηση απόστασης"
 
 #: pcbnew/router/length_tuner_tool.cpp:60
 msgid "Increase meander spacing by one step."
-msgstr ""
+msgstr "Αύξηση της απόστασης μαιάνδρου κατά ένα βήμα."
 
 #: pcbnew/router/length_tuner_tool.cpp:63
 msgid "Decrease spacing"
-msgstr "Μείωση απόστασης"
+msgstr "Αύξηση απόστασης"
 
 #: pcbnew/router/length_tuner_tool.cpp:63
 msgid "Decrease meander spacing by one step."
-msgstr ""
+msgstr "Μείωση της απόστασης μαιάνδρου κατά ένα βήμα."
 
 #: pcbnew/router/length_tuner_tool.cpp:66
 msgid "Increase amplitude"
-msgstr ""
+msgstr "Αύξηση πλάτους"
 
 #: pcbnew/router/length_tuner_tool.cpp:66
 msgid "Increase meander amplitude by one step."
-msgstr ""
+msgstr "Αύξηση του πλάτους μαιάνδρου κατά ένα βήμα."
 
 #: pcbnew/router/length_tuner_tool.cpp:69
 msgid "Decrease amplitude"
-msgstr ""
+msgstr "Μείωση πλάτους"
 
 #: pcbnew/router/length_tuner_tool.cpp:69
 msgid "Decrease meander amplitude by one step."
-msgstr ""
+msgstr "Μείωση του πλάτους μαιάνδρου κατά ένα βήμα."
 
 #: pcbnew/router/length_tuner_tool.cpp:83
 msgid "Length Tuner"
@@ -19035,17 +19044,17 @@ msgstr ""
 #: pcbnew/router/pns_dp_meander_placer.cpp:372
 #: pcbnew/router/pns_meander_placer.cpp:245
 msgid "Too long: "
-msgstr ""
+msgstr "Πολύ μεγάλο:"
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:375
 #: pcbnew/router/pns_meander_placer.cpp:248
 msgid "Too short: "
-msgstr ""
+msgstr "Πολύ μικρό:"
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:378
 #: pcbnew/router/pns_meander_placer.cpp:251
 msgid "Tuned: "
-msgstr ""
+msgstr "Ρυθμισμένο:"
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:381
 #: pcbnew/router/pns_meander_placer.cpp:254
@@ -19069,15 +19078,15 @@ msgstr ""
 
 #: pcbnew/router/pns_meander_skew_placer.cpp:156
 msgid "Too long: skew "
-msgstr ""
+msgstr "Πολύ μεγάλο: απόκλιση"
 
 #: pcbnew/router/pns_meander_skew_placer.cpp:159
 msgid "Too short: skew "
-msgstr ""
+msgstr "Πολύ μικρό: απόκλιση"
 
 #: pcbnew/router/pns_meander_skew_placer.cpp:162
 msgid "Tuned: skew "
-msgstr ""
+msgstr "Ρυθμισμένο: απόκλιση"
 
 #: pcbnew/router/pns_tool_base.cpp:60
 msgid "Routing Options..."
@@ -19969,7 +19978,7 @@ msgstr "πλάτος κλάσης δικτύου"
 
 #: pcbnew/tools/size_menu.cpp:64
 msgid "Via "
-msgstr "Via 1"
+msgstr "Via "
 
 #: pcbnew/tools/size_menu.cpp:68
 msgid "net class size"
