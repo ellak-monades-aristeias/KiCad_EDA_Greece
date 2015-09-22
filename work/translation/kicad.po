@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-18 20:43+0200\n"
+"PO-Revision-Date: 2015-09-22 18:40+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -1076,7 +1076,7 @@ msgstr "Επιβεβαίωση αλλαγής"
 #: common/dialogs/dialog_hotkeys_editor_base.cpp:19
 msgid "Select a row and press a new key combination to alter the binding."
 msgstr ""
-"Επιλέξτε μία γραμμή και πατήστε ένα νέο πλήκτρο για να αλλάξει η συντόμευση."
+"Επιλέξτε μία σειρά και πατήστε ένα νέο πλήκτρο για να αλλάξει η συντόμευση."
 
 #: common/dialogs/dialog_hotkeys_editor_base.cpp:36
 msgid "Undo"
@@ -1701,7 +1701,7 @@ msgstr "Εσωτερικό"
 
 #: common/pcbcommon.cpp:70
 msgid "Non-copper"
-msgstr "Μη χάλκινο"
+msgstr "Μη-χάλκινο"
 
 #: common/pgm_base.cpp:109 pcbnew/dialogs/dialog_design_rules_base.cpp:59
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:102
@@ -2861,7 +2861,7 @@ msgstr "Αντικείμενο χωρίς ονομασία αναφοράς: %s%
 #: eeschema/component_references_lister.cpp:551
 #, c-format
 msgid "Error item %s%s unit %d and no more than %d parts\n"
-msgstr ""
+msgstr "Σφάλμα αντικειμένου %s%s μέρος %d και λιγότερα από %d κομμάτια\n"
 
 #: eeschema/component_references_lister.cpp:591
 #: eeschema/component_references_lister.cpp:623
@@ -6127,80 +6127,80 @@ msgstr "Το εξάρτημα '%s' αποθηκεύτηκε στη βιβλιο�
 #: gerbview/onrightclick.cpp:62 pcbnew/modedit_onclick.cpp:232
 #: pcbnew/onrightclick.cpp:87
 msgid "End Tool"
-msgstr "Τέλος εργαλείου"
+msgstr "Τέλος Εργαλείου"
 
 #: eeschema/libedit_onrightclick.cpp:118
 msgid "Move Arc"
-msgstr "Μετακίνηση τόξου"
+msgstr "Μετακίνηση Τόξου"
 
 #: eeschema/libedit_onrightclick.cpp:122
 msgid "Drag Arc Size"
-msgstr "Σύρσιμο μεγέθους τόξου"
+msgstr "Σύρσιμο Μεγέθους Τόξου"
 
 #: eeschema/libedit_onrightclick.cpp:126
 msgid "Edit Arc Options"
-msgstr "Επεξεργασία επιλογών τόξου"
+msgstr "Επεξεργασία Επιλογών Τόξου"
 
 #: eeschema/libedit_onrightclick.cpp:131
 msgid "Delete Arc"
-msgstr "Διαγραφή τόξου"
+msgstr "Διαγραφή Τόξου"
 
 #: eeschema/libedit_onrightclick.cpp:139
 msgid "Move Circle"
-msgstr "Μετακίνηση κύκλου"
+msgstr "Μετακίνηση Κύκλου"
 
 #: eeschema/libedit_onrightclick.cpp:143
 msgid "Drag Circle Outline"
-msgstr "Σύρσιμο περιγράμματος κύκλου"
+msgstr "Σύρσιμο Περιγράμματος Κύκλου"
 
 #: eeschema/libedit_onrightclick.cpp:148
 msgid "Edit Circle Options"
-msgstr "Επεξεργασία επιλογών κύκλου"
+msgstr "Επεξεργασία Επιλογών Κύκλου"
 
 #: eeschema/libedit_onrightclick.cpp:154
 msgid "Delete Circle"
-msgstr "Διαγραφή κύκλου"
+msgstr "Διαγραφή Κύκλου"
 
 #: eeschema/libedit_onrightclick.cpp:163
 msgid "Move Rectangle"
-msgstr "Μετακίνηση ορθογωνίου"
+msgstr "Μετακίνηση Ορθογωνίου"
 
 #: eeschema/libedit_onrightclick.cpp:169
 msgid "Edit Rectangle Options"
-msgstr "Επεξεργασία επιλογών ορθογωνίου"
+msgstr "Επεξεργασία Επιλογών Ορθογωνίου"
 
 #: eeschema/libedit_onrightclick.cpp:175
 msgid "Drag Rectangle Edge"
-msgstr "Σύρσιμο ακμής ορθογωνίου"
+msgstr "Σύρσιμο Ακμής Ορθογωνίου"
 
 #: eeschema/libedit_onrightclick.cpp:178
 msgid "Delete Rectangle"
-msgstr "Διαγραφή ορθογωνίου"
+msgstr "Διαγραφή Ορθογωνίου"
 
 #: eeschema/libedit_onrightclick.cpp:188 eeschema/onrightclick.cpp:597
 #: pcbnew/modedit_onclick.cpp:343 pcbnew/onrightclick.cpp:882
 msgid "Move Text"
-msgstr "Μετακίνηση κειμένου"
+msgstr "Μετακίνηση Κειμένου"
 
 #: eeschema/libedit_onrightclick.cpp:194 eeschema/onrightclick.cpp:96
 #: eeschema/onrightclick.cpp:607 pcbnew/modedit_onclick.cpp:379
 #: pcbnew/onrightclick.cpp:898
 msgid "Edit Text"
-msgstr "Επεξεργασία κειμένου"
+msgstr "Επεξεργασία Κειμένου"
 
 #: eeschema/libedit_onrightclick.cpp:197 eeschema/onrightclick.cpp:605
 #: pcbnew/modedit_onclick.cpp:349 pcbnew/onrightclick.cpp:892
 msgid "Rotate Text"
-msgstr "Περιστροφή κειμένου"
+msgstr "Περιστροφή Κειμένου"
 
 #: eeschema/libedit_onrightclick.cpp:202 eeschema/onrightclick.cpp:609
 #: pcbnew/modedit_onclick.cpp:385 pcbnew/onrightclick.cpp:909
 msgid "Delete Text"
-msgstr "Διαγραφή κειμένου"
+msgstr "Διαγραφή Κειμένου"
 
 #: eeschema/libedit_onrightclick.cpp:210
 msgid "Move Line"
-msgstr "Μετακίνηση γραμμής"
+msgstr "Μετακίνηση Γραμμής"
 
 #: eeschema/libedit_onrightclick.cpp:214
 msgid "Drag Edge Point"
@@ -7676,15 +7676,15 @@ msgstr "Οριζόντια"
 
 #: eeschema/sch_text.cpp:740
 msgid "Vertical up"
-msgstr ""
+msgstr "Κάθετα επάνω"
 
 #: eeschema/sch_text.cpp:744
 msgid "Horizontal invert"
-msgstr ""
+msgstr "Οριζόντια αντιστροφή"
 
 #: eeschema/sch_text.cpp:748
 msgid "Vertical down"
-msgstr ""
+msgstr "Κάθετα κάτω"
 
 #: eeschema/sch_text.cpp:1009
 #, c-format
@@ -9160,7 +9160,7 @@ msgstr ""
 
 #: kicad/commandframe.cpp:87 kicad/menubar.cpp:391
 msgid "Pcb calculator - Calculator for components, track width, etc."
-msgstr "PCB calculator - Υπολογιστής για εξαρτήματα, πλάτος track, κλπ."
+msgstr "PCB calculator - Υπολογιστής για εξαρτήματα, πλάτος δρόμων, κλπ."
 
 #: kicad/commandframe.cpp:90 kicad/menubar.cpp:396
 msgid "Pl editor - Worksheet layout editor"
@@ -9255,12 +9255,12 @@ msgstr ""
 #: kicad/mainframe.cpp:247
 #, c-format
 msgid "%s closed [pid=%d]\n"
-msgstr ""
+msgstr "%s κλειστό [pid=%d]\n"
 
 #: kicad/mainframe.cpp:268
 #, c-format
 msgid "%s opened [pid=%ld]\n"
-msgstr ""
+msgstr "%s ανοιχτό [pid=%ld]\n"
 
 #: kicad/mainframe.cpp:467
 msgid "Text file ("
@@ -9612,7 +9612,7 @@ msgstr "Τα ΜΗ ΤΟΠΟΘΕΤΗΜΕΝΑ αποτυπώματα θα μετα�
 #: pcbnew/autorouter/auto_place_footprints.cpp:281
 #, c-format
 msgid "Place footprint %d of %d"
-msgstr ""
+msgstr "Τοποθέτηση αποτυπώματος %d από %d"
 
 #: pcbnew/autorouter/auto_place_footprints.cpp:466
 msgid "No PCB edge found, unknown board size!"
@@ -9733,7 +9733,7 @@ msgstr "Προμηθευτής και αναφορά"
 
 #: pcbnew/class_board.cpp:99
 msgid "This is the default net class."
-msgstr "Αυτή είναι η προκαθορισμένη κλάση δικτύου."
+msgstr "Αυτή είναι η προκαθορισμένη Κλάση Δικτύου."
 
 #: pcbnew/class_board.cpp:954 pcbnew/class_netinfo_item.cpp:133
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:68
@@ -9832,7 +9832,7 @@ msgstr "Αφαίρεση μη χρησιμοποιούμενου εξαρτήμ�
 #: pcbnew/class_board.cpp:2576
 #, c-format
 msgid "Remove single pad net \"%s\" on \"%s\" pad '%s'\n"
-msgstr "Αφάιρεση δικτύου μίας έδρας \"%s\" στο \"%s\" έδρα '%s'\n"
+msgstr "Αφαίρεσή δικτύου μίας έδρας \"%s\" στο \"%s\" έδρα '%s'\n"
 
 #: pcbnew/class_board.cpp:2631
 #, c-format
@@ -9861,7 +9861,7 @@ msgstr "Πολύγωνο"
 #: pcbnew/class_dimension.cpp:500
 #, c-format
 msgid "Dimension \"%s\" on %s"
-msgstr ""
+msgstr "Διάσταση \"%s\" στο %s"
 
 #: pcbnew/class_drawsegment.cpp:364
 msgid "Drawing"
@@ -9890,7 +9890,7 @@ msgstr "Τμήμα"
 #: pcbnew/class_drawsegment.cpp:666
 #, c-format
 msgid "Pcb Graphic: %s, length %s on %s"
-msgstr ""
+msgstr "Γραφικό Pcb: %s, μήκος %s στο %s"
 
 #: pcbnew/class_drc_item.cpp:43
 msgid "Unconnected pads"
@@ -9898,15 +9898,15 @@ msgstr "Μη συνδεδεμένες έδρες"
 
 #: pcbnew/class_drc_item.cpp:45
 msgid "Track near thru-hole"
-msgstr "Γραμμή κοντά σε διάτρηση"
+msgstr "Δρόμος κοντά σε διαμπερή τρύπα"
 
 #: pcbnew/class_drc_item.cpp:47
 msgid "Track near pad"
-msgstr "Γραμμή κοντά σε έδρα"
+msgstr "Δρόμος κοντά σε έδρα"
 
 #: pcbnew/class_drc_item.cpp:49
 msgid "Track near via"
-msgstr "Γραμμή κοντά σε via"
+msgstr "Δρόμος κοντά σε via"
 
 #: pcbnew/class_drc_item.cpp:51
 msgid "Via near via"
@@ -9914,19 +9914,19 @@ msgstr "Οπή κοντά σε via"
 
 #: pcbnew/class_drc_item.cpp:53
 msgid "Via near track"
-msgstr "Via κοντά σε γραμμή"
+msgstr "Via κοντά σε δρόμο"
 
 #: pcbnew/class_drc_item.cpp:63
 msgid "Two track ends too close"
-msgstr "Δύο τέλη δρόμων είναι πολύ κοντά"
+msgstr "Δύο τελειώματα δρόμων είναι πολύ κοντινά"
 
 #: pcbnew/class_drc_item.cpp:65
 msgid "Two parallel track segments too close"
-msgstr "Δύο παράλληλα τμήματα δρόμων είναι πολύ κοντά"
+msgstr "Δύο παράλληλα τμήματα δρόμων είναι πολύ κοντινά"
 
 #: pcbnew/class_drc_item.cpp:67
 msgid "Tracks crossing"
-msgstr "Διασταύρωση πιστών"
+msgstr "Διασταύρωση δρόμων"
 
 #: pcbnew/class_drc_item.cpp:69
 msgid "Pad near pad"
@@ -9960,11 +9960,11 @@ msgstr "Διάτρηση κοντά σε έδρα"
 
 #: pcbnew/class_drc_item.cpp:85
 msgid "Hole near track"
-msgstr "Διάτρηση κοντά σε γραμμή"
+msgstr "Τρύπα κοντά σε δρόμο"
 
 #: pcbnew/class_drc_item.cpp:87
 msgid "Too small track width"
-msgstr "Πολύ μικρό πλάτος αποτυπώματος"
+msgstr "Πολύ μικρό πλάτος δρόμου"
 
 #: pcbnew/class_drc_item.cpp:89
 msgid "Too small via size"
@@ -9976,27 +9976,27 @@ msgstr "Πολύ μικρό μέγεθος μικρο-via"
 
 #: pcbnew/class_drc_item.cpp:95
 msgid "NetClass Track Width &lt; global limit"
-msgstr "Πλάτος Αποτυπώματος NetClass &lt; γενικό όριο"
+msgstr "Πλάτος Δρόμου Κλάσης Δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:97
 msgid "NetClass Clearance &lt; global limit"
-msgstr "Διάκενο κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάκενο Κλάσης Δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:99
 msgid "NetClass Via Dia &lt; global limit"
-msgstr "Διάμετρος Via κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάμετρος Via Κλάσης Δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:101
 msgid "NetClass Via Drill &lt; global limit"
-msgstr "Διάτρηση Via κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάτρηση Via Κλάσης Δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:103
 msgid "NetClass uVia Dia &lt; global limit"
-msgstr "Διάμετρος μVia κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάμετρος μVia Κλάσης Δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:105
 msgid "NetClass uVia Drill &lt; global limit"
-msgstr "Διάτρηση μVia κλάσης δικτύου &lt; γενικό όριο"
+msgstr "Διάτρηση μVia Κλάσης Δικτύου &lt; γενικό όριο"
 
 #: pcbnew/class_drc_item.cpp:108
 msgid "Via inside a keepout area"
@@ -10004,7 +10004,7 @@ msgstr "Via μέσα σε καθαρή περιοχή"
 
 #: pcbnew/class_drc_item.cpp:111
 msgid "Track inside a keepout area"
-msgstr "Track μέσα σε καθαρή περιοχή"
+msgstr "Δρόμος μέσα σε καθαρή περιοχή"
 
 #: pcbnew/class_drc_item.cpp:114
 msgid "Pad inside a keepout area"
@@ -10016,7 +10016,7 @@ msgstr "Via μέσα σε κείμενο"
 
 #: pcbnew/class_drc_item.cpp:120
 msgid "Track inside a text"
-msgstr "Δρόμοι μέσα σε κείμενο"
+msgstr "Δρόμος μέσα σε κείμενο"
 
 #: pcbnew/class_drc_item.cpp:123
 msgid "Pad inside a text"
@@ -10033,7 +10033,7 @@ msgstr "Επίπεδο Αποτυπωμάτων"
 #: pcbnew/class_edge_mod.cpp:276
 #, c-format
 msgid "Graphic (%s) on %s of %s"
-msgstr ""
+msgstr "Γραφικό (%s) στο %s από %s"
 
 #: pcbnew/class_marker_pcb.cpp:97
 msgid "Marker"
@@ -10052,7 +10052,7 @@ msgstr "Σημάδι @(%d,%d)"
 #: pcbnew/class_mire.cpp:204
 #, c-format
 msgid "Target size %s"
-msgstr ""
+msgstr "Μέγεθος στόχου %s"
 
 #: pcbnew/class_module.cpp:563
 msgid "Last Change"
@@ -10101,7 +10101,7 @@ msgstr "Λέξεις κλειδιά: %s"
 #: pcbnew/class_module.cpp:799
 #, c-format
 msgid "Footprint %s on %s"
-msgstr ""
+msgstr "Αποτύπωμα %s στο %s"
 
 #: pcbnew/class_netinfo_item.cpp:87
 msgid "Net Name"
@@ -10117,11 +10117,11 @@ msgstr "Μήκος δικτύου"
 
 #: pcbnew/class_netinfo_item.cpp:141
 msgid "On Board"
-msgstr ""
+msgstr "Στην πλακέτα"
 
 #: pcbnew/class_netinfo_item.cpp:145
 msgid "In Package"
-msgstr ""
+msgstr "Στο Πακέτο"
 
 #: pcbnew/class_pad.cpp:630
 msgid "Pad"
@@ -10144,7 +10144,7 @@ msgstr "Διάτρηση X / Y"
 
 #: pcbnew/class_pad.cpp:687
 msgid "Length in package"
-msgstr ""
+msgstr "Μήκος στο πακέτο"
 
 #: pcbnew/class_pad.cpp:864
 msgid "Oval"
@@ -10152,11 +10152,11 @@ msgstr "Έλλειψη"
 
 #: pcbnew/class_pad.cpp:870
 msgid "Trap"
-msgstr ""
+msgstr "Τραπ"
 
 #: pcbnew/class_pad.cpp:883
 msgid "Std"
-msgstr ""
+msgstr "Τυπικό"
 
 #: pcbnew/class_pad.cpp:886 pcbnew/dialogs/dialog_pad_properties_base.cpp:58
 msgid "SMD"
@@ -10173,12 +10173,12 @@ msgstr "Χωρίς Επιμετάλλωση"
 #: pcbnew/class_pad.cpp:908
 #, c-format
 msgid "Pad on %s of %s"
-msgstr ""
+msgstr "Έδρα %s στο %s"
 
 #: pcbnew/class_pad.cpp:914
 #, c-format
 msgid "Pad %s on %s of %s"
-msgstr ""
+msgstr "Έδρα %s στο %s από %s"
 
 #: pcbnew/class_pcb_layer_box_selector.cpp:98
 msgid "(not activated)"
@@ -10230,7 +10230,7 @@ msgstr "Έδρες πάνω όψης"
 
 #: pcbnew/class_pcb_layer_widget.cpp:66
 msgid "Show footprint pads on board's front"
-msgstr "Προβολή έδρών αποτυπώματος στην πάνω όψη της πλακέτας"
+msgstr "Προβολή εδρών αποτυπώματος στη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:67
 msgid "Pads Back"
@@ -10238,7 +10238,7 @@ msgstr "Έδρες κάτω όψης"
 
 #: pcbnew/class_pcb_layer_widget.cpp:67
 msgid "Show footprint pads on board's back"
-msgstr "Προβολή εδρών αποτυπώματος στο κάτω μέρος της πλακέτας"
+msgstr "Προβολή εδρών αποτυπώματος στο πίσω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:69
 msgid "Text Front"
@@ -10254,7 +10254,7 @@ msgstr "Κείμενο κάτω όψης"
 
 #: pcbnew/class_pcb_layer_widget.cpp:70
 msgid "Show footprint text on board's back"
-msgstr "Εμφάνιση του κειμένου των αποτυπωμάτων στο κάτω μέρος της πλακέτας"
+msgstr "Εμφάνιση του κειμένου των αποτυπωμάτων στο πίσω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:71
 msgid "Hidden Text"
@@ -10286,7 +10286,8 @@ msgstr "Αποτυπώματα Μπροστά"
 
 #: pcbnew/class_pcb_layer_widget.cpp:76
 msgid "Show footprints that are on board's front"
-msgstr "Εμφάνιση των αποτυπωμάτων που βρίσκονται στην πάνω όψη της πλακέτας"
+msgstr ""
+"Εμφάνιση των αποτυπωμάτων που βρίσκονται στη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:77
 msgid "Footprints Back"
@@ -10294,7 +10295,7 @@ msgstr "Αποτυπώματα Πίσω"
 
 #: pcbnew/class_pcb_layer_widget.cpp:77
 msgid "Show footprints that are on board's back"
-msgstr "Εμφάνιση των αποτυπωμάτων που βρίσκονται στο κάτω μέρος της πλακέτας"
+msgstr "Εμφάνιση των αποτυπωμάτων που βρίσκονται στο πίσω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:78
 msgid "Values"
@@ -10342,35 +10343,35 @@ msgstr "Εσωτερικό επίπεδο χαλκού"
 
 #: pcbnew/class_pcb_layer_widget.cpp:365
 msgid "Adhesive on board's front"
-msgstr "Επίθεμα στην πάνω όψη της πλακέτας"
+msgstr "Επίθεμα στη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:366
 msgid "Adhesive on board's back"
-msgstr "Επίθεμα στο κάτω μέρος της πλακέτας"
+msgstr "Επίθεμα στην πίσω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:367
 msgid "Solder paste on board's front"
-msgstr "Πάστα συγκόλλησης στην πάνω όψη της πλακέτας"
+msgstr "Πάστα συγκόλλησης στη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:368
 msgid "Solder paste on board's back"
-msgstr "Πάστα συγκόλλησης στο κάτω μέρος της πλακέτας"
+msgstr "Πάστα συγκόλλησης στο πίσω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:369
 msgid "Silkscreen on board's front"
-msgstr "Μεταξοτυπία στην πάνω όψη της πλακέτας"
+msgstr "Μεταξοτυπία στη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:370
 msgid "Silkscreen on board's back"
-msgstr "Μεταξοτυπία στην κάτω όψη της πλακέτας"
+msgstr "Μεταξοτυπία στην πίσω όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:371
 msgid "Solder mask on board's front"
-msgstr "Μάσκα συγκόλλησης στην πάνω όψη της πλακέτας"
+msgstr "Μάσκα συγκόλλησης στη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:372
 msgid "Solder mask on board's back"
-msgstr "Μάσκα συγκόλλησης στο κάτω μέρος της πλακέτας"
+msgstr "Μάσκα συγκόλλησης στο πίσω μέρος της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:373
 msgid "Explanatory drawings"
@@ -10382,7 +10383,7 @@ msgstr "Επεξηγηματικά σχόλια"
 
 #: pcbnew/class_pcb_layer_widget.cpp:375 pcbnew/class_pcb_layer_widget.cpp:376
 msgid "User defined meaning"
-msgstr ""
+msgstr "Ορισμένο από τον χρήστη"
 
 #: pcbnew/class_pcb_layer_widget.cpp:377
 msgid "Board's perimeter definition"
@@ -10390,19 +10391,19 @@ msgstr "Καθορισμός της περιμέτρου πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:378
 msgid "Board's edge setback outline"
-msgstr ""
+msgstr "Περίγραμμα ορίων πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:379
 msgid "Footprint courtyards on board's front"
-msgstr "Επιπλέον χώρος αποτυπώματος στην μπροστινή πλευρά της πλακέτας"
+msgstr "Χώρος αποτυπώματος στη μπροστινή πλευρά της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:380
 msgid "Footprint courtyards on board's back"
-msgstr "Επιπλέον χώρος αποτυπώματος στην πίσω πλευρά της πλακέτας"
+msgstr "Χώρος αποτυπώματος στην πίσω πλευρά της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:381
 msgid "Footprint assembly on board's front"
-msgstr "Συναρμολόγηση αποτυπώματος στην μπροστά πλευρά της πλακέτας"
+msgstr "Συναρμολόγηση αποτυπώματος στη μπροστά πλευρά της πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:382
 msgid "Footprint assembly on board's back"
@@ -10458,12 +10459,12 @@ msgstr "Τιμή %s από %s"
 #: pcbnew/class_text_mod.cpp:424
 #, c-format
 msgid "Text \"%s\" on %s of %s"
-msgstr ""
+msgstr "Κείμενο \"%s\" στο %s από %s"
 
 #: pcbnew/class_track.cpp:145
 #, c-format
 msgid "Zone (%08lX) [%s] on %s"
-msgstr ""
+msgstr "Ζώνη (%08lX) [%s] στο %s"
 
 #: pcbnew/class_track.cpp:176
 #, c-format
@@ -10506,7 +10507,7 @@ msgstr "ΜΣ - Μέγεθος Via"
 
 #: pcbnew/class_track.cpp:1071
 msgid "NC Via Drill"
-msgstr ""
+msgstr "NC Διάτρηση Via"
 
 #: pcbnew/class_track.cpp:1091 pcbnew/class_zone.cpp:615
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:46
@@ -10520,7 +10521,7 @@ msgstr "Κωδικός δικτύου"
 
 #: pcbnew/class_track.cpp:1142
 msgid "Track"
-msgstr "Γραμμή"
+msgstr "Δρόμος"
 
 #: pcbnew/class_track.cpp:1161 pcbnew/class_track.cpp:1188
 msgid "Segment Length"
@@ -10560,7 +10561,7 @@ msgstr "Δεν βρέθηκε"
 #: pcbnew/class_track.cpp:1589
 #, c-format
 msgid "Track %s, net [%s] (%d) on layer %s, length: %s"
-msgstr "Ίχνος %s, δίκτυο [%s] (%d) στο επίπεδο %s, μήκος: %s"
+msgstr "Δρόμος %s, δίκτυο [%s] (%d) στο επίπεδο %s, μήκος: %s"
 
 #: pcbnew/class_zone.cpp:575
 msgid "Zone Outline"
@@ -10576,7 +10577,7 @@ msgstr "Δεν υπάρχει via"
 
 #: pcbnew/class_zone.cpp:594
 msgid "No track"
-msgstr "Δεν υπάρχει γραμμή"
+msgstr "Δεν υπάρχει δρόμος"
 
 #: pcbnew/class_zone.cpp:597
 msgid "No copper pour"
@@ -10616,7 +10617,7 @@ msgstr "Γραμμές Σκιαγράφησης"
 
 #: pcbnew/class_zone.cpp:649
 msgid "Corner Count"
-msgstr ""
+msgstr "Πλήθος Γωνιών"
 
 #: pcbnew/class_zone.cpp:821
 msgid "(Keepout)"
@@ -10629,7 +10630,7 @@ msgstr "** ΔΕΝ ΕΧΕΙ ΟΡΙΣΤΕΙ ΠΛΑΚΕΤΑ **"
 #: pcbnew/class_zone.cpp:853
 #, c-format
 msgid "Zone Outline %s on %s"
-msgstr ""
+msgstr "Περίγραμμα Ζώνης %s στο %s"
 
 #: pcbnew/controle.cpp:231 pcbnew/modedit.cpp:130
 msgid "Selection Clarification"
@@ -10773,7 +10774,7 @@ msgstr "Ρύθμιση αρχείου:"
 #: pcbnew/dialogs/dialog_plot_base.cpp:382
 #: pcbnew/dialogs/dialog_plot_base.h:132
 msgid "Plot"
-msgstr "Διάγραμμα"
+msgstr "Σχεδιογράφηση"
 
 #: pcbnew/dialogs/dialog_block_options_base.cpp:25
 msgid "Include &footprints"
@@ -10793,7 +10794,7 @@ msgstr "Συμπερίληψη σχεδίων"
 
 #: pcbnew/dialogs/dialog_block_options_base.cpp:38
 msgid "Include &tracks"
-msgstr "Συμπερίληψη γραμμών"
+msgstr "Συμπερίληψη δρόμων"
 
 #: pcbnew/dialogs/dialog_block_options_base.cpp:41
 msgid "Include &board outline layer"
@@ -10830,11 +10831,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:32
 msgid "D&elete unconnected tracks"
-msgstr "Διαγραφή μη συνδεδεμένων διαδρομών"
+msgstr "Διαγραφή μη συνδεδεμένων δρόμων"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:33
 msgid "delete track segment having a dangling end"
-msgstr "διαγραφή των τμημάτων πιστών που έχουν μη συνδεδεμένο άκρο"
+msgstr "διαγραφή των τμημάτων δρόμων που έχουν μη συνδεδεμένο άκρο"
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:407
 #, c-format
@@ -10850,7 +10851,7 @@ msgstr "Το ελάχιστο πλάτος πρέπει να είναι μεγα
 msgid "Thermal relief spoke must be greater than the minimum width."
 msgstr ""
 "Η ακτίνα θερμικής εκτόνωσης πρέπει να είναι μεγαλύτερη από το ελάχιστο "
-"πλάτος."
+"πλάτος ζώνης."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:470
 #: pcbnew/dialogs/dialog_keepout_area_properties.cpp:223
@@ -11001,7 +11002,7 @@ msgstr "Θερμική εκτόνωση"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:154
 msgid "THT thermal"
-msgstr ""
+msgstr "Θερμικό THT"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:161
 msgid "Thermal Reliefs"
@@ -11035,6 +11036,11 @@ msgid ""
 "layer.\n"
 "* If its priority is equal: a DRC error is set."
 msgstr ""
+"Σε κάθε επίπεδο χαλκού, οι ζώνες γεμίζονται με σειρά προτεραιότητας.\n"
+"Εάν μία ζώνη είναι μέσα σε μία άλλη ζώνη:\n"
+"* Εάν η προτεραιότητα είναι υψηλότερη: τα περιγράμματά της αφαιρούνται από "
+"το άλλο επίπεδο.\n"
+"* Εάν η προτεραιότητα είναι ίδια: ορίζεται σφάλμα ΕΗΚ."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:201
 msgid "Fill mode:"
@@ -11108,7 +11114,7 @@ msgstr "Γράμματα, πλήρες αλφάβητο"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:29
 msgid "Horizontal count:"
-msgstr ""
+msgstr "Πλήθος οριζόντια:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:33
 #: pcbnew/dialogs/dialog_create_array_base.cpp:40
@@ -11119,7 +11125,7 @@ msgstr "5"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:36
 msgid "Vertical count:"
-msgstr ""
+msgstr "Πλήθος κατακόρυφα:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:43
 msgid "Horizontal spacing:"
@@ -11139,7 +11145,7 @@ msgstr "Κάθετη Μετατόπιση:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:87
 msgid "Stagger:"
-msgstr ""
+msgstr "Κύλιση"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:91
 #: pcbnew/dialogs/dialog_create_array_base.cpp:154
@@ -11158,7 +11164,7 @@ msgstr "Στήλες"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:96
 msgid "Stagger Type"
-msgstr ""
+msgstr "Είδος Κύλισης"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:106
 msgid "Horizontal, then vertical"
@@ -11174,20 +11180,20 @@ msgstr "Κατεύθυνση Αρίθμησης"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:112
 msgid "Reverse numbering on alternate rows or columns"
-msgstr ""
+msgstr "Αντίστροφη αρίθμηση σε εναλλάξ σειρές ή στήλες"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:115
 #: pcbnew/dialogs/dialog_create_array_base.cpp:248
 msgid "Restart numbering"
-msgstr ""
+msgstr "Επανεκκίνηση αρίθμησης"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:119
 msgid "Continuous (1, 2, 3...)"
-msgstr ""
+msgstr "Συνεχές (1, 2, 3...)"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:119
 msgid "Coordinate (A1, A2, ... B1, ...)"
-msgstr ""
+msgstr "Συντεταγμένων (A1, A2, ... B1, ...)"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:121
 msgid "Numbering Scheme"
@@ -11232,6 +11238,8 @@ msgid ""
 "Positive angles represent an anti-clockwise rotation. An angle of 0 will "
 "produce a full circle divided evenly into \"Count\" portions."
 msgstr ""
+"Θετικές γωνίες αντιπροσωπεύουν αριστερόστροφη περιστροφή. Μηδενική γωνία θα "
+"παράξει έναν πλήρη κύκλο ισομοιρασμένο σε \"Πλήθος\" τμήματα"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:223
 msgid "Count:"
@@ -11260,11 +11268,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:252
 msgid "Numbering type:"
-msgstr ""
+msgstr "Είδος αρίθμησης:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:281
 msgid "Circular"
-msgstr ""
+msgstr "Κυκλικά"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:53
 msgid "Class"
@@ -11281,7 +11289,7 @@ msgstr "<b>Τρέχουσες γενικές ρυθμίσεις:</b><br>"
 #: pcbnew/dialogs/dialog_design_rules.cpp:200
 #, c-format
 msgid "Minimum value for tracks width: <b>%s</b><br>\n"
-msgstr "Ελάχιστη τιμή για το πλάτος των πιστών: <b>%s</b><br>\n"
+msgstr "Ελάχιστη τιμή για το πλάτος δρόμων: <b>%s</b><br>\n"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:204
 #, c-format
@@ -11299,12 +11307,12 @@ msgstr "Εντοπίστηκαν λάθη, εγκατάλειψη"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:666
 msgid "New Net Class Name:"
-msgstr "Όνομα νέας κλάσης δικτύου:"
+msgstr "Όνομα νέας Κλάσης Δικτύου:"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:686
 msgid "This NetClass is already existing, cannot add it; Aborted"
 msgstr ""
-"Αυτή η κλάση δικτύου υπάρχει ήδη, δεν είναι δυνατή η προσθήκη της· "
+"Αυτή η Κλάση Δικτύου υπάρχει ήδη, δεν είναι δυνατή η προσθήκη της· "
 "Εγκαταλείφθηκε"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:748
@@ -11315,7 +11323,7 @@ msgstr "Η προκαθορισμένη Κλάση Δικτύου δεν μπο�
 #, c-format
 msgid "%s: <b>Track Size</b> &lt; <b>Min Track Size</b><br>"
 msgstr ""
-"%s: <b>Μέγεθος αποτυπώματος</b> &lt; <b>Ελάχιστο μέγεθος αποτυπώματος</b><br>"
+"%s: <b>Μέγεθος Αποτυπώματος</b> &lt; <b>Ελάχιστο Μέγεθος Δρόμου</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:943
 #, c-format
@@ -11353,14 +11361,13 @@ msgstr ""
 #, c-format
 msgid "<b>Extra Track %d Size</b> %s &lt; <b>Min Track Size</b><br>"
 msgstr ""
-"<b>Μέγεθος επιπρόσθετου αποτυπώματος %d</b> %s &lt; <b>Ελάχιστο μέγεθος "
-"αποτυπώματος</b><br>"
+"<b>Μέγεθος επιπρόσθετου αποτυπώματος %d</b> %s &lt; <b>Ελάχιστο Μέγεθος "
+"Δρόμου</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1028
 #, c-format
 msgid "<b>Extra Track %d Size</b> %s &gt; <b>1 inch!</b><br>"
-msgstr ""
-"<b>Μέγεθος επιπρόσθετου αποτυπώματος %d</b> %s &gt; <b>μίας ίντσας!</b><br>"
+msgstr "<b>Μέγεθος Επιπρόσθετου Δρόμου %d</b> %s &gt; <b>μίας ίντσας!</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1053
 #, c-format
@@ -11385,7 +11392,7 @@ msgstr "Κλάσεις δικτύου:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:49
 msgid "Track Width"
-msgstr "Πλάτος γραμμής"
+msgstr "Πλάτος Δρόμου"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:50
 msgid "Via Dia"
@@ -11410,7 +11417,7 @@ msgstr "Παράμετροι κλάσης δικτύων"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:75
 msgid "Add another Net Class"
-msgstr "Προσθήκη κλάσης δικτύου"
+msgstr "Προσθήκη Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:80
 msgid ""
@@ -11422,7 +11429,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:85
 msgid "Move the currently selected Net Class up one row"
-msgstr "Μετακίνηση επιλεγμένης κλάσης δικτύου επάνω κατά μία γραμμή"
+msgstr "Μετακίνηση επιλεγμένης Κλάσης Δικτύου επάνω κατά μία σειρά"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:96
 msgid "Membership:"
@@ -11516,7 +11523,7 @@ msgstr "Ελάχιστες επιτρεπόμενες τιμές:"
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:198
 #: pcbnew/dialogs/dialog_drc_base.cpp:46
 msgid "Min track width"
-msgstr "Ελάχιστο πλάτος γραμμής"
+msgstr "Ελάχιστο πλάτος δρόμου"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:206
 msgid "Min via diameter"
@@ -11540,10 +11547,10 @@ msgid ""
 "can be used to replace default Netclass values \n"
 "on demand, for arbitrary vias or track segments."
 msgstr ""
-"Συγκεκριμένες διάμετροι via και πλάτη γραμμής τα οποία \n"
-"μπορούν να χρησιμοποιηθούν για να αντικαταστήσουν τις προκαθορισμένες τιμές "
-"Κλάσης Δικτύων \n"
-"κατά παραγγελία, για αυθαίρετα via ή τμήματα γραμμών."
+"Συγκεκριμένες διάμετροι via και πλάτη δρόμων τα οποία \n"
+"μπορούν να χρησιμοποιηθούν για να αντικαταστήσουν τις \n"
+" προκαθορισμένες τιμές Κλάσης Δικτύων, για τυχαία via ή \n"
+"τμήματα δρόμων."
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:258
 msgid "Custom Via Sizes:"
@@ -11603,59 +11610,59 @@ msgstr "Via 12"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:308
 msgid "Custom Track Widths:"
-msgstr "Προσαρμοσμένα πλάτη γραμμής:"
+msgstr "Προσαρμοσμένα Πλάτη Δρόμου:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:333
 msgid "Track 1"
-msgstr "Γραμμή 1"
+msgstr "Δρόμος 1"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:334
 msgid "Track 2"
-msgstr "Γραμμή 2"
+msgstr "Δρόμος 2"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:335
 msgid "Track 3"
-msgstr "Γραμμή 3"
+msgstr "Δρόμος 3"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:336
 msgid "Track 4"
-msgstr "Γραμμή 4"
+msgstr "Δρόμος 4"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:337
 msgid "Track 5"
-msgstr "Γραμμή 5"
+msgstr "Δρόμος 5"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:338
 msgid "Track 6"
-msgstr "Γραμμή 6"
+msgstr "Δρόμος 6"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:339
 msgid "Track 7"
-msgstr "Γραμμή 7"
+msgstr "Δρόμος 7"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:340
 msgid "Track 8"
-msgstr "Via 8"
+msgstr "Δρόμος 8"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:341
 msgid "Track 9"
-msgstr "Via 9"
+msgstr "Δρόμος 9"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:342
 msgid "Track 10"
-msgstr "Via 10"
+msgstr "Δρόμος 10"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:343
 msgid "Track 11"
-msgstr "Via 11"
+msgstr "Δρόμος 11"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:344
 msgid "Track 12"
-msgstr "Via 12"
+msgstr "Δρόμος 12"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:363
 msgid "Global Design Rules"
-msgstr "Γενικοί κανόνες σχεδίου"
+msgstr "Γενικοί Κανόνες Σχεδίου"
 
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:37
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:79
@@ -11680,7 +11687,7 @@ msgstr "Θέση Κειμένου Y"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:23
 msgid "Tracks and vias:"
-msgstr "Γραμμές και via:"
+msgstr "Δρόμοι και via:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:25
 msgid "Tracks sketch mode"
@@ -11731,39 +11738,39 @@ msgstr "Να μην προβάλλονται"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:45
 msgid "On pads"
-msgstr "Στις έδρες"
+msgstr "Σε έδρες"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:45
 msgid "On tracks"
-msgstr "Στις γραμμές"
+msgstr "Σε δρόμους"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:45
 msgid "On pads and tracks"
-msgstr "Στις έδρες και τις γραμμές"
+msgstr "Σε έδρες και δρόμους"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:47
 msgid "Show Net Names:"
-msgstr "Προβολή ονομάτων δικτύων:"
+msgstr "Προβολή Ονομάτων Δικτύων:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:49
 msgid "Show or not net names on pads and/or tracks"
-msgstr "Προβολή ή μη των ονομάτων δικτύων στις έδρες ή/και τις γραμμές"
+msgstr "Προβολή ή μη των ονομάτων δικτύων στις έδρες ή/και τους δρόμους"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:53
 msgid "New track"
-msgstr "Νέα γραμμή"
+msgstr "Νέος δρόμος"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:53
 msgid "New track with via area"
-msgstr "Νέα γραμμή με περιοχή via"
+msgstr "Νέος δρόμος με περιοχή via"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:53
 msgid "New and edited tracks with via area"
-msgstr ""
+msgstr "Νέοι και αλλαγμένοι δρόμοι με περιοχή via"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:55
 msgid "Show Tracks Clearance:"
-msgstr "Προβολή διάκενου πιστών:"
+msgstr "Προβολή Διάκενου Δρόμων:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:57
 msgid ""
@@ -11771,9 +11778,9 @@ msgid ""
 "If New track is selected,  track clearance area is shown only when creating "
 "the track."
 msgstr ""
-"Προβολή (ή μη) του διάκενου των πιστών.\n"
-"Αν επιλεγεί νέα γραμμή, η περιοχή του διάκενου προβάλλεται μόνο όταν "
-"δημιουργείται η γραμμή."
+"Προβολή (ή μη) του διάκενου των δρόμων.\n"
+"Αν επιλεγεί Νέος δρόμος, η περιοχή του διάκενου προβάλλεται μόνο όταν "
+"δημιουργείται ο δρόμος."
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:68
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:69
@@ -11827,11 +11834,11 @@ msgstr "Αποθήκευση Αρχείου Αναφοράς ΕΚΣ"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:40
 msgid "By Netclass"
-msgstr "ανά κλάση δικτύου"
+msgstr "ανά Κλάση Δικτύου"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:48
 msgid "Enter the minimum acceptable value for a track width"
-msgstr "Εισάγετε την ελάχιστη αποδεκτή τιμή για το πλάτος ενός αποτυπώματος"
+msgstr "Εισάγετε την ελάχιστη αποδεκτή τιμή για το πλάτος ενός δρόμου"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:56
 msgid "Min via size"
@@ -11879,7 +11886,7 @@ msgstr "Προβολή λίστας μη συνδεδεμένων"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:131
 msgid "List unconnected pads or tracks"
-msgstr "Λίστα ασύνδετων εδρών ή πιστών"
+msgstr "Λίστα ασύνδετων εδρών ή δρόμων"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:135
 msgid "Delete All Markers"
@@ -12090,7 +12097,7 @@ msgid ""
 msgstr ""
 "Αυτή είναι το τοπικό διάκενο δικτύου για όλες της έδρες αυτού του "
 "αποτυπώματος\n"
-"Αν είναι 0, χρησιμοποιούνται οι τιμές της κλάσης δικτύου\n"
+"Αν είναι 0, χρησιμοποιούνται οι τιμές της Κλάσης Δικτύου\n"
 "Αυτή η τιμή μπορεί να αντικατασταθεί από μια τοπική τιμή της έδρας."
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:247
@@ -12561,7 +12568,7 @@ msgstr "Δεν Επιτρέπεται Χρήση : στα Ψευδώνυμα"
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:476
 #, c-format
 msgid "Duplicate Nickname: '%s' in rows %d and %d"
-msgstr "Διπλό Ψευδώνυμο: '%s' στις γραμμές %d και %d"
+msgstr "Διπλό Ψευδώνυμο: '%s' στις σειρές %d και %d"
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:491
 msgid "Please Delete or Modify One"
@@ -12611,11 +12618,11 @@ msgstr "Αφαίρεση μίας βιβλιοθήκης PCB από αυτό τ�
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:147
 msgid "Move the currently selected row up one position"
-msgstr "Μετακίνηση επιλεγμένης σειράς επάνω κατά μία γραμμή"
+msgstr "Μετακίνηση επιλεγμένης σειράς επάνω κατά μία θέση"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:152
 msgid "Move the currently selected row down one position"
-msgstr "Μετακίνηση επιλεγμένης σειράς κάτω κατά μία γραμμή"
+msgstr "Μετακίνηση επιλεγμένης σειράς κάτω κατά μία θέση"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:156
 msgid "Options Editor"
@@ -13035,7 +13042,7 @@ msgstr "Γωνία περιστροφής:"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:90
 msgid "Context menu and hot key footprint rotation increment."
-msgstr ""
+msgstr "Αύξηση περιστροφής αποτυπώματος με σχετικό μενού ή με συντόμευση"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:100
 msgid "&Enforce design rules when routing"
@@ -13077,19 +13084,19 @@ msgstr "Διαγραφή μη συνδεδεμένων δρόμων"
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:118
 msgid "Enable/disable the automatic track deletion when recreating a track."
 msgstr ""
-"Ενεργοποίηση/Απενεργοποίηση της αυτόματης διαγραφής γραμμής όταν "
-"επαναδημιουργείται μία γραμμή."
+"Ενεργοποίηση/Απενεργοποίηση της αυτόματης διαγραφής δρόμου όταν "
+"επαναδημιουργείται ένας δρόμος."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:122
 msgid "&Limit tracks to 45 degrees"
-msgstr "Περιορισμός γραμμών στις 45 μοίρες"
+msgstr "Περιορισμός δρόμων στις 45 μοίρες"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:123
 msgid ""
 "If enabled, force tracks directions to H, V or 45 degrees, when creating a "
 "track."
 msgstr ""
-"Αν ενεργοποιηθεί, εξαναγκάζει την κατεύθυνση των πιστών κατά τη δημιουργία "
+"Αν ενεργοποιηθεί, εξαναγκάζει την κατεύθυνση των δρόμων κατά τη δημιουργία "
 "τους, σε οριζόντια, κάθετη ή 45 μοίρες."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:127
@@ -13113,13 +13120,13 @@ msgid ""
 "If enabled, uses two track segments, with 45 degrees angle between them when "
 "creating a new track "
 msgstr ""
-"Αν ενεργοποιηθεί, όταν δημιουργείτε μία νέα διαδρομή, χρησιμοποιεί δύο "
-"τμήματα διαδρομής με 45 μοίρες γωνία μεταξύ τους "
+"Αν ενεργοποιηθεί, όταν δημιουργείτε έναν νέο δρόμο, χρησιμοποιεί δύο τμήματα "
+"δρόμου με 45 μοίρες γωνία μεταξύ τους "
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:146
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:154
 msgid "When creating tracks"
-msgstr "Όταν δημιουργούνται γραμμές"
+msgstr "Όταν δημιουργούνται δρόμοι"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:148
 msgid "Magnetic Pads"
@@ -13134,14 +13141,14 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:156
 msgid "Magnetic Tracks"
-msgstr "Μαγνητικές Γραμμές"
+msgstr "Μαγνητικοί Δρόμοι"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:158
 msgid ""
 "Control the capture of the pcb cursor when the mouse cursor enters a track"
 msgstr ""
 "Έλεγχος σύλληψης του κέρσορα pcb όταν ο κέρσορας του ποντικιού εισέρχεται σε "
-"γραμμή"
+"έναν δρόμο"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:171
 msgid "Use middle mouse &button to pan"
@@ -13209,7 +13216,7 @@ msgstr "Ρυθμίσεις Φίλτρου"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:57
 msgid "Automatically routed tracks"
-msgstr "Αυτόματα δρομολογημένες γραμμές"
+msgstr "Αυτόματα δρομολογημένοι δρόμοι"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:61
 msgid "Locked tracks"
@@ -13246,48 +13253,48 @@ msgstr "Τρέχον επίπεδο:"
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:173
 msgid "Set current Net tracks and vias sizes and drill to the current values?"
 msgstr ""
-"Να οριστούν τα τρέχοντα μεγέθη για via και πιστές δικτύου και να γίνει "
-"διάτρηση στις τρέχουσες τιμές;"
+"Να οριστούν τα τρέχοντα μεγέθη Δικτύου για via , δρόμους και διάτρηση στις "
+"τρέχουσες τιμές;"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:183
 msgid ""
 "Set current Net tracks and vias sizes and drill to the Netclass default "
 "value?"
 msgstr ""
-"Να οριστούν τα τρέχοντα μεγέθη για via και πιστές δικτύου και να γίνει "
-"διάτρηση στην προκαθορισμένη τιμή της κλάσης δικτύου;"
+"Να οριστούν τα τρέχοντα μεγέθη Δικτύου για via , δρόμους και διάτρηση στις "
+"προκαθορισμένες τιμές Κλάσης Δικτύου;"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:192
 msgid "Set All Tracks and Vias to Netclass value"
-msgstr "Ορισμός όλων των πιστών και Via στην τιμή της κλάσης δικτύου"
+msgstr "Ορισμός Όλων των Δρόμων και Via στην τιμή της Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:201
 msgid "Set All Via to Netclass value"
-msgstr "Ορισμός όλων των Via στην τιμή της κλάσης δικτύου"
+msgstr "Ορισμός Όλων των Via στην τιμή της Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:210
 msgid "Set All Track to Netclass value"
-msgstr "Ορισμός όλων των πιστών στην τιμή της κλάσης δικτύου"
+msgstr "Ορισμός Όλων των Δρόμων στην τιμή της Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:22
 msgid "Current Settings:"
-msgstr "Τρέχουσες ρυθμίσεις:"
+msgstr "Τρέχουσες Ρυθμίσεις:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:42
 msgid "Current Net:"
-msgstr "Τρέχον δίκτυο:"
+msgstr "Τρέχον Δίκτυο:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:52
 msgid "Current NetClass:"
-msgstr "Τρέχουσα κλάση δικτύου:"
+msgstr "Τρέχουσα Κλάση Δικτύου:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:56
 msgid "NetClassName"
-msgstr "Όνομα κλάσης δικτύου"
+msgstr "Όνομα Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:82
 msgid "Track size"
-msgstr "Μέγεθος αποτυπώματος"
+msgstr "Μέγεθος δρόμου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:83
 msgid "Via diameter"
@@ -13303,7 +13310,7 @@ msgstr "Μέγεθος μ/via"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:93
 msgid "Netclass value"
-msgstr "Τιμή κλάσης δικτύου"
+msgstr "Τιμή Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:94
 msgid "Current value"
@@ -13315,23 +13322,23 @@ msgstr "Γενική επιλογή έκδοσης:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:136
 msgid "Set tracks and vias of the current Net to the current value"
-msgstr "Ορισμός πιστών και via του τρέχοντος δικτύου στην τρέχουσα τιμή"
+msgstr "Ορισμός δρόμων και via του τρέχοντος Δικτύου στην τρέχουσα τιμή"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:140
 msgid "Set tracks and vias of the current Net to the Netclass value"
-msgstr "Ορισμός πιστών και via του τρέχοντος δικτύου στην τιμή κλάσης δικτύου"
+msgstr "Ορισμός δρόμων και via του τρέχοντος δικτύου στην τιμή Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:143
 msgid "Set all tracks and vias to their Netclass value"
-msgstr "Ορισμός όλων των πιστών και via στην τιμή της κλάσης δικτύου τους"
+msgstr "Ορισμός όλων των δρόμων και via στην τιμή της Κλάσης Δικτύου τους"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:146
 msgid "Set all vias (no track) to their Netclass value"
-msgstr "Ορισμός όλων των via (χωρίς γραμμή) στην τιμή της κλάσης δικτύου τους"
+msgstr "Ορισμός όλων των via (χωρίς δρόμους) στην τιμή της Κλάσης Δικτύου τους"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:149
 msgid "Set all tracks (no via) to their Netclass value"
-msgstr "Ορισμός όλων των πιστών (χωρίς via) στην τιμή της κλάσης δικτύου τους"
+msgstr "Ορισμός όλων των δρόμων (χωρίς via) στην τιμή της Κλάσης Δικτύου τους"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:26
 msgid "Footprint Fields"
@@ -13583,7 +13590,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_keepout_area_properties.cpp:214
 msgid "Tracks, vias and pads are allowed. The keepout is useless"
-msgstr "Επιτρέπονται tracks, via και έδρες. Η καθαρή περιοχή δεν έχει νόημα."
+msgstr "Επιτρέπονται δρόμοι, via και έδρες. Η καθαρή περιοχή δεν έχει νόημα."
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:43
 msgid "Properties:"
@@ -13764,6 +13771,8 @@ msgstr "CrtYd_Front_later"
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1336
 msgid "If you want a courtyard layer for the front side of the board"
 msgstr ""
+"Αν θέλετε ένα επίπεδο χώρου αποτυπωμάτων για την μπροστινή πλευρά της "
+"πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:137
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1346
@@ -13783,7 +13792,7 @@ msgstr "Αν θέλετε επίπεδο κατασκευής για την μπ
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1296
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1321
 msgid "Off-board, manufacturing"
-msgstr ""
+msgstr "Εκτός πλακέτας, κατασκευή"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:166
 msgid "Adhes_Front_later"
@@ -13791,7 +13800,7 @@ msgstr "Επιθέμα πάνω επιπέδου"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:177
 msgid "If you want an adhesive template for the front side of the board"
-msgstr "Αν θέλετε ένα πρότυπο επίθεμα για την πάνω όψη της πλακέτας"
+msgstr "Αν θέλετε ένα πρότυπο επίθεμα για τη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:191
 msgid "SoldP_Front_later"
@@ -13799,7 +13808,8 @@ msgstr "Πάνω επιπέδο πάστας συγκόλλησης"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:202
 msgid "If you want a solder paster layer for front side of the board"
-msgstr "Αν θέλετε ένα επίπεδο πάστας συγκόλλησης για την πάνω όψη της πλακέτας"
+msgstr ""
+"Αν θέλετε ένα επίπεδο πάστας συγκόλλησης για τη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:212
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:237
@@ -13816,7 +13826,7 @@ msgstr "Μεταξοτυπία πάνω επιπέδου"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:227
 msgid "If you want a silk screen layer for the front side of the board"
-msgstr "Αν θέλετε ένα επίπεδο μεταξοτυπίας για την πάνω όψη της πλακέτας"
+msgstr "Αν θέλετε ένα επίπεδο μεταξοτυπίας για τη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:241
 msgid "Mask_Front_later"
@@ -13824,7 +13834,8 @@ msgstr "Μάσκα πάνω επιπέδου"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:252
 msgid "If you want a solder mask layer for the front of the board"
-msgstr "Αν θέλετε ένα επίπεδο μάσκας συγκόλλησης για την πάνω όψη της πλακέτας"
+msgstr ""
+"Αν θέλετε ένα επίπεδο μάσκας συγκόλλησης για τη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:266
 msgid "Front_later"
@@ -13832,11 +13843,11 @@ msgstr "Πάνω επίπεδο"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:268
 msgid "Layer name of front (top) copper layer"
-msgstr "Όνομα πάνω επιπέδου χαλκού"
+msgstr "Όνομα μπροστινού (πάνω) επιπέδου χαλκού"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:280
 msgid "If you want a front copper layer"
-msgstr "Αν θέλετε ένα πάνω επίπεδο χαλκού"
+msgstr "Αν θέλετε ένα μπροστινό επίπεδο χαλκού"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:290
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:319
@@ -14147,7 +14158,7 @@ msgstr "Όνομα του πίσω (κάτω) επιπέδου χαλκού"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1182
 msgid "If you want a back copper layer"
-msgstr "Αν θέλετε ένα κάτω επίπεδο χαλκού"
+msgstr "Αν θέλετε ένα πίσω επίπεδο χαλκού"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1200
 msgid "Mask_Back_later"
@@ -14156,7 +14167,7 @@ msgstr "Μάσκα κάτω επιπέδου"
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1211
 msgid "If you want a solder mask layer for the back side of the board"
 msgstr ""
-"Αν θέλετε ένα επίπεδο μάσκας συγκόλλησης για την κάτω πλευρά της πλακέτας"
+"Αν θέλετε ένα επίπεδο μάσκας συγκόλλησης για την πίσω πλευρά της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1225
 msgid "SilkS_Back_later"
@@ -14164,7 +14175,7 @@ msgstr "Κάτω επίπεδο μεταξοτυπίας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1236
 msgid "If you want a silk screen layer for the back side of the board"
-msgstr "Αν θέλετε ένα επίπεδο μεταξοτυπίας για την κάτω πλευρά της πλακέτας"
+msgstr "Αν θέλετε ένα επίπεδο μεταξοτυπίας για την πίσω πλευρά της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1250
 msgid "SoldP_Back_later"
@@ -14173,7 +14184,7 @@ msgstr "Πάστα συγκόλλησης κάτω"
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1261
 msgid "If you want a solder paste layer for the back side of the board"
 msgstr ""
-"Αν θέλετε ένα επίπεδο πάστας συγκόλλησης για την κάτω πλευρά της πλακέτας"
+"Αν θέλετε ένα επίπεδο πάστας συγκόλλησης για την πίσω πλευρά της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1275
 msgid "Adhes_Back_later"
@@ -14181,7 +14192,7 @@ msgstr "Επίθεμα κάτω επιπέδου"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1286
 msgid "If you want an adhesive layer for the back side of the board"
-msgstr "Αν θέλετε ένα επίπεδο επιθέματος για την κάτω πλευρά της πλακέτας"
+msgstr "Αν θέλετε ένα επίπεδο επιθέματος για την πίσω πλευρά της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1300
 msgid "Fab_Back_later"
@@ -14314,7 +14325,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:22
 msgid "On new graphic item creation:"
-msgstr ""
+msgstr "Στη δημιουργία νέων γραφικών αντικειμένων:"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:34
 msgid "&Graphic line width"
@@ -14545,11 +14556,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:57
 msgid "Unconnected Tracks"
-msgstr "Μη συνδεδεμένα Tracks"
+msgstr "Μη συνδεδεμένοι Δρόμοι"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:59
 msgid "Keep or delete bad tracks after a netlist change"
-msgstr "Διατήρηση ή διαγραφή κακών πιστών μετά από μια αλλαγή λίστας δικτύων"
+msgstr "Διατήρηση ή διαγραφή κακών δρόμων μετά από μια αλλαγή λίστας δικτύων"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:65
 msgid "Extra Footprints"
@@ -14833,8 +14844,8 @@ msgstr "Μήκος από έδρα σε πλακίδιο:"
 msgid ""
 "Wire length from pad to die on chip ( used to calculate actual track length)"
 msgstr ""
-"Μήκος καλωδίου από το την έδρα έως το πλακίδιο του ολοκληρωμένου "
-"(χρησιμοποιείται για υπολογισμό του πραγματικού μήκους διαδρομής)"
+"Μήκος καλωδίου από την έδρα έως το πλακίδιο εντός του ολοκληρωμένου "
+"(χρησιμοποιείται για υπολογισμό του πραγματικού μήκους δρόμου)"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:195
 msgid "Trap. delta dim:"
@@ -14890,11 +14901,11 @@ msgstr "Τεχνικά Επίπεδα"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:336
 msgid "Front adhesive"
-msgstr "Πάνω όψη?????"
+msgstr "Μπροστινό Επικόλλησης"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:339
 msgid "Back adhesive"
-msgstr ""
+msgstr "Πίσω επίθεμα"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:342
 msgid "Front solder paste"
@@ -14922,7 +14933,7 @@ msgstr "Πίσω μάσκα συγκόλλησης"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:360
 msgid "Drafting notes"
-msgstr ""
+msgstr "Σημειώσεις"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:363
 msgid "E.C.O.1"
@@ -14947,7 +14958,7 @@ msgid ""
 msgstr ""
 "Αυτό είναι το διάκενο τοπικού δικτύου για την έδρα \n"
 "0 σημαίνει ότι χρησιμοποιείται η τοπική τιμή του αποτυπώματος ή η τιμή της "
-"κλάσης δικτύου "
+"Κλάσης Δικτύου "
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:415
 msgid ""
@@ -15028,7 +15039,7 @@ msgid ""
 msgstr ""
 "Προειδοποίηση:\n"
 "Αυτή η έδρα αντιστράφηκε στην πλακέτα.\n"
-"Το κάτω και το πάνω επίπεδο θα εναλλαχθούν."
+"Το πίσω και τη μπροστινό επίπεδο θα ανταλλαχθούν."
 
 #: pcbnew/dialogs/dialog_pcb_text_properties.cpp:193
 msgid "No layer selected, Please select the text layer"
@@ -15036,7 +15047,7 @@ msgstr "Δεν έχει επιλεχθεί επίπεδο. Παρακαλώ επ
 
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:29
 msgid "Enter the text placed on selected layer."
-msgstr ""
+msgstr "Δώστε το κείμενο για το επιλεγμένο επίπεδο."
 
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:70 pcbnew/muonde.cpp:812
 msgid "Mirrored"
@@ -15324,6 +15335,11 @@ msgid ""
 "The reasonable width correction value must be in a range of [-"
 "(MinTrackWidth-1), +(MinClearanceValue-1)] in decimils."
 msgstr ""
+"Ορισμός καθολικής διόρθωσης πλάτους για ακριβή έξοδο πλάτους postscript.\n"
+"Αυτή η διόρθωση πλάτους έχει στόχο να αντισταθμίσει λάθη στο πλάτος δρόμων, "
+"και το μέγεθος εδρών και via.\n"
+"Μία λογική τιμή διόρθωσης πλάτους πρέπει να είναι στο εύρος [-"
+"(ΕλαχΠλάτοςΔρόμου-1), +(ΜεγΤιμήΔιάκενου-1)] σε decimil."
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:356
 msgid "Force A4 output"
@@ -15357,7 +15373,7 @@ msgstr "Αποεπιλογή όλων των Επιπέδων"
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp:43
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp:60
 msgid "u"
-msgstr ""
+msgstr "u"
 
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp:36
 msgid "Trace gap:"
@@ -15489,7 +15505,7 @@ msgstr "Άλμα πάνω από εμπόδια"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:58
 msgid "Remove redundant tracks"
-msgstr "Διαγραφή περιττών ιχνών"
+msgstr "Διαγραφή πλεονάζοντων δρόμων"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:61
 msgid "Automatic neckdown"
@@ -15641,7 +15657,7 @@ msgstr "+"
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:333
 #: pcbnew/dialogs/dialog_track_via_size.cpp:64
 msgid "Invalid track width"
-msgstr "Μη έγκυρο πλάτος γραμμής"
+msgstr "Μη έγκυρο πλάτος δρόμου"
 
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:342
 #: pcbnew/dialogs/dialog_track_via_size.cpp:71
@@ -15660,7 +15676,7 @@ msgstr "Το μέγεθος διάτρησης via πρέπει να είναι 
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:101
 msgid "Use net class width"
-msgstr "Χρήση τιμών κλάσης δικτύου"
+msgstr "Χρήση τιμών Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:130
 msgid "Position X"
@@ -15672,11 +15688,11 @@ msgstr "Θέση Y"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:192
 msgid "Use net class size"
-msgstr "Χρήση μεγέθους κλάσης δικτύου"
+msgstr "Χρήση μεγέθους Κλάσης Δικτύου"
 
 #: pcbnew/dialogs/dialog_track_via_size_base.cpp:25
 msgid "Track width:"
-msgstr "Πλάτος γραμμής:"
+msgstr "Πλάτος δρόμου:"
 
 #: pcbnew/dialogs/dialog_track_via_size_base.cpp:36
 msgid "Via diameter:"
@@ -15903,7 +15919,7 @@ msgstr "Διάκενα εδρών...\n"
 
 #: pcbnew/drc.cpp:219
 msgid "Track clearances...\n"
-msgstr "Διάκενα πιστών...\n"
+msgstr "Διάκενα δρόμου...\n"
 
 #: pcbnew/drc.cpp:229
 msgid "Fill zones...\n"
@@ -15940,8 +15956,8 @@ msgstr ""
 #, c-format
 msgid "NETCLASS: '%s' has TrackWidth:%s which is less than global:%s"
 msgstr ""
-"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει πλάτος αποτυπώματος:%s το οποίο είναι λιγότερο "
-"από το γενικό:%s"
+"ΚΛΑΣΗ ΔΙΚΤΥΟΥ: Το '%s' έχει πλάτος δρόμου:%s το οποίο είναι λιγότερο από το "
+"γενικό:%s"
 
 #: pcbnew/drc.cpp:354
 #, c-format
@@ -15973,7 +15989,7 @@ msgstr ""
 
 #: pcbnew/drc.cpp:492
 msgid "Track clearances"
-msgstr "Διάκενα ιχνών"
+msgstr "Διάκενα δρόμου"
 
 #: pcbnew/eagle_plugin.cpp:1674
 #, c-format
@@ -16004,7 +16020,7 @@ msgstr "Νέο πλάτος:"
 
 #: pcbnew/edgemod.cpp:254
 msgid "Edge Width"
-msgstr "Πλάτος γραμμής περιγράμματος"
+msgstr "Πλάτος Γραμμής Περιγράμματος"
 
 #: pcbnew/edit.cpp:693 pcbnew/edit.cpp:715 pcbnew/edit.cpp:741
 #: pcbnew/edit.cpp:769 pcbnew/edit.cpp:797 pcbnew/edit.cpp:825
@@ -16019,7 +16035,7 @@ msgstr "Ο γονέας (%s) της έδρας είναι κλειδωμένος
 
 #: pcbnew/edit.cpp:1433 pcbnew/edit.cpp:1435
 msgid "Add tracks"
-msgstr "Προσθήκη γραμμών"
+msgstr "Προσθήκη δρόμων"
 
 #: pcbnew/edit.cpp:1445 pcbnew/edit.cpp:1492
 #: pcbnew/tools/pcb_editor_control.cpp:224
@@ -16104,11 +16120,11 @@ msgstr "Αδυναμία διαγραφής ΤΙΜΗΣ!"
 
 #: pcbnew/editrack.cpp:815
 msgid "Track Len"
-msgstr ""
+msgstr "Μήκος Δρόμου"
 
 #: pcbnew/editrack.cpp:819
 msgid "Full Len"
-msgstr ""
+msgstr "Πλήρες Μήκος"
 
 #: pcbnew/editrack.cpp:821
 msgid "Pad to die"
@@ -16157,6 +16173,8 @@ msgid ""
 "VRML Export Failed:\n"
 "Could not add holes to contours."
 msgstr ""
+"Αποτυχία Εξαγωγής VRML:\n"
+"Αδυναμία προσθήκης τρυπών σε περίγραμμα"
 
 #: pcbnew/exporters/gen_modules_placefile.cpp:235
 msgid "No modules for automated placement."
@@ -16343,7 +16361,7 @@ msgstr "Παράμετρος"
 #: pcbnew/footprint_wizard_frame.cpp:536 pcbnew/modview_frame.cpp:649
 #, c-format
 msgid "ModView: 3D Viewer [%s]"
-msgstr ""
+msgstr "ModView: Πρόγραμμα 3Δ Προβολής [%s]"
 
 #: pcbnew/footprint_wizard_frame.cpp:562
 msgid "Select wizard to use"
@@ -16472,12 +16490,12 @@ msgstr "η βιβλιοθήκη <%s> δεν έχει αποτύπωμα '%s' γ�
 #: pcbnew/pcb_parser.cpp:494
 #, c-format
 msgid "unknown token \"%s\""
-msgstr ""
+msgstr "άγνωστο στοιχείο \"%s\""
 
 #: pcbnew/gpcb_plugin.cpp:418
 #, c-format
 msgid "Element token contains %d parameters."
-msgstr ""
+msgstr "Στοιχείο περιέχει %d παραμέτρους."
 
 #: pcbnew/gpcb_plugin.cpp:973 pcbnew/kicad_plugin.cpp:1830
 #: pcbnew/kicad_plugin.cpp:1895 pcbnew/legacy_plugin.cpp:4648
@@ -17510,11 +17528,11 @@ msgstr "Καθολικές Διαγραφές"
 
 #: pcbnew/menubar_pcbframe.cpp:296
 msgid "Delete tracks, footprints, texts... on board"
-msgstr "Διαγραφή πιστών, αποτυπωμάτων, κειμένων... στην πλακέτα"
+msgstr "Διαγραφή δρόμων, αποτυπωμάτων, κειμένων... στην πλακέτα"
 
 #: pcbnew/menubar_pcbframe.cpp:300
 msgid "&Cleanup Tracks and Vias"
-msgstr "&Εκκαθάριση tracks και Via"
+msgstr "&Εκκαθάριση Δρόμων και Via"
 
 #: pcbnew/menubar_pcbframe.cpp:301
 msgid ""
@@ -17522,7 +17540,7 @@ msgid ""
 "and vias"
 msgstr ""
 "Καθαρισμός στελεχών και via, διαγραφή σημείων, ή σύνδεση μη συνδεδεμένων "
-"πιστών σε έδρες και οπές"
+"δρόμων σε έδρες και οπές"
 
 #: pcbnew/menubar_pcbframe.cpp:305
 msgid "&Swap Layers"
@@ -17530,7 +17548,7 @@ msgstr "&Εναλλαγή Επιπέδων"
 
 #: pcbnew/menubar_pcbframe.cpp:306
 msgid "Swap tracks on copper layers or drawings on other layers"
-msgstr "Εναλλαγή πιστών στα επίπεδα χαλκού, ή σχεδίων στα άλλα επίπεδα"
+msgstr "Εναλλαγή δρόμων στα επίπεδα χαλκού, ή σχεδίων στα άλλα επίπεδα"
 
 #: pcbnew/menubar_pcbframe.cpp:310
 msgid "&Reset Footprint Field Sizes"
@@ -17564,11 +17582,11 @@ msgstr "Προσθήκη αποτυπωμάτων"
 
 #: pcbnew/menubar_pcbframe.cpp:387
 msgid "&Track"
-msgstr "Γραμμή"
+msgstr "Δρόμος"
 
 #: pcbnew/menubar_pcbframe.cpp:390 pcbnew/tool_pcb.cpp:443
 msgid "Add tracks and vias"
-msgstr "Προσθήκη πιστών και via"
+msgstr "Προσθήκη δρόμων και via"
 
 #: pcbnew/menubar_pcbframe.cpp:393
 msgid "&Zone"
@@ -17621,11 +17639,11 @@ msgstr "Ορισμός του αρχικού σημείου για το πλέγ
 
 #: pcbnew/menubar_pcbframe.cpp:439
 msgid "&Single Track"
-msgstr "Απλή Γραμμή"
+msgstr "Μονός Δρόμος"
 
 #: pcbnew/menubar_pcbframe.cpp:440
 msgid "Interactively route a single track"
-msgstr "Δρομολογήστε χειρωνακτικά μία απλή γραμμή"
+msgstr "Δρομολογήστε χειρωνακτικά έναν από δρόμο"
 
 #: pcbnew/menubar_pcbframe.cpp:444
 msgid "&Differential Pair"
@@ -17641,7 +17659,7 @@ msgstr "Μικρο-ρύθμιση Μήκους Δρόμου"
 
 #: pcbnew/menubar_pcbframe.cpp:452 pcbnew/tools/common_actions.cpp:526
 msgid "Tune length of a single track"
-msgstr "Ρύθμιση ακριβείας για το μήκος μίας απλής γραμμή"
+msgstr "Ρύθμιση ακριβείας για το μήκος ενός απλού δρόμου"
 
 #: pcbnew/menubar_pcbframe.cpp:456
 msgid "Tune Differential Pair &Length"
@@ -17694,7 +17712,7 @@ msgstr "&Εμφάνιση"
 #: pcbnew/menubar_pcbframe.cpp:528
 msgid "Select how items (pads, tracks texts ... ) are displayed"
 msgstr ""
-"Επιλέξτε πώς θα προβάλλονται τα αντικείμενα (έδρες, γραμμές, κείμενα ...)"
+"Επιλέξτε πώς θα προβάλλονται τα αντικείμενα (έδρες, δρόμοι, κείμενα ...)"
 
 #: pcbnew/menubar_pcbframe.cpp:532
 msgid "&Interactive Routing"
@@ -17858,7 +17876,7 @@ msgstr ""
 
 #: pcbnew/modedit.cpp:400
 msgid "No board currently edited"
-msgstr ""
+msgstr "Δεν γίνεται επεξεργασία σε κάποια τρέχουσα πλακέτα"
 
 #: pcbnew/modedit.cpp:425
 msgid "Unable to find the footprint source on the main board"
@@ -17926,7 +17944,7 @@ msgstr "Επεξεργασία Αποτυπώματος"
 
 #: pcbnew/modedit_onclick.cpp:300
 msgid "Transform Footprint"
-msgstr ""
+msgstr "Μετατροπή Αποτυπώματος"
 
 #: pcbnew/modedit_onclick.cpp:308 pcbnew/onrightclick.cpp:943
 msgid "Move Pad"
@@ -17994,7 +18012,7 @@ msgstr "Μετακίνηση Ορίου με Ακρίβεια"
 
 #: pcbnew/modedit_onclick.cpp:411
 msgid "Create Edge Array"
-msgstr ""
+msgstr "Δημιουργία Συστοιχίας Ορίων"
 
 #: pcbnew/modedit_onclick.cpp:415
 msgid "Place edge"
@@ -18010,11 +18028,11 @@ msgstr "Καθολικές Αλλαγές"
 
 #: pcbnew/modedit_onclick.cpp:429
 msgid "Change Body Items Width"
-msgstr ""
+msgstr "Αλλαγή Πλάτους Αντικειμένων Σώματος"
 
 #: pcbnew/modedit_onclick.cpp:431
 msgid "Change Body Items Layer"
-msgstr ""
+msgstr "Αλλαγή Επιπέδου Αντικειμένων Σώματος"
 
 #: pcbnew/modedit_onclick.cpp:469
 msgid "Set Line Width"
@@ -18252,7 +18270,7 @@ msgstr "Τα γραφικά δεν επιτρέπονται στα Επίπεδ�
 
 #: pcbnew/onleftclick.cpp:276
 msgid "Tracks on Copper layers only "
-msgstr "Γραμμές, μόνο σε επίπεδα χαλκού "
+msgstr "Δρόμοι μόνο σε επίπεδα Χαλκού "
 
 #: pcbnew/onleftclick.cpp:335
 msgid "Texts not allowed on Edge Cut layer"
@@ -18308,7 +18326,7 @@ msgstr "Διαγραφή γεμίσματος ζώνης"
 
 #: pcbnew/onrightclick.cpp:238
 msgid "Close Zone Outline"
-msgstr "Κλείσιμο περιγράμματος ζώνης"
+msgstr "Κλείσιμο Περιγράμματος Ζώνης"
 
 #: pcbnew/onrightclick.cpp:240
 msgid "Delete Last Corner"
@@ -18384,7 +18402,7 @@ msgstr "Έναρξη Δρόμου"
 #: pcbnew/onrightclick.cpp:399 pcbnew/onrightclick.cpp:477
 #: pcbnew/onrightclick.cpp:645
 msgid "Select Track Width"
-msgstr "Επιλογή πλάτους αποτυπώματος"
+msgstr "Επιλογή Πλάτους Δρόμου"
 
 #: pcbnew/onrightclick.cpp:405
 msgid "Select Layer Pair for Vias"
@@ -18488,16 +18506,16 @@ msgstr "Δημιουργία Συστοιχίας Δρόμων"
 
 #: pcbnew/onrightclick.cpp:569
 msgid "Break Track"
-msgstr "Διάσπαση αποτυπώματος"
+msgstr "Διάσπαση Δρόμου"
 
 #: pcbnew/onrightclick.cpp:579
 msgid "Place Node"
-msgstr "Τοποθέτηση κόμβου"
+msgstr "Τοποθέτηση Κόμβου"
 
 #: pcbnew/onrightclick.cpp:586 pcbnew/router/length_tuner_tool.cpp:54
 #: pcbnew/router/router_tool.cpp:64
 msgid "End Track"
-msgstr "Τερματισμός αποτυπώματος"
+msgstr "Τερματισμός Δρόμου"
 
 #: pcbnew/onrightclick.cpp:590 pcbnew/router/router_tool.cpp:75
 msgid "Place Through Via"
@@ -18533,7 +18551,7 @@ msgstr "Αλλαγή πλάτους τμήματος"
 
 #: pcbnew/onrightclick.cpp:639
 msgid "Change Track Width"
-msgstr "Αλλαγή πλάτους αποτυπώματος"
+msgstr "Αλλαγή Πλάτους Δρόμου"
 
 #: pcbnew/onrightclick.cpp:654
 msgid "Delete Via"
@@ -18541,7 +18559,7 @@ msgstr "Διαγραφή Via"
 
 #: pcbnew/onrightclick.cpp:661
 msgid "Delete Track"
-msgstr "Διαγραφή αποτυπώματος"
+msgstr "Διαγραφή Δρόμου"
 
 #: pcbnew/onrightclick.cpp:663
 msgid "Delete Net"
@@ -18549,7 +18567,7 @@ msgstr "Διαγραφή δικτύου"
 
 #: pcbnew/onrightclick.cpp:672
 msgid "Edit All Tracks and Vias"
-msgstr "Γενική Επεξεργασία Πιστών και Via"
+msgstr "Γενική Επεξεργασία Δρόμων και Via"
 
 #: pcbnew/onrightclick.cpp:678
 msgid "Set Flags"
@@ -18565,11 +18583,11 @@ msgstr "Κλειδωμένο : όχι"
 
 #: pcbnew/onrightclick.cpp:690
 msgid "Track Locked: Yes"
-msgstr "Κλειδωμένη γραμμή: Ναι"
+msgstr "Κλειδωμένος Δρόμος: Ναι"
 
 #: pcbnew/onrightclick.cpp:691
 msgid "Track Locked: No"
-msgstr "Κλειδωμένη γραμμή: Όχι"
+msgstr "Κλειδωμένος Δρόμος: Όχι"
 
 #: pcbnew/onrightclick.cpp:693
 msgid "Net Locked: Yes"
@@ -18699,7 +18717,7 @@ msgstr "Δημιουργία Συστοιχίας Αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:862
 msgid "Exchange Footprint(s)"
-msgstr ""
+msgstr "Ανταλλαγή Αποτυπωμάτων"
 
 #: pcbnew/onrightclick.cpp:902 pcbnew/onrightclick.cpp:1016
 msgid "Reset Size"
@@ -18750,22 +18768,21 @@ msgid ""
 "Use the track width when starting on a track, otherwise the current track "
 "width"
 msgstr ""
-"Χρήση του ίδιου πλάτους όταν ξεκινάει μία γραμμή από μία άλλη, αλλιώς χρήση "
-"του τρέχοντος πλάτους γραμμής"
+"Χρήση του ίδιου πλάτους όταν ξεκινάει ένας δρόμος από έναν άλλο, αλλιώς "
+"χρήση του τρέχοντος πλάτους δρόμου"
 
 #: pcbnew/onrightclick.cpp:1058
 msgid "Use Netclass Values"
-msgstr "Χρήση τιμών κλάσης δικτύου"
+msgstr "Χρήση Τιμών Κλάσης Δικτύου"
 
 #: pcbnew/onrightclick.cpp:1059
 msgid "Use track and via sizes from their Netclass values"
-msgstr ""
-"Χρήση μεγεθών αποτυπώματος και via από τις δικές τους τιμές κλάσης δικτύου"
+msgstr "Χρήση μεγεθών δρόμου και via από τις δικές τους τιμές Κλάσης Δικτύου"
 
 #: pcbnew/onrightclick.cpp:1065
 #, c-format
 msgid "Track %s"
-msgstr "Γραμμή %s"
+msgstr "Δρόμος %s"
 
 #: pcbnew/onrightclick.cpp:1068 pcbnew/onrightclick.cpp:1094
 msgid " uses NetClass"
@@ -18898,6 +18915,14 @@ msgid ""
 "See the \"Footprint Library  Table\" section of the CvPcb or Pcbnew "
 "documentation for more information."
 msgstr ""
+"Έχετε εκτελέσει το Pcbnew για πρώτη φορά χρησιμοποιώντας τη νέα μέθοδο "
+"καταλόγου βιβλιοθήκης αποτυπωμάτων για εύρεση αποτυπωμάτων. Το Pcbnew έχει "
+"αντιγράψει τον προκαθορισμένο κατάλογο ή έχει δημιουργήσει έναν άδειο "
+"κατάλογο στον φάκελο ρυθμίσεων του kicad. Πρέπει αρχικά να ρυθμίσετε τον "
+"κατάλογο βιβλιοθήκης για να περιλαμβάνει όλες τις βιβλιοθήκες αποτυπωμάτων "
+"που θέλετε να χρησιμοποιήσετε. Δείτε το κεφάλαιο \"Κατάλογος Βιβλιοθήκης "
+"Αποτυπωμάτων\" της τεκμηρίωσης του CvPcb ή του Pcbnew για περισσότερες "
+"πληροφορίες."
 
 #: pcbnew/pcbnew_config.cpp:446
 msgid "Save Macros File"
@@ -18915,10 +18940,12 @@ msgstr "Η ΠΛΑΚΕΤΑ έχει λάθος τον αριθμό επιπέδο
 #: pcbnew/plugin.cpp:118
 msgid "Enable <b>debug</b> logging for Footprint*() functions in this PLUGIN."
 msgstr ""
+"Ενεργοποίηση <b>debug</b> καταγραφής για συναρτήσεις Footprint*() σε αυτό το "
+"ΠΡΟΣΘΕΤΟ."
 
 #: pcbnew/plugin.cpp:122
 msgid "Regular expression <b>footprint name</b> filter."
-msgstr ""
+msgstr "Φίλτρο κανονικής έκφρασης <b>όνομα αποτυπώματος</b>."
 
 #: pcbnew/plugin.cpp:126
 msgid ""
@@ -18946,11 +18973,11 @@ msgstr ""
 
 #: pcbnew/router/length_tuner_tool.cpp:51 pcbnew/router/router_tool.cpp:61
 msgid "New Track"
-msgstr "Νέα Γραμμή"
+msgstr "Νέος Δρόμος"
 
 #: pcbnew/router/length_tuner_tool.cpp:51 pcbnew/router/router_tool.cpp:61
 msgid "Starts laying a new track."
-msgstr " ενός υπάρχοντος έργου"
+msgstr "Ξεκινάει την τοποθέτηση ενός νέου δρόμου"
 
 #: pcbnew/router/length_tuner_tool.cpp:54
 msgid "Stops laying the current meander."
@@ -19102,7 +19129,7 @@ msgstr "Σταματάει την τοποθέτηση του τρέχοντα �
 
 #: pcbnew/router/router_tool.cpp:67
 msgid "Auto-end Track"
-msgstr "Αυτόματος τερματισμός Γραμμής"
+msgstr "Αυτόματος τερματισμός Δρόμου"
 
 #: pcbnew/router/router_tool.cpp:67
 msgid "Automagically finishes currently routed track."
@@ -19143,7 +19170,7 @@ msgstr "Εμφανίζει παράθυρο για αλλαγή του πλάτ�
 
 #: pcbnew/router/router_tool.cpp:99
 msgid "Switches posture of the currenly routed track."
-msgstr ""
+msgstr "Εναλλαγή στάσης του επιλεγμένου δρόμου."
 
 #: pcbnew/router/router_tool.cpp:104
 msgid "Differential Pair Dimensions..."
@@ -19168,11 +19195,11 @@ msgstr "Δρομολόγηση χρησιμοποιώντας το πλάτος 
 
 #: pcbnew/router/router_tool.cpp:134
 msgid "Use net class values"
-msgstr "Χρήση τιμών κλάσης δικτύου"
+msgstr "Χρήση τιμών Κλάσης Δικτύου"
 
 #: pcbnew/router/router_tool.cpp:135
 msgid "Use track and via sizes from the net class"
-msgstr "Χρήση μεγεθών για δρόμους και via από την κλάση δικτύου"
+msgstr "Χρήση μεγεθών για δρόμους και via από την Κλάση Δικτύου"
 
 #: pcbnew/router/router_tool.cpp:202
 msgid "Interactive Router"
@@ -19184,7 +19211,7 @@ msgstr "Επιλογή Πλάτους Δρόμου/Via"
 
 #: pcbnew/router/router_tool.cpp:595
 msgid "Route Track"
-msgstr "Δρομολόγηση Ίχνους"
+msgstr "Δρομολόγηση Δρόμου"
 
 #: pcbnew/router/router_tool.cpp:602
 msgid "Router Differential Pair"
@@ -19215,6 +19242,10 @@ msgid ""
 "mm).\n"
 "Edit Edge.Cuts perimeter graphics, making them contiguous polygons each."
 msgstr ""
+"Αδυναμία εύρεσης του επόμενου τμήματος ορίου με σημείο τέλους (%s mm, %s "
+"mm).\n"
+"Επεξεργαστείτε τα περιμετρικά γραφικά του Edge.Cuts, μετατρέποντάς τα όλα σε "
+"συνεχή πολύγωνα."
 
 #: pcbnew/specctra_export.cpp:1294
 #, c-format
@@ -19222,6 +19253,10 @@ msgid ""
 "Unable to find the next keepout segment with an endpoint of (%s mm, %s mm).\n"
 "Edit Edge.Cuts interior graphics, making them contiguous polygons each."
 msgstr ""
+"Αδυναμία εύρεσης του επόμενου καθαρού τμήματος με σημείο τέλους (%s mm, %s "
+"mm).\n"
+"Επεξεργαστείτε τα εσωτερικά γραφικά του Edge.Cuts, μετατρέποντάς τα όλα σε "
+"συνεχή πολύγωνα."
 
 #: pcbnew/specctra_export.cpp:1455
 #, c-format
@@ -19284,7 +19319,7 @@ msgstr "Το αρχείο συνεδρίας έχει 'αναφορά' σε μη
 #: pcbnew/specctra_import.cpp:546
 #, c-format
 msgid "A wire_via references a missing padstack \"%s\""
-msgstr "Ένα via γραμμής παραπέμπει σε μια μη υπάρχουσα σχηματική στοίβα \"%s\""
+msgstr "Ένα wire_via παραπέμπει σε μη υπάρχουσα στοίβα έδρας \"%s\""
 
 #: pcbnew/swap_layers.cpp:94
 msgid "Swap Layers:"
@@ -19463,7 +19498,7 @@ msgstr ""
 
 #: pcbnew/tool_pcb.cpp:298
 msgid "Mode track: autorouting"
-msgstr "Λειτουργία γραμμής: αυτόματη δρομολόγηση"
+msgstr "Λειτουργία δρόμου: αυτόματη δρομολόγηση"
 
 #: pcbnew/tool_pcb.cpp:304
 msgid "Fast access to the FreeROUTE external advanced router"
@@ -19485,7 +19520,7 @@ msgstr "Εμφάνιση της φωλιάς συνδέσεων αποτυπώμ
 
 #: pcbnew/tool_pcb.cpp:363
 msgid "Enable automatic track deletion"
-msgstr "Ενεργοποίηση αυτόματης διαγραφής αποτυπώματος"
+msgstr "Ενεργοποίηση αυτόματης διαγραφής δρόμου"
 
 #: pcbnew/tool_pcb.cpp:371
 msgid "Do not show filled areas in zones"
@@ -19501,7 +19536,7 @@ msgstr "Εμφάνιση via ως περιγράμματα"
 
 #: pcbnew/tool_pcb.cpp:387 pcbnew/toolbars_update_user_interface.cpp:187
 msgid "Show tracks in outline mode"
-msgstr "Εμφάνιση πιστών ως περιγράμματα"
+msgstr "Εμφάνιση δρόμων ως περιγράμματα"
 
 #: pcbnew/tool_pcb.cpp:436
 msgid "Display local ratsnest"
@@ -19533,19 +19568,19 @@ msgid ""
 "Auto track width: when starting on an existing track use its width\n"
 "otherwise, use current width setting"
 msgstr ""
-"Αυτόματο πλάτος γραμμής: όταν γίνεται έναρξη σε υπάρχουσα γραμμή να "
-"χρησιμοποιείται το πλάτος της,\n"
-"αλλιώς να χρησιμοποιείται η ρύθμιση του τρέχοντος πλάτους"
+"Αυτόματο πλάτος δρόμου: όταν γίνεται έναρξη σε υπάρχοντα δρόμο \n"
+"να χρησιμοποιείται το πλάτος της, αλλιώς να χρησιμοποιείται η ρύθμιση \n"
+"του τρέχοντος πλάτους"
 
 #: pcbnew/tool_pcb.cpp:639
 #, c-format
 msgid "Track: %.3f mm (%.2f mils)"
-msgstr "Γραμμή: %.3f mm (%.2f mil)"
+msgstr "Δρόμος: %.3f mm (%.2f mil)"
 
 #: pcbnew/tool_pcb.cpp:642
 #, c-format
 msgid "Track: %.2f mils (%.3f mm)"
-msgstr "Γραμμή: %.2f mil (%.3f mm)"
+msgstr "Δρόμος: %.2f mil (%.3f mm)"
 
 #: pcbnew/tool_pcb.cpp:677
 #, c-format
@@ -19589,11 +19624,11 @@ msgstr "Εμφάνιση φωλιάς συνδέσεων αποτυπώματο�
 
 #: pcbnew/toolbars_update_user_interface.cpp:165
 msgid "Disable auto delete old track"
-msgstr "Απενεργοποίηση αυτόματης διαγραφής παλιού track"
+msgstr "Απενεργοποίηση αυτόματης διαγραφής παλιού δρόμου"
 
 #: pcbnew/toolbars_update_user_interface.cpp:166
 msgid "Enable auto delete old track"
-msgstr "Ενεργοποίηση αυτόματης διαγραφής παλιού track"
+msgstr "Ενεργοποίηση αυτόματης διαγραφής παλιού δρόμου"
 
 #: pcbnew/toolbars_update_user_interface.cpp:177
 msgid "Show vias in fill mode"
@@ -19601,7 +19636,7 @@ msgstr "Προβολή γεμισμένων via"
 
 #: pcbnew/toolbars_update_user_interface.cpp:188
 msgid "Show tracks in fill mode"
-msgstr "Προβολή γεμισμένων πιστών"
+msgstr "Προβολή γεμισμένων δρόμων"
 
 #: pcbnew/toolbars_update_user_interface.cpp:198
 msgid "Normal contrast display mode"
@@ -19613,7 +19648,7 @@ msgstr "Λειτουργία εμφάνισης υψηλής αντίθεσης"
 
 #: pcbnew/tools/common_actions.cpp:58
 msgid "trivial connection"
-msgstr ""
+msgstr "ασήμαντη σύνδεση"
 
 #: pcbnew/tools/common_actions.cpp:58
 msgid "Selects a connection between two junctions."
@@ -19633,7 +19668,7 @@ msgstr "όλο το δίκτυο"
 
 #: pcbnew/tools/common_actions.cpp:66
 msgid "Selects all tracks & vias belonging to the same net."
-msgstr "Επιλέγει όλα τα ίχνη και via που ανήκουν στο ίδιο δίκτυο."
+msgstr "Επιλέγει όλους τους δρόμους και τα via που ανήκουν στο ίδιο δίκτυο."
 
 #: pcbnew/tools/common_actions.cpp:70
 msgid "Find an item"
@@ -19770,7 +19805,7 @@ msgstr "Μείωση πάχους γραμμής"
 
 #: pcbnew/tools/common_actions.cpp:184
 msgid "Switch the arc posture"
-msgstr ""
+msgstr "Εναλλαγή της στάσης τόξου"
 
 #: pcbnew/tools/common_actions.cpp:190
 msgid "Zoom In"
@@ -19970,11 +20005,11 @@ msgstr "Διευκρίνηση Επιλογής"
 
 #: pcbnew/tools/size_menu.cpp:45
 msgid "Track "
-msgstr "Γραμμή"
+msgstr "Δρόμος"
 
 #: pcbnew/tools/size_menu.cpp:48
 msgid "net class width"
-msgstr "πλάτος κλάσης δικτύου"
+msgstr "πλάτος Κλάσης Δικτύου"
 
 #: pcbnew/tools/size_menu.cpp:64
 msgid "Via "
@@ -19982,7 +20017,7 @@ msgstr "Via "
 
 #: pcbnew/tools/size_menu.cpp:68
 msgid "net class size"
-msgstr "μέγεθος κλάσης δικτύου"
+msgstr "μέγεθος Κλάσης Δικτύου"
 
 #: pcbnew/tools/size_menu.cpp:77
 msgid ", drill: default"
@@ -20452,7 +20487,7 @@ msgstr "Διαγραφή Αντικειμένων"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.h:69
 msgid "Global Edition of Tracks and Vias"
-msgstr "Γενική επεξεργασία πιστών και via"
+msgstr "Γενική Επεξεργασία Δρόμων και Via"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.h:68
 msgid "Set Text Size"
@@ -20532,11 +20567,11 @@ msgstr "Ιδιότητες στόχου"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.h:92
 msgid "Track & Via Properties"
-msgstr "Ρυθμίσεις Γραμμών και Via"
+msgstr "Ιδιότητες Δρόμων και Via"
 
 #: pcbnew/dialogs/dialog_track_via_size_base.h:57
 msgid "Track width and via size"
-msgstr "Πλάτος γραμμών και μέγεθος via"
+msgstr "Πλάτος δρόμων και μέγεθος via"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.h:80
 msgid "Add 3D Shape Libraries Wizard"
@@ -21196,7 +21231,7 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ msgstr "Λέξη κλειδί: "
 
 #~ msgid "NetClass: "
-#~ msgstr "Κλάση δικτύου: "
+#~ msgstr "Κλάση Δικτύου: "
 
 #~ msgid " *"
 #~ msgstr " *"
@@ -21670,10 +21705,10 @@ msgstr "Εισαγωγή αρχείου DXF"
 #~ msgstr "Άνοιγμα επεξεργαστή εξαρτημάτων"
 
 #~ msgid "Current NetClass clearance value"
-#~ msgstr "Τρέχουσα τιμή διάκενου της κλάσης δικτύου"
+#~ msgstr "Τρέχουσα τιμή διάκενου της Κλάσης Δικτύου"
 
 #~ msgid "Name of the current NetClass"
-#~ msgstr "Όνομα της τρέχουσας κλάσης δικτύου"
+#~ msgstr "Όνομα της τρέχουσας Κλάσης Δικτύου"
 
 #~ msgid "&Open\tCtrl+O"
 #~ msgstr "&Άνοιγμα\tCtrl+O"
