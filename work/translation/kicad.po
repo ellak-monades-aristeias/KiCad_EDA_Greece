@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-27 12:37+0200\n"
-"PO-Revision-Date: 2015-09-22 18:40+0200\n"
+"PO-Revision-Date: 2015-09-23 14:07+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el_GR\n"
@@ -188,27 +188,27 @@ msgstr "Προσαρμογή στη σελίδα"
 
 #: 3d-viewer/3d_toolbar.cpp:83
 msgid "Rotate X <-"
-msgstr "Περιστροφή X <-"
+msgstr "Περιστροφή Χ <-"
 
 #: 3d-viewer/3d_toolbar.cpp:87
 msgid "Rotate X ->"
-msgstr "Περιστροφή X ->"
+msgstr "Περιστροφή Χ ->"
 
 #: 3d-viewer/3d_toolbar.cpp:92
 msgid "Rotate Y <-"
-msgstr "Περιστροφή Y <-"
+msgstr "Περιστροφή Υ <-"
 
 #: 3d-viewer/3d_toolbar.cpp:96
 msgid "Rotate Y ->"
-msgstr "Περιστροφή Y ->"
+msgstr "Περιστροφή Υ ->"
 
 #: 3d-viewer/3d_toolbar.cpp:101
 msgid "Rotate Z <-"
-msgstr "Περιστροφή Z <-"
+msgstr "Περιστροφή Ζ <-"
 
 #: 3d-viewer/3d_toolbar.cpp:105
 msgid "Rotate Z ->"
-msgstr "Περιστροφή Z ->"
+msgstr "Περιστροφή Ζ ->"
 
 #: 3d-viewer/3d_toolbar.cpp:109
 msgid "Move left"
@@ -236,7 +236,7 @@ msgstr "Ενεργοποίηση/Απενεργοποίηση ορθογραφι
 #: pcbnew/menubar_modedit.cpp:358 pcbnew/menubar_pcbframe.cpp:662
 #: pcbnew/tool_modview.cpp:206
 msgid "&File"
-msgstr "&Άρχείο"
+msgstr "&Αρχείο"
 
 #: 3d-viewer/3d_toolbar.cpp:138
 msgid "Create Image (png format)"
@@ -294,7 +294,7 @@ msgstr "Απόδοση Εξομαλυσμένων Βασικών Στοιχεί�
 
 #: 3d-viewer/3d_toolbar.cpp:184
 msgid "Use Model Normals"
-msgstr "Χρήση Βασικών Στοιχείων Μοντέλων"
+msgstr "Χρήση Βασικών Στοιχείων από Μοντέλα"
 
 #: 3d-viewer/3d_toolbar.cpp:188
 msgid "Render Material Properties"
@@ -330,7 +330,7 @@ msgstr "Χρώμα Χαλκού/Επιφάνειας"
 
 #: 3d-viewer/3d_toolbar.cpp:228
 msgid "Show 3D &Axis"
-msgstr "Εμφάνισης αξόνων 3Δ"
+msgstr "Εμφάνιση &Αξόνων 3Δ"
 
 #: 3d-viewer/3d_toolbar.cpp:233
 msgid "3D Grid"
@@ -358,47 +358,47 @@ msgstr "Πλέγμα 3Δ 1 mm"
 
 #: 3d-viewer/3d_toolbar.cpp:254
 msgid "Show Board Bod&y"
-msgstr "Εμφάνισης Σώματος Πλακέτας"
+msgstr "Εμφάνισης Σώματος Π&λακέτας"
 
 #: 3d-viewer/3d_toolbar.cpp:257
 msgid "Show Copper &Thickness"
-msgstr "Εμφάνιση Πάχους Χαλκού"
+msgstr "Εμφάνιση Πά&χους Χαλκού"
 
 #: 3d-viewer/3d_toolbar.cpp:260
 msgid "Show 3D F&ootprints"
-msgstr "Εμφάνιση Αποτυπωμάτων 3Δ"
+msgstr "Εμφάνιση Α&ποτυπωμάτων 3Δ"
 
 #: 3d-viewer/3d_toolbar.cpp:263
 msgid "Show Zone &Filling"
-msgstr "Εμφάνιση Γεμίσματος Ζώνης"
+msgstr "Εμφάνιση &Γεμίσματος Ζώνης"
 
 #: 3d-viewer/3d_toolbar.cpp:269
 msgid "Show &Layers"
-msgstr "Εμφάνιση Επιπέδων"
+msgstr "Εμφάνιση &Επιπέδων"
 
 #: 3d-viewer/3d_toolbar.cpp:272
 msgid "Show &Adhesive Layers"
-msgstr "Εμφάνιση Όλων των Επιπέδων Επικόλλησης"
+msgstr "Εμφάνιση Όλων των Επιπέδων Επι&κόλλησης"
 
 #: 3d-viewer/3d_toolbar.cpp:275
 msgid "Show &Silkscreen Layer"
-msgstr "Εμφάνιση Επιπέδου Μεταξοτυπίας"
+msgstr "Εμφάνιση Επιπέδου Με&ταξοτυπίας"
 
 #: 3d-viewer/3d_toolbar.cpp:278
 msgid "Show Solder &Mask Layers"
-msgstr "Εμφάνιση Επιπέδου Συγκόλλησης Μάσκας"
+msgstr "Εμφάνιση Επιπέδου Συγκόλλησης &Μάσκας"
 
 #: 3d-viewer/3d_toolbar.cpp:281
 msgid "Show Solder &Paste Layers"
-msgstr "Εμφάνιση Επιπέδου Πάστας Συγκόλλησης"
+msgstr "Εμφάνιση Επιπέδου Πά&στας Συγκόλλησης"
 
 #: 3d-viewer/3d_toolbar.cpp:286
 msgid "Show &Comments and Drawings Layer"
-msgstr "Εμφάνιση Επιπέδου Σχολίων και Σχεδίων"
+msgstr "Εμφάνιση Επιπέδου Σ&χολίων και Σχεδίων"
 
 #: 3d-viewer/3d_toolbar.cpp:289
 msgid "Show &Eco Layers"
-msgstr "Εμφάνιση Επιπέδων Eco"
+msgstr "Εμφάνιση Επιπέδων E&co"
 
 #: 3d-viewer/dialogs/dialog_3D_view_option_base.cpp:30
 msgid "Realistic mode"
@@ -519,7 +519,7 @@ msgstr "Επιλέξτε Προτιμώμενο Επεξεργαστή"
 
 #: common/basicframe.cpp:489
 msgid "Copy &Version Information"
-msgstr "Αντιγραφή Πληροφοριών Έκδοσης"
+msgstr "Αντιγραφή Πληροφοριών Έκ&δοσης"
 
 #: common/basicframe.cpp:490
 msgid "Copy the version string to clipboard to send with bug reports"
@@ -1645,7 +1645,7 @@ msgstr "Εγγραφή Αρχείου Ρυθμίσεων Συντομεύσεω�
 
 #: common/hotkeys_basic.cpp:819
 msgid "&List Current Keys"
-msgstr "Προβολή Τρεχόντων Πλήκτρων"
+msgstr "Προβολή &Τρεχόντων Πλήκτρων"
 
 #: common/hotkeys_basic.cpp:820
 msgid "Displays the current hotkeys list and corresponding commands"
@@ -1654,7 +1654,7 @@ msgstr ""
 
 #: common/hotkeys_basic.cpp:825
 msgid "&Edit Hotkeys"
-msgstr "Επεξεργασία Συντομεύσεων"
+msgstr "Επεξεργα&σία Συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:826
 msgid "Call the hotkeys editor"
@@ -1662,7 +1662,7 @@ msgstr "Κλήση του επεξεργαστή συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:833
 msgid "E&xport Hotkeys"
-msgstr "Εξαγωγή Συντομεύσεων"
+msgstr "Ε&ξαγωγή Συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:834
 msgid "Create a hotkey configuration file to export the current hotkeys"
@@ -1672,7 +1672,7 @@ msgstr ""
 
 #: common/hotkeys_basic.cpp:839
 msgid "&Import Hotkeys"
-msgstr "Εισαγωγή Συντομεύσεων"
+msgstr "Εισα&γωγή Συντομεύσεων"
 
 #: common/hotkeys_basic.cpp:840
 msgid "Load an existing hotkey configuration file"
@@ -1680,7 +1680,7 @@ msgstr "Φόρτωση ενός υπάρχοντος αρχείου ρυθμίσ
 
 #: common/hotkeys_basic.cpp:845
 msgid "&Hotkeys"
-msgstr "Συντομεύσεις"
+msgstr "&Συντομεύσεις"
 
 #: common/hotkeys_basic.cpp:846
 msgid "Hotkeys configuration and preferences"
@@ -2483,7 +2483,7 @@ msgstr "Αντιστοίχηση αρχείου cmp"
 
 #: cvpcb/menubar.cpp:69
 msgid "&Save Edits\tCtrl+S"
-msgstr "Αποθήκευση Αλλαγών\tCtrl+S"
+msgstr "Α&ποθήκευση Αλλαγών\tCtrl+S"
 
 #: cvpcb/menubar.cpp:76 eeschema/dialogs/dialog_erc_base.cpp:110
 #: eeschema/menubar.cpp:170 gerbview/menubar.cpp:145 kicad/menubar.cpp:279
@@ -2497,7 +2497,7 @@ msgstr "Κλείσιμο CvPcb"
 
 #: cvpcb/menubar.cpp:83
 msgid "Footprint Li&braries"
-msgstr "Βιβλιοθήκες Αποτυπωμάτων"
+msgstr "Βι&βλιοθήκες Αποτυπωμάτων"
 
 #: cvpcb/menubar.cpp:83 pcbnew/menubar_modedit.cpp:312
 #: pcbnew/menubar_pcbframe.cpp:487
@@ -2507,7 +2507,7 @@ msgstr "Ρυθμίσεις βιβλιοθηκών αποτυπωμάτων"
 #: cvpcb/menubar.cpp:89 kicad/menubar.cpp:306 pcbnew/menubar_modedit.cpp:318
 #: pcbnew/menubar_pcbframe.cpp:493
 msgid "Configure Pa&ths"
-msgstr "Ρύθμιση Διαδρομών"
+msgstr "Ρύθμιση Διαδ&ρομών"
 
 #: cvpcb/menubar.cpp:90 kicad/menubar.cpp:307 pcbnew/menubar_modedit.cpp:319
 #: pcbnew/menubar_pcbframe.cpp:494
@@ -2516,7 +2516,7 @@ msgstr "Επεξεργασία μεταβλητών περιβάλλοντος �
 
 #: cvpcb/menubar.cpp:94
 msgid "Edit &Equ Files List"
-msgstr "Επεξεργασία Λίστας Αρχείων Equ"
+msgstr "Επεξεργασία Λίστας Αρχείων &Equ"
 
 #: cvpcb/menubar.cpp:95
 msgid ""
@@ -2528,7 +2528,7 @@ msgstr ""
 
 #: cvpcb/menubar.cpp:104
 msgid "&Keep Open On Save"
-msgstr "Να Παραμείνει Ανοιχτό στην Αποθήκευση"
+msgstr "Να &Παραμείνει Ανοιχτό στην Αποθήκευση"
 
 #: cvpcb/menubar.cpp:105
 msgid "Prevent CvPcb from exiting after saving netlist file"
@@ -2545,7 +2545,7 @@ msgstr "Αποθήκευση των αλλαγών στο αρχείο έργο�
 
 #: cvpcb/menubar.cpp:124
 msgid "&CvPcb Manual"
-msgstr "Εγχειρίδιο CvPcb "
+msgstr "Εγχειρίδιο &CvPcb "
 
 #: cvpcb/menubar.cpp:125
 msgid "Open CvPcb manual"
@@ -2557,7 +2557,7 @@ msgstr "&Περί του CvPcb"
 
 #: cvpcb/menubar.cpp:131
 msgid "About CvPcb footprint selector"
-msgstr "&Περί του επιλογέα αποτυπωμάτων CvPcb"
+msgstr "Περί του επιλογέα αποτυπωμάτων CvPcb"
 
 #: cvpcb/menubar.cpp:137 eeschema/menubar.cpp:515
 #: eeschema/menubar_libedit.cpp:288 eeschema/tool_viewlib.cpp:270
@@ -2964,11 +2964,11 @@ msgstr "Εμβέλεια"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:37
 msgid "Use the &entire schematic"
-msgstr "Χρήση ολόκληρου του σχηματικού"
+msgstr "Χρήση &ολόκληρου του σχηματικού"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:40
 msgid "Use the current &page only"
-msgstr "Χρήση μόνο της τρέχουσας &σελίδας"
+msgstr "Χρήση μόνο της τ&ρέχουσας &σελίδας"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:46
 msgid "&Keep existing annotation"
@@ -2976,11 +2976,11 @@ msgstr "&Διατήρηση τρέχουσας ονοματοδοσίας"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:49
 msgid "&Reset existing annotation"
-msgstr "Μηδενισμός τρέχουσας ονοματοδοσίας"
+msgstr "&Μηδενισμός τρέχουσας ονοματοδοσίας"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:52
 msgid "R&eset, but do not swap any annotated multi-unit parts"
-msgstr "Επαναφορά, αλλά να μην αλλαχθούν ονομασμένα εξαρτήματα με πολλά μέρη"
+msgstr "Επα&ναφορά, αλλά να μην αλλαχθούν ονομασμένα εξαρτήματα με πολλά μέρη"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:61
 msgid "Annotation Order"
@@ -2988,11 +2988,11 @@ msgstr "Σειρά Σχολιασμού"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:73
 msgid "Sort components by &X position"
-msgstr "Ταξινόμηση εξαρτημάτων με βάση τη θέση &X"
+msgstr "Ταξινόμηση εξαρτημάτων με βάση τη θέση &Χ"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:88
 msgid "Sort components by &Y position"
-msgstr "Ταξινόμηση εξαρτημάτων με βάση τη θέση &Y"
+msgstr "Ταξινόμηση εξαρτημάτων με βάση τη θέση &Ψ"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:109
 msgid "Annotation Choice"
@@ -3915,7 +3915,7 @@ msgstr "ΘέσηX"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:250
 msgid "The X coordinate of the text relative to the component"
-msgstr "Η συντεταγμένη X του κειμένου σε σχέση με το εξάρτημα"
+msgstr "Η συντεταγμένη Χ του κειμένου σε σχέση με το εξάρτημα"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:258
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:164
@@ -3925,7 +3925,7 @@ msgstr "ΘέσηY"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:264
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:170
 msgid "The Y coordinate of the text relative to the component"
-msgstr "Η συντεταγμένη Y του κειμένου σε σχέση με το εξάρτημα"
+msgstr "Η συντεταγμένη Ψ του κειμένου σε σχέση με το εξάρτημα"
 
 #: eeschema/dialogs/dialog_edit_label.cpp:151
 msgid "Global Label Properties"
@@ -4179,7 +4179,7 @@ msgstr "Κρυφό"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:53
 msgid "&Measurement units:"
-msgstr "Μονάδες μέτρησης:"
+msgstr "Μονάδες μέ&τρησης:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:65
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:36
@@ -4205,34 +4205,34 @@ msgstr "mils"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:78
 msgid "&Default bus thickness:"
-msgstr "Προκαθορισμένο πάχος δίαυλου:"
+msgstr "&Προκαθορισμένο πάχος δίαυλου:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:89
 msgid "D&efault line thickness:"
-msgstr "Προκαθορισμένο πάχος γραμμής:"
+msgstr "Π&ροκαθορισμένο πάχος γραμμής:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:100
 msgid "De&fault text size:"
-msgstr "Προκαθορισμένο μέγεθος κειμένου:"
+msgstr "Προ&καθορισμένο μέγεθος κειμένου:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:111
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:93
 msgid "&Horizontal pitch of repeated items:"
-msgstr "Οριζόντιο βήμα επαναλαμβανόμενων αντικειμένων:"
+msgstr "&Οριζόντιο βήμα επαναλαμβανόμενων αντικειμένων:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:122
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:104
 msgid "&Vertical pitch of repeated items:"
-msgstr "Κάθετο βήμα επαναλαμβανόμενων αντικειμένων:"
+msgstr "&Κάθετο βήμα επαναλαμβανόμενων αντικειμένων:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:133
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:129
 msgid "&Increment of repeated labels:"
-msgstr "Προσαύξηση επαναλαμβανόμενων ετικετών:"
+msgstr "&Προσαύξηση επαναλαμβανόμενων ετικετών:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:143
 msgid "&Auto-save time interval"
-msgstr "Χρονικό διάστημα αυτόματης αποθήκευσης"
+msgstr "Χρονικό διάστημα &αυτόματης αποθήκευσης"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:150
 msgid "minutes"
@@ -4242,7 +4242,7 @@ msgstr "λεπτά"
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:139
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:182
 msgid "Ma&ximum undo items (0 = unlimited):"
-msgstr "Μέγιστος αριθμός αναιρέσεων (0 = απεριόριστα)"
+msgstr "Μέ&γιστος αριθμός αναιρέσεων (0 = απεριόριστα)"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:161
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:146
@@ -4252,7 +4252,7 @@ msgstr "δράσεις"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:165
 msgid "&Part id notation:"
-msgstr "Σήμανση μερών:"
+msgstr "&Σήμανση μερών:"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:169
 msgid "A"
@@ -4285,20 +4285,20 @@ msgstr "_1"
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:187
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:159
 msgid "&Show grid"
-msgstr "Προβολή πλέγματος"
+msgstr "Προβολή π&λέγματος"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:190
 msgid "Sho&w hidden pins"
-msgstr "Προβολή κρυφών ακροδεκτών"
+msgstr "Προβολή κρυ&φών ακροδεκτών"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:193
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:165
 msgid "Ce&nter and warp cursor on zoom"
-msgstr "Κεντράρισμα κέρσορα κατά τη μεγέθυνση"
+msgstr "&Κεντράρισμα κέρσορα κατά τη μεγέθυνση"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:198
 msgid "&Use middle mouse button to pan"
-msgstr "Χρήση μεσαίου πλήκτρου ποντικιού για μετακίνηση προβολής"
+msgstr "Χρήση &μεσαίου πλήκτρου ποντικιού για μετακίνηση προβολής"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:199
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:172
@@ -4307,7 +4307,7 @@ msgstr "Χρήση σύρσιμου με το μεσαίο πλήκτρο πον
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:203
 msgid "&Limit panning to scroll size"
-msgstr "Περιορισμός μετακίνησης προβολής από το μέγεθος κύλισης"
+msgstr "Πε&ριορισμός μετακίνησης προβολής από το μέγεθος κύλισης"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:204
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:177
@@ -4318,15 +4318,15 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:208
 msgid "Pan while moving ob&ject"
-msgstr "Μετακίνηση προβολής κατά τη μετακίνηση αντικειμένου"
+msgstr "Μετακί&νηση προβολής κατά τη μετακίνηση αντικειμένου"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:211
 msgid "&Restrict buses and wires to H and V orientation"
-msgstr "Περιορισμός δίαυλων και συρμάτων μόνο σε Οριζ ή Καθ προσανατολισμό"
+msgstr "Πε&ριορισμός δίαυλων και συρμάτων μόνο σε Οριζ ή Καθ προσανατολισμό"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:214
 msgid "Show page limi&ts"
-msgstr "Προβολή ορίων σελίδας"
+msgstr "Προβολή &ορίων σελίδας"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:227
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:95
@@ -4344,11 +4344,11 @@ msgstr "Ρυθμίσεις Πεδίων"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:242
 msgid "&Name"
-msgstr "Όνομα"
+msgstr "Ό&νομα"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:249
 msgid "D&efault Value"
-msgstr "Προκαθορισμένη Τιμή"
+msgstr "Προ&καθορισμένη Τιμή"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:256
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:95
@@ -4357,7 +4357,7 @@ msgstr "&Ορατό"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:262
 msgid "&Add"
-msgstr "Προσθήκη"
+msgstr "&Προσθήκη"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:265
 #: eeschema/menubar.cpp:190 eeschema/menubar_libedit.cpp:140
@@ -4423,11 +4423,11 @@ msgstr "Λίστα σφαλμάτων:"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:103
 msgid "&Delete Markers"
-msgstr "Διαγραφή Σημαδιών"
+msgstr "Διαγραφή &Σημαδιών"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:106
 msgid "&Run"
-msgstr "Εκτέλεση"
+msgstr "&Εκτέλεση"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:120
 msgid "ERC"
@@ -4450,12 +4450,12 @@ msgstr "Κοινή χρήση"
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:64
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:83
 msgid "Common to all &units in component"
-msgstr "Κοινό για όλα τα μέρη του εξαρτήματος"
+msgstr "Κοινό για όλα τα &μέρη του εξαρτήματος"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:76
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:86
 msgid "Common to all body &styles (DeMorgan)"
-msgstr "Κοινό για όλα τα στυλ σώματος (DeMorgan)"
+msgstr "Κοινό για όλα τα &στυλ σώματος (DeMorgan)"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:85
 msgid "Fill Style"
@@ -4475,7 +4475,7 @@ msgstr "Γέμισμα π&αρασκηνίου"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:33
 msgid "Pin &name:"
-msgstr "&Όνομα ακροδέκτη:"
+msgstr "Ό&νομα ακροδέκτη:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:41
 msgid "Pin n&umber:"
@@ -4487,11 +4487,11 @@ msgstr "Αριθμός ακροδέκτη: από 1 έως 4 γράμματα AS
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:51
 msgid "&Orientation:"
-msgstr "&Προσανατολισμός"
+msgstr "Π&ροσανατολισμός"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:58
 msgid "&Electrical type:"
-msgstr "Ηλεκτρικός Τύπος:"
+msgstr "Η&λεκτρικός Τύπος:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:60
 msgid "Used by the ERC."
@@ -4511,7 +4511,7 @@ msgstr "Μέγεθος κειμένου ο&νόματος:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:129
 msgid "Number te&xt size:"
-msgstr "Μέγεθος κει&μένου αριθμού:"
+msgstr "Μέγεθος κειμένου α&ριθμού:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:141
 msgid "&Length:"
@@ -4669,23 +4669,23 @@ msgstr "Όνομα ακροδέκτη εσωτερικά"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:49
 msgid "&Default line width:"
-msgstr "Προκαθορισμένο πλάτος γραμμής:"
+msgstr "Προκαθορισμένο π&λάτος γραμμής:"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:60
 msgid "D&efault pin length:"
-msgstr "Προκαθορισμένο μήκος ακροδέκτη:"
+msgstr "Προκαθορισμένο μή&κος ακροδέκτη:"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:71
 msgid "De&fault pin number size:"
-msgstr "Προκαθορισμένο μέγεθος αριθμού ακροδέκτη:"
+msgstr "Προκαθορισμένο μέγεθος α&ριθμού ακροδέκτη:"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:82
 msgid "Def&ault pin name size:"
-msgstr "Προκαθορισμένο μέγεθος ονόματος ακροδέκτη:"
+msgstr "Προκαθορισμένο μέγεθος ονό&ματος ακροδέκτη:"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:115
 msgid "&Pitch of repeated pins:"
-msgstr "Βήμα επαναλαμβανόμενων ακροδεκτών:"
+msgstr "&Βήμα επαναλαμβανόμενων ακροδεκτών:"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:119
 msgid "100"
@@ -5173,7 +5173,7 @@ msgstr "Όνομα &αρχείου:"
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.cpp:41
 msgid "Si&ze:"
-msgstr "Μέγεθος:"
+msgstr "Μέ&γεθος:"
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.cpp:53
 msgid "&Sheet name:"
@@ -5658,7 +5658,7 @@ msgstr "Η παράμετρος πλήθους μπεζιέ %d είναι εσφ
 #: eeschema/lib_bezier.cpp:105
 #, c-format
 msgid "Bezier point %d X position not defined"
-msgstr "Δεν έχει καθοριστεί το σημείο μπεζιέ %d της θέσης X"
+msgstr "Δεν έχει καθοριστεί το σημείο μπεζιέ %d της θέσης Χ"
 
 #: eeschema/lib_bezier.cpp:113
 #, c-format
@@ -5901,7 +5901,7 @@ msgstr "Το πλήθος παραμέτρων %d της πολυγραμμής 
 #: eeschema/lib_polyline.cpp:110
 #, c-format
 msgid "Polyline point %d X position not defined"
-msgstr "Δεν έχει καθοριστεί η θέση X του σημείου πολυγραμμής %d"
+msgstr "Δεν έχει καθοριστεί η θέση Χ του σημείου πολυγραμμής %d"
 
 #: eeschema/lib_polyline.cpp:118
 #, c-format
@@ -6204,7 +6204,7 @@ msgstr "Μετακίνηση Γραμμής"
 
 #: eeschema/libedit_onrightclick.cpp:214
 msgid "Drag Edge Point"
-msgstr "Σύρσιμο σημείου ακμής"
+msgstr "Σύρσιμο Σημείου Ακμής"
 
 #: eeschema/libedit_onrightclick.cpp:220
 msgid "Line End"
@@ -8208,7 +8208,7 @@ msgstr "Πολικότητα"
 
 #: gerbview/class_GERBER.cpp:364
 msgid "X Justify"
-msgstr "Στοίχιση X"
+msgstr "Στοίχιση Χ"
 
 #: gerbview/class_GERBER.cpp:367
 msgid "Y Justify"
@@ -8479,12 +8479,12 @@ msgstr "Κλίμακα (προσέγγ.):"
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:50
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:55
 msgid "X Scale Adjust"
-msgstr "Προσαρμογή κλίμακας X"
+msgstr "Προσαρμογή κλίμακας Χ"
 
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:56
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:61
 msgid "Set X scale adjust for exact scale plotting"
-msgstr "Ορισμός προσαρμογής κλίμακας X για σχεδιογράφηση ακριβούς κλίμακας"
+msgstr "Ορισμός προσαρμογής κλίμακας Χ για σχεδιογράφηση ακριβούς κλίμακας"
 
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:60
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:65
@@ -8494,7 +8494,7 @@ msgstr "Προσαρμογή κλίμακας Y"
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:66
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:71
 msgid "Set Y scale adjust for exact scale plotting"
-msgstr "Ορισμός προσαρμογής κλίμακας Y για σχεδιογράφηση ακριβούς κλίμακας"
+msgstr "Ορισμός προσαρμογής κλίμακας Ψ για σχεδιογράφηση ακριβούς κλίμακας"
 
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:87
 #: pcbnew/dialogs/dialog_print_for_modedit_base.cpp:36
@@ -10140,7 +10140,7 @@ msgstr "Διάτρηση"
 
 #: pcbnew/class_pad.cpp:667
 msgid "Drill X / Y"
-msgstr "Διάτρηση X / Y"
+msgstr "Διάτρηση Χ / Ψ"
 
 #: pcbnew/class_pad.cpp:687
 msgid "Length in package"
@@ -10391,7 +10391,7 @@ msgstr "Καθορισμός της περιμέτρου πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:378
 msgid "Board's edge setback outline"
-msgstr "Περίγραμμα ορίων πλακέτας"
+msgstr "Περίγραμμα απομόνωσης ορίων πλακέτας"
 
 #: pcbnew/class_pcb_layer_widget.cpp:379
 msgid "Footprint courtyards on board's front"
@@ -12452,12 +12452,12 @@ msgstr "Μονάδες μέτρησης:"
 
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:58
 msgid "X ref:"
-msgstr "Χ αναφ:"
+msgstr "χ αναφ:"
 
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:72
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:78
 msgid "Y Ref:"
-msgstr "Υ αναφ:"
+msgstr "ψ αναφ:"
 
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:86
 msgid "Mils"
@@ -12482,7 +12482,7 @@ msgstr "Διαδρομή 3Δ μοντέλου αποτυπώματος"
 
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:70
 msgid "X Ref:"
-msgstr "Χ αναφ:"
+msgstr "χ αναφ:"
 
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:98
 msgid "meter"
@@ -13796,15 +13796,15 @@ msgstr "Εκτός πλακέτας, κατασκευή"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:166
 msgid "Adhes_Front_later"
-msgstr "Επιθέμα πάνω επιπέδου"
+msgstr "Adhes_Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:177
 msgid "If you want an adhesive template for the front side of the board"
-msgstr "Αν θέλετε ένα πρότυπο επίθεμα για τη μπροστινή όψη της πλακέτας"
+msgstr "Αν θέλετε ένα πρότυπο επικόλλησης για τη μπροστινή όψη της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:191
 msgid "SoldP_Front_later"
-msgstr "Πάνω επιπέδο πάστας συγκόλλησης"
+msgstr "SoldP_Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:202
 msgid "If you want a solder paster layer for front side of the board"
@@ -13822,7 +13822,7 @@ msgstr "Στην πλακέτα, χωρίς χαλκό"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:216
 msgid "SilkS_Front_later"
-msgstr "Μεταξοτυπία πάνω επιπέδου"
+msgstr "SilkS_Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:227
 msgid "If you want a silk screen layer for the front side of the board"
@@ -13830,7 +13830,7 @@ msgstr "Αν θέλετε ένα επίπεδο μεταξοτυπίας για 
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:241
 msgid "Mask_Front_later"
-msgstr "Μάσκα πάνω επιπέδου"
+msgstr "Mask_Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:252
 msgid "If you want a solder mask layer for the front of the board"
@@ -13839,7 +13839,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:266
 msgid "Front_later"
-msgstr "Πάνω επίπεδο"
+msgstr "Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:268
 msgid "Layer name of front (top) copper layer"
@@ -14162,7 +14162,7 @@ msgstr "Αν θέλετε ένα πίσω επίπεδο χαλκού"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1200
 msgid "Mask_Back_later"
-msgstr "Μάσκα κάτω επιπέδου"
+msgstr "Mask_Back_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1211
 msgid "If you want a solder mask layer for the back side of the board"
@@ -14171,7 +14171,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1225
 msgid "SilkS_Back_later"
-msgstr "Κάτω επίπεδο μεταξοτυπίας"
+msgstr "SilkS_Back_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1236
 msgid "If you want a silk screen layer for the back side of the board"
@@ -14179,7 +14179,7 @@ msgstr "Αν θέλετε ένα επίπεδο μεταξοτυπίας για 
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1250
 msgid "SoldP_Back_later"
-msgstr "Πάστα συγκόλλησης κάτω"
+msgstr "SoldP_Back_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1261
 msgid "If you want a solder paste layer for the back side of the board"
@@ -14188,11 +14188,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1275
 msgid "Adhes_Back_later"
-msgstr "Επίθεμα κάτω επιπέδου"
+msgstr "Adhes_Back_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1286
 msgid "If you want an adhesive layer for the back side of the board"
-msgstr "Αν θέλετε ένα επίπεδο επιθέματος για την πίσω πλευρά της πλακέτας"
+msgstr "Αν θέλετε ένα επίπεδο επικόλλησης για την πίσω πλευρά της πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1300
 msgid "Fab_Back_later"
@@ -14204,11 +14204,11 @@ msgstr "Αν θέλετε επίπεδο κατασκευής για την πί
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1325
 msgid "CrtYd_Back_later"
-msgstr " συγκόλλησης κάτω"
+msgstr "CrtYd_Back_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1350
 msgid "PCB_Edges_later"
-msgstr "Επίπεδο ακμών PCB"
+msgstr "PCB_Edges_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1361
 msgid "If you want a board perimeter layer"
@@ -14220,15 +14220,15 @@ msgstr "Περίγραμμα πλακέτας"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1375
 msgid "Margin_later"
-msgstr " πάνω επιπέδου"
+msgstr "Margin_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1394
 msgid "Edge_Cuts setback"
-msgstr "Edge_Cuts setback"
+msgstr "Απομόνωση Edge_Cuts"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1398
 msgid "Eco1_later"
-msgstr "Επίπεδο Eco1"
+msgstr "Eco1_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1417
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1440
@@ -14239,11 +14239,11 @@ msgstr "Βοηθητικό"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1421
 msgid "Eco2_later"
-msgstr "Επίπεδο Eco2"
+msgstr "Eco2_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1444
 msgid "Comments_later"
-msgstr "Επίπεδο σχολίων"
+msgstr "Comments_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1455
 msgid "If you want a separate layer for comments or notes"
@@ -14251,7 +14251,7 @@ msgstr "Αν θέλετε ένα ξεχωριστό επίπεδο για σχό
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1469
 msgid "Drawings_later"
-msgstr "Επίπεδο_σχεδίων"
+msgstr "Drawings_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1480
 msgid "If you want a layer for documentation drawings"
@@ -14905,7 +14905,7 @@ msgstr "Μπροστινό Επικόλλησης"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:339
 msgid "Back adhesive"
-msgstr "Πίσω επίθεμα"
+msgstr "Πίσω Επικόλλησης"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:342
 msgid "Front solder paste"
@@ -15309,19 +15309,19 @@ msgstr "Επιλογές Postscript"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:308
 msgid "X scale:"
-msgstr "Κλίμακα X:"
+msgstr "Κλίμακα Χ:"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:314
 msgid "Set global X scale adjust for exact scale postscript output."
-msgstr "Ορισμός προσαρμογής κλίμακας X για έξοδο postscript ακριβούς κλίμακας"
+msgstr "Ορισμός προσαρμογής κλίμακας Χ για έξοδο postscript ακριβούς κλίμακας"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:324
 msgid "Y scale:"
-msgstr "Κλίμακα Y:"
+msgstr "Κλίμακα Ψ:"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:330
 msgid "Set global Y scale adjust for exact scale postscript output."
-msgstr "Ορισμός προσαρμογής κλίμακας Y για έξοδο postscript ακριβούς κλίμακας"
+msgstr "Ορισμός προσαρμογής κλίμακας Ψ για έξοδο postscript ακριβούς κλίμακας"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:340
 msgid "Width correction"
