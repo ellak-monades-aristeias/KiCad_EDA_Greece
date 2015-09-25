@@ -1,4 +1,4 @@
-![3drender](images/usbuart.jpg)
+![3drender](images/usb2uart.jpg)
 
 ## USB2UART: open hardware USB to UART converter
 
