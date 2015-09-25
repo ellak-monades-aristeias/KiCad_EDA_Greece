@@ -1,0 +1,16 @@
+### Module positions - created on Fri 25 Sep 2015 11:17:41 PM EEST ###
+### Printed by Pcbnew version kicad LL-2015-09-25-git:d09c0a2-llkicadgr
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       1u               C_0402            146.5000  -108.5000     270.0    top
+C2       470n             C_0402            151.5000  -104.2500      90.0    top
+C3       100n             C_0402            143.0000  -106.7500     180.0    top
+C4       1u               C_0402            143.0000  -105.5000     180.0    top
+D1       LED              LED-0603          144.5000  -109.7500      90.0    top
+D2       BLED             bled_0603         151.5000  -109.7500      90.0    top
+R1       430R             R_0402            143.0000  -108.5000     270.0    top
+R2       220R             R_0402            149.7500  -109.7500     270.0    top
+R3       220R             R_0402            153.2500  -109.7500     270.0    top
+U1       CP2104           qfn24             148.0000  -105.0000       0.0    top
+## End

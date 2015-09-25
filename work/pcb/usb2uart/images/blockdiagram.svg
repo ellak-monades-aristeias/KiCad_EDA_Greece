@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutS"
+       style="overflow:visible">
+      <path
+         id="path3955"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path3952"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path3828"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="285.10016"
+     inkscape:cy="695.52531"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1916"
+     inkscape:window-height="1036"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6089"
+       transform="translate(115.92153,123.09576)">
+      <rect
+         style="fill:#c83737;stroke:#000000;stroke-width:1.21326613;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         y="331.61957"
+         x="215.46707"
+         height="122.22845"
+         width="122.22845"
+         id="rect2985" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2987"
+         y="400.72836"
+         x="229.80353"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           y="400.72836"
+           x="229.80353"
+           id="tspan2989"
+           sodipodi:role="line">CP2104</tspan></text>
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         id="rect5753"
+         width="122.64951"
+         height="40.827148"
+         x="-454.05856"
+         y="66.167725"
+         style="fill:#918a6f;fill-opacity:1;stroke:#000000;stroke-width:0.70241106;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="-392.93301"
+         y="95.317627"
+         id="text2993"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan2997"
+           sodipodi:role="line"
+           x="-392.93301"
+           y="95.317627">USB</tspan></text>
+      <rect
+         style="fill:#00ff00;stroke:#000000;stroke-width:0.70241106;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         y="558.37488"
+         x="215.25655"
+         height="40.827148"
+         width="122.64951"
+         id="rect5729" />
+      <rect
+         id="rect3011"
+         width="122.64951"
+         height="40.827148"
+         x="215.25655"
+         y="516.96863"
+         style="fill:#ff6600;stroke:#000000;stroke-width:0.70241106;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="234.42897"
+         y="546.13025"
+         id="text3013"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan3017"
+           sodipodi:role="line"
+           x="234.42897"
+           y="546.13025">TX LED</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5735"
+         y="587.5365"
+         x="232.20827"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           y="587.5365"
+           x="232.20827"
+           sodipodi:role="line"
+           id="tspan5739">RX LED</tspan></text>
+      <rect
+         style="fill:#519bff;fill-opacity:1;stroke:#000000;stroke-width:0.70241106;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         y="206.96863"
+         x="25.256542"
+         height="40.827148"
+         width="122.64951"
+         id="rect5747" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3021"
+         y="236.13025"
+         x="31.333252"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           y="236.13025"
+           x="31.333252"
+           sodipodi:role="line"
+           id="tspan3025">PWR LED</tspan></text>
+      <rect
+         style="fill:#918a6f;fill-opacity:1;stroke:#000000;stroke-width:0.70241106;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         y="446.16772"
+         x="-454.05856"
+         height="40.827148"
+         width="122.64951"
+         id="rect5755"
+         transform="matrix(0,-1,1,0,0,0)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5757"
+         y="475.15942"
+         x="-393.80606"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"
+         transform="matrix(0,-1,1,0,0,0)"><tspan
+           y="475.15942"
+           x="-393.80606"
+           sodipodi:role="line"
+           id="tspan5759">UART</tspan></text>
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#rect5753"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#rect5747"
+         inkscape:connector-curvature="3"
+         inkscape:connector-type="polyline"
+         id="path6062"
+         d="m 86.581299,247.79578 0,83.61327"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#rect2985"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#rect5753"
+         inkscape:connector-curvature="3"
+         inkscape:connector-type="polyline"
+         id="path6064"
+         d="m 106.99487,392.7338 108.4722,0"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#rect5755"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#rect2985"
+         inkscape:connector-curvature="3"
+         inkscape:connector-type="polyline"
+         id="path6066"
+         d="m 337.69552,392.7338 108.4722,0"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connection-end-point="d4"
+         inkscape:connection-end="#rect3011"
+         inkscape:connection-start-point="d4"
+         inkscape:connection-start="#rect2985"
+         inkscape:connector-curvature="3"
+         inkscape:connector-type="polyline"
+         id="path6068"
+         d="m 276.5813,453.84801 0,63.12062"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>
