@@ -1,0 +1,362 @@
+1. Εισαγωγή
+-----------
+* εξήγηση προαπαιτούμενων
+* ορολογία/λεξικό
+* εξήγηση βασικών εννοιών σχεδιασμού ω.π. kicad
+    αρχείο-> έργο-> φύλλο -> σχηματικό -> εξάρτημα ->ακροδέκτες -> πλακέτα -> αποτύπωμα-> έδρες
+* present concept and block diagram of usb2uart
+  - explain selected components
+  - explain process, gitlab, "tag jumps"
+
+2 Έργο
+------
+
+2.1 Δημιουργία έργου
+----------------
+* start kicad
+  - talk about versions
+* file->new->blank project
+* give name to project
+  - one new file is created, usb2uart.pro
+
+3 Σχηματικό
+
+3.1 Δημιουργία σχηματικού
+-------------------------
+* start eeschema
+* accept warning
+* save (often!)
+  - two new files are created, usb2uart.sch and usb2uart-cache.lib
+* quit and start eeschema again, no warning
+  - explain toolbars
+* set page settings
+* add "sidebar" for notes, changelog, etc.
+    απλός σχεδιασμός γραφικών αντικειμένων για κείμενο και για προσωρινή εναπόθεση εξαρτημάτων
+* remove all eeschema libraries except power, device and conn
+    προτιμήσεις-> ορισμός ενεργών κλπ
+-= TAG "tutorial00" =-
+
+3.2 Προσθήκη εξαρτημάτων
+------------------------
+* add 1xcap, 1xres, 1xled from std "device" lib
+* add vcc, 3,3V, gnd from std "power" lib
+* icon on left toolbar "show hidden pins"
+  - power pins become visible, untoggle it
+* explain remaining ψicons on left toolbar
+* add 1xCONN_01X04, rename refdes to J
+* make 3 copies of C, 2 copies of R, 1 copy of J
+* arrange everything in "sidebar"
+-= TAG "tutorial01" =-
+
+3.3 Δημιουργία εξαρτημάτων
+--------------------------
+* start library editor
+* create new component
+  - enter name CP2104, rest defaults
+* save current component to new library
+* understand warning message, close editor
+* add usb2uart library to eeschema
+* restart lib editor
+* select working lib (usb2uart)
+* load component from current lib (cp2104)
+* edit component properties
+  - add description, keywords, docfile, "qfn" for footprint filter
+* add a pin, explain properties
+* add text, lines
+* add all remaining pins [TAG JUMP to "tutorial02"]
+  - note on thermal pad as pin25
+* save library and close editor
+-= TAG "tutorial02" =-
+* show contents of usb2uart.lib
+* show contents of usb2uart.dcm
+
+3.4 Επεξεργασία εξαρτημάτων
+---------------------------
+* start library editor
+* select working lib (device)
+* load component from current lib (led)
+* create new component from current
+  - name it "bLED"
+  - note that we are in read-only std device lib
+* select working lib (usb2uart)
+* save library
+* set component properties
+  - add desription
+  - set number of units to two
+  - set pin numbers for A to 1,3, for B to 2,4
+* save library and close editor
+-= TAG "tutorial03" =-
+
+3.5 Σχεδίαση κυκλώματος
+-----------------------
+* add CP2104 to schematic
+* add bLED to schematic, and make one more copy
+* edit second bLED, modify UNIT (not really needed)
+-= TAG "tutorial04" =-
+* place CP2104 in center of schematic
+* connect pins 7,8 to VCC
+* connect pins 5,6,9 to 3.3V
+* connect pins 2,25 to ground
+* rename capacitors to 1u, 1u, 100n, 470n
+* place 1u and 100n bypass to 3.3V, 1u bypass to VCC, 470n between pins 16 and 2 of CP2104
+* rename one J to "USB", other J to "Header"
+* place USB to the left of CP2104, Header to the right
+  - show rotation of symbols, with keys R, X, Y
+* connect pin 1 of USB to VCC, pin 4 to GND
+* connect pin 1 of HEADER to 3.3, pin 4 to GND
+* connect pin 2 of USB to D- of CP2104 using local label
+* connect pin 3 of USB to D+ of CP2104 using local label
+* connect pin 2 of HEADER to RXD of CP2104 using local label
+* connect pin 3 of HEADER to TXD of CP2104 using local label
+* rename resistors to 220R, 220R, 430R
+* place resistor 430R in series with single led and connect
+* place resistors 220R in series with bi color leds and connect
+* connect 430R to VCC, single LED to ground
+* connect both 220R to 3.3V, D?A to GPIO.0 with label (LEDTX), D?B to GPIO.1 with label (LEDRX)
+* add text next to LEDs to keep note of color (single=blue, A=green, B=orange)
+* add labels to remaining non-power nets (vpp, between leds and res)
+* remove any remaining symbols from "sidebar"
+* perform annotation
+* perform DRC
+  - fails, add no-connects
+  - try again
+  - fails, add power flags
+  - try again
+  - one warning, ignore, del markers
+* plot schematic in PDF 
+* set custom fields (MFG, MFG code) [TAG JUMP to "tutorial05"]
+-= TAG "tutorial05" =-
+* export BOM, by ref, fields 1 and 2
+  - open CSV with localc
+* export netlist
+-= TAG "tutorial06" =-
+
+===========================================================================================
+4. Πλακέτα
+
+4.1 Δημιουργία πλακέτας
+-------------------
+* back to kicad project manager
+* start pcbnew
+* accept warning
+* save
+  - one new file is created, usb2uart.kicad_pcb
+* quit and start pcbnew again, no warning
+  - explain toolbars
+* set page settings
+* set layers 
+  - use preset, 2 layers, top only
+  - add B.Mask for through-hole
+  - remove adhesive
+  - add Dwg for dimensions etc
+  - set layer colors
+* set design rules and global
+  - clearance 0.2mm
+  - trace 0.25mm
+  - via 0.7/0.4mm
+* set pad dimensions
+  - +0.05mm to mask
+  - 0.25mm to minimum mask
+  - -0.02mm to paste
+-= TAG "tutorial07" =-
+* remove all std pcbnew libraries
+* add contrib to search path (relative)
+* add w_logo, w_smd_leds, w_smd_cap, w_smd_resistors, w_pin_strip, w_conn_pc libraries
+* save
+-= TAG "tutorial08" =-
+
+4.2 Δημιουργία αποτυπώματος
+---------------------------
+* start library editor
+* create new module (bled_0603)
+* create new library and save current module
+* quit lirary editor
+* add usb2uart.mod library
+* start library editor
+* select active library
+* load bled_0603
+* move labels out of the way
+* insert pad
+* edit pad
+  - type=smd
+  - shape=rect
+  - sx=0.7, sy=0.4 (mm)
+  - posx= -0.65, posy= -0.35
+* insert and edit coordinates for 3 more pads
+* select 0.2mm grid, add a 1.6x0.8mm box
+* replace labels
+* view 3d
+* edit module properties, assign 3d from walter
+* view 3d
+  - uncheck render 3d
+* make sure of selected library
+* create new module (qfn24)
+* select 1mm grid, make 1x1mm box 
+* select 0.5mm grid, make pin1 mark
+* select 0.25mm grid
+* insert pad, click at -2, -1.25
+* edit pad
+  - type=smd
+  - shape=rect
+  - sx=0.7, sy=0.25 (mm)
+  - posx= -2, posy= -1.25
+* set silkscreen to transparent
+* insert 5 more with 0.5mm pitch
+* insert pad 7 at -1.25, 2
+* edit pad 7, orientation 90
+* and so on, until pad 24
+* click at 0,0 insert pad 25
+* edit pad 25
+  - sx=sy=2.75
+  - uncheck F.Paste
+* uncheck show pads in fill mode
+* insert pad outside/away of footprint
+* edit pad
+  - type=smd
+  - shape=rect
+  - posx=posy=-0.65mm
+  - sx=sy=1.1mm
+  - no copper layer, only F.Paste
+* insert 3 more around the X and Y axis
+* restore silkscreen and pad view
+* edit module properties
+  - mask clear 0.06mm
+  - paste clear lim->zero (e.g. -0.00001)
+  - assign 3d from walter
+* view 3d
+  - uncheck render 3d
+* edit module properties
+  - rotate 3d on Z by 90
+* view 3d
+  - uncheck render 3d
+* close editor & pcbnew
+-= TAG "tutorial09" =-
+
+4.3 Τοποθέτηση αποτυπωμάτων
+-----------------------
+* start cvpcb
+* ignore warning
+* assign footprints
+* save
+  - usb2uart.cmp is created
+* close cvpcb
+-= TAG "tutorial10" =-
+* start pcbnew
+* read current netlist
+* select footprint mode
+* right click inside drawing, move modules
+* view 3d
+-= TAG "tutorial11" =-
+* hide ratsnest
+* make names invisible, toggle hidden text and anchor visibility
+* switch to 1mm grid
+* move U1 to center of page (148,105), lock it
+* move J1 to 133,105, lock
+* move J2 to 156,105, lock
+* switch to 0.25mm grid
+* place remaining modules: [TAG JUMP to "tutorial12" ]
+  - C1 146.50 108.50  90
+  - C2 151.50 104.25 270
+  - C3 143.00 106.75   0
+  - C4 143.00 105.50   0
+  - D1 144.50 109.75 270
+  - D2 151.50 109.75  90
+  - R1 143.00 108.50  90
+  - R2 149.75 109.75  90
+  - R3 153.25 109.75  90
+-= TAG "tutorial12" =-
+
+4.4 Δημιουργία αγώγιμων ζωνών και δρόμων
+----------------------------------------
+* switch to 1mm grid
+* prace space on center of U1
+* create 32x18mm pcb outline with relative coords: 
+  - -19,-9 top left
+  - 13, 9 bottom right
+-= TAG "tutorial13" =-
+* show ratsnet
+* enable magnetic tracks/pads
+* switch to 1mm grid
+* add ground zone
+  - select zone tool
+  - click on -18,8
+  - select B.Cu
+  - select GND net
+  - 0.2 clear
+  - 0.25 min width
+  - 0.25 chamfler
+  - 0.25 antipad
+  - 0.5 spoke
+  - H,V,45 only
+  - ok, complete rectangle
+  - right click on outline, fill zone
+* togle zone visibility
+* switch to 0.25mm grid
+* PgUp to switch to F.Cu
+* select track and via tool
+* add ground vias to all modules, including 4x for U1
+  - untoggle temporarily magnetic track/pads for vias inside U1
+* add all remaining tracks
+  - for main VCC connection, add extra track width of 0.5mm and use it
+-= TAG "tutorial14" =-
+* switch to 1mm grid
+* add 3.3V zone
+  - select highlight tool
+  - click on a 3.3V pad
+  - select zone tool, ignore warning
+  - click on -17,7
+  - select F.Cu
+  - 0.2 clear
+  - 0.25 min width
+  - 0.25 chamfler
+  - 0.25 antipad
+  - 0.5 spoke
+  - H,V,45 only
+  - ok, complete rectangle
+* show zones
+* select zone tool
+* right click anywhere, fill all zones
+-= TAG "tutorial15" =-
+
+4.5 Αισθητικές διορθώσεις πλακέτας
+----------------------------------
+* adjust refdes size
+  - edit->reset module field sizes
+  - 08 08 012
+  - select refdes
+  - ok
+* adjust refdes position [TAG JUMP to tutorial16]
+-= TAG "tutorial16" =-
+* add title (F.Silk, 1,1, 0.2)
+* add cc logo
+* view 3d
+* perform DRC
+-= TAG "tutorial17" =-
+
+5. Κατασκευή 
+
+5.1 Αρχεία παραγωγής
+--------------------
+* add dimensions
+* generate gerbers
+  - plot
+  - gerber format
+  - all layers
+  - plot module ref on silk
+  - exclude pcb edges
+  - use proper filename
+  - click plot
+* generate drill file
+  - fabrication output->drill
+  - gerber drill map
+  - click drill file
+  - click map file
+* generate smd position file
+  - fabrication output->pos
+  - one file per board
+  - force INSERT (once)
+  - units mm
+* close pcbnew
+-= TAG "tutorial18" =-
+* start gerbview and explore gerber+drill files
+  - note mistake in soldermask
