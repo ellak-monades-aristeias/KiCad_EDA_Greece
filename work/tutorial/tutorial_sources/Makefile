@@ -1,5 +1,6 @@
 TEX  = /usr/bin/latexmk
 ECHO = /bin/echo
+MV   = /bin/mv
 
 OUTDIR = tmp
 
@@ -23,6 +24,7 @@ all 	: $(TARGETS)
 $(TARGETS): %.pdf: %.tex
 	@$(ECHO) -e "\n\033[34m\033[1m-> Considering file $<\033[0m"
 	@$(TEX) $(TEXOPTS) $<
+	@$(MV) $(OUTDIR)/$@	../
 
 clean	:
 	@$(TEX) $(TEXOPTS) -C
