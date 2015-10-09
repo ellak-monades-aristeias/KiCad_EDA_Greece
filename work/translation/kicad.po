@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-07 13:20+0200\n"
-"PO-Revision-Date: 2015-10-08 17:28+0200\n"
+"PO-Revision-Date: 2015-10-09 10:50+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -7016,7 +7016,7 @@ msgstr "Γ&ραμμή ή Πολύγωνο"
 
 #: eeschema/menubar_libedit.cpp:237
 msgid "Component Editor &Options"
-msgstr "Επι&λογές Επεξεργαστή Εξαρτήματος"
+msgstr "Επι&λογές Επεξεργαστή Εξαρτημάτων"
 
 #: eeschema/menubar_libedit.cpp:238
 msgid "Set Component Editor default values and options"
