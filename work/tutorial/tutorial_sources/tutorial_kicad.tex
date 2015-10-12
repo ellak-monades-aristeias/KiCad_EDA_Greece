@@ -538,32 +538,172 @@
 
 Σε αυτή τη φάση είμαστε στο commit tag tut02.
 
-\subsection{Επεξεργασία εξαρτημάτων}
+\subsection{Επεξεργασία εξαρτημάτων με πολλά μέρη}
+
+Σε αυτό το κεφάλαιο θα φορτώσουμε ένα εξάρτημα (ένα led) από μία εσωτερική βιβλιοθήκη του KiCad, θα το επεξεργαστούμε κάνοντάς το να αποτελείται από πολλά μέρη, και θα το αποθηκεύσουμε (αλλαγμένο) σε μία δική μας βιβλιοθήκη.
+
+Όταν ένα εξάρτημα αποτελείται από πολλά "μέρη" στο KiCad, αυτό σημαίνει ότι το εξάρτημα είναι ένα φυσικό αντικείμενο (πχ ένα ολοκλήρωμένο) το οποίο όμως αποτελείται εσωτερικά από πολλά ίδια μέρη. Στην περίπτωσή μας, εμείς θέλουμε ένα εξάρτημα το οποίο αποτελείται από δύο led.
+
+Δεν υπάρχει εξάρτημα το οποίο αποτελείται από δύο led στις γνωστές βιβλιοθήκες του KiCad. Θα πρέπει να το σχεδιάσουμε εμείς.
+
+Θα μπορούσαμε να δημιουργήσουμε από το μηδέν ένα νέο τέτοιο εξάρτημα, στον Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων. 
+
+Είναι όμως καλύτερα να χρησιμοποιήσουμε το υπάρχον εξάρτημα led, και να σχεδιάσουμε ένα νέο εξάρτημα το οποίο θα αποτελείται από δύο εξαρτήματα led.
 
 \subsubsection{Άνοιγμα του εξαρτήματος}
+Θεωρούμε ότι είμαστε στην αρχική οθόνη του KiCad. 
+
+Από το μενού στο πάνω μέρος της οθόνης επιλέξτε Εργαλεία$\rightarrow$Εκτέλεση Επεξεργαστή Βιβλιοθήκης, ώστε να φορτωθεί η κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics{img/kicad-main.png}
+    \caption{Κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων}
+    \label{fig:kicad-main}
+  \end{center}
+\end{figure}
+
+Από την πάνω μπάρα, επιλέξτε το κουμπί "Επιλογή βιβλιοθήκης εργασίας" και στο παράθυρο που θα εμφανιστεί κάντε κλικ πάνω στη βιβλιοθήκη device και πατήστε ΟΚ για να φορτωθεί η βιβλιοθήκη και να επιστρέψετε στην κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων.
+
+Από την κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων κάντε κλικ στο εικονίδιο "Φόρτωση εξαρτήματος για επεξεργασία από την τρέχουσα βιβλιοθήκη" \includegraphics{img/graphic.png}. Το παράθυρο που θα εμφανιστεί εμφανίζει όλα τα εξαρτήματα της βιβλιοθήκης LED. Βρείτε στη λίστα το εξάρτημα LED, επιλέξτε το, και πατήστε ΟΚ για να φορτωθεί στην κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics{img/kicad-main.png}
+    \caption{Κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων με φορτωμένο το εξάρτημα LED}
+    \label{fig:kicad-main}
+  \end{center}
+\end{figure}
+
+Τώρα, αφού έχουμε φορτώσει το εξάρτημα, θα φτιάξουμε ένα αντίγραφό του, και το αντίγραφο θα το αλλάξουμε ώστε να καλύπτει τις ανάγκες μας.
 
 \subsubsection{Δημιουργία αντίγραφου εξαρτήματος}
 
+Από την κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων κάντε κλικ στο εικονίδιο "Δημιουργία νέου εξαρτήματος από το τρέχον" \includegraphics{img/graphic.png}. Θα εμφανιστεί το παράθυρο "Όνομα Εξαρτήματος". Ονομάστε το νέο εξάρτημα bLED και πατήστε ΟΚ.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics{img/kicad-main.png}
+    \caption{Παράθυρο "Όνομα Εξαρτήματος"}
+    \label{fig:kicad-main}
+  \end{center}
+\end{figure}
+
+Πλέον έχουμε δημιουργήσει ένα νέο εξάρτημα, το οποίο καλό είναι να αποθηκεύσουμε. Αλλά βρισκόμαστε στη βιβλιοθήκη device, η οποία επειδή είναι εσωτερική βιβλιοθήκη του KiCad δεν μπορούμε να γράψουμε σε αυτήν. Πρέπει να αποθηκεύσουμε το νέο εξάρτημα σε άλλη βιβλιοθήκη.
+
+Από την πάνω μπάρα, επιλέξτε το κουμπί "Επιλογή βιβλιοθήκης εργασίας"\includegraphics{img/graphic.png} και στο παράθυρο που θα εμφανιστεί κάντε κλικ πάνω στη βιβλιοθήκη uart και πατήστε ΟΚ για να φορτωθεί η βιβλιοθήκη και να επιστρέψετε στην κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων.
+
+Από το μενού στο πάνω μέρος της οθόνης επιλέξτε Αρχείο$\rightarrow$Αποθήκευση της τρέχουσας βιβλιοθήκης. Θα εμφανιστούν δύο παράθυρα που θα ζητούν την επιβεβαίωση αυτή της αποθήκευσης. Επιλέξτε Yes/Ναι και στα δύο.
+
+Πλέον έχουμε αποθηκεύσει το εξάρτημα που φτιάξαμε (αντιγράφοντας ένα υπάρχον) στη δική μας βιβλιοθήκη.
+
 \subsubsection{Αλλαγή ιδιοτήτων εξαρτήματος}
+Κάντε κλικ στο εικονίδιο "Επεξεργασία ιδιοτήτων εξαρτήματος" \includegraphics{img/graphic.png} για να εμφανιστεί το παράθυρο Ιδιοτήτων για το εξάρτημα. 
 
-\begin{comment}
-3.4 Επεξεργασία εξαρτημάτων
----------------------------
-* start library editor
-* select working lib (device)
-* load component from current lib (led)
-* create new component from current
-  - name it "bLED"
-  - note that we are in read-only std device lib
-* select working lib (usb2uart)
-* save library
-* set component properties
-  - add desription
-  - set number of units to two
-  - set pin numbers for A to 1,3, for B to 2,4
-* save library and close editor
--= TAG "tutorial03" =-
-\end{comment}
+\begin{figure}
+  \begin{center}
+    \includegraphics{img/kicad-main.png}
+    \caption{Παράθυρο Ιδιοτήτων Εξαρτήματος}
+    \label{fig:kicad-main}
+  \end{center}
+\end{figure}
 
+Αλλάξτε τον αριθμό των μερών από ένα σε 2, και πατήστε ΟΚ για να επιστρέψετε στην κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων.
+
+Πλέον το εξάρτημά μας αποτελείται από δύο μέρη. Ποιο μέρος του εξαρτήματος (μέρος Α ή μέρος Β) επεξεργάζεστε ανά πάσα στιγμή φαίνεται στο πάνω δεξιά μέρος της κεντρικής οθόνης του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics{img/kicad-main.png}
+    \caption{Ένδειξη μέρους εξαρτήματος}
+    \label{fig:kicad-main}
+  \end{center}
+\end{figure}
+
+Αφού πλέον το εξάρτημα bLED αποτελείται από δύο μέρη, πρέπει να αριθμήσουμε τους ακροδέκτες του μέρους Α ως 1 και 3 και τους ακροδέκτες του μέρους Β ως 2 και 4.
+
+Για να το κάνουμε αυτό, επιλέγουμε στην "Ένδειξη μέρους εξαρτήματος" το "Μέρος A", και φροντίζουμε οι δύο ακροδέκτες να έχουν αριθμό 1 (άνοδος) και 3 (κάθοδος). Μπορούμε να αλλάξουμε τον αριθμό ενός ακροδέκτη κάνοντας δεξί κλικ επάνω στον ακροδέκτη και επιλέγοντας "Επεξεργασία Ακροδέκτη".
+
+Παρομοίως, επιλέγουμε στην "Ένδειξη μέρους εξαρτήματος" το "Μέρος B", και φροντίζουμε οι δύο ακροδέκτες να έχουν αριθμό 2 (άνοδος) και 4 (κάθοδος). Μπορούμε να αλλάξουμε τον αριθμό ενός ακροδέκτη κάνοντας δεξί κλικ επάνω στον ακροδέκτη και επιλέγοντας "Επεξεργασία Ακροδέκτη".
+
+\begin{figure}
+  \begin{center}
+    \includegraphics{img/kicad-main.png}
+    \caption{Εξάρτημα bLEB - Μέρος Α}
+    \label{fig:kicad-main}
+  \end{center}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics{img/kicad-main.png}
+    \caption{Εξάρτημα bLEB - Μέρος Β}
+    \label{fig:kicad-main}
+  \end{center}
+\end{figure}
+
+Αφού έχετε ορίσει τους αριθμούς των ακροδεκτών, δεν μένει παρά να αποθηκεύσουμε το εξάρτημα.
+
+Από το μενού στο πάνω μέρος της οθόνης επιλέξτε Αρχείο$\rightarrow$Αποθήκευση της τρέχουσας βιβλιοθήκης. Θα εμφανιστούν δύο παράθυρα που θα ζητούν την επιβεβαίωση αυτή της αποθήκευσης. Επιλέξτε Yes/Ναι και στα δύο.
+
+Σε αυτή τη φάση είμαστε στο commit tag tut03.
+
+\subsection{Σχεδίαση κυκλώματος}
+
+\subsubsection{Προσθήκη εξαρτημάτων}
+
+* add CP2104 to schematic
+* add bLED to schematic, and make one more copy
+* edit second bLED, modify UNIT (not really needed)
+-= TAG "tutorial04" =-
+
+\subsubsection{Σχεδίαση κυκλώματος}
+
+* place CP2104 in center of schematic
+* connect pins 7,8 to VCC
+* connect pins 5,6,9 to 3.3V
+* connect pins 2,25 to ground
+
+* rename capacitors to 1u, 1u, 100n, 470n
+* place 1u and 100n bypass to 3.3V, 1u bypass to VCC, 470n between pins 16 and 2 of CP2104
+
+* rename one J to "USB", other J to "Header"
+* place USB to the left of CP2104, Header to the right
+  - show rotation of symbols, with keys R, X, Y
+* connect pin 1 of USB to VCC, pin 4 to GND
+* connect pin 1 of HEADER to 3.3, pin 4 to GND
+* connect pin 2 of USB to D- of CP2104 using local label
+* connect pin 3 of USB to D+ of CP2104 using local label
+* connect pin 2 of HEADER to RXD of CP2104 using local label
+* connect pin 3 of HEADER to TXD of CP2104 using local label
+
+
+* rename resistors to 220R, 220R, 430R
+* place resistor 430R in series with single led and connect
+* place resistors 220R in series with bi color leds and connect
+* connect 430R to VCC, single LED to ground
+* connect both 220R to 3.3V, D?A to GPIO.0 with label (LEDTX), D?B to GPIO.1 with label (LEDRX)
+* add text next to LEDs to keep note of color (single=blue, A=green, B=orange)
+* add labels to remaining non-power nets (vpp, between leds and res)
+* remove any remaining symbols from "sidebar"
+
+\subsubsection{Τελικοί έλεγχοι}
+* perform annotation
+* perform DRC
+  - fails, add no-connects
+  - try again
+  - fails, add power flags
+  - try again
+  - one warning, ignore, del markers
+* plot schematic in PDF 
+* set custom fields (MFG, MFG code) [TAG JUMP to "tutorial05"]
+-= TAG "tutorial05" =-
+
+\subsubsection{Αρχεία παραγωγής}
+* export BOM, by ref, fields 1 and 2
+  - open CSV with localc
+* export netlist
+* plot schematic in PDF 
+-= TAG "tutorial06" =-
 
 \end{document}
