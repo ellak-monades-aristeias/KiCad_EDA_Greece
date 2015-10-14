@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-07 13:20+0200\n"
-"PO-Revision-Date: 2015-10-09 10:50+0200\n"
+"PO-Revision-Date: 2015-10-14 09:01+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -6894,7 +6894,7 @@ msgstr "&Σχεδίαση Πλακέτας Τυπωμένου Κυκλώματο
 
 #: eeschema/menubar.cpp:477 kicad/menubar.cpp:370
 msgid "Run Pcbnew"
-msgstr "Εκτέλεση pcbnew"
+msgstr "Εκτέλεση Pcbnew"
 
 #: eeschema/menubar.cpp:488 eeschema/menubar_libedit.cpp:263
 msgid "Eeschema &Manual"
