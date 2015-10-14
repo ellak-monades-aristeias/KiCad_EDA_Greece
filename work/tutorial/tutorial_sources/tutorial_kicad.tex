@@ -157,21 +157,21 @@
 \subsection{Περιγραφή συσκευής}
 Η συσκευή ονομάζεται USB2UART και είναι ένας μετατροπέας USB σε 3.3V UART, βασισμένος στο ολοκληρωμένο \textenglish{CP2104} από την εταιρεία Silicon Labs. υποστηρίζεται από τα περισσότερα σύγχρονα λειτουργικά συστήματα ως εικονική σειριακή θύρα. Συνδέεται με έναν standard type B connector από τη μία πλευρά και ένα four-pin header από την άλλη. Περιλαμβάνει power status \textenglish{LED} και RX/TX \textenglish{LED}.
 
-Το τελικό σχηματικό κύκλωμα της συσκευής και το τελικό σχέδιο της πλακέτας φαίνονται παρακάτω.
+Το τελικό σχηματικό κύκλωμα της συσκευή και το τελικό σχέδιο της πλακέτας φαίνονται στα σχήματα \ref{fig:eesch-schem-final} και \ref{fig:pcbn-layout-final}.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Τελικό σχηματικό κύκλωμα της συσκευής}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-schem-final.png}
+    \caption{Τελικό σχηματικό κύκλωμα της συσκευής}
+    \label{fig:eesch-schem-final}
   \end{center}
 \end{figure}
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Τελικό σχέδιο της πλακέτας της συσκευής}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/pcbn-layout-final.png}
+    \caption{Τελικό σχέδιο της πλακέτας της συσκευής}
+    \label{fig:pcbn-layout-final}
   \end{center}
 \end{figure}
 
@@ -194,23 +194,38 @@
 Όλα τα παραπάνω αρχεία (εξαρτήματα, αποτυπώματα, κυκλώματα, έργα, κοκ) καλό είναι να τα διατηρούμε στον ίδιο φάκελο αρχείων του υπολογιστή μας, για λόγους οργάνωσης.
 
 \section{Δημιουργία έργου}
-Εκτελέστε το πρόγραμμα \textenglish{KiCad}. Δείτε το σχετικό κεφάλαιο~\ref{sec:prereq} για την έκδοση του \textenglish{KiCad} που πρέπει να εκτελέσετε. Θα εμφανιστεί η κεντρική οθόνη του προγράμματος \textenglish{KiCad}. Από το μενού στο πάνω μέρος της οθόνης επιλέγουμε Αρχείο $\rightarrow$ Νέο Έργο $\rightarrow$ Νέο Έργο. Δίνουμε στο νέο έργο (και το σχετικό αρχείο) ένα όνομα, έστω usb2uart. Προτείνεται να δημιουργηθεί το αρχείο του έργου σε έναν φάκελο του υπολογιστή σας ο οποίος θα είναι αφιερωμένος στο συγκεκριμένο έργο.
+Εκτελέστε το πρόγραμμα \textenglish{KiCad}. Δείτε το σχετικό κεφάλαιο~\ref{sec:prereq} για την έκδοση του \textenglish{KiCad} που πρέπει να εκτελέσετε.
+
+Θα εμφανιστεί η κεντρική οθόνη του προγράμματος \textenglish{KiCad} \ref{kicad-main-window}. 
+
+Αυτή αποτελείται από τα παρακάτω
+\begin{itemize}
+    \item γραμμή μενού και μπάρα βασικών λειτουργιών στο πάνω μέρος της οθόνης
+    \item μπάρα για εκκίνηση βοηθητικών εφαρμογων δεξί μέρος της οθόνης
+    \item λίστα με τα αρχεία έργου στο αριστερό μέρος της οθόνης
+\end{itemize}
+
+Από το μενού στο πάνω μέρος της οθόνης επιλέγουμε Αρχείο $\rightarrow$ Νέο Έργο $\rightarrow$ Νέο Έργο. Δίνουμε στο νέο έργο (και το σχετικό αρχείο) ένα όνομα, προτείνεται το usb2uart. Προτείνεται να δημιουργηθεί το αρχείο του έργου σε έναν φάκελο του υπολογιστή σας ο οποίος θα είναι αφιερωμένος στο συγκεκριμένο έργο και θα περιέχει όλα τα αρχεία του έργου, και μόνο αυτά.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Κεντρική οθόνη του προγράμματος KiCad}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/kicad-main-window}
+    \caption{Κεντρική οθόνη του προγράμματος KiCad}
+    \label{fig:kicad-main-window}
   \end{center}
 \end{figure}
 
 
-\section{Δημιουργία Σχηματικού Κυκλώματος}
+\section{Σχεδίαση Σχηματικού Κυκλώματος}
 
 \subsection{Δημιουργία σχηματικού}
-Από το μενού στο πάνω μέρος της κεντρικής οθόνης του \textenglish{KiCad} επιλέγουμε Εργαλεία $\rightarrow$ Εκτέλεση \textenglish{EEschema}, για να εκτελεστεί η εφαρμογή \textenglish{EEschema} με την οποία σχεδιάζουμε το σχηματικό κύκλωμα. Εάν εμφανιστεί κάποια προειδοποίηση, αποδεχτείτε την (TBD). Θα δημιουργηθούν δύο αρχεία στον υπολογιστή σας, τα usb2uart.sch και usb2uart-cache.lib. Εκτελέστε ξανά την εφαρμογή ώστε να μην εμφανιστεί κάποια προειδοποίηση (TBD).
+Από το μενού στο πάνω μέρος της κεντρικής οθόνης του \textenglish{KiCad} επιλέγουμε Εργαλεία $\rightarrow$ Εκτέλεση \textenglish{EEschema}, για να εκτελεστεί η εφαρμογή \textenglish{EEschema} με την οποία σχεδιάζουμε το σχηματικό κύκλωμα. 
 
-Θα εμφανιστεί στην οθόνη σας η κεντρική σελίδα της εφαρμογής \textenglish{EEschema}. Αυτή αποτελείται από τα παρακάτω
+Θα δημιουργηθούν δύο αρχεία στον υπολογιστή σας, τα usb2uart.sch και usb2uart-cache.lib. 
+%Εάν εμφανιστεί κάποια προειδοποίηση, αποδεχτείτε την (TBD). 
+%Εκτελέστε ξανά την εφαρμογή ώστε να μην εμφανιστεί κάποια προειδοποίηση (TBD).
+
+Θα εμφανιστεί στην οθόνη σας η κεντρική οθόνη της εφαρμογής \textenglish{EEschema} \ref{fig:eesch-main-window}. Αυτή αποτελείται από τα παρακάτω
 \begin{itemize}
     \item ένα φύλλο σχηματικού κυκλώματος στο κέντρο της οθόνης
     \item γραμμή μενού στο πάνω μέρος της οθόνης
@@ -222,64 +237,68 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Κεντρική σελίδα της εφαρμογής \textenglish{EEschema}}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-main-window.png}
+    \caption{Κεντρική οθόνη της εφαρμογής \textenglish{EEschema}}
+    \label{fig:eesch-main-window}
   \end{center}
 \end{figure}
 
 Το \textenglish{EEschema} μπορεί να σχεδιάσει κυκλώματα που αποτελούνται από πολλά σχηματικά φύλλα. Σε αυτό το tutorial το κύκλωμά μας αποτελείται από ένα και μοναδικό φύλλο.
 
-Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε Αρχείο $\rightarrow$ Ρυθμίσεις Σελίδας. Στο παράθυρο που εμφανίζεται, ορίστε τις ρυθμίσεις της σελίδας σας, όπως μέγεθος χαρτιού, ημερομηνία έκδοσης, τίτλος κυκλώματος, και πατήστε ΟΚ. Αυτές οι ρυθμίσεις δεν έχουν κάποια ηλεκτρική ή λειτουργική σημασία για το κύκλωμα, είναι όμως χρήσιμες πληροφορίες για την οργάνωση των κυκλωμάτων σας.
+Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε Αρχείο $\rightarrow$ Ρυθμίσεις Σελίδας. Στο παράθυρο που εμφανίζεται \ref{fig:eesch-dial-pagesett}, ορίστε τις ρυθμίσεις της σελίδας σας, όπως μέγεθος χαρτιού, ημερομηνία έκδοσης, τίτλος κυκλώματος, και πατήστε ΟΚ. Αυτές οι ρυθμίσεις δεν έχουν κάποια ηλεκτρική ή λειτουργική σημασία για το κύκλωμα, είναι όμως χρήσιμες πληροφορίες για την οργάνωση των κυκλωμάτων σας.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Ρυθμίσεις Σελίδας \textenglish{EEschema}}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-dial-pagesett.png}
+    \caption{Ρυθμίσεις Σελίδας \textenglish{EEschema}}
+    \label{fig:eesch-dial-pagesett}
   \end{center}
 \end{figure}
+
+Στη συνέχεια θα σχεδιάσουμε κάποιες βοηθητικές γραμμές στο σχηματικό μας.
 
 Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε "Τοποθέτηση" $\rightarrow$ "Γραφικό Πολυγραμμής".
 
 Με αυτό το εργαλείο μπορείτε να σχεδιάσετε γραμμές στο φύλλο σας. Αυτές οι γραμμές γραφικών δεν έχουν κάποια ηλεκτρική ή λειτουργική σημασία για το κύκλωμα, είναι απλή "ζωγραφική", είναι όμως χρήσιμες για την οργάνωση των κυκλωμάτων σας.
 
-Σχεδιάστε στο φύλλο μία κατακόρυφη γραμμή που χωρίζει το φύλλο σε δύο τμήματα. Το δεξί τμήμα πρέπει να είναι περίπου το ένα τρίτο του συνολικού φύλλου. Αυτό το δεξί τμήμα θα το χρησιμοποιήσουμε ως χώρο για να γράφουμε  βοηθητικές πληροφορίες, και για να εναποθέτουμε προχωρινά τα εξαρτήματα πριν τα τοποθετήσουμε στην οριστική τους θέση στο κύκλωμα που θα σχεδιάσουμε στο αριστερό τμήμα της σελίδας.
+Σχεδιάστε στο φύλλο μία κατακόρυφη γραμμή που χωρίζει το φύλλο σε δύο τμήματα \ref{fig:eesch-main-lines}. Το δεξί τμήμα πρέπει να είναι περίπου το ένα τρίτο του συνολικού φύλλου. Αυτό το δεξί τμήμα θα το χρησιμοποιήσουμε ως χώρο για να γράφουμε  βοηθητικές πληροφορίες (όπως η τρέχουσα έκδοση του κυκλώματος), και για να εναποθέτουμε προχωρινά τα εξαρτήματα πριν τα τοποθετήσουμε στην οριστική τους θέση στο αριστερό τμήμα της σελίδας.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Σχηματικό φύλλο χωρισμένο στα δύο}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-main-lines.png}
+    \caption{Σχηματικό φύλλο χωρισμένο στα δύο}
+    \label{fig:eesch-main-lines}
   \end{center}
 \end{figure}
 
 Η εφαρμογή \textenglish{EEschema} περιλαμβάνει πολλά εξαρτήματα, τα οποία μπορείτε να χρησιμοποιήσετε στα κυκλώματά σας. Τα εξαρτήματα αυτά είναι οργανωμένα σε βιβλιοθήκες. Το \textenglish{EEschema} περιλαμβάνει αρχικά περίπου 30 βιβλιοθήκες οι οποίες περιλαμβάνονται εξαρχής σε κάθε νέο έργο που δημιουργείται. Για λόγους απλότητας του έργου μας, εμείς θα αφαιρέσουμε τις βιβλιοθήκες εξαρτημάτων που δεν έχουν εξαρτήματα χρήσιμα για το συγκεκριμένο κύκλωμα που σχεδιάζουμε.
 
-Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε "Προτιμήσεις" $\rightarrow$ "Βιβλιοθήκες Εξαρτημάτων". Θα εμφανιστεί ένα παράθυρο με τις βιβλιοθήκες του έργου. Σε αυτό το παράθυρο επιλέξτε όλες τις βιβλιοθήκες (μία προς μία ή όλες μαζί) εκτός από τις βιβλιοθήκες power, device και conn και κάντε κλικ στο "Αφαίρεση". Θα πρέπει στο παράθυρο να φαίνονται μόνο οι τρεις βιβλιοθήκες power, device και conn. Κάντε κλικ στο "ΟΚ". Θα επανέλθετε στην κεντρική σελίδα της εφαρμογής \textenglish{EEschema}.
+Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε "Προτιμήσεις" $\rightarrow$ "Βιβλιοθήκες Εξαρτημάτων". Θα εμφανιστεί ένα παράθυρο με τις βιβλιοθήκες του έργου. Σε αυτό το παράθυρο επιλέξτε όλες τις βιβλιοθήκες (μία προς μία ή όλες μαζί) εκτός από τις βιβλιοθήκες power, device και conn και κάντε κλικ στο "Αφαίρεση". Θα πρέπει στο παράθυρο να φαίνονται μόνο οι τρεις βιβλιοθήκες power, device και conn \ref{fig:eesch-dial-libr}. 
+
+Κάντε κλικ στο "ΟΚ". Θα επανέλθετε στην κεντρική οθόνη της εφαρμογής \textenglish{EEschema}.
 
 Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε "Αρχείο" $\rightarrow$ "Αποθήκευση Σχηματικού Έργου".
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Παράθυρο με τις βιβλιοθήκες του έργου}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-dial-libr.png}
+    \caption{Παράθυρο με τις βιβλιοθήκες του έργου}
+    \label{fig:eesch-dial-libr}
   \end{center}
 \end{figure}
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut00.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut00.zip.
 
 \subsection{Προσθήκη εξαρτημάτων}
-Εφόσον έχουμε δημιουργήσει και ρυθμίσει το φύλλο μας, πρέπει να προσθέσουμε τα εξαρτήματα που θα αποτελέσουν το κύκλωμά μας. Πρέπει να βρισκόμαστε στην κεντρική σελίδα της εφαρμογής \textenglish{EEschema}.
+Εφόσον έχουμε δημιουργήσει και ρυθμίσει το φύλλο μας, πρέπει να προσθέσουμε τα εξαρτήματα που θα αποτελέσουν το κύκλωμά μας. Πρέπει να βρισκόμαστε στην κεντρική οθόνη της εφαρμογής \textenglish{EEschema}.
 
-Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε "Τοποθέτηση" $\rightarrow$ "Εξάρτημα" και κάντε κλικ στο δεξί τμήμα του φύλλου σας. Θα εμφανιστεί ένα παράθυρο επιλογής εξαρτήματος.
+Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε "Τοποθέτηση" $\rightarrow$ "Εξάρτημα" και κάντε κλικ στο δεξί τμήμα του φύλλου σας. Θα εμφανιστεί ένα παράθυρο επιλογής εξαρτήματος \ref{fig:eesch-dial-addcomp}.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Παράθυρο επιλογής εξαρτήματος}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-dial-addcomp.png}
+    \caption{Παράθυρο επιλογής εξαρτήματος}
+    \label{fig:eesch-dial-addcomp}
   \end{center}
 \end{figure}
 
@@ -296,23 +315,23 @@
     \item CONN\_01X04, από τη βιβλιοθήκη conn
 \end{itemize}
 
-Με την ολοκλήρωση αυτών των τοποθετήσεων, έχουμε στο φύλλο μας 7 εξαρτήματα, τοποθετημένα όλα τακτοποιημένα στο δεξί τμήμα του φύλλου.
+Με την ολοκλήρωση αυτών των τοποθετήσεων, έχουμε στο φύλλο μας 7 εξαρτήματα, τοποθετημένα όλα τακτοποιημένα στο δεξί τμήμα του φύλλου \ref{fig:eesch-circ-placedccomp}.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Φύλλο σχηματικού με τοποθετημένα 7 εξαρτήματα}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-circ-placedccomp.png}
+    \caption{Φύλλο σχηματικού με τοποθετημένα 7 εξαρτήματα}
+    \label{fig:eesch-circ-placedccomp}
   \end{center}
 \end{figure}
 
-Για λόγους ευκολίας ανάγνωση του κυκλώματος, θα χρειαστεί να αλλάξουμε το πρόθεμα της ονομασίας αναφοράς του CONN\_01X04 από P σε J. Για να το κάνουμε αυτό πρέπει να κάνουμε δεξί κλικ πάνω στο εξάρτημα CONN\_01X04, και από το μενού που εμφανίζεται να επιλέξουμε "Επεξεργασία Εξαρτήματος" $\rightarrow$ "Επεξεργασία". Αυτό θα μας εμφανίσει το παράθυρο "Ιδιότητες Εξαρτήματος", όπου πρέπει να ορίσουμε την Τιμή Πεδίου της Ονομασίας Αναφοράς να είναι J? και όχι P?.
+Για λόγους ευκολίας ανάγνωση του κυκλώματος, θα χρειαστεί να αλλάξουμε το πρόθεμα της ονομασίας αναφοράς του CONN\_01X04 από P σε J. Για να το κάνουμε αυτό πρέπει να κάνουμε δεξί κλικ πάνω στο εξάρτημα CONN\_01X04, και από το μενού που εμφανίζεται να επιλέξουμε "Επεξεργασία Εξαρτήματος" $\rightarrow$ "Επεξεργασία". Αυτό θα μας εμφανίσει το παράθυρο "Ιδιότητες Εξαρτήματος" \ref{fig:eeasch-dial-compprop}, όπου πρέπει να ορίσουμε την Τιμή Πεδίου της Ονομασίας Αναφοράς να είναι J? και όχι P?.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Παράθυρο "Ιδιότητες Εξαρτήματος"}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eeasch-dial-compprop.png}
+    \caption{Παράθυρο 'Ιδιότητες Εξαρτήματος'}
+    \label{fig:eeasch-dial-compprop}
   \end{center}
 \end{figure}
 
@@ -321,15 +340,7 @@
 
 Για να αντιγράψουμε (δηλαδή να φτιάξουμε ακόμα ένα αντίγραφο) ενός εξαρτήματος πρέπει να κάνουμε δεξί κλικ πάνω στο εξάρτημα, από το μενού που εμφανίζεται να επιλέξουμε "Αντιγραφή", και να κάνουμε κλικ πάνω στο φύλλο εκεί όπου θέλουμε να φιταχτεί το αντίγραφο του εξαρτήματος. 
 
-\begin{figure}
-  \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Αντιγραφή Εξαρτήματος}
-    \label{fig:kicad-main}
-  \end{center}
-\end{figure}
-
-Με αυτό τον τρόπο πρέπει να φτιάξουμε τα παρακάτω
+Με αυτό τον τρόπο πρέπει να φτιάξουμε τα παρακάτω εξαρτήματα.
 
 \begin{itemize}
     \item 3 αντίγραφα του C, ώστε να έχουμε συνολικά 4 C στο φύλλο
@@ -337,17 +348,17 @@
     \item 1 αντίγραφο του CONN\_01X04, ώστε να έχουμε συνολικά 2 CONN\_01X04 στο φύλλο
 \end{itemize}
 
-Με την ολοκλήρωση αυτών των τοποθετήσεων, έχουμε στο φύλλο μας 13 εξαρτήματα, τοποθετημένα όλα τακτοποιημένα στο δεξί τμήμα του φύλλου.
+Με την ολοκλήρωση αυτών των τοποθετήσεων έχουμε στο φύλλο μας 13 εξαρτήματα \ref{fig:eesch-circ-placedccompcop}, τοποθετημένα όλα τακτοποιημένα στο δεξί τμήμα του φύλλου.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Φύλλο σχηματικού με τοποθετημένα 13 εξαρτήματα}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-circ-placedccompcop.png}
+    \caption{Φύλλο σχηματικού με τοποθετημένα 13 εξαρτήματα}
+    \label{fig:eesch-circ-placedccompcop}
   \end{center}
 \end{figure}
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut01.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut01.zip.
 
 \subsection{Δημιουργία εξαρτημάτων}
 Το \textenglish{EEschema} μας δίνει τη δυνατότητα να επεξεργαστούμε ένα υπάρχον εξάρτημα ή και να δημιουργήσουμε ένα εξάρτημα από το μηδέν.
@@ -356,7 +367,7 @@
 
 Από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε Εργαλεία $\rightarrow$ Επεξεργαστής Βιβλιοθήκης.
 
-Θα εμφανιστεί στην οθόνη σας η κεντρική σελίδα του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων. Αυτή αποτελείται από τα παρακάτω
+Θα εμφανιστεί στην οθόνη σας η κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων \ref{fig:libed-main-window}. Αυτή αποτελείται από τα παρακάτω
 \begin{itemize}
     \item έναν κενό χώρο στο κέντρο της οθόνης
     \item γραμμή μενού στο πάνω μέρος της οθόνης
@@ -369,22 +380,22 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Kεντρική σελίδα - Επεξεργαστής Βιβλιοθήκης Εξαρτημάτων}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/libed-main-window.png}
+    \caption{Kεντρική σελίδα - Επεξεργαστής Βιβλιοθήκης Εξαρτημάτων}
+    \label{fig:libed-main-window}
   \end{center}
 \end{figure}
 
 Αρχικά θα δημιουργήσουμε ένα νέο εξάρτημα.
 
 Κάντε κλικ στο εικονίδιο "Δημιουργία νέου εξαρτήματος" στην πάνω μπάρα %\includegraphics{img/graphic.png}
-. Θα εμφανιστεί το παράθυρο "Ιδιότητες Εξαρτήματος". Στο παράθυρο αυτό, στο "Όνομα εξαρτήματος" γράψτε το όνομα \textenglish{CP2104}, αφήστε όλες τις υπόλοιπες επιλογές στις προκαθορισμένες ρυθμίσεις, και επιλέξτε ΟΚ.
+. Θα εμφανιστεί το παράθυρο "Ιδιότητες Εξαρτήματος" \ref{fig:eesch-dial-compprop}. Στο παράθυρο αυτό, στο "Όνομα εξαρτήματος" γράψτε το όνομα \textenglish{CP2104}, αφήστε όλες τις υπόλοιπες επιλογές στις προκαθορισμένες ρυθμίσεις, και επιλέξτε ΟΚ.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Παράθυρο "Ιδιότητες Εξαρτήματος"}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/eesch-dial-compprop.png}
+    \caption{Παράθυρο "Ιδιότητες Εξαρτήματος"}
+    \label{fig:eesch-dial-compprop}
   \end{center}
 \end{figure}
 
@@ -402,13 +413,13 @@
 
 Κλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων, εκτελέστε το \textenglish{EEschema} (αν δεν τρέχει ήδη) και από το μενού στο πάνω μέρος της οθόνης του \textenglish{EEschema} επιλέξτε "Προτιμήσεις" $\rightarrow$ "Βιβλιοθήκες Εξαρτημάτων". Θα εμφανιστεί ένα παράθυρο με τις βιβλιοθήκες του έργου. 
 
-Σε αυτό το παράθυρο πατήστε "Προσθήκη", βρείτε στο σύστημα αρχείων του υπολογιστή σας το αρχείο της βιβλιοθήκης που δημιουργήσατε προηγουμένως (\textenglish{usb2uart.lib}), και πατήστε Open. Η βιβλιοθήκη usb2uart θα πρέπει να έχει προστεθεί στις βιβλιοθήκες του έργου σας. Πατήστε ΟΚ στο παράθυρο με τις βιβλιοθήκες του έργου.
+Σε αυτό το παράθυρο πατήστε "Προσθήκη", βρείτε στο σύστημα αρχείων του υπολογιστή σας το αρχείο της βιβλιοθήκης που δημιουργήσατε προηγουμένως (\textenglish{usb2uart.lib}), και πατήστε Open. Η βιβλιοθήκη usb2uart θα πρέπει να έχει προστεθεί στις βιβλιοθήκες του έργου σας \ref{fig:libed-dial-libs}. Πατήστε ΟΚ στο παράθυρο με τις βιβλιοθήκες του έργου.
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
-    %\caption{Παράθυρο με τις βιβλιοθήκες του έργου, με την usb2uart}
-    \label{fig:kicad-main}
+    \includegraphics[width=.9\textwidth]{img/libed-dial-libs.png}
+    \caption{Παράθυρο με τις βιβλιοθήκες του έργου, με την usb2uart}
+    \label{fig:libed-dial-libs}
   \end{center}
 \end{figure}
 
@@ -421,7 +432,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο επιλογής βιβλιοθήκης εργασίας}
     \label{fig:kicad-main}
   \end{center}
@@ -439,7 +450,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο Ιδιοτήτων για το εξάρτημα}
     \label{fig:kicad-main}
   \end{center}
@@ -461,7 +472,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Ορθογώνιο σώμα εξαρτήματος, με τοποθετημένα όνομα και αναφορά}
     \label{fig:kicad-main}
   \end{center}
@@ -483,7 +494,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Ακροδέκτες του \textenglish{CP2104}}
     \label{fig:kicad-main}
   \end{center}
@@ -497,7 +508,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο Ιδιότητες Ακροδέκτη}
     \label{fig:kicad-main}
   \end{center}
@@ -518,7 +529,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Σώμα εξαρτήματος, με τοποθετημένο έναν ακροδέκτη}
     \label{fig:kicad-main}
   \end{center}
@@ -539,7 +550,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Σώμα εξαρτήματος, με τοποθετημένους δύο ακροδέκτες}
     \label{fig:kicad-main}
   \end{center}
@@ -549,7 +560,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Σώμα εξαρτήματος, με τοποθετημένους όλους τους ακροδέκτες}
     \label{fig:kicad-main}
   \end{center}
@@ -562,7 +573,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο "Ιδιότητες Κειμένου Βιβλιοθήκης"}
     \label{fig:kicad-main}
   \end{center}
@@ -578,7 +589,7 @@
 
 Πλέον έχουμε ολοκληρώσει τη δημιουργία του εξαρτήματος.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut02.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut02.zip.
 
 \subsection{Επεξεργασία εξαρτημάτων με πολλά μέρη}
 
@@ -599,7 +610,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων}
     \label{fig:kicad-main}
   \end{center}
@@ -612,7 +623,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Κεντρική οθόνη του Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων με φορτωμένο το εξάρτημα \textenglish{LED}}
     \label{fig:kicad-main}
   \end{center}
@@ -627,7 +638,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο "Όνομα Εξαρτήματος"}
     \label{fig:kicad-main}
   \end{center}
@@ -648,7 +659,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο Ιδιοτήτων Εξαρτήματος}
     \label{fig:kicad-main}
   \end{center}
@@ -660,7 +671,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Ένδειξη μέρους εξαρτήματος}
     \label{fig:kicad-main}
   \end{center}
@@ -674,7 +685,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Εξάρτημα b\textenglish{LED} - Μέρος Α}
     \label{fig:kicad-main}
   \end{center}
@@ -682,7 +693,7 @@
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Εξάρτημα b\textenglish{LED} - Μέρος Β}
     \label{fig:kicad-main}
   \end{center}
@@ -694,7 +705,7 @@
 
 Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτημάτων ώστε να επιστρέψετε στην αρχική οθόνη του \textenglish{KiCad}.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut03.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut03.zip.
 
 \subsection{Σχεδίαση κυκλώματος}
 Εφόσον έχουμε ετοιμάσει όλα τα εξαρτήματα που θα χρειαστούμε, πρέπει να σχεδιάσουμε το κύκλωμα. 
@@ -709,7 +720,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Αρχική οθόνη της εφαρμογής \textenglish{EEschema}, με φορτωμένο το σχηματικό κύκλωμα του έργου usb2uart}
     \label{fig:kicad-main}
   \end{center}
@@ -725,13 +736,13 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Φύλλο σχηματικού κυκλώματος έργου usb2uart με όλα τα εξαρτήματα που χρειαζόμαστε}
     \label{fig:kicad-main}
   \end{center}
 \end{figure}
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut04.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut04.zip.
 
 \subsubsection{Σχεδίαση κυκλώματος}
 
@@ -768,7 +779,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Δυο εξαρτήματα (αντιστάσεις) χωρίς σύρμα να ενώνει τα άκρα τους}
     \label{fig:kicad-main}
   \end{center}
@@ -776,7 +787,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Δυο εξαρτήματα (αντιστάσεις) με σύρμα να ενώνει τα άκρα τους}
     \label{fig:kicad-main}
   \end{center}
@@ -784,7 +795,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
    
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Δύο σύρματα συνδεδεμένα με τον ίδιο ακροδέκτη}
     \label{fig:kicad-main}
   \end{center}
@@ -797,7 +808,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Δύο εξαρτήματα, συνδεδεμένα μεταξύ τους απευθείας}
     \label{fig:kicad-main}
   \end{center}
@@ -805,7 +816,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Δύο εξαρτήματα, συνδεδεμένα μεταξύ τους μέσω ετικέτας}
     \label{fig:kicad-main}
   \end{center}
@@ -828,7 +839,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Σύνδεση ακροδεκτών 7 και 8 του \textenglish{CP2104} με το εξάρτημα VCC}
     \label{fig:kicad-main}
   \end{center}
@@ -838,7 +849,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Το κύκλωμα με τις αρχικές συνδέσεις των VCC, 3.3V και GND}
     \label{fig:kicad-main}
   \end{center}
@@ -856,7 +867,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Το κύκλωμα με τις πλήρεις συνδέσεις των VCC, 3.3V και GND και τα USB, Header τοποθετημένα}
     \label{fig:kicad-main}
   \end{center}
@@ -901,7 +912,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Συνδεσμολογία \textenglish{LED}}
     \label{fig:kicad-main}
   \end{center}
@@ -932,7 +943,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο Ονοματοδοσίας}
     \label{fig:kicad-main}
   \end{center}
@@ -951,7 +962,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο Σχεδιογράφησης}
     \label{fig:kicad-main}
   \end{center}
@@ -959,7 +970,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 Πλέον το κύκλωμα υπάρχει και σε μορφή pdf, στο φάκελο όπου έχουμε και όλα τα άλλα αρχεία του έργου μας.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut05.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut05.zip.
 
 Αφού έχουμε ολοκληρώσει το σχηματικό κύκλωμα, θα χρειαστεί να κρατήσουμε κάποια από τα δεδομένα του, τα οποία θα μας χρειαστούν κατά τη σχεδίαση της πλακέτας. Αυτά τα δεδομένα είναι η λίστα υλικών και η λίστα δικτύων.
 
@@ -970,7 +981,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 %* set custom fields (MFG, MFG code) [TAG JUMP to "tutorial05"]
 %-= TAG "tutorial05" =-
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut06.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut06.zip.
 
 %  - open CSV with localc
 
@@ -982,7 +993,7 @@ Kλείστε τον Επεξεργαστή Βιβλιοθήκης Εξαρτη�
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Κεντρική οθόνη του \textenglish{Pcbnew}}
     \label{fig:kicad-main}
   \end{center}
@@ -1004,7 +1015,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Ρυθμίσεις Σελίδας \textenglish{Pcbnew}}
     \label{fig:kicad-main}
   \end{center}
@@ -1028,7 +1039,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο Ρύθμισης Επιπέδων}
     \label{fig:kicad-main}
   \end{center}
@@ -1042,7 +1053,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο 'Κανόνες Σχεδίασης'}
     \label{fig:kicad-main}
   \end{center}
@@ -1055,7 +1066,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 Μία πολυύ χρήσιμη λειτουργία για τη σχεδίαση στο \textenglish{Pcbnew} είναι ο ορισμός και η αλλαγή του πλέγματος το οποίο υπάρχει νοητά πάνω στο κύκλωμά μας και ορίζει τα σημεία όπου μπορεί να τοποθετηθεί ο δείκτης του ποντικιού. Πλέγμα 1mm σημαίνει ότι ο δείκτης του ποντικιού μπορεί να τοποθετηθεί σε διαστήματα του ενός mm αλλά όχι ενδιάμεσα. Το πλέγμα είναι βοηθητική έννοια και δεν επηρεάζει με κάνενα τρόπο το κύκλωμά μας. Για να αλλάξει το πλέγμα, κάνουμε δεξί κλικ σε κενό χώρο της κεντρική οθόνης και επιλέγουμε "Επιλογή Πλέγματος".
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut07.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut07.zip.
 
 Στη συνέχεια θα χρειαστεί να ορίσουμε τις βιβλιοθήκες αποτυπωμάτων που θα χρησιμοποιήσουμε. 
 
@@ -1074,7 +1085,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο 'Διαχειριστής Βιβλιοθηκών Αποτυπωμάτων'}
     \label{fig:kicad-main}
   \end{center}
@@ -1082,7 +1093,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Οδηγός Προσθήκης Βιβλιοθηκών Αποτυπωμάτων'}
     \label{fig:kicad-main}
   \end{center}
@@ -1092,7 +1103,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 Από το μενού επιλέξτε Αρχείο $\rightarrow$ Αποθήκευση για να αποθηκευτούν όλες οι αλλαγές που κάνατε.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut08.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut08.zip.
 
 \subsection{Δημιουργία αποτυπώματος}
 Η εφαρμογή \textenglish{Pcbnew} χρησιμοποιεί αποτυπώματα για να αναπαριστά τα εξαρτήματα. Το αποτύπωμα ενός εξαρτήματος δείχνει πως ακριβώς θα τοποθετηθεί, ενωθεί και κολληθεί ένα εξάρτημα σε μία πλακέτα. Πληροφορίες για το πως είναι το αποτύπωμα κάθε εξαρτήματος μπορούν να βρεθούν στο εγχειρίδιο (data sheet) κάθε εξαρτήματος. 
@@ -1103,7 +1114,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Ένα εξάρτημα και το αποτύπωμά του}
     \label{fig:kicad-main}
   \end{center}
@@ -1113,7 +1124,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 Συγκεκριμένα για το κύκλωμα usb2uart που θέλουμε να σχεδιάσουμε, πρέπει να σχεδιάσουμε με τον Επεξεργαστή Αποτυπώματος το αποτύπωμα για το διπλό \textenglish{LED} που χρησιμοποιούμε (εξάρτημα b\textenglish{LED}, αποτύπωμα b\textenglish{LED}\_0603) και για το ολοκληρωμένο που χρησιμοποιούμε (εξάρτημα \textenglish{CP2104}, αποτύπωμα qfn24), καθώς τα αποτυπώματα αυτά δεν είναι στις βιβλιοθήκες του \textenglish{KiCad}. Εναλλακτικά, συνίσταται να πάρετε τα αποτυπώματα αυτά από τα αρχεία του tutorial, καθώς η δημιουργία αποτυπωμάτων από το μηδέν είναι μία επίπονη διαδικασία που ξεφεύγει από τα πλαίσια του tutorial.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut09.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut09.zip.
 
 \begin{comment}
 4.2 Δημιουργία αποτυπώματος
@@ -1196,7 +1207,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Βοηθητική εφαρμογή \textenglish{Cvpcb}, με αντιστοιχισμένα όλα τα εξαρτήματα σε αποτυπώματα}
     \label{fig:kicad-main}
   \end{center}
@@ -1206,7 +1217,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 Αφού κάνετε τα παραπάνω, κλείστε την εφαρμογή \textenglish{Cvpcb}.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut10.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut10.zip.
 
 \subsection{Εισαγωγή αποτυπωμάτων}
 Από την κεντρική οθόνη του \textenglish{KiCad} εκτελέστε την εφαρμογή \textenglish{Pcbnew}. 
@@ -1228,7 +1239,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Άπλωμα Όλων των Αποτυπωμάτων}
     \label{fig:kicad-main}
   \end{center}
@@ -1243,13 +1254,13 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Κεντρική οθόνη του \textenglish{Pcbnew} με όλα τα αποτυπώματα}
     \label{fig:kicad-main}
   \end{center}
 \end{figure}
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut11.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut11.zip.
 
 \subsubsection{Οριστική τοποθέτηση αποτυπωμάτων}
 
@@ -1261,7 +1272,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο 'Ιδιότητες Αποτυπώματος'}
     \label{fig:kicad-main}
   \end{center}
@@ -1302,7 +1313,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 Πλέον έχουμε τοποθετήσει τα αποτυπώματα στις τελικές θέσεις τους.
  
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut12.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut12.zip.
 
 \subsection{Δημιουργία αγώγιμων ζωνών και δρόμων}
 
@@ -1313,18 +1324,18 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 Σε αυτό το σημείο πρέπει να ορίσουμε τα όρια της πλακέτας. Για να το κάνουμε αυτό δεν υπάρχει κάποιο ειδικό εργαλείο, αλλά αρκεί να σχεδιάσουμε γραμμές γραφικών στο επίπεδο Edge.Cuts.
 
-Από το δεξί μέρος της κεντρικής οθόνης του \textenglish{Pcbnew}, επιλέξτε το επίπεδο Edge.Cuts ως τρέχον επίπεδο. Επίσης από την μπάρα στο αριστερό μέρος της οθόνης φροντίστε να μην είναι επιλεγμένη η Εμφάνιση πολικών συντεταγμένων. %\includegraphics{img/kicad-main.png}
+Από το δεξί μέρος της κεντρικής οθόνης του \textenglish{Pcbnew}, επιλέξτε το επίπεδο Edge.Cuts ως τρέχον επίπεδο. Επίσης από την μπάρα στο αριστερό μέρος της οθόνης φροντίστε να μην είναι επιλεγμένη η Εμφάνιση πολικών συντεταγμένων. %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
 
 Στο επίπεδο Edge.Cuts σχεδιάστε ένα ορθογώνιο διαστάσεων 32x18mm με σχετικές συντεταγμένες (-19,-9) πάνω αριστερά και (13, 9) κάτω δεξιά. 
 
 Για να το κάνετε αυτό βεβαιωθείτε ότι έχετε ορίσει το κέντρο του U1  ως το σημείο έναρξης των σχετικών συντεταγμένων, επιλέξτε από το μενού στο πάνω μέρος της οθόνης Τοποθέτηση $\rightarrow$ "Γραμμή ή Πολύγωνο", και σχεδιάστε τις τέσσερις γραμμές που θα αποτελούν το ορθογώνιο των ορίων. Δηλαδή σχεδιάστε μία γραμμή από το (-19,-9) έως το (13,-9) μετά μία γραμμή από το (13,-9) έως το (13,9) μετά μία γραμμή από το (13,9) έως το -19,9) και μετά μία γραμμή από το (-19,9) έως το -19,-9). Όλες οι συντεταγμένες είναι σχετικές ως προς το σημείο που επιλέξαμε.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut13.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut13.zip.
 
 \subsubsection{Προσθήκη ζώνης}
 Αφού έχουμε σχεδιάσει τα όρια της πλακέτας το πρώτο πράγμα που πρέπει να κάνουμε είναι να σχεδιάσουμε μία ζώνη για τη γείωση του κυκλώματος. 
 
-Βεβαιωθείτε ότι έχετε ορίσει το κέντρο του U1  ως το σημείο έναρξης των σχετικών συντεταγμένων. Επίσης από την μπάρα στο αριστερό μέρος της οθόνης φροντίστε επιλεγμένη η Εμφάνιση γεμισμένων περιοχών σε ζώνες. %\includegraphics{img/kicad-main.png} 
+Βεβαιωθείτε ότι έχετε ορίσει το κέντρο του U1  ως το σημείο έναρξης των σχετικών συντεταγμένων. Επίσης από την μπάρα στο αριστερό μέρος της οθόνης φροντίστε επιλεγμένη η Εμφάνιση γεμισμένων περιοχών σε ζώνες. %\includegraphics[width=.9\textwidth]{img/kicad-main.png} 
 
 Η ζώνη θα είναι στο επίπεδο B.CU και θα έχει συντεταγμένες (-18,8) πάνω αριστερά και (12,8) κάτω δεξιά. %TBD συντεταγμένες
 
@@ -1349,7 +1360,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο 'Ιδιότητες Χάλκινης Ζώνης'}
     \label{fig:kicad-main}
   \end{center}
@@ -1371,7 +1382,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 %TBD δλδ βάζω ολόκληρη κλάση;
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut14.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut14.zip.
 
 \subsubsection{Προσθήκη ζώνης 3,3V}
 
@@ -1393,7 +1404,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 Πλέον έχουμε τελειώσει ουσιαστικά τον ηλεκτρικό σχεδιασμό της πλακέτας.
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut15.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut15.zip.
 
 \subsubsection{Αισθητικές διορθώσεις}
 
@@ -1406,7 +1417,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο 'Ορισμός Μεγέθους Κειμένου', με τα προτεινόμενα μεγέθη}
     \label{fig:kicad-main}
   \end{center}
@@ -1418,14 +1429,14 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    \includegraphics{img/final-pcb.png}
+    \includegraphics[width=.9\textwidth]{img/final-pcb.png}
     \caption{Τελικό κύκλωμα πλακέτας}
     \label{fig:final-pcb}
   \end{center}
 \end{figure}
 
-%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut16.zip.
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut17.zip.
+%%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut16.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut17.zip.
 
 \section{Κατασκευή πλακέτας}
 Σε αυτό το κεφάλαιο έχουμε έτοιμο το κύκλωμα και θέλουμε δημιουργήσουμε αρχεία παραγωγής τα οποία θα δώσουμε σε ένα εργοστάσιο και θα μας κατασκευάσει την πλακέτα. 
@@ -1444,7 +1455,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Κύκλωμα σε σημειωμένες τις αποστάσεις}
     \label{fig:kicad-main}
   \end{center}
@@ -1462,7 +1473,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο 'Σχεδιογράφηση'}
     \label{fig:kicad-main}
   \end{center}
@@ -1489,7 +1500,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
 
 \begin{figure}
   \begin{center}
-    %\includegraphics{img/kicad-main.png}
+    %\includegraphics[width=.9\textwidth]{img/kicad-main.png}
     %\caption{Παράθυρο 'Παραγωγή Αρχείων Διάτρησης'}
     \label{fig:kicad-main}
   \end{center}
@@ -1515,7 +1526,7 @@ H κεντρική οθόνη του \textenglish{Pcbnew} αποτελείται
     \item λίστα υλικών (παράχθηκε σε προηγούμενο κεφάλαιο)
 \end{itemize}
 
-Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut18.zip.
+%Σε αυτό το σημείο αντιστοιχούν τα αρχεία από το αρχείο kicad\_tut18.zip.
 
 %* start gerbview and explore gerber+drill files
 %  - note mistake in soldermask
