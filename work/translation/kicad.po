@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-07 13:20+0200\n"
-"PO-Revision-Date: 2015-10-14 09:01+0200\n"
+"PO-Revision-Date: 2015-10-15 18:20+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -4392,7 +4392,7 @@ msgstr "&Διαγραφή"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:272
 msgid "Template Field Names"
-msgstr "Πρότυπο Ονομάτων Πεδίων"
+msgstr "Πρότυπα Ονομάτων Πεδίων"
 
 #: eeschema/dialogs/dialog_erc.cpp:213
 msgid "Marker not found"
@@ -15349,11 +15349,11 @@ msgstr "Αφαίρεση μεταξοτυπίας από περιοχές που
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:248
 msgid "4.5 (unit mm)"
-msgstr "4,5 (μονάδα mm)"
+msgstr "έκδοση 4,5 (mm)"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:248
 msgid "4.6 (unit mm)"
-msgstr "4,6 (μονάδα mm)"
+msgstr "έκδοση 4,6 (mm)"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:252
 msgid ""
