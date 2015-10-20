@@ -1,55 +1,58 @@
 ![3drender](images/usb2uart.jpg)
 
-## USB2UART: open hardware USB to UART converter
+## USB2UART: μετατροπέας USB σε 3,3V UART ανοιχτού υλικού
 
 ---
 
-Schematic and layout of a USB to UART converter printed circuit board. Material for a tutorial on KiCAD.
+Σχηματικό κύκλωμα και σχεδίαση πλακέτας για έναν μετατροπέα USB σε 3,3V UART ανοιχτού υλικού. Υλικό για ελληνικό οδηγό εκμάθησης του KiCad.
 
-### USB2UART is a USB to basic 3.3V UART converter with the following features:
+### Το USB2UART είναι ένας βασικός μετατροπέας USB σε 3,3V UART με τα παρακάτω χαρακτηριστικά:
 
-* Based on the CP2104 integrated circuit from Silicon Labs.
-* Supported out of the box in most modern operating systems as a virtual serial port.
-* Provides a standard type B connector on the USB side, and a four-pin header on the UART side.
-* Includes a power status indication LED and an RX/TX activity indication LED.
-* Implemented as a two-layer PCB using the [KiCAD EDA software suite](http://www.kicad-pcb.org).
-* Open hardware.
+Η συσκευή ονομάζεται USB2UART και είναι ένας μετατροπέας USB σε 3,3V UART, βασισμένος στο ολοκληρωμένο CP2104 από την εταιρεία Silicon Labs. . Συνδέεται με έναν σύνδεσμο USB type B από τη μία πλευρά και έναν απλό σύνδεσμο τεσσάρων ακροδεκτών από την άλλη. Περιλαμβάνει LED ένδειξης on/off και LED ένδειξης αποστολής/παραλαβής RX/TX.
+
+
+* Βασισμένος στο ολοκληρωμένο CP2104 από την εταιρεία Silicon Labs.
+* Υποστηρίζεται από τα περισσότερα σύγχρονα λειτουργικά συστήματα ως εικονική σειριακή θύρα.
+* Διαθέτει έναν σύνδεσμο USB τύπου B από τη μία πλευρά και έναν απλό σύνδεσμο τεσσάρων ακροδεκτών (pin header) από την άλλη
+* Περιλαμβάνει LED ένδειξης on/off και LED ένδειξης αποστολής/παραλαβής RX/TX.
+* Έχει υλοποιηθεί ως πλακέτα τυπωμένου κυκλώματος (PCB) δύο επιπέδων χρησιμοποιώντας το [KiCAD EDA software suite](http://www.kicad-pcb.org).
+* Ανοιχτό υλικό.
 
 ---
 
-### Block diagram
+### Διάγραμμα μπλοκ
 ![blockdiagram](images/blockdiagram.png)
 
 ---
 
-### File list
+### Λίστα αρχείων
 
-* **README.md:** this file
-* **usb2uart.pro:** top-level KiCAD project
-* **usb2uart.sch:** schematic
-* **usb2uart.pdf:** schematic exported to PDF
-* **usb2uart.lib:** library of custom symbols
-* **usb2uart-cache.lib:** cached library of all used symbols
-* **usb2uart.dcm:** symbol doc library
-* **usb2uart.net:** netlist
-* **usb2uart.kicad_pcb:** PCB layout
-* **usb2uart.csv:** bill of materials (BOM)
-* **usb2uart.pretty/:** library of custom footprints
-* **contrib/:** contributed 3d models. Many thanks to [Walter](http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm) for providing his work under the [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-* **datasheets/:** datasheets for all used components
-* **images/:** various images
-* **mfg/usb2uart.drl:** Excellon CNC drilling file
-* **mfg/usb2uart-all.pos:** SMD component placement for pick-n-place machines
-* **mfg/gerber/:** Gerber files
+* **README.md:** αυτό το αρχείο
+* **usb2uart.pro:** αρχείο έργου KiCAD
+* **usb2uart.sch:** σχηματικό κύκλωμα
+* **usb2uart.pdf:** σχηματικό κύκλωμα τυπωμένο σε PDF
+* **usb2uart.lib:** βιβλιοθήκη προσαρμοσμένων εξαρτημάτων
+* **usb2uart-cache.lib:** προσωρινή αποθήκευση βιβλιοθήκης όλων των εξαρτημάτων
+* **usb2uart.dcm:** βιβλιοθήκη τεκμηρίωσης εξαρτημάτων
+* **usb2uart.net:** λίστα δικτύων
+* **usb2uart.kicad_pcb:** σχεδίαση πλακέτας
+* **usb2uart.csv:** λίστα υλικών (BOM)
+* **usb2uart.pretty/:** βιβλιοθήκη προσαρμοσμένων αποτυπωμάτων
+* **contrib/:** 3Δ μοντέλα από τρίτους. Πολλές ευχαριστίες στον [Walter](http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm) για τη διανομή της δουλειάς του σε [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+* **datasheets/:** εγχειρίδια/φύλλα δεδομένων (datasheets) για όλα τα εξαρτήματα
+* **images/:** διάφορες εικόνες
+* **mfg/usb2uart.drl:** αρχείο διάτρησης excellon CNC
+* **mfg/usb2uart-all.pos:** αρχείο τοποθέτησης εξαρτημάτων SMD για μηχανές ανύψωσης και τοποθέτησης
+* **mfg/gerber/:** αρχεία gerber
 
 ---
 
-### Copyright and License
+### Άδεια χρήσης και πνευματικά δικαιώματα
 
 **© 2014-2015 Logikon Labs.**
 
-**All design and manufacturing files are available under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).**
+**Όλα τα αρχεία σχεδίασης και παραγωγής είναι διαθέσιμα με άδειες [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).**
 
-**To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.**
+**Για να δείτε το περιεχόμενο αυτής της άδειας χρήσης επισκεφθείτε το http://creativecommons.org/licenses/by-sa/4.0/deed.el.**
 
 [![cclogo](images/by-sa.png)](http://creativecommons.org/licenses/by-sa/4.0/)
