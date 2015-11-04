@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-04 15:03+0200\n"
-"PO-Revision-Date: 2015-11-04 15:05+0200\n"
+"PO-Revision-Date: 2015-11-04 15:15+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -83,7 +83,7 @@ msgstr "Μεγέθυνση: %3.1f"
 
 #: 3d-viewer/3d_canvas.cpp:654
 msgid "3D Image File Name:"
-msgstr "Όνομα Αρχείου Εικόνας 3Δ"
+msgstr "Όνομα Αρχείου Εικόνας 3Δ:"
 
 #: 3d-viewer/3d_canvas.cpp:710
 msgid "Failed to copy image to clipboard"
@@ -91,7 +91,7 @@ msgstr "Αποτυχία αντιγραφής εικόνας στο πρόχει
 
 #: 3d-viewer/3d_canvas.cpp:723
 msgid "Can't save file"
-msgstr "Δεν ήταν δυνατή η αποθήκευση αρχείου"
+msgstr "Αδυναμία αποθήκευσης αρχείου"
 
 #: 3d-viewer/3d_draw.cpp:617
 #, c-format
@@ -118,15 +118,15 @@ msgstr ""
 
 #: 3d-viewer/3d_draw_board_body.cpp:369
 msgid "Build board body"
-msgstr "Κατασκευή Σώματος Πλακέτας"
+msgstr "Κατασκευή σώματος πλακέτας"
 
 #: 3d-viewer/3d_frame.cpp:534
 msgid "Background Color, Bottom"
-msgstr "Χρώμα Παρασκηνίου, Κάτω:"
+msgstr "Χρώμα Παρασκηνίου, Κάτω"
 
 #: 3d-viewer/3d_frame.cpp:539
 msgid "Background Color, Top"
-msgstr "Χρώμα Παρασκηνίου, Πάνω:"
+msgstr "Χρώμα Παρασκηνίου, Επάνω"
 
 #: 3d-viewer/3d_frame.cpp:788
 msgid "Silk Screen Color"
@@ -158,7 +158,7 @@ msgstr "Αντιγραφή 3Δ εικόνας στο πρόχειρο"
 
 #: 3d-viewer/3d_toolbar.cpp:64
 msgid "Set display options, and some layers visibility"
-msgstr "Ορισμός επιλογών προβολής, και ορατότητας για ορισμένα επίπεδα "
+msgstr "Ορισμός επιλογών προβολής, και ορατότητας για ορισμένα επίπεδα"
 
 #: 3d-viewer/3d_toolbar.cpp:68 common/zoom.cpp:248
 #: eeschema/tool_viewlib.cpp:75 gerbview/toolbars_gerber.cpp:77
@@ -241,15 +241,15 @@ msgstr "&Αρχείο"
 
 #: 3d-viewer/3d_toolbar.cpp:138
 msgid "Create Image (png format)"
-msgstr "Δημιουργία εικόνας (μορφή png)"
+msgstr "Δημιουργία Εικόνας (μορφή png)"
 
 #: 3d-viewer/3d_toolbar.cpp:141
 msgid "Create Image (jpeg format)"
-msgstr "Δημιουργία εικόνας (μορφή jpeg)"
+msgstr "Δημιουργία Εικόνας (μορφή jpeg)"
 
 #: 3d-viewer/3d_toolbar.cpp:146
 msgid "Copy 3D Image to Clipboard"
-msgstr "Αντιγραφή 3Δ εικόνας στο πρόχειρο"
+msgstr "Αντιγραφή 3Δ Εικόνας στο Πρόχειρο"
 
 #: 3d-viewer/3d_toolbar.cpp:151
 msgid "&Exit"
@@ -281,8 +281,8 @@ msgid ""
 "Holes inside a copper layer copper zones are shown, but the calculation time "
 "is longer"
 msgstr ""
-"Οι τρύπες μέσα σε ζώνες χαλκού είναι ορατές, αλλά ο χρόνος υπολογισμού είναι "
-"μεγαλύτερος"
+"Οι τρύπες μέσα σε ζώνες χαλκού σε επίπεδα χαλκού είναι ορατές, αλλά ο χρόνος "
+"υπολογισμού είναι μεγαλύτερος"
 
 #: 3d-viewer/3d_toolbar.cpp:175
 msgid "Render Textures"
@@ -291,7 +291,7 @@ msgstr "Απόδοση Υφής"
 #: 3d-viewer/3d_toolbar.cpp:176
 msgid "Apply a grid/cloud textures to board, solder mask and silk screen"
 msgstr ""
-"Εφαρμογή πλέγματος/υφής στην πλακέτα, τη μάσκα συγκόλησης και τη μεταξοτυπία"
+"Εφαρμογή πλέγματος/υφής στην πλακέτα, τη μάσκα συγκόλλησης και τη μεταξοτυπία"
 
 #: 3d-viewer/3d_toolbar.cpp:180
 msgid "Render Smooth Normals"
@@ -391,11 +391,11 @@ msgstr "Εμφάνιση Επιπέδων Με&ταξοτυπίας"
 
 #: 3d-viewer/3d_toolbar.cpp:278
 msgid "Show Solder &Mask Layers"
-msgstr "Εμφάνιση Επιπέδου Συγκόλλησης &Μάσκας"
+msgstr "Εμφάνιση Επιπέδων Συγκόλλησης &Μάσκας"
 
 #: 3d-viewer/3d_toolbar.cpp:281
 msgid "Show Solder &Paste Layers"
-msgstr "Εμφάνιση Επιπέδου Πά&στας Συγκόλλησης"
+msgstr "Εμφάνιση Επιπέδων Πά&στας Συγκόλλησης"
 
 #: 3d-viewer/3d_toolbar.cpp:286
 msgid "Show &Comments and Drawing Layers"
@@ -415,7 +415,7 @@ msgstr "Εμφάνιση πάχους χαλκού"
 
 #: 3d-viewer/dialogs/dialog_3D_view_option_base.cpp:42
 msgid "Show 3D Models"
-msgstr "Προβολή 3Δ Μοντέλων"
+msgstr "Εμφάνιση 3Δ Μοντέλων"
 
 #: 3d-viewer/dialogs/dialog_3D_view_option_base.cpp:48 pcbnew/tool_pcb.cpp:366
 msgid "Show filled areas in zones"
