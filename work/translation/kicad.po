@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 12:18+0200\n"
-"PO-Revision-Date: 2015-11-12 12:18+0200\n"
+"PO-Revision-Date: 2015-11-17 11:59+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: el\n"
 "X-Source-Language: C\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: pcbnew\n"
 "X-Poedit-SearchPath-1: eeschema\n"
 "X-Poedit-SearchPath-2: cvpcb\n"
@@ -2268,7 +2268,7 @@ msgstr "Εξαρτήματα: %d, ελεύθερα: %d"
 
 #: cvpcb/cvframe.cpp:623
 msgid "Filter list: "
-msgstr "Λίστα Φίλτρων:"
+msgstr "Λίστα φίλτρων:"
 
 #: cvpcb/cvframe.cpp:636 pcbnew/loadcmp.cpp:479
 msgid "Description: "
@@ -3372,17 +3372,17 @@ msgstr "Συμφωνείτε με τη διαγραφή της λίστας φί
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:513
 msgid "Add Footprint Filter"
-msgstr "Προσθήκη φίλτρου αποτυπωμάτων"
+msgstr "Προσθήκη Φίλτρου Αποτυπωμάτων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:513
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:244
 msgid "Footprint Filter"
-msgstr "Φίλτρο Αποτυπώματος"
+msgstr "Φίλτρο Αποτυπωμάτων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:530
 #, c-format
 msgid "Foot print filter <%s> is already defined."
-msgstr "Το φίλτρο αποτυπώματος <%s> έχει ήδη καθοριστεί."
+msgstr "Το φίλτρο αποτυπωμάτων <%s> έχει ήδη καθοριστεί."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:566
 msgid "Edit footprint filter"
@@ -3430,7 +3430,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:65
 msgid "Number of Units"
-msgstr "Αριθμός Μερών:"
+msgstr "Αριθμός Μερών"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:67
 msgid ""
@@ -3449,7 +3449,7 @@ msgid ""
 "A value from 10 to 40 is usually good."
 msgstr ""
 "Περιθώριο (σε 0,001 ίντσες) μεταξύ της θέσης ονόματος ενός ακροδέκτη και του "
-"σώματος του εξαρτήματος.\n"
+"σώματος εξαρτήματος.\n"
 "Συνήθως μια καλή τιμή είναι από 10 έως 40."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:98
@@ -3470,7 +3470,7 @@ msgid ""
 "not interchangeable"
 msgstr ""
 "Ενεργοποιήστε αυτή την επιλογή όταν δημιουργείτε εξαρτήματα με πολλά μέρη "
-"και τα μέρη δεν είναι εναλλάξιμα"
+"και τα μέρη δεν μπορούν να αντικαταστήσουν το ένα το άλλο"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:112
 #: eeschema/dialogs/dialog_erc_base.cpp:123
@@ -3510,7 +3510,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:137
 msgid "Documentation File Name"
-msgstr "Ονόματος Αρχείου Τεκμηρίωσης"
+msgstr "Όνομα Αρχείου Τεκμηρίωσης"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:139
 msgid ""
@@ -3525,7 +3525,7 @@ msgstr "Αντιγραφή Εγγράφων από Γονέα"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:153
 msgid "Browse Files"
-msgstr "Πλοήγηση σε αρχεία"
+msgstr "Πλοήγηση σε Αρχεία"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:171
 msgid "Alias List"
@@ -3546,7 +3546,7 @@ msgstr ""
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:192
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:234
 msgid "Delete All"
-msgstr "Διαγραφή όλων"
+msgstr "Διαγραφή Όλων"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:202
 #: eeschema/libedit.cpp:488 eeschema/viewlibs.cpp:307
@@ -3696,7 +3696,7 @@ msgstr "Προσανατολισμός (Μοίρες)"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:52
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:58
 msgid "Select if the component is to be rotated when drawn"
-msgstr "Επιλέξτε αν το εξάρτημα πρέπει να περιστραφεί όταν σχεδιαστεί"
+msgstr "Επιλέξτε αν το εξάρτημα πρέπει να περιστραφεί όταν εμφανίζεται"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:56
 msgid "Mirror ---"
@@ -3735,7 +3735,7 @@ msgid ""
 "Use the alternate shape of this component.\n"
 "For gates, this is the \"De Morgan\" conversion"
 msgstr ""
-"Χρησιμοποιήστε το εναλλακτικό σχήμα αυτού του εξαρτήματος.\n"
+"Χρήση εναλλακτικού σχήματος για αυτό το εξάρτημα.\n"
 "Για τις πύλες, είναι η μετατροπή \"De Morgan\""
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:70
@@ -3746,7 +3746,7 @@ msgstr "Όνομα Ολοκληρωμένου"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:74
 msgid "The name of the symbol in the library from which this component came"
 msgstr ""
-"Το όνομα του συμβόλου στη βιβλιοθήκη, από την οποία προήλθε αυτό το εξάρτημα"
+"Το όνομα του συμβόλου στη βιβλιοθήκη από την οποία προήλθε αυτό το εξάρτημα"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:81
 msgid "Test"
@@ -3769,7 +3769,8 @@ msgid ""
 "This is an alternate identifier to the reference."
 msgstr ""
 "Μία μοναδική ταυτότητα (μία χρονική σφραγίδα) που χαρακτηρίζει το εξάρτημα.\n"
-"Αυτό είναι ένα εναλλακτικό αναγνωριστικό της αναφοράς."
+"Αυτό είναι ένας εναλλακτικός τρόπος αναγνώρισης των εξαρτημάτων, επιπλέον "
+"της αναφοράς."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:105
 msgid "Reset to Library Defaults"
@@ -3874,7 +3875,7 @@ msgstr ""
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:92
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:97 eeschema/sch_text.cpp:758
 msgid "Bold Italic"
-msgstr "Πλάγια έντονα"
+msgstr "Πλάγια Έντονα"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:184
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:94
@@ -3911,8 +3912,8 @@ msgid ""
 "If your datasheet is an http:// link or a complete file path, then it may "
 "show in your browser by pressing this button."
 msgstr ""
-"Αν το φύλλο δεδομένων είναι σύνδεσμος http:// ή μία πλήρης διαδρομή, τότε "
-"πατώντας αυτό το κουμπί θα φορτωθεί στο πρόγραμμα περιήγησης"
+"Αν το φύλλο δεδομένων είναι σύνδεσμος http:// ή μία πλήρης διαδρομή αρχείου, "
+"τότε πατώντας αυτό το κουμπί θα φορτωθεί στο πρόγραμμα περιήγησης"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:230
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:138
@@ -4124,7 +4125,7 @@ msgstr "Αρχεία βιβλιοθήκης:"
 #: eeschema/dialogs/dialog_eeschema_config.cpp:375
 #, c-format
 msgid "'%s' : library already in use"
-msgstr "'%s' : Η βιβλιοθήκη χρησιμοποιείται ήδη"
+msgstr "'%s' : η βιβλιοθήκη χρησιμοποιείται ήδη"
 
 #: eeschema/dialogs/dialog_eeschema_config.cpp:390
 msgid "Default Path for Libraries"
@@ -4158,7 +4159,7 @@ msgstr ""
 "Λίστα ενεργών αρχείων βιβλιοθήκης.\n"
 "Μόνο τα αρχεία βιβλιοθήκης που υπάρχουν σε αυτή τη λίστα φορτώνονται από το "
 "Eeschema.\n"
-"Είναι σημαντική η σειρά αυτής της λίστας:\n"
+"Είναι σημαντική η σειρά σε αυτή τη λίστα:\n"
 "Το Eeschema αναζητά ένα εξάρτημα που θα δοθεί χρησιμοποιώντας τη σειρά "
 "προτεραιότητας αυτής της λίστας."
 
@@ -4248,7 +4249,7 @@ msgstr "Μέγεθος &πλέγματος:"
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:111
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:125
 msgid "mils"
-msgstr "mils"
+msgstr "mil"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:78
 msgid "&Default bus thickness:"
@@ -4289,13 +4290,13 @@ msgstr "λεπτά"
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:139
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:182
 msgid "Ma&ximum undo items (0 = unlimited):"
-msgstr "Μέ&γιστος αριθμός αναιρέσεων (0 = απεριόριστα)"
+msgstr "Μέ&γιστος αριθμός αναιρέσεων (0 = απεριόριστα):"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:161
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:146
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:189
 msgid "actions"
-msgstr "δράσεις"
+msgstr "ενέργειες"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:165
 msgid "&Part id notation:"
@@ -10925,7 +10926,7 @@ msgstr "Δίκτυο:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:61
 msgid "Net Filtering"
-msgstr "Φιλτράρισμα Δικτυών"
+msgstr "Φιλτράρισμα Δικτύων"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:63
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:55
@@ -10979,7 +10980,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:93
 msgid "Apply Filters"
-msgstr "Εφαρμογή φίλτρων"
+msgstr "Εφαρμογή Φίλτρων"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:103
 msgid "Settings"
@@ -13385,7 +13386,7 @@ msgstr "Ορισμένο από χρήστη"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:40
 msgid "Footprint Filter:"
-msgstr "Φίλτρο Αποτυπώματος:"
+msgstr "Φίλτρο Αποτυπωμάτων:"
 
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:42
 msgid ""
@@ -13408,7 +13409,7 @@ msgstr "Πάχος:"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:23
 msgid "Pad Filter :"
-msgstr "Φίλτρο έδρας:"
+msgstr "Φίλτρο εδρών:"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:25
 msgid "Do not modify pads having a different shape"
