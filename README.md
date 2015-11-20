@@ -5,7 +5,7 @@
 * Ανάπτυξη μίας απλής ηλεκτρονικής συσκευής ανοιχτού υλικού με το KiCad ([περισσότερες πληροφορίες](work/pcb/usb2uart/README.md))
 * Συγγραφή ενός οδηγού εκμάθησης (tutorial) χρήσης του KiCad στα Ελληνικά χρησιμοποιώντας την ηλεκτρονική συσκευή ανοιχτού υλικού ως βάση
 
-Τα αρχεία και για τις τρεις ενέργειες αποτελούν τα αρχεία αυτού του repository.
+Τα αρχεία και για τις τρεις ενέργειες αποτελούν τα αρχεία αυτού του repository. Μπορείτε να βρείτε περισσότερες πληροφορίες και για τις τρεις ενέργειες στο [KiCad_EDA_Greece Wiki](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece/wiki).
 
 #English description of project KiCad_EDA_Greece
 This repository [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece) is not a typical software package, but it is a project with the intent to promote the software application named [Kicad](http://kicad-pcb.org/) to Greek users. This is implemented through three means.
@@ -14,7 +14,8 @@ This repository [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece](ht
 * Development of a simple, open hardware electronic device using KiCad ([more information](work/pcb/usb2uart/README.md)) 
 * Write a detailed KiCad tutorial in Greek, using the above electronic device as a practical example
 
-The files for all three above actions are the files of this repository.
+The files for all three above actions are the files of this repository. 
+You can find more information on all three actions in the [KiCad_EDA_Greece Wiki](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece/wiki).
 
 # Λόγος ύπαρξης
 Το λογισμικό KiCad είναι ένα ιδιαίτερα ισχυρό πρόγραμμα ηλεκτρονικής σχεδίασης (EDA) το οποίο υποστηρίζεται από μια μεγάλη και ενεργή ομάδα προγραμματιστών, καθώς και από το [CERN](http://home.web.cern.ch/).  
