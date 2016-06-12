@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-12 19:47+0200\n"
-"PO-Revision-Date: 2016-06-12 19:47+0200\n"
+"PO-Revision-Date: 2016-06-12 20:24+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -158,9 +158,8 @@ msgstr "Έλεγχος αποτυπώματος"
 #: eeschema/tool_lib.cpp:65 eeschema/libeditframe.cpp:1108
 #: eeschema/schedit.cpp:533 gerbview/events_called_functions.cpp:197
 #: gerbview/toolbars_gerber.cpp:157
-#, fuzzy
 msgid "Zoom to selection"
-msgstr "Επιλογή μεγέθυνσης"
+msgstr "Μεγέθυνση στην επιλογή"
 
 #: pcbnew/tool_modedit.cpp:169 pcbnew/tools/common_actions.cpp:431
 #: pcbnew/tools/module_tools.cpp:106
@@ -431,7 +430,7 @@ msgstr "Δεν ήταν δυνατή η διαγραφή του αρχείου �
 #: pcbnew/pcbframe.cpp:653 pcbnew/moduleframe.cpp:696
 #: cvpcb/class_DisplayFootprintsFrame.cpp:408
 msgid "3D Viewer"
-msgstr "Προβολή 3Δ"
+msgstr "3Δ Προβολή"
 
 #: pcbnew/pcbframe.cpp:983 pcbnew/moduleframe.cpp:771
 #: eeschema/schframe.cpp:1366 eeschema/libedit.cpp:61
@@ -496,7 +495,6 @@ msgstr ""
 "Σφάλμα ΕΚΣ: αυτό το σημείο έναρξης είναι μέσα ή πολύ κοντά σε άλλη περιοχή"
 
 #: pcbnew/zones_by_polygon.cpp:744
-#, fuzzy
 msgid "DRC error: closing this area creates a DRC error with an other area"
 msgstr ""
 "Σφάλμα ΕΚΣ: το κλείσιμο αυτής της περιοχής δημιουργεί ένα σφάλμα ΕΚΣ με μια "
@@ -1534,9 +1532,8 @@ msgid "unknown zone corner smoothing type %d"
 msgstr "άγνωστος τύπος εξομάλυνσης γωνίας ζώνης %d"
 
 #: pcbnew/kicad_plugin.cpp:1751
-#, fuzzy
 msgid "this file does not contain a PCB"
-msgstr "Το αρχείο λίστας δικτύου δεν υπάρχει"
+msgstr "αυτό το αρχείο δεν περιέχει PCB"
 
 #: pcbnew/kicad_plugin.cpp:1883
 #, c-format
@@ -3113,9 +3110,8 @@ msgstr "Άνοιγμα του οδηγού \"Getting Started in KiCad\" για �
 #: pcbnew/menubar_pcbframe.cpp:650 pcbnew/menubar_modedit.cpp:347
 #: eeschema/menubar_libedit.cpp:265 eeschema/menubar.cpp:512
 #: kicad/menubar.cpp:418 gerbview/menubar.cpp:233
-#, fuzzy
 msgid "&List Hotkeys"
-msgstr "Επεξεργα&σία Συντομεύσεων"
+msgstr "&Λίστα Συντομεύσεων"
 
 #: pcbnew/menubar_pcbframe.cpp:651 pcbnew/menubar_modedit.cpp:348
 #: eeschema/menubar_libedit.cpp:266 eeschema/menubar.cpp:513
@@ -3393,9 +3389,9 @@ msgstr ""
 "θέση: %d"
 
 #: pcbnew/pcb_parser.cpp:200
-#, fuzzy, c-format
+#, c-format
 msgid "cannot interpret date code %d"
-msgstr "Αδυναμία εγγραφής αναφοράς στο αρχείο '%s'."
+msgstr "αδυναμία κατανόησης ημερομηνίας %d"
 
 #: pcbnew/pcb_parser.cpp:654
 #, c-format
@@ -3734,9 +3730,8 @@ msgid "Board Side"
 msgstr "Πλευρά Πλακέτας"
 
 #: pcbnew/class_module.cpp:581
-#, fuzzy
 msgid "Back (Flipped)"
-msgstr "Αναστροφή Μπλοκ"
+msgstr "Πίσω (Ανεστραμμένο)"
 
 #: pcbnew/class_module.cpp:581
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:58
@@ -5510,14 +5505,12 @@ msgid "Merge zones"
 msgstr "Συγχώνευση ζωνών"
 
 #: pcbnew/tools/common_actions.cpp:409
-#, fuzzy
 msgid "Lock"
-msgstr "Κλειδωμένο"
+msgstr "Κλείδωμα"
 
 #: pcbnew/tools/common_actions.cpp:413
-#, fuzzy
 msgid "Unlock"
-msgstr "Ρολόι"
+msgstr "Ξεκλείδωμα"
 
 #: pcbnew/tools/common_actions.cpp:435
 msgid "Enumerate pads"
@@ -5697,9 +5690,8 @@ msgid "Clarify selection"
 msgstr "Διευκρίνηση Επιλογής"
 
 #: pcbnew/tools/pcb_editor_control.cpp:141
-#, fuzzy
 msgid "Locking"
-msgstr "Κλειδωμένο"
+msgstr "Κλείδωμα"
 
 #: pcbnew/dialogs/dialog_track_via_size.cpp:60
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:333
@@ -6113,17 +6105,15 @@ msgstr "Πλοήγηση..."
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:54
 msgid "Ascii"
-msgstr ""
+msgstr "Ascii"
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:54
-#, fuzzy
 msgid "CSV"
-msgstr "SVG"
+msgstr "CSV"
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:56
-#, fuzzy
 msgid "Format:"
-msgstr "Μορφή"
+msgstr "Μορφή:"
 
 #: pcbnew/dialogs/dialog_gen_module_position_file_base.cpp:60
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:44
@@ -6810,9 +6800,8 @@ msgstr "Γωνία τόξου:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:96
 #: common/common.cpp:187
-#, fuzzy
 msgid "degrees"
-msgstr "45 μοίρες"
+msgstr "μοίρες"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:100
 msgid "Item thickness:"
@@ -7823,7 +7812,7 @@ msgstr "Άλλο"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:70
 msgid "Rotation (-360 to 360):"
-msgstr ""
+msgstr "Περιστροφή (-360 έως 360):"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:87
 #: pcbnew/dialogs/dialog_target_properties_base.cpp:54 common/wxwineda.cpp:170
@@ -7921,7 +7910,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:298
 msgid "3D Shape Name"
-msgstr "Όνομα 3Δ σχήματος"
+msgstr "Όνομα 3Δ Σχήματος"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:20
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:45
@@ -9141,9 +9130,8 @@ msgid "&Graphic line width"
 msgstr "Π&λάτος γραμμής γραφικών"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:45
-#, fuzzy
 msgid "&Text line width"
-msgstr "Πλάτος γραμμής κειμένων"
+msgstr "Πλάτ&ος γραμμής κειμένων"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:56
 msgid "Text &height"
@@ -9295,9 +9283,8 @@ msgid "Right"
 msgstr "Δεξιά"
 
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:112
-#, fuzzy
 msgid "Orientation (deg):"
-msgstr "Προσανατολισμός (0,1 μοίρες):"
+msgstr "Προσανατολισμός (μοίρες):"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:38
 msgid "Pad number:"
@@ -10060,9 +10047,9 @@ msgstr ""
 
 # "integral" translation TBC
 #: pcbnew/dialogs/dialog_create_array.cpp:275
-#, fuzzy, c-format
+#, c-format
 msgid "Bad numeric value for %s: %s"
-msgstr "Μη αποδεκτή τιμή για %s: %s"
+msgstr "Μη αποδεκτή αριθμητική τιμή για %s: %s"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:298
 msgid "horizontal count"
@@ -10880,18 +10867,16 @@ msgid "Test Footprints"
 msgstr "Έλεγχος Αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:99
-#, fuzzy
 msgid "Read the current netlist file and list missing and extra footprints"
 msgstr ""
 "Ανάγνωση της τρέχουσας λίστας δικτύων και προβολή των επιπλέον αποτυπωμάτων "
-"που λείπουν"
+"και αυτών που λείπουν"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:103
 msgid "Rebuild Board Connectivity"
 msgstr "Επαναδημιουργία συνδεσιμότητας πλακέτας"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:104
-#, fuzzy
 msgid "Rebuild the full ratsnest (useful after a manual pad netname edition)"
 msgstr ""
 "Επαναδημιουργία πλήρους φωλιάς συνδέσεων (χρήσιμο ύστερα από χειρωνακτική "
@@ -10967,7 +10952,7 @@ msgstr "Πλέγμα 2:"
 
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:132
 msgid "Dots"
-msgstr ""
+msgstr "Σημεία"
 
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:132
 #: pcbnew/autorouter/auto_place_footprints.cpp:477
@@ -10977,7 +10962,7 @@ msgstr "Γραμμές"
 
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:134
 msgid "Style (OpenGL && Cairo)"
-msgstr ""
+msgstr "Στυλ (OpenGL && Cairo)"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:23
 msgid "Items to Delete"
@@ -11077,7 +11062,7 @@ msgstr "Προσανατολισμός"
 
 #: pcbnew/dialogs/dialog_edit_module_text_base.cpp:124
 msgid "Rotation (-90.0 to 90.0)"
-msgstr ""
+msgstr "Περιστροφή (-90.0 έως 90.0)"
 
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp:32
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp:43
@@ -11454,7 +11439,6 @@ msgid "Minimum width"
 msgstr "Ελάχιστο πλάτος"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:115
-#, fuzzy
 msgid "Minimum thickness of filled areas."
 msgstr "Ελάχιστο πάχος γεμισμένων περιοχών."
 
@@ -11781,9 +11765,9 @@ msgstr ""
 "%s: <b>Μέγεθος Αποτυπώματος</b> &lt; <b>Ελάχιστο Μέγεθος Δρόμου</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:934
-#, fuzzy, c-format
+#, c-format
 msgid "%s: <b>Via Diameter</b> &lt; <b>Minimum Via Diameter</b><br>"
-msgstr "%s: <b>Διάμετρος Via</b> &lt; <b>Ελάχιστη διάμετρος Via</b><br>"
+msgstr "%s: <b>Διάμετρος Via</b> &lt; <b>Ελάχιστη Διάμετρος Via</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:945
 #, c-format
@@ -12090,9 +12074,8 @@ msgstr "Σύνολο Εξαρτημάτων: %d."
 
 #: pcbnew/exporters/gen_modules_placefile.cpp:309
 #: pcbnew/exporters/gen_modules_placefile.cpp:357
-#, fuzzy
 msgid "Component Placement File generation OK."
-msgstr "Δημιουργία Αρχείου Θέσης Αποτυπωμάτων - ΟΚ"
+msgstr "Δημιουργία Αρχείου Θέσης Εξαρτημάτων - ΟΚ."
 
 #: pcbnew/exporters/gen_modules_placefile.cpp:342
 #, c-format
@@ -12307,9 +12290,8 @@ msgid "Shows a dialog for changing the track width and via size."
 msgstr "Εμφανίζει παράθυρο για αλλαγή του πλάτους δρόμου και του μεγέθους via."
 
 #: pcbnew/router/router_tool.cpp:102
-#, fuzzy
 msgid "Switches posture of the currently routed track."
-msgstr "Εναλλαγή στάσης του επιλεγμένου δρόμου."
+msgstr "Εναλλαγή στάσης του δρόμου που δρομολογείται."
 
 #: pcbnew/router/router_tool.cpp:107
 msgid "Differential Pair Dimensions..."
@@ -15701,9 +15683,8 @@ msgstr ""
 "Επιλέξτε αν θέλετε να περιστραφεί το κείμενο αυτού του πεδίου κατά 90 μοίρες"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:185
-#, fuzzy
 msgid "The style of the currently selected field's text in the schematic"
-msgstr "Το στυλ κειμένου του τρέχοντος επιλεγμένου πεδίου στο σχηματικό"
+msgstr "Το στυλ κειμένου του επιλεγμένου πεδίου στο σχηματικό"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:195
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:102
@@ -16810,9 +16791,8 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:684
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:859
-#, fuzzy
 msgid "Show Datasheet"
-msgstr "Φύλλο Δεδομένων"
+msgstr "Προβολή Φύλλου Δεδομένων"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:686
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:861
@@ -16826,20 +16806,19 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:691
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:866
-#, fuzzy
 msgid "Browse Footprints"
-msgstr "Έλεγχος Αποτυπωμάτων"
+msgstr "Πλοηγός Αποτυπωμάτων"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:693
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:868
-#, fuzzy
 msgid "Open the footprint browser to choose a footprint and assign it."
-msgstr "Άνοιγμα του επιλεγμένου αποτυπώματος στον Επεξεργαστή Αποτυπώματος"
+msgstr ""
+"Άνοιγμα του πλοηγού αποτυπωμάτων για να επιλεχθεί και αποδωθεί ένα αποτύπωμα."
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:699
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:874
 msgid "Used only for fields Footprint and Datasheet."
-msgstr ""
+msgstr "Μόνο για τα πεδία Αποτύπωμα και Φύλλο Δεδομένων"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:25
 msgid "&Text:"
@@ -17028,14 +17007,12 @@ msgid ""
 msgstr "Το κάθετο ύψος κειμένου του επιλεγμένου πεδίου στο σχηματικό"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:150
-#, fuzzy
 msgid "X Position"
-msgstr "Θέση Χ:"
+msgstr "Θέση Χ"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:162
-#, fuzzy
 msgid "Y Position"
-msgstr "Θέση Ψ:"
+msgstr "Θέση Ψ"
 
 #: eeschema/dialogs/dialog_print_using_printer.cpp:256
 msgid "Print preview error!"
@@ -17762,7 +17739,7 @@ msgstr "Αυτόματη μεγέθυνση (Home)"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:242
 msgid "3D Display (Alt+3)"
-msgstr "Προβολή 3Δ (Alt+3)"
+msgstr "3Δ Προβολή (Alt+3)"
 
 #: cvpcb/class_DisplayFootprintsFrame.cpp:254
 msgid "Show texts in filled mode"
@@ -18199,31 +18176,25 @@ msgid "%s %s opened [pid=%ld]\n"
 msgstr "%s %s ανοιχτό [pid=%ld]\n"
 
 #: kicad/mainframe.cpp:308
-#, fuzzy
 msgid "Eeschema failed to load:\n"
-msgstr "Λάθος στη γραμμή %d κατά τη φόρτωση του αρχείου κειμένου Eeschema"
+msgstr "Αποτυχία φόρτωσης του Eeschema:\n"
 
 #: kicad/mainframe.cpp:309 kicad/mainframe.cpp:353 kicad/mainframe.cpp:379
 #: kicad/mainframe.cpp:426
-#, fuzzy
 msgid "KiCad Error"
-msgstr "Σφάλμα Φόρτωσης"
+msgstr "Σφάλμα KiCad"
 
 #: kicad/mainframe.cpp:352
-#, fuzzy
 msgid "Component library editor failed to load:\n"
-msgstr "Αρχεία βιβλιοθήκης εξαρτημάτων"
+msgstr "Αποτυχία φόρτωσης του επεξεργαστή βιβλιοθήκης εξαρτημάτων:\n"
 
 #: kicad/mainframe.cpp:379
 msgid "Pcbnew failed to load:\n"
-msgstr ""
+msgstr "Αποτυχία φόρτωσης του Pcbnew:\n"
 
 #: kicad/mainframe.cpp:425
-#, fuzzy
 msgid "Footprint library editor failed to load:\n"
-msgstr ""
-"Αποτυχία φόρτωσης της βιβλιοθήκης εξαρτημάτων '%s'.Σφάλμα: \n"
-"%s"
+msgstr "Αποτυχία φόρτωσης του επεξεργαστή βιβλιοθήκης αποτυπωμάτων:\n"
 
 #: kicad/mainframe.cpp:487
 msgid "Text file ("
@@ -18253,9 +18224,8 @@ msgid "Executable files ("
 msgstr "Εκτελέσιμα αρχεία ("
 
 #: kicad/preferences.cpp:80
-#, fuzzy
 msgid "Select Preferred PDF Browser"
-msgstr "Επιλέξτε τον πλοηγό Pdf που επιθυμείτε"
+msgstr "Επιλέξτε Προτεινόμενο Πρόγραμμα Προβολής PDF"
 
 #: kicad/prjconfig.cpp:108
 msgid "System Templates"
@@ -18416,7 +18386,6 @@ msgid "Delete File"
 msgstr "Διαγραφή αρχείου"
 
 #: kicad/dialogs/dialog_template_selector_base.cpp:26
-#, fuzzy
 msgid "Template path"
 msgstr "Διαδρομή προτύπων"
 
@@ -18459,14 +18428,14 @@ msgid "Cannot create file '%s'"
 msgstr "Αδυναμία δημιουργίας του αρχείου '%s'"
 
 #: gerbview/class_gerber_file_image_list.cpp:163
-#, fuzzy, c-format
+#, c-format
 msgid "%d %s"
-msgstr "πεδίο %s"
+msgstr "%d %s"
 
 #: gerbview/class_gerber_file_image_list.cpp:166
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic layer %d"
-msgstr "Επίπεδο γραφικών"
+msgstr "Επίπεδο γραφικών %d"
 
 #: gerbview/menubar.cpp:64
 msgid "Load &Gerber File"
@@ -18615,9 +18584,9 @@ msgid "D Codes"
 msgstr "D Code"
 
 #: gerbview/gerbview_frame.cpp:495
-#, fuzzy, c-format
+#, c-format
 msgid "Drawing layer %d not in use"
-msgstr "Το επίπεδο %d δεν χρησιμοποείται"
+msgstr "Το επίπεδο σχεδίων %d δεν χρησιμοποείται"
 
 #: gerbview/gerbview_frame.cpp:509
 msgid "(with X2 Attributes)"
@@ -18770,9 +18739,8 @@ msgid "No room to load file"
 msgstr "Δεν υπάρχει χώρος για φόρτωση αρχείου"
 
 #: gerbview/excellon_read_drill_file.cpp:191
-#, fuzzy
 msgid "Error reading EXCELLON drill file"
-msgstr "Φόρτωση αρχείου Διάτρησης &EXCELLON"
+msgstr "Σφάλμα ανάγνωσης αρχείου διάτρησης EXCELLON"
 
 #: gerbview/excellon_read_drill_file.cpp:373
 msgid "METRIC command has no parameter"
@@ -18791,19 +18759,18 @@ msgid "ICI command has incorrect parameter"
 msgstr "Η εντολή ICI έχει λάθος παράμετρο"
 
 #: gerbview/excellon_read_drill_file.cpp:483
-#, fuzzy
 msgid "Tool definition shape not found"
-msgstr "Ο ορισμός εργαλείου <%c> δεν υποστηρίζεται"
+msgstr "Δεν βρέθηκε σχήμα ορισμού εργαλείου"
 
 #: gerbview/excellon_read_drill_file.cpp:486
-#, fuzzy, c-format
+#, c-format
 msgid "Tool definition '%c' not supported"
-msgstr "Ο ορισμός εργαλείου <%c> δεν υποστηρίζεται"
+msgstr "Δεν υποστηρίζεται ο ορισμός εργαλείου '%c'"
 
 #: gerbview/excellon_read_drill_file.cpp:539
-#, fuzzy, c-format
+#, c-format
 msgid "Tool %d not defined"
-msgstr "Το εργαλείο <%d> δεν έχει οριστεί"
+msgstr "Το εργαλείο %d δεν έχει οριστεί"
 
 #: gerbview/excellon_read_drill_file.cpp:683
 #, c-format
@@ -19070,9 +19037,8 @@ msgstr "Λήψη Αποθηκευμένης Επιλογής"
 
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:25
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:30
-#, fuzzy
 msgid "Graphic layers:"
-msgstr "Επίπεδο γραφικών"
+msgstr "Επίπεδα γραφικών:"
 
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:87
 msgid ""
@@ -19091,15 +19057,17 @@ msgid "default "
 msgstr "προκαθοριμένο"
 
 #: common/kiway.cpp:176
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to load kiface library '%s'."
-msgstr "Αποτυχία δημιουργίας αρχείου βιβλιοθήκης εξαρτημάτων '%s'"
+msgstr "Αποτυχία φόρτωσης βιβλιοθήκης kiface '%s'."
 
 #: common/kiway.cpp:185
 #, c-format
 msgid ""
 "Could not read instance name and version symbol form kiface library '%s'."
 msgstr ""
+"Αδυναμία ανάγνωσης ονόματος περίπτωσης και συμβόλου έκδοσης από βιβλιοθήκη "
+"kiface '%s'."
 
 #: common/kiway.cpp:219
 #, c-format
@@ -19108,20 +19076,25 @@ msgid ""
 "'%s'\n"
 "could not be loaded\n"
 msgstr ""
+"Μοιραίο Σφάλμα εγκατάστασης. Το αρχείο:\n"
+"'%s'\n"
+"δεν ήταν εφικτό να φορτωθεί\n"
 
 #: common/kiway.cpp:223
 msgid "It is missing.\n"
-msgstr ""
+msgstr "Λείπει.\n"
 
 #: common/kiway.cpp:225
 msgid "Perhaps a shared library (.dll or .so) file is missing.\n"
-msgstr ""
+msgstr "Πιθανώς λείπει ένα αρχείο κοινόχρηστης βιβλιοθήκης (.dll ή .so).\n"
 
 #: common/kiway.cpp:227
 msgid ""
 "From command line: argv[0]:\n"
 "'"
 msgstr ""
+"Από γραμμή εντολών: argv[0]:\n"
+"'"
 
 #: common/base_units.cpp:160
 msgid " mils"
@@ -19320,7 +19293,7 @@ msgstr "Βουλγαρικά"
 
 #: common/pgm_base.cpp:277
 msgid "Lithuanian"
-msgstr ""
+msgstr "Λιθουανικά"
 
 #: common/pgm_base.cpp:347
 msgid "No default editor found, you must choose it"
@@ -19858,7 +19831,6 @@ msgid "Add a new entry to the table."
 msgstr "Προσθήκη νέας καταχώρησης στον πίνακα."
 
 #: common/dialogs/dialog_env_var_config_base.cpp:65
-#, fuzzy
 msgid "Remove the selected entry from the table."
 msgstr "Αφαίρεση επιλεγμένης καταχώρησης από τον πίνακα."
 
@@ -20319,18 +20291,16 @@ msgid "GNU General Public License (GPL) version 3 or any later version"
 msgstr "GNU General Public License (GPL) έκδοση 3 ή οποιαδήποτε νεώτερη"
 
 #: common/dialog_about/AboutDialog_main.cpp:406
-#, fuzzy
 msgid "Others"
 msgstr "Άλλο"
 
 #: common/dialog_about/AboutDialog_main.cpp:421
 msgid "Icons by"
-msgstr ""
+msgstr "Εικονίδια από"
 
 #: common/dialog_about/AboutDialog_main.cpp:436
-#, fuzzy
 msgid "3D models by"
-msgstr "Εμφάνιση 3Δ Μοντέλων"
+msgstr "3Δ Μοντέλα από"
 
 #: common/dialog_about/dialog_about_base.cpp:31
 msgid "App Title"
@@ -20454,14 +20424,12 @@ msgid "Enable/Disable orthographic projection"
 msgstr "Ενεργοποίηση/Απενεργοποίηση ορθογραφικής προβολής"
 
 #: 3d-viewer/3d_toolbar.cpp:138
-#, fuzzy
 msgid "Create Image (PNG format)"
-msgstr "Δημιουργία Εικόνας (μορφή png)"
+msgstr "Δημιουργία Εικόνας (μορφή PNG)"
 
 #: 3d-viewer/3d_toolbar.cpp:141
-#, fuzzy
 msgid "Create Image (JPEG format)"
-msgstr "Δημιουργία Εικόνας (μορφή png)"
+msgstr "Δημιουργία Εικόνας (μορφή JPEG)"
 
 #: 3d-viewer/3d_toolbar.cpp:146
 msgid "Copy 3D Image to Clipboard"
@@ -20558,7 +20526,7 @@ msgstr "Χρώμα Σώματος Πλακέτας"
 
 #: 3d-viewer/3d_toolbar.cpp:234
 msgid "Show 3D &Axis"
-msgstr "Εμφάνιση &Αξόνων 3Δ"
+msgstr "Εμφάνιση 3Δ &Αξόνων"
 
 #: 3d-viewer/3d_toolbar.cpp:239
 msgid "3D Grid"
@@ -20566,7 +20534,7 @@ msgstr "3Δ Πλέγμα"
 
 #: 3d-viewer/3d_toolbar.cpp:240
 msgid "No 3D Grid"
-msgstr "Χωρίς Πλέγμα 3Δ"
+msgstr "Χωρίς 3Δ Πλέγμα"
 
 #: 3d-viewer/3d_toolbar.cpp:241
 msgid "3D Grid 10 mm"
@@ -20793,14 +20761,12 @@ msgid "All Files (*.*)|*.*"
 msgstr "Όλα τα Αρχεία (*.*)|*.*"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:533
-#, fuzzy
 msgid "The given path does not exist"
-msgstr "Το αρχείο λίστας δικτύου δεν υπάρχει"
+msgstr "Η διαδρομή δεν υπάρχει"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:536
-#, fuzzy
 msgid "3D model search path"
-msgstr "Διαδρομή αναζήτησης ορισμένη από χρήστη"
+msgstr "Διαδρομή αναζήτησης 3Δ μοντέλων"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:562
 msgid "Alias: "
@@ -21398,9 +21364,8 @@ msgid "3D Display Options"
 msgstr "Επιλογές 3Δ Εμφάνισης"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.h:57
-#, fuzzy
 msgid "3D Search Path Configuration"
-msgstr "Ρύθμιση Διαδρομών"
+msgstr "Ρυθμίσεις Διαδρομής Αναζήτησης 3Δ"
 
 #~ msgid "Hide footprint ratsnest"
 #~ msgstr "Απόκρυψη φωλιάς συνδέσεων αποτυπώματος"
