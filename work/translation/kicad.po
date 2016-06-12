@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-09 08:52+0200\n"
-"PO-Revision-Date: 2016-04-09 08:52+0200\n"
+"PO-Revision-Date: 2016-06-12 19:35+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -1800,7 +1800,7 @@ msgstr "Τραπ"
 
 #: pcbnew/class_pad.cpp:897
 msgid "Roundrect"
-msgstr ""
+msgstr "Στρογγ/νο ορθογώνιο"
 
 #: pcbnew/class_pad.cpp:910
 msgid "Std"
@@ -6406,13 +6406,11 @@ msgstr "Επεξεργασία Ονόματος Αρχείου:"
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:271
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:336
 #: 3d-viewer/3d_cache/dialogs/dlg_select_3dmodel.cpp:140
-#, fuzzy
 msgid "Configure Paths"
-msgstr "Ρύ&θμιση Διαδρομών"
+msgstr "Ρύθμιση Διαδρομών"
 
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:292
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:357
-#, fuzzy
 msgid "3D Settings"
 msgstr "Ρυθμίσεις 3Δ"
 
@@ -6669,9 +6667,8 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor.cpp:524
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit.cpp:391
-#, fuzzy
 msgid "Invalid filename: "
-msgstr "Όνομα αρχείου πλακέτας:"
+msgstr "Μη έγκυρο όνομα αρχείου:"
 
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:22
 msgid "File Name:"
@@ -8273,18 +8270,16 @@ msgstr ""
 "SMD"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:859
-#, fuzzy
 msgid "Incorrect corner size value"
-msgstr "Λανθασμένος αριθμός κλίμακας"
+msgstr "Λανθασμένη τιμή μεγέθους γωνίας"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:863
 msgid "Incorrect (negative) corner size value"
-msgstr ""
+msgstr "Λανθασμένη (αρνητική) τιμή μεγέθους γωνίας"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:865
-#, fuzzy
 msgid "Corner size value must be smaller than 50%"
-msgstr "Το διάκενο πρέπει να είναι μικρότερο από %f\" / %f mm."
+msgstr "Η τιμή μεγέθους γωνίας πρέπει να είναι μικρότερη από 50%"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:871
 msgid "Pad setup errors list"
@@ -9363,9 +9358,8 @@ msgid "Trapezoidal"
 msgstr "Τραπεζοειδές"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:66
-#, fuzzy
 msgid "Rounded Rectangle"
-msgstr "Μετακίνηση Ορθογωνίου"
+msgstr "Ορθογώνιο με Στρογγυλεμένες Άκρες"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:103
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:287
@@ -9441,7 +9435,7 @@ msgstr "Κάθετα"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:226
 msgid "Corner size ( percent of width):"
-msgstr ""
+msgstr "Μέγεθος γνωίας (ποσοστό του πλάτους):"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:228
 msgid ""
@@ -9449,11 +9443,13 @@ msgid ""
 "The width is the smaller value between size X and size Y\n"
 "The max value is 50 percent "
 msgstr ""
+"Η ακτίνας της γωνίας, ως ποσοστό του πλάτους της έδρας.\n"
+"Το πλάτος είναι το μικρότερο από τα μεγέθη Χ και Ψ\n"
+"Η μέγιστη τιμή είναι 50%"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:239
-#, fuzzy
 msgid "Corner radius:"
-msgstr "Γωνίες"
+msgstr "Ακτίνα γωνίας:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:241
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:247
@@ -9463,6 +9459,10 @@ msgid ""
 "The width is the smaller value between size X and size Y\n"
 "Note: IPC norm gives a max value = 0.25mm"
 msgstr ""
+"Ακτίνας γωνίας.\n"
+"Δεν μπορεί να είναι μικρότερο από το μισό πλάτος έδρας.\n"
+"Το πλάτος είναι το μικρότερο από τα μεγέθη Χ και Ψ\n"
+"Σημείωση: Κατά IPC η μέγιστη τιμή είναι 0,25mm"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:245
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:170
@@ -10067,9 +10067,9 @@ msgid "Alphabet, full 26 characters"
 msgstr "Γράμματα, πλήρες αλφάβητο"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:232
-#, fuzzy, c-format
+#, c-format
 msgid "Unrecognised numbering scheme: %d"
-msgstr "Τρόπος Αρίθμησης Εδρών"
+msgstr "Μη αναγνωρίσιμος τρόπος αρίθμησης: %d"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:246
 #, c-format
@@ -10077,36 +10077,34 @@ msgid ""
 "Could not determine numbering start from \"%s\": expected value consistent "
 "with alphabet \"%s\""
 msgstr ""
+"Δεν ήταν εφικτός ο καθορισμός της αρχής της αρίθμησης \"%s\": αναμενόταν "
+"τιμή συνεπής με το αλφάβητο \"%s\""
 
+# "integral" translation TBC
 #: pcbnew/dialogs/dialog_create_array.cpp:275
 #, c-format
 msgid "Bad integral value for %s: %s"
-msgstr ""
+msgstr "Μη αποδεκτή τιμή για %s: %s"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:298
-#, fuzzy
 msgid "horizontal count"
-msgstr "Πλήθος οριζόντια:"
+msgstr "πλήθος οριζόντια:"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:300
-#, fuzzy
 msgid "vertical count"
-msgstr "Πλήθος κατακόρυφα:"
+msgstr "πλήθος κατακόρυφα:"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:310
-#, fuzzy
 msgid "stagger"
-msgstr "Κύλιση"
+msgstr "κύλιση"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:359
-#, fuzzy
 msgid "point count"
-msgstr "πλήθος ακροδεκτών"
+msgstr "πλήθος σημείων"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:372
-#, fuzzy
 msgid "numbering start"
-msgstr "Έναρξη αρίθμησης εδρών:"
+msgstr "έναρξη αρίθμησης"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:398
 msgid "Bad parameters"
@@ -13462,80 +13460,76 @@ msgid "NonLogic"
 msgstr "ΜηΛογικό"
 
 #: eeschema/sch_validators.cpp:80
-#, fuzzy
 msgid "reference designator"
-msgstr "Ένδειξη αναφοράς"
+msgstr "ένδειξη αναφοράς"
 
 #: eeschema/sch_validators.cpp:81
-#, fuzzy
 msgid "value"
-msgstr "Τιμή"
+msgstr "τιμή"
 
 #: eeschema/sch_validators.cpp:82
-#, fuzzy
 msgid "footprint"
-msgstr "Αποτύπωμα"
+msgstr "αποτύπωμα"
 
 #: eeschema/sch_validators.cpp:83
-#, fuzzy
 msgid "data sheet"
-msgstr "Φύλλο Δεδομένων"
+msgstr "φύλλο δεδομένων"
 
 #: eeschema/sch_validators.cpp:84
-#, fuzzy
 msgid "user defined"
-msgstr "Ορισμένο από χρήστη"
+msgstr "ορισμένο από χρήστη"
 
 #: eeschema/sch_validators.cpp:92
-#, fuzzy, c-format
+#, c-format
 msgid "The %s field cannot be empty."
-msgstr "Ένα πεδίο %s δεν μπορεί να είναι κενό."
+msgstr "Το πεδίο %s δεν μπορεί να είναι κενό."
 
 #: eeschema/sch_validators.cpp:98
 msgid "carriage return"
-msgstr ""
+msgstr "επαναφορά δρομέα"
 
 #: eeschema/sch_validators.cpp:100
 msgid "line feed"
-msgstr ""
+msgstr "αλλαγή γραμμής"
 
 #: eeschema/sch_validators.cpp:102
 msgid "tab"
-msgstr ""
+msgstr "tab"
 
 #: eeschema/sch_validators.cpp:104
 msgid "space"
-msgstr ""
+msgstr "κενό"
 
 #: eeschema/sch_validators.cpp:111
-#, fuzzy, c-format
+#, c-format
 msgid "%s or %s"
-msgstr "Τιμή %s από %s"
+msgstr "%s ή %s"
 
 #: eeschema/sch_validators.cpp:113
-#, fuzzy, c-format
+#, c-format
 msgid "%s, %s, or %s"
-msgstr "Ακροδέκτης %s, %s, %s"
+msgstr "%s, %s, ή %s"
 
 #: eeschema/sch_validators.cpp:115
-#, fuzzy, c-format
+#, c-format
 msgid "%s, %s, %s, or %s"
-msgstr "Ακροδέκτης %s, %s, %s"
+msgstr "%s, %s, %s, ή %s"
 
 #: eeschema/sch_validators.cpp:120
 #, c-format
 msgid "The %s field cannot contain %s characters."
-msgstr ""
+msgstr "Το πεδίο %s δεν μπορεί να περιέχει %s χαρακτήρες."
 
 #: eeschema/sch_validators.cpp:124
 #, c-format
 msgid "The %s field cannot contain leading and/or trailing white space."
 msgstr ""
+"Το πεδίο %s δεν μπορεί να περιέχει κενούς χαρακτήρες στην αρχή ή/και το "
+"τέλος."
 
 #: eeschema/sch_validators.cpp:132
-#, fuzzy
 msgid "Field Validation Error"
-msgstr "Σφάλμα Εγγραφής Αρχείου"
+msgstr "Σφάλμα Επικύρωσης Πεδίου"
 
 #: eeschema/libeditframe.cpp:179
 msgid "Library Editor"
@@ -13967,7 +13961,7 @@ msgid "Enter a new value for the %s field."
 msgstr "Δώστε μία νέα τιμή για το πεδίο %s."
 
 #: eeschema/libfield.cpp:91
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The name '%s' conflicts with an existing entry in the component library "
 "'%s'.\n"
@@ -16872,9 +16866,8 @@ msgid "Command line:"
 msgstr "Γραμμή Εντολών:"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:98
-#, fuzzy
 msgid "Show console window"
-msgstr "Εμφάνιση Τρυπών σε Ζώνες"
+msgstr "Εμφάνιση παραθύρου κονσόλας"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:100
 msgid ""
@@ -16882,15 +16875,17 @@ msgid ""
 "redirected to \"Plugin info\" field. Set this option to show the window of "
 "the running command."
 msgstr ""
+"Εξ'ορισμού, η γραμμή εντολών εκτελείται με κρυμμένο παράθυρο κονσόλας και η "
+"έξοδος ανακατευθύνεται στο πεδίο \"Πληροφορίες πρόσθετου\". Ορίστε αυτήν την "
+"επιλογή για να εμφανίζεται το παράθυρο της εκτελούμενης εντολής."
 
 #: eeschema/dialogs/dialog_bom_base.cpp:107
 msgid "Plugin Info:"
 msgstr "Πληροφορίες Πρόσθετου:"
 
 #: eeschema/dialogs/dialog_edit_one_field.cpp:190
-#, fuzzy
 msgid "Illegal reference field value!"
-msgstr "Απαγορευμένο αλφαριθμητικό αναφοράς! Δεν έγιναν αλλαγές"
+msgstr "Απαγορευμένη τιμή πεδίου αναφοράς!"
 
 #: eeschema/dialogs/dialog_choose_component.cpp:251
 msgid "Description\n"
@@ -16905,9 +16900,8 @@ msgid "Alias of "
 msgstr "Ψευδώνυμο του"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:244
-#, fuzzy
 msgid "Illegal reference.  References must start with a letter."
-msgstr "Απαγορευμένη αναφορά. Μία αναφορά πρέπει να ξεκινάει με ένα γράμμα"
+msgstr "Απαγορευμένη αναφορά. Οι αναφορές πρέπει να ξεκινούν με γράμμα."
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:260
 #, c-format
@@ -19527,9 +19521,8 @@ msgid "Load Error"
 msgstr "Σφάλμα Φόρτωσης"
 
 #: common/footprint_info.cpp:303
-#, fuzzy
 msgid "Errors were encountered loading footprints:"
-msgstr "Εμφανίστηκαν σφάλματα κατά τη φόρτωση των αποτυπωμάτων"
+msgstr "Εμφανίστηκαν σφάλματα κατά τη φόρτωση των αποτυπωμάτων:"
 
 #: common/zoom.cpp:260
 msgid "Zoom select"
@@ -20220,9 +20213,8 @@ msgid "Environment Variable Help"
 msgstr "Βοήθεια Μεταβλητών Περιβάλλοντος"
 
 #: common/dialogs/dialog_hotkeys_editor_base.cpp:31
-#, fuzzy
 msgid "Defaults"
-msgstr "Προκαθορισμένο"
+msgstr "Προκαθορισμένες τιμές"
 
 #: common/dialogs/dialog_get_component_base.cpp:33
 msgid "History list:"
@@ -20265,9 +20257,8 @@ msgid "Reset all"
 msgstr "Επαναφορά όλων"
 
 #: common/widgets/widget_hotkey_list.cpp:391
-#, fuzzy
 msgid "Reset all to default"
-msgstr "Επαναφορά στα Προκαθορισμένα Βιβλιοθήκης"
+msgstr "Επαναφορά όλων στις προκαθορισμένα τιμές"
 
 #: common/widgets/widget_hotkey_list.cpp:535
 #, c-format
@@ -20312,47 +20303,40 @@ msgid "Developer's website on Launchpad"
 msgstr "Η ιστοσελίδα για την ανάπτυξη του Kicad στο Launchpad"
 
 #: common/dialog_about/AboutDialog_main.cpp:156
-#, fuzzy
 msgid "Our official Repository for component and footprint libraries"
-msgstr ""
-"Επισκεφθείτε το επίσημο αποθετήριο του KiCad στο Github για περισσότερες "
-"βιβλιοθήκες"
+msgstr "Το επίσημο Αποθετήριό μας για βιβλιοθήκες εξαρτημάτων και αποτυπωμάτων"
 
 #: common/dialog_about/AboutDialog_main.cpp:160
 msgid "Non official repositories"
-msgstr ""
+msgstr "Ανεπίσημα αποθετήρια"
 
 #: common/dialog_about/AboutDialog_main.cpp:164
-#, fuzzy
 msgid "Additional component libraries repository (kicadlib)"
-msgstr "Δεν έχει γίνει φόρτωση βιβλιοθηκών εξαρτημάτων."
+msgstr "Επιπλέον αποθετήριο με βιβλιοθήκες εξαρτημάτων (kicadlib)"
 
 #: common/dialog_about/AboutDialog_main.cpp:168
-#, fuzzy
 msgid "Additional component libraries repository (smisioto)"
-msgstr "Δεν έχει γίνει φόρτωση βιβλιοθηκών εξαρτημάτων."
+msgstr "Επιπλέον αποθετήριο με βιβλιοθήκες εξαρτημάτων (smisioto)"
 
 #: common/dialog_about/AboutDialog_main.cpp:174
-#, fuzzy
 msgid "Bug tracker"
-msgstr "Έναρξη Δρόμου"
+msgstr "Διαχειριστής σφαλμάτων"
 
 #: common/dialog_about/AboutDialog_main.cpp:181
 msgid "Report or examine bugs"
-msgstr ""
+msgstr "Αναφορά ή διαχείριση σφαλμάτων"
 
 #: common/dialog_about/AboutDialog_main.cpp:186
 msgid "KiCad user group and community"
-msgstr ""
+msgstr "Η ομάδα χρηστών και κοινότητα του KiCad"
 
 #: common/dialog_about/AboutDialog_main.cpp:192
-#, fuzzy
 msgid "KiCad user group"
-msgstr "Άνοιγμα του εγχειριδίου χρήσης του KiCad"
+msgstr "Ομάδα χρηστών του KiCad"
 
 #: common/dialog_about/AboutDialog_main.cpp:197
 msgid "KiCad forum"
-msgstr ""
+msgstr "Το forum του KiCad"
 
 #: common/dialog_about/AboutDialog_main.cpp:210
 msgid "The complete KiCad EDA Suite is released under the"
@@ -20807,201 +20791,192 @@ msgstr "Εμφάνιση Κανενός"
 #: 3d-viewer/3d_cache/3d_cache.cpp:436 3d-viewer/3d_cache/3d_cache.cpp:507
 msgid "cannot load cached model; config directory unknown"
 msgstr ""
+"αδυναμία φόρτωσης προσωρινά αποθηκευμένου μοντέλου, άγνωστος φάκελος "
+"ρυθμίσεων"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:446
-#, fuzzy
 msgid "cannot open file"
-msgstr "αδυναμία αποθήκευσης ή ανάγνωσης του αρχείου '%s'"
+msgstr "αδυναμία ανοίγματος αρχείου"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:519
 msgid "path exists but is not a regular file"
-msgstr ""
+msgstr "η διαδρομή ισχύει αλλά δεν είναι κανονικό αρχείο"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:548 3d-viewer/3d_cache/3d_cache.cpp:644
 msgid "failed to create 3D configuration directory"
-msgstr ""
+msgstr "αδυναμία δημιουργίας φακέλου για ρυθμίσεις 3Δ"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:550
-#, fuzzy
 msgid "config directory"
-msgstr "Φάκελος Προορισμού"
+msgstr "φάκελος ρυθμίσεων"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:585
 msgid "failed to create 3D cache directory"
-msgstr ""
+msgstr "αδυναμία δημιουργίας φακέλου προσωρινής αποθήκευσης 3Δ"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:587
-#, fuzzy
 msgid "cache directory"
-msgstr "Φάκελος Προορισμού"
+msgstr "φάκελος προσωρινής αποθήκευσης"
 
 #: 3d-viewer/3d_cache/3d_plugin_manager.cpp:50
-#, fuzzy
 msgid "All Files (*.*)|*.*"
-msgstr "Όλα τα αρχεία (*)|*"
+msgstr "Όλα τα Αρχεία (*.*)|*.*"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:95
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:158
 msgid "(DEFAULT)"
-msgstr ""
+msgstr "(ΠΡΟΚΑΘΟΡΙΣΜΕΝΟ)"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:96
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:159
 msgid "${PROJDIR}"
-msgstr ""
+msgstr "${PROJDIR}"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:98
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:160
-#, fuzzy
 msgid "Current project directory"
-msgstr ""
-"Τρέχων φάκελος έργου:\n"
-"%s"
+msgstr "Τρέχων φάκελος έργου"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:165
 msgid "Legacy 3D environment path"
-msgstr ""
+msgstr "Διαδρομή παλαιού τύπου για περιβάλλον 3Δ"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:262
 msgid "[3D File Resolver] No such path; ensure the environment var is defined"
 msgstr ""
+"[Επίλυση Αρχείων 3Δ] Δεν υπάρχει η διαδρομή, βεβαιωθείτε ότι η μεταβλητή "
+"περιβάλλοντος έχει οριστεί"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:325
 msgid "[3D File Resolver] No such path; ensure KISYS3DMOD is correctly defined"
 msgstr ""
+"[Επίλυση Αρχείων 3Δ] Δεν υπάρχει η διαδρομή, βεβαιωθείτε έχει οριστεί το "
+"KISYS3DMOD"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:360
 msgid "[3D File Resolver] No such path; ensure the path alias is defined"
 msgstr ""
+"[Επίλυση Αρχείων 3Δ] Δεν υπάρχει η διαδρομή, βεβαιωθείτε έχει οριστεί το "
+"συνώνυμο της διαδρομής"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:428
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:452
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:482
-#, fuzzy
 msgid "This alias: "
-msgstr "Νέο συνώνυμο:"
+msgstr "Αυτό το συνώνυμο:"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:431
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:458
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:485
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:504
-#, fuzzy
 msgid "This path: "
-msgstr "Διαδρομή φύλλου:"
+msgstr "Αυτη η διαδρομή:"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:434
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:455
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:488
 msgid "Existing alias: "
-msgstr ""
+msgstr "Υπάρχον συνώνυμο:"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:437
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:461
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:491
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:507
 msgid "Existing path: "
-msgstr ""
+msgstr "Υπάρχουσα διαδρομή:"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:439
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:469
-#, fuzzy
 msgid "Bad alias (duplicate path)"
-msgstr "Το όνομα του επιπέδου είναι διπλότυπο ενός άλλου"
+msgstr "Λάθος συνώνυμο (η διαδρομή έχει ξαναοριστεί)"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:464
 msgid "This full path: "
-msgstr ""
+msgstr "Αυτή η πλήρης διαδρομή:"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:467
 msgid "Existing full path: "
-msgstr ""
+msgstr "Υπάρχουσα πλήρης διαδρομή:"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:493
 msgid "Bad alias (common path)"
-msgstr ""
+msgstr "Λάθος συνώνυμο (κοινή διαδρομή)"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:501
-#, fuzzy
 msgid "Alias: "
-msgstr "Συνώνυμο"
+msgstr "Συνώνυμο:"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:509
-#, fuzzy
 msgid "Bad alias (duplicate name)"
-msgstr "Το %s είναι διπλό"
+msgstr "Λάθος συνώνυμο (το όνομα έχει ξαναοριστεί)"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:530
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:637
 msgid "3D configuration directory is unknown"
-msgstr ""
+msgstr "Άγνωστος φάκελος ρυθμίσεων 3Δ"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:549
-#, fuzzy
 msgid "no 3D configuration file"
-msgstr "Ανάγνωση Αρχείου Ρυθμίσεων Συντομεύσεων:"
+msgstr "δεν υπάρχει αρχείο ρυθμίσεων 3Δ"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:562
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:661
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:681
-#, fuzzy
 msgid "Could not open configuration file"
-msgstr "Φόρτωση ενός υπάρχοντος αρχείου ρυθμίσεων συντομεύσεων"
+msgstr "Αδυναμία ανοίγματος αρχείου ρυθμίσεων"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:640
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:653
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:662
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:684
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:722
-#, fuzzy
 msgid "Write 3D search path list"
-msgstr "Τρέχουσα λίστα διαδρομών αναζήτησης"
+msgstr "Εγγραφή λίστας αναζήτησης διαδρομής 3Δ"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:652
 msgid ""
 "3D search path list is empty;\n"
 "continue to write empty file?"
 msgstr ""
+"Η λίστα αναζήτησης διαδρομής 3Δ είναι άδεια;\n"
+"αποθήκευση άδειου αρχείου;"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:721
-#, fuzzy
 msgid "Problems writing configuration file"
-msgstr "Φόρτωση ενός υπάρχοντος αρχείου ρυθμίσεων συντομεύσεων"
+msgstr "Προβλήματα κατά την εγγραφή αρχείου ρυθμίσεων"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:850
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:892
 msgid "bad Hollerith string on line"
-msgstr ""
+msgstr "λάθος αλφαριθμητικό Hollerith στη γραμμή"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:863
 msgid "missing opening quote mark in config file"
-msgstr ""
+msgstr "δεν υπάρχει εισαγωγικό έναρξης στο αρχείο ρυθμίσεων"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:876
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:908
 msgid "invalid entry (unexpected end of line)"
-msgstr ""
+msgstr "λάθος περιεχόμενο (με αναμενόμενο τέλος γραμμής)"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:108
 msgid "[BUG] No valid resolver; data will not be updated"
-msgstr ""
+msgstr "[ΣΦΑΛΜΑ] Δεν υπάρχει έγκυρη επίλυση, τα δεδομένα δεν θα ανανεωθούν"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:109
-#, fuzzy
 msgid "Update 3D search path list"
-msgstr "Τρέχουσα λίστα διαδρομών αναζήτησης"
+msgstr "Ανανέωση λίστας αναζήτησης διαδρομής 3Δ"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:169
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:209
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:250
-#, fuzzy
 msgid "No entry selected"
-msgstr "Δεν επιλέχθηκε δίκτυο."
+msgstr "Δεν επιλέχθηκε καμία εγγραφή"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:169
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:176
-#, fuzzy
 msgid "Delete alias entry"
-msgstr "Διαγραφή Εγγραφής Δίαυλου"
+msgstr "Διαγραφή εγγραφής συνώνυμου"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:175
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:215
@@ -21010,85 +20985,77 @@ msgid ""
 "Multiple entries selected; please\n"
 "select only one entry"
 msgstr ""
+"Επιλέχθηκαν πολλές εγγραφές, \n"
+"επιλέξτε μόνο μία εγγραφή"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:209
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:216
-#, fuzzy
 msgid "Move alias up"
-msgstr "Μετακίνηση επάνω"
+msgstr "Μετακίνηση συνώνυμου επάνω"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:250
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:257
-#, fuzzy
 msgid "Move alias down"
-msgstr "Μετακίνηση κάτω"
+msgstr "Μετακίνηση συνώνυμου κάτω"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_select_3dmodel.cpp:47
-#, fuzzy
 msgid "Select 3D Model"
-msgstr "Επιλέξτε έναν φάκελο"
+msgstr "Επιλογή Μοντέλου 3Δ"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_select_3dmodel.cpp:139
-#, fuzzy
 msgid "Paths:"
-msgstr "Διαδρομή"
+msgstr "Διαδρομές:"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:58
-#, fuzzy
 msgid "Add Alias"
-msgstr "Προσθήκη γραμμών"
+msgstr "Προσθήκη Συνώνυμου"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:61
-#, fuzzy
 msgid "Remove Alias"
-msgstr "Αφαίρεση Πρόσθετου"
+msgstr "Αφαίρεση Συνώνυμου"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_model.cpp:126
-#, fuzzy
 msgid "3D Preview"
-msgstr "Προεπισκόπηση"
+msgstr "Προεπισκόπηση 3Δ"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_model.cpp:139
-#, fuzzy
 msgid "Scale"
-msgstr "Κλίμακα 1"
+msgstr "Κλίμακα"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_model.cpp:141
-#, fuzzy
 msgid "Offset (inches)"
-msgstr "Μετατόπιση Σχήματος (ίντσες)"
+msgstr "Μετατόπιση (ίντσες)"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_model.cpp:599
 msgid "[INFO] invalid scale values; setting all to 1.0"
-msgstr ""
+msgstr "[ΠΛΗΡΟΦΟΡΙΑ] μη έγκυρες τιμές κλίμακας, θα οριστούν όλες σε 1.0"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:153
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:313
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:393
-#, fuzzy
 msgid "failed to open file"
-msgstr "Αποτυχία ανοίγματος του αρχείου '%s'"
+msgstr "Αποτυχία ανοίγματος  αρχείου"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:180
 msgid "problems encountered writing file"
-msgstr ""
+msgstr "εμφανίστηκαν προβλήματα κατά την εγγραφή αρχείου"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:284
 msgid "file exists; not overwriting"
-msgstr ""
+msgstr "το αρχείο υπάρχει ήδη, δεν θα επανεγγραφεί"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:297
 msgid "specified path is a directory"
-msgstr ""
+msgstr "η διαδρομή που ορίστηκε είναι φάκελος"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:361
-#, fuzzy
 msgid "no such file"
-msgstr " [δεν υπάρχει αρχείο]"
+msgstr "[δεν υπάρχει αρχείο"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:489
 msgid "problems encountered reading cache file"
 msgstr ""
+"εμφανίστηκαν προβλήματα κατά την ανάγνωση του αρχείου προσωρινής αποθήκευσης"
 
 #: pcbnew/help_common_strings.h:17
 msgid "Find components and text in current loaded board"
