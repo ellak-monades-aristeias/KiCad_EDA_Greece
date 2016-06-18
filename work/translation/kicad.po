@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-18 16:49+0200\n"
-"PO-Revision-Date: 2016-06-18 16:49+0200\n"
+"PO-Revision-Date: 2016-06-18 16:59+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -7613,9 +7613,9 @@ msgid "Disk File Report Completed"
 msgstr "Ολοκλήρωση αναφοράς αρχείου δίσκου"
 
 #: pcbnew/dialogs/dialog_drc.cpp:201 pcbnew/dialogs/dialog_drc.cpp:267
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to create report file '%s' "
-msgstr "Αδυναμία δημιουργίας ή εγγραφής στο αρχείο '%s'"
+msgstr "Αδυναμία δημιουργίας αρχείου αναφοράς '%s'"
 
 #: pcbnew/dialogs/dialog_drc.cpp:285
 msgid "Save DRC Report File"
@@ -20858,11 +20858,15 @@ msgid ""
 "Enter the name and path for each 3D alias variable.<br>KiCad environment "
 "variables and their values are shown for reference only and cannot be edited."
 msgstr ""
+"Εισάγετε το όνομα και τη διαδρομή για κάθε συνώνυμο μεταβλητής 3Δ.<br> Οι "
+"μεταβλητές περιβάλλοντος του KiCad και οι τιμές τους εμφανίζονται μόνο για "
+"αναφορά και δεν μπορούν να τροποποιηθούν."
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:375
-#, fuzzy
 msgid "Alias names may not contain any of the characters "
-msgstr "Το πεδίο %s δεν μπορεί να περιέχει %s χαρακτήρες."
+msgstr ""
+"Τα ονόματα των συνώνυμων δεν μπορούν να περιέχουν οποιοδήποτε από τους "
+"χαρακτήρες"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_select_3dmodel.cpp:48
 msgid "Select 3D Model"
@@ -20874,11 +20878,11 @@ msgstr "Διαδρομές:"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:35
 msgid "Env Var"
-msgstr ""
+msgstr "Μετ Παρ"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:53
 msgid "Config Env"
-msgstr ""
+msgstr "Ρυθμ Περ"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:104
 msgid "Add Alias"
