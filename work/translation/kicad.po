@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-25 18:07+0200\n"
-"PO-Revision-Date: 2016-06-25 18:07+0200\n"
+"PO-Revision-Date: 2016-06-25 18:10+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -7923,9 +7923,8 @@ msgid "Copper Layers:"
 msgstr "Επίπεδα χαλκού:"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:42
-#, fuzzy
 msgid "Technical layers:"
-msgstr "Μηχανολογικά επίπεδα:"
+msgstr "Τεχνικά επίπεδα:"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:56
 msgid "Exclude Edges_Pcb Layer"
