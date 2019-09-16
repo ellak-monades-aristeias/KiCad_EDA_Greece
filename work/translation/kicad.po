@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 17:51+0300\n"
-"PO-Revision-Date: 2019-09-12 17:41+0300\n"
+"PO-Revision-Date: 2019-09-16 17:55+0300\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -3596,7 +3596,7 @@ msgstr "Επικόλληση προχείρου στο σχηματικό"
 
 #: common/tool/actions.cpp:169
 msgid "Paste Special..."
-msgstr ""
+msgstr "Ειδική Επικόλληση..."
 
 #: common/tool/actions.cpp:169
 msgid "Paste clipboard into schematic with options"
@@ -3666,7 +3666,7 @@ msgstr "Τοποθέτηση κειμένου"
 
 #: common/tool/actions.cpp:219
 msgid "Replace current match and find next"
-msgstr ""
+msgstr "Αντικατάσταση τρέχουσας αντιστοιχίας, και εύρεση επόμενης"
 
 #: common/tool/actions.cpp:225
 msgid "Replace All"
@@ -3816,7 +3816,7 @@ msgstr "Προβολή Πλέγματος"
 
 #: common/tool/actions.cpp:431
 msgid "Display grid dots or lines in the edit window"
-msgstr ""
+msgstr "Εμφάνιση κουκίδων ή γραμμών πλέγματος στο παράθυρο επεξεργασίας"
 
 #: common/tool/actions.cpp:436
 msgid "Grid Properties..."
@@ -3832,7 +3832,7 @@ msgstr "Αυτοκρατορικό"
 
 #: common/tool/actions.cpp:441
 msgid "Use inches and mils"
-msgstr ""
+msgstr "Χρήση ιντσών και mils"
 
 #: common/tool/actions.cpp:446
 msgid "Metric"
@@ -3844,7 +3844,7 @@ msgstr "Χρήση χιλιοστών"
 
 #: common/tool/actions.cpp:452
 msgid "Switch units"
-msgstr ""
+msgstr "Αλλαγή μονάδων"
 
 #: common/tool/actions.cpp:452
 msgid "Switch between inches and millimeters"
@@ -3856,7 +3856,7 @@ msgstr "Πολικές Συντεταγμένες"
 
 #: common/tool/actions.cpp:457
 msgid "Switch between polar and cartesian coordinate systems"
-msgstr ""
+msgstr "Αλλαγή μεταξύ πολικών και καρτεσιανών συστημάτων συντεταγμένων"
 
 #: common/tool/actions.cpp:463
 msgid "Reset Local Coordinates"
@@ -3868,7 +3868,7 @@ msgstr "Διαρκής Εμφάνιση Κέρσορα"
 
 #: common/tool/actions.cpp:469
 msgid "Display crosshairs even in selection tool"
-msgstr ""
+msgstr "Εμφάνιση σταυρού ακόμη και σε εργαλείο επιλογής"
 
 #: common/tool/actions.cpp:474
 msgid "Full-Window Crosshairs"
@@ -3952,7 +3952,7 @@ msgstr "Επιταχυμένα Γραφικά"
 
 #: common/tool/actions.cpp:538
 msgid "Use hardware-accelerated graphics (recommended)"
-msgstr ""
+msgstr "Χρησιμοποιήστε γραφικά με επιτάχυνση υλικού (συνιστάται)"
 
 #: common/tool/actions.cpp:549
 msgid "Standard Graphics"
@@ -4756,6 +4756,9 @@ msgid ""
 "\n"
 "Please choose the assignment."
 msgstr ""
+"Οι αντιστοιχίσεις αποτυπώματος από τη λίστα δικτύων σχηματικόυ και το αρχείο "
+"συσχετισμού αποτυπώματος συμβόλων (.cmp) είναι αντικρουόμενες.\n"
+"Επιλέξτε τη σωστή αντιστοίχιση."
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector_base.h:53
 msgid "Footprint Assignment Conflicts"
@@ -5360,7 +5363,7 @@ msgstr "Βοήθεια Δημιουργίας Λίστας Υλικών"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:25
 msgid "BOM generator scripts:"
-msgstr ""
+msgstr "Σενάρια δημιουργίας Λίστας Υλικών:"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:69
 #, fuzzy
@@ -5848,7 +5851,7 @@ msgstr "Ιδιότητες Βιβλιοθήκης Συμβόλων"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:341
 msgid "Library reference is not valid."
-msgstr ""
+msgstr "Η αναφορά βιβλιοθήκης δεν είναι έγκυρη."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:361
 #, c-format
@@ -6516,7 +6519,7 @@ msgstr "Έλεγχος παρόμοιων ετικετών"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:40
 msgid "Busses && bus labels"
-msgstr ""
+msgstr "Δίαυλοι && ετικέτες δίαυλων"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:43
 #, fuzzy
@@ -6594,15 +6597,15 @@ msgstr "..."
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:195
 msgid "H Alignment (fields only):"
-msgstr ""
+msgstr "Οριζ Ευθυγράμμιση (μόνο πεδία):"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:211
 msgid "Visible (fields only)"
-msgstr ""
+msgstr "Ορατό (μόνο πεδία)"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:214
 msgid "V Alignment (fields only):"
-msgstr ""
+msgstr "Καθ Ευθυγράμμιση (μόνο πεδία):"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:218
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:150
@@ -6628,11 +6631,11 @@ msgstr "Πλάτος γραμμής:"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:265
 msgid "Line style (graphics only):"
-msgstr ""
+msgstr "Στυλ γραμμής (μόνο γραφικά):"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.cpp:284
 msgid "Color (graphics only):"
-msgstr ""
+msgstr "Χρώμα (μόνο γραφικά):"
 
 #: eeschema/dialogs/dialog_global_edit_text_and_graphics_base.h:98
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.h:94
@@ -7563,7 +7566,7 @@ msgstr "Πρέπει να επιλέξετε μία πηγή DC (πέρασμα 
 
 #: eeschema/dialogs/dialog_sim_settings.cpp:163
 msgid "Source 1 and Source 2 must be different"
-msgstr ""
+msgstr "Η Πηγή 1 και η Πηγή 2 πρέπει να είναι διαφορετικές"
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:29
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:273
@@ -8291,6 +8294,7 @@ msgstr "Αφαίρεση πεδίων που δεν είναι στη βιβλι
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:101
 msgid "Removes fields that do not occur in the original library symbols"
 msgstr ""
+"Κατάργηση πεδίων που δεν εμφανίζονται στα αρχικά σύμβολα της βιβλιοθήκης"
 
 #: eeschema/dialogs/dialog_update_fields_base.cpp:54
 msgid "Reset fields which are empty in library"
@@ -8413,15 +8417,17 @@ msgstr "Πε&ριορισμός δίαυλων και συρμάτων μόνο 
 
 #: eeschema/dialogs/panel_eeschema_settings_base.cpp:98
 msgid "Mouse drag performs drag (G) operation"
-msgstr ""
+msgstr "Το σύρσιμο του ποντικιού πραγματοποιεί τη λειτουργία συρσίματος (G)"
 
 #: eeschema/dialogs/panel_eeschema_settings_base.cpp:99
 msgid "If unchecked, mouse drag will perform move (M) operation"
 msgstr ""
+"Εάν δεν είναι επιλεγμένο, το σύρσιμο του ποντικιού θα εκτελέσει λειτουργία "
+"κίνησης (M)"
 
 #: eeschema/dialogs/panel_eeschema_settings_base.cpp:107
 msgid "Symbol Field Automatic Placement"
-msgstr ""
+msgstr "Αυτόματη Τοποθέτηση Πεδίου Συμβόλων"
 
 #: eeschema/dialogs/panel_eeschema_settings_base.cpp:109
 msgid "A&utomatically place symbol fields"
@@ -8513,7 +8519,7 @@ msgstr "Υπάρχει ήδη βιβλιοθήκη με ψευδώνυμο \"%s\
 #: eeschema/libedit/lib_edit_frame.cpp:607
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:651
 msgid "Skip"
-msgstr ""
+msgstr "Παράλειψη"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:385
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:651
@@ -8526,6 +8532,9 @@ msgid ""
 "Changes must be saved or discarded before the symbol library table can be "
 "modified."
 msgstr ""
+"Έχουν γίνει τροποποιήσεις σε μία ή περισσότερες βιβλιοθήκες συμβόλων.\n"
+"Οι αλλαγές πρέπει να αποθηκευτούν ή να απορριφθούν πριν τροποποιηθεί ο "
+"κατάλογος βιβλιοθήκης συμβόλων."
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:743
 msgid "Symbol Libraries"
@@ -8807,11 +8816,15 @@ msgstr "Διπλό όνομα φύλλου"
 #, c-format
 msgid "Bus alias %s has conflicting definitions on multiple sheets: %s and %s"
 msgstr ""
+"Το συνώνυμο διαύλου %s έχει αντικρουόμενους ορισμούς σε πολλά φύλλα: %s και "
+"%s"
 
 #: eeschema/erc.cpp:317
 #, c-format
 msgid "Unit %s has '%s' assigned, whereas unit %s has '%s' assigned"
 msgstr ""
+"Το μέρος %s έχει αντιστοιχιστεί στο '%s', ενώ το μέρος %  s έχει "
+"αντιστοιχιστεί στο '%s'"
 
 #: eeschema/erc.cpp:376
 #, c-format
@@ -8831,7 +8844,7 @@ msgstr "ακροδέκτης %s (%s) του εξαρτήματος %s (δίκτ�
 #: eeschema/erc.cpp:576
 #, c-format
 msgid "ERC report (%s, Encoding UTF8)\n"
-msgstr ""
+msgstr "Αναφορά ΕΗΚ (%s, κωδικοποίηση UTF8)\n"
 
 #: eeschema/erc.cpp:584
 #, c-format
@@ -9041,6 +9054,8 @@ msgstr "Επιλογή Συμβόλου (φορτώθηκαν %d αντικεί�
 #, c-format
 msgid "No alternate body style found for symbol \"%s\" in library \"%s\"."
 msgstr ""
+"Δεν βρέθηκε εναλλακτικό στυλ σώματος για το σύμβολο \"%s\" στη βιβλιοθήκη "
+"\"%s\"."
 
 #: eeschema/hierarch.cpp:144
 msgid "Navigator"
@@ -9302,6 +9317,10 @@ msgid ""
 "\"%s\".\n"
 "Use Manage Symbol Libraries to edit the configuration."
 msgstr ""
+"Η τρέχουσα διαμόρφωση δεν περιλαμβάνει τη βιβλιοθήκη συμβόλων\n"
+"\"%s\".\n"
+"Χρησιμοποιήστε τη Διαχείριση Βιβλιοθηκών Συμβόλων για να επεξεργαστείτε τη "
+"διαμόρφωση."
 
 #: eeschema/libedit/lib_edit_frame.cpp:763
 msgid "Library not found in symbol library table."
@@ -9314,6 +9333,10 @@ msgid ""
 "in the current configuration.  Use Manage Symbol Libraries to\n"
 "edit the configuration."
 msgstr ""
+"Η βιβλιοθήκη με το ψευδώνυμο \"%s\" δεν είναι ενεργοποιημένη\n"
+"στην τρέχουσα διαμόρφωση. Χρησιμοποιήστε τη Διαχείριση Βιβλιοθηκών Συμβόλων "
+"για να\n"
+"επεξεργαστείτε τη διαμόρφωση."
 
 #: eeschema/libedit/lib_edit_frame.cpp:774 eeschema/viewlib_frame.cpp:328
 #, fuzzy
@@ -9372,6 +9395,7 @@ msgstr "Αντικατάσταση"
 #, c-format
 msgid "Write permissions are required to save library \"%s\"."
 msgstr ""
+"Απαιτούνται δικαιώματα εγγραφής για την αποθήκευση της βιβλιοθήκης \"%s\"."
 
 #: eeschema/libedit/lib_export.cpp:174 eeschema/project_rescue.cpp:683
 #, c-format
@@ -9420,6 +9444,9 @@ msgid ""
 "Not all libraries could be loaded.  Use the Manage Symbol Libraries dialog \n"
 "to adjust paths and add or remove libraries."
 msgstr ""
+"Δεν είναι δυνατή η φόρτωση όλων των βιβλιοθηκών. Χρησιμοποιήστε το παράθυρο "
+"διαλόγου Διαχείριση Βιβλιοθηκών Συμβόλων \n"
+"για να προσαρμόσετε διαδρομές και να προσθέσετε ή να αφαιρέσετε βιβλιοθήκες."
 
 #: eeschema/libedit/libedit.cpp:80
 msgid "No symbol libraries are loaded."
@@ -9493,7 +9520,7 @@ msgstr ""
 #: eeschema/libedit/libedit.cpp:670 pcbnew/footprint_libraries_utils.cpp:1008
 #, c-format
 msgid "Revert \"%s\" to last version saved?"
-msgstr ""
+msgstr "Επαναφορά \"%s\" στην τελευταία αποθηκευμένη έκδοση;"
 
 #: eeschema/libedit/libedit.cpp:737
 #, c-format
@@ -9814,7 +9841,7 @@ msgstr "Το σύμβολο '%s' δεν βρέθηκε στον κατάλογο
 #: eeschema/project_rescue.cpp:298 eeschema/project_rescue.cpp:433
 #, c-format
 msgid "Rescue modified symbol %s to %s"
-msgstr ""
+msgstr "Διάσωση τροποποιημένου σύμβολου %s στο %s"
 
 #: eeschema/project_rescue.cpp:558
 msgid "This project has nothing to rescue."
@@ -9937,6 +9964,8 @@ msgid ""
 "Error parsing Eagle file.  Could not find \"%s\" instance but it is "
 "referenced in the schematic."
 msgstr ""
+"Σφάλμα ανάλυσης αρχείου Eagle. Δεν ήταν δυνατή η εύρεση του \"%s\", αλλά "
+"αναφέρεται στο σχηματικό."
 
 #: eeschema/sch_eagle_plugin.cpp:1105
 #, c-format
@@ -10379,12 +10408,17 @@ msgid ""
 "symbol library table.  The project this schematic belongs to must first be "
 "remapped before it can be imported into the current project."
 msgstr ""
+"Το σχηματικό \"%s\" δεν έχει συνδέσει τους σύνδεσμους βιβλιοθήκης συμβόλων "
+"με τον κατάλογο βιβλιοθήκης συμβόλων. Το έργο στο οποίο ανήκει αυτό το "
+"σχηματικό πρέπει πρώτα να επανασυνδεθεί πριν εισαχθεί στο τρέχον έργο."
 
 #: eeschema/sheet.cpp:142
 msgid ""
 "The entire schematic could not be loaded.  Errors occurred attempting to "
 "load hierarchical sheet schematics."
 msgstr ""
+"Δεν ήταν δυνατή η φόρτωση ολόκληρου του σχηματικού. Παρουσιάστηκαν σφάλματα "
+"κατά τη φόρτωση ιεραρχικών σχηματικών φύλλου."
 
 #: eeschema/sheet.cpp:145
 #, fuzzy
@@ -14279,18 +14313,16 @@ msgid "Plating thickness (T):"
 msgstr "Πάχος γραμμής:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:559
-#, fuzzy
 msgid "Via length:"
-msgstr "Μήκος ακροδέκτη:"
+msgstr "Μήκος via:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:561
 msgid "Via length is the board thickness for through hole vias"
 msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:573
-#, fuzzy
 msgid "Via pad diameter:"
-msgstr "Διάμετρος via:"
+msgstr "Διάμετρος έδρας via:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:575
 msgid "Diameter of pad surrounding via (annular ring)"
@@ -14313,9 +14345,8 @@ msgstr ""
 #: pcb_calculator/transline_ident.cpp:317
 #: pcb_calculator/transline_ident.cpp:389
 #: pcb_calculator/transline_ident.cpp:421
-#, fuzzy
 msgid "Z0:"
-msgstr "Z:"
+msgstr "Z:Z0:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:603
 #, fuzzy
@@ -14377,14 +14408,12 @@ msgstr "Επάνω Όψη"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:693
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1280
-#, fuzzy
 msgid "Results:"
-msgstr "Προκαθορισμένες τιμές"
+msgstr "Αποτελέσματα:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:737
-#, fuzzy
 msgid "Thermal resistance:"
-msgstr "Διάκενα δρόμου"
+msgstr "Θερμική αντίσταση:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:739
 msgid "Using thermal conductivity value 401 Watts/(meter-Kelvin)"
@@ -14703,9 +14732,8 @@ msgstr "Η&λεκτρικός τύπος:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1237
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1249
-#, fuzzy
 msgid "Z"
-msgstr "Z:"
+msgstr "Z"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1261
 #: pcbnew/class_drawsegment.cpp:483 pcbnew/class_drawsegment.cpp:507
@@ -15499,34 +15527,28 @@ msgid "Netlist update successful!"
 msgstr "Επιτυχής ανανέωση της λίστας δικτύων!"
 
 #: pcbnew/board_stackup_manager/class_board_stackup.cpp:359
-#, fuzzy
 msgid "Top Silk Screen"
-msgstr "Μεταξοτυπία"
+msgstr "Πάνω Μεταξοτυπία"
 
 #: pcbnew/board_stackup_manager/class_board_stackup.cpp:367
-#, fuzzy
 msgid "Top Solder Paste"
-msgstr "Μάσκα/Πάστα Συγκόλλησης"
+msgstr "Πάνω Πάστα Συγκόλλησης"
 
 #: pcbnew/board_stackup_manager/class_board_stackup.cpp:375
-#, fuzzy
 msgid "Top Solder Mask"
-msgstr "Χρώμα Μάσκας Συγκόλλησης"
+msgstr "Πάνω Μάσκα Συγκόλλησης"
 
 #: pcbnew/board_stackup_manager/class_board_stackup.cpp:419
-#, fuzzy
 msgid "Bottom Solder Mask"
-msgstr "Μπροστινό μάσκα συγκόλλησης"
+msgstr "Κάτω Μάσκα Συγκόλλησης"
 
 #: pcbnew/board_stackup_manager/class_board_stackup.cpp:427
-#, fuzzy
 msgid "Bottom Solder Paste"
-msgstr "Μπροστινό πάστα συγκόλλησης"
+msgstr "Κάτω Πάστα Συγκόλλησης"
 
 #: pcbnew/board_stackup_manager/class_board_stackup.cpp:435
-#, fuzzy
 msgid "Bottom Silk Screen"
-msgstr "Μεταξοτυπία"
+msgstr "Κάτω Μεταξοτυπία"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:392
 msgid "Core"
@@ -15561,9 +15583,8 @@ msgid ""
 msgstr ""
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:688
-#, fuzzy
 msgid "Incorrect value for Epsilon R"
-msgstr "Λανθασμένη τιμή για μετατόπιση έδρας"
+msgstr "Λανθασμένη τιμή για το Epsilon R"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:706
 #, fuzzy
@@ -15610,9 +15631,8 @@ msgid ""
 msgstr ""
 
 #: pcbnew/board_stackup_manager/panel_board_stackup_base.cpp:80
-#, fuzzy
 msgid "Material"
-msgstr "Λίστα Υλικών"
+msgstr "Υλικό"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup_base.cpp:86
 #: pcbnew/class_pcb_text.cpp:107 pcbnew/class_text_mod.cpp:384
@@ -17309,15 +17329,10 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:303
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:229
-#, fuzzy
 msgid ""
 "Use this attribute for most non SMD footprints\n"
 "Footprints with this option are not put in the footprint position list file"
 msgstr ""
-"Χρησιμοποιήστε αυτή την ιδιότητα για τα περισσότερα εξαρτήματα που δεν είναι "
-"SMD.\n"
-"Εξαρτήματα με αυτή την επιλογή δεν τοποθετούνται στο αρχείο λίστας θέσεων "
-"αποτυπωμάτων"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:305
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:231
@@ -23416,9 +23431,10 @@ msgstr ""
 "αποτυπωμάτων \"%s\""
 
 #: pcbnew/kicad_plugin.cpp:261
-#, fuzzy, c-format
+#, c-format
 msgid "Footprint library path '%s' does not exist (or is not a directory)."
-msgstr "Η διαδρομή βιβλιοθήκης αποτυπωμάτων \"%s\" δεν υπάρχει"
+msgstr ""
+"Η διαδρομή βιβλιοθήκης αποτυπώματος '%s' δεν υπάρχει (ή δεν είναι κατάλογος)."
 
 #: pcbnew/kicad_plugin.cpp:1303 pcbnew/legacy_plugin.cpp:96
 #, c-format
@@ -23615,14 +23631,14 @@ msgstr ""
 "γραμμή: %d, θέση: %d"
 
 #: pcbnew/legacy_plugin.cpp:3272
-#, fuzzy, c-format
+#, c-format
 msgid "File '%s' is empty."
-msgstr "Η βιβλιοθήκη εξαρτημάτων '%s' είναι κενή."
+msgstr "Το αρχείο '%s' είναι κενό."
 
 #: pcbnew/legacy_plugin.cpp:3275
-#, fuzzy, c-format
+#, c-format
 msgid "File '%s' is not a legacy library."
-msgstr "Το αρχείο \"%s\" είναι άδειο ή δεν βιβλιοθήκη παλαιού τύπου"
+msgstr "Το αρχείο '%s' δεν είναι βιβλιοθήκη παλαιού τύπου."
 
 #: pcbnew/load_select_footprint.cpp:241
 #, c-format
@@ -23645,9 +23661,8 @@ msgid "Footprint library \"%s\" saved as \"%s\"."
 msgstr "Βιβλιοθήκη αποτυπωμάτων \"%s\" αποθηκεύτηκε ως \"%s\"."
 
 #: pcbnew/menubar_footprint_editor.cpp:87
-#, fuzzy
 msgid "&Import Graphics..."
-msgstr "Γραφικά:"
+msgstr "Ε&ισαγωγή Γραφικών..."
 
 #: pcbnew/menubar_footprint_editor.cpp:88
 #, fuzzy
@@ -23655,9 +23670,8 @@ msgid "Import 2D Drawing file to Footprint Editor on Drawings layer"
 msgstr "Εισαγωγή αρχείου 2Δ Σχεδίου DXF στο Επίπεδο Σχεδίων του Pcbnew"
 
 #: pcbnew/menubar_footprint_editor.cpp:98
-#, fuzzy
 msgid "Export View as &PNG..."
-msgstr "Εξαγωγή SV&G"
+msgstr "Εξαγωγή Όψης Ως &PNG..."
 
 #: pcbnew/menubar_footprint_editor.cpp:99
 msgid "Create a PNG file from the current view"
@@ -23706,78 +23720,64 @@ msgstr ""
 "της"
 
 #: pcbnew/menubar_pcb_editor.cpp:110
-#, fuzzy
 msgid "Revert to Last Backup"
-msgstr "Επαναφορά &Τελευταίου Backup"
+msgstr "Επαναφορά Τελευταίου Backup"
 
 #: pcbnew/menubar_pcb_editor.cpp:111
 msgid "Clear board and get previous backup version of board"
 msgstr "Εκκαθάριση πλακέτας και λήψη της τελευταίας εφεδρικής έκδοσής της"
 
 #: pcbnew/menubar_pcb_editor.cpp:122
-#, fuzzy
 msgid "Graphics..."
-msgstr "Γραφικά:"
+msgstr "Γραφικά..."
 
 #: pcbnew/menubar_pcb_editor.cpp:122
-#, fuzzy
 msgid "Import 2D drawing file"
-msgstr "Εισαγωγή αρχείου DXF"
+msgstr "Εισαγωγή αρχείου σχεδίου 2D"
 
 #: pcbnew/menubar_pcb_editor.cpp:135
-#, fuzzy
 msgid "GenCAD..."
-msgstr "&GenCAD..."
+msgstr "GenCAD..."
 
 #: pcbnew/menubar_pcb_editor.cpp:135
-#, fuzzy
 msgid "Export GenCAD board representation"
-msgstr "Εξαγωγή μιας απεικόνισης πλακέτας VRML"
+msgstr "Εξαγωγή απεικόνισης πλακέτας GenCAD "
 
 #: pcbnew/menubar_pcb_editor.cpp:137
-#, fuzzy
 msgid "VRML..."
-msgstr "&VRML..."
+msgstr "VRML..."
 
 #: pcbnew/menubar_pcb_editor.cpp:137
-#, fuzzy
 msgid "Export VRML 3D board representation"
-msgstr "Εξαγωγή μιας απεικόνισης πλακέτας VRML"
+msgstr "Εξαγωγή απεικόνισης πλακέτας VRML 3D "
 
 #: pcbnew/menubar_pcb_editor.cpp:139
-#, fuzzy
 msgid "IDFv3..."
-msgstr "I&DFv3..."
+msgstr "IDFv3..."
 
 #: pcbnew/menubar_pcb_editor.cpp:139
-#, fuzzy
 msgid "Export IDF 3D board representation"
-msgstr "Εξαγωγή μιας απεικόνισης πλακέτας VRML"
+msgstr "Εξαγωγή απεικόνισης πλακέτας IDF 3D"
 
 #: pcbnew/menubar_pcb_editor.cpp:141
-#, fuzzy
 msgid "STEP..."
-msgstr "S&TEP..."
+msgstr "STEP..."
 
 #: pcbnew/menubar_pcb_editor.cpp:141
-#, fuzzy
 msgid "Export STEP 3D board representation"
-msgstr "Εξαγωγή μιας απεικόνισης πλακέτας VRML"
+msgstr "Εξαγωγή απεικόνισης πλακέτας STEP 3D "
 
 #: pcbnew/menubar_pcb_editor.cpp:143
-#, fuzzy
 msgid "SVG..."
-msgstr "&SVG..."
+msgstr "SVG..."
 
 #: pcbnew/menubar_pcb_editor.cpp:143
-#, fuzzy
 msgid "Export SVG board representation"
-msgstr "Εξαγωγή μιας απεικόνισης πλακέτας VRML"
+msgstr "Εξαγωγή απεικόνισης πλακέτας VRML"
 
 #: pcbnew/menubar_pcb_editor.cpp:145
-#, fuzzy
 msgid "Footprint Association (.cmp) File..."
-msgstr "&Αρχείο Συσχέτισης Αποτυπωμάτων (.cmp)..."
+msgstr "Αρχείο Συσχέτισης Αποτυπωμάτων (.cmp)..."
 
 #: pcbnew/menubar_pcb_editor.cpp:146
 msgid "Export footprint association file (*.cmp) for schematic back annotation"
@@ -23790,14 +23790,12 @@ msgid "Hyperlynx..."
 msgstr ""
 
 #: pcbnew/menubar_pcb_editor.cpp:156
-#, fuzzy
 msgid "Fabrication Outputs"
-msgstr "Έξοδοι Πα&ραγωγής"
+msgstr "Έξοδοι Παραγωγής"
 
 #: pcbnew/menubar_pcb_editor.cpp:179
-#, fuzzy
 msgid "Archive Footprints"
-msgstr "Αρ&χειοθέτηση Αποτυπωμάτων"
+msgstr "Αρχειοθέτηση Αποτυπωμάτων"
 
 #: pcbnew/menubar_pcb_editor.cpp:182
 msgid "&Archive Footprints in Existing Library..."
@@ -23824,17 +23822,14 @@ msgstr ""
 "(αν η βιβλιοθήκη υπάρχει, θα αντικατασταθεί)"
 
 #: pcbnew/menubar_pcb_editor.cpp:392
-#, fuzzy
 msgid "Auto-Place Footprints"
-msgstr "Αυτόματη Τοποθέτηση Νέων Αποτυπωμάτων"
+msgstr "Αυτόματη Τοποθέτηση Αποτυπωμάτων"
 
 #: pcbnew/menubar_pcb_editor.cpp:456
-#, fuzzy
 msgid "External Plugins"
-msgstr "&Εξωτερικά Πρόσθετα..."
+msgstr "Εξωτερικά Πρόσθετα"
 
 #: pcbnew/menubar_pcb_editor.cpp:459
-#, fuzzy
 msgid "Refresh Plugins"
 msgstr "Ανανέωση Πρόσθετων"
 
@@ -24634,21 +24629,18 @@ msgid "Cannot start routing inside a keepout area or board outline."
 msgstr "Αδυναμία δρομολόγησης μέσα σε καθαρή περιοχή ή σε περίγραμμα πλακέτας."
 
 #: pcbnew/router/router_tool.cpp:81
-#, fuzzy
 msgid "Finish Track"
-msgstr "Έναρξη Δρόμου"
+msgstr "Τερματισμός Δρόμου"
 
 #: pcbnew/router/router_tool.cpp:81
 msgid "Stops laying the current track."
 msgstr "Σταματάει την τοποθέτηση του τρέχοντα δρόμου."
 
 #: pcbnew/router/router_tool.cpp:87
-#, fuzzy
 msgid "Auto-finish Track"
 msgstr "Αυτόματος τερματισμός Δρόμου"
 
 #: pcbnew/router/router_tool.cpp:87
-#, fuzzy
 msgid "Automagically finishes laying the current track."
 msgstr "Αυτόματη ολοκλήρωση του δρόμου που δρομολογείται."
 
@@ -24722,9 +24714,8 @@ msgid "Select Track/Via Width"
 msgstr "Επιλογή Πλάτους Δρόμου/Via"
 
 #: pcbnew/router/router_tool.cpp:176
-#, fuzzy
 msgid "Use Starting Track Width"
-msgstr "Χρήση πλάτους του αρχικού δρόμου"
+msgstr ""
 
 #: pcbnew/router/router_tool.cpp:177
 msgid "Route using the width of the starting track."
@@ -25041,9 +25032,8 @@ msgid "Draw a dimension"
 msgstr "Σχεδίαση διάστασης"
 
 #: pcbnew/tools/drawing_tool.cpp:712
-#, fuzzy
 msgid "No graphic items found in file to import"
-msgstr "Εμφάνιση αντικειμένων γραφικών σε λειτουργία περιγράμματος"
+msgstr "Δεν βρέθηκαν στοιχεία γραφικών στο αρχείο για εισαγωγή"
 
 #: pcbnew/tools/drawing_tool.cpp:742 pcbnew/tools/drawing_tool.cpp:822
 msgid "Place a DXF_SVG drawing"
@@ -25353,9 +25343,8 @@ msgstr ""
 "Προσθήκη μιας ζώνης χρησιμοποιώντας τις ρυθμίσεις μιας υπάρχουσας ζώνης"
 
 #: pcbnew/tools/pcb_actions.cpp:129
-#, fuzzy
 msgid "Place Imported Graphics"
-msgstr "Γραφικά:"
+msgstr "Τοποθέτηση Εισηγμένων Γραφικών"
 
 #: pcbnew/tools/pcb_actions.cpp:135
 msgid "Place the Footprint Anchor"
@@ -25402,9 +25391,8 @@ msgid "Close the outline of a zone in progress"
 msgstr "Κλείσιμο του περιγράμματος μιας ζώνης σε εξέλιξη"
 
 #: pcbnew/tools/pcb_actions.cpp:169
-#, fuzzy
 msgid "Design Rules Checker"
-msgstr "Έλεγχος Κανόνων &Σχεδίασης"
+msgstr "Έλεγχος Κανόνων Σχεδίασης"
 
 #: pcbnew/tools/pcb_actions.cpp:169
 #, fuzzy
@@ -25747,9 +25735,8 @@ msgstr ""
 "πλακέτας"
 
 #: pcbnew/tools/pcb_actions.cpp:467
-#, fuzzy
 msgid "Specctra Session..."
-msgstr "Συνεδρία &Specctra..."
+msgstr "Συνεδρία Specctra..."
 
 #: pcbnew/tools/pcb_actions.cpp:467
 #, fuzzy
@@ -25757,37 +25744,32 @@ msgid "Import routed Specctra session (*.ses) file"
 msgstr "Εισαγωγή δρομολογημένου αρχείου \"Συνεδρία Specctra\" (*.ses)"
 
 #: pcbnew/tools/pcb_actions.cpp:472
-#, fuzzy
 msgid "Specctra DSN..."
-msgstr "S&pecctra DSN..."
+msgstr "Specctra DSN..."
 
 #: pcbnew/tools/pcb_actions.cpp:472
-#, fuzzy
 msgid "Export Specctra DSN routing info"
-msgstr "Εξαγωγή σε αρχείο Specctra DSN (σε FreeRouter)"
+msgstr "Εξαγωγή πληροφοριών δρομολόγησης Specctra DSN"
 
 #: pcbnew/tools/pcb_actions.cpp:477
-#, fuzzy
 msgid "Gerbers (.gbr)..."
-msgstr "Άνοιγμα Αρχείου &Gerber..."
+msgstr "Gerbers (.gbr)..."
 
 #: pcbnew/tools/pcb_actions.cpp:477
 msgid "Generate Gerbers for fabrication"
 msgstr "Δημιουργία αρχείων Gerber για κατασκευή"
 
 #: pcbnew/tools/pcb_actions.cpp:482
-#, fuzzy
 msgid "Drill Files (.drl)..."
-msgstr "Αρχεία διατρήσεων (*.drl)|*.drl;*.DRL"
+msgstr "Αρχεία Διατρήσεων (.drl)..."
 
 #: pcbnew/tools/pcb_actions.cpp:482
 msgid "Generate Excellon drill file(s)"
 msgstr "Δημιουργία αρχείου(ων) διατρήσεων Excellon2"
 
 #: pcbnew/tools/pcb_actions.cpp:487
-#, fuzzy
 msgid "Footprint Positions (.pos)..."
-msgstr "Αρχείο &Θέσης Αποτυπωμάτων (.pos)"
+msgstr "Θέσεις Αποτυπωμάτων (.pos)..."
 
 #: pcbnew/tools/pcb_actions.cpp:488
 msgid "Generate footprint position file for pick and place"
@@ -25796,9 +25778,8 @@ msgstr ""
 "τοποθέτησης"
 
 #: pcbnew/tools/pcb_actions.cpp:493
-#, fuzzy
 msgid "Footprint Report (.rpt)..."
-msgstr "Αναφορά Αποτυπωμάτων"
+msgstr "Αναφορά Αποτυπωμάτων (.rpt)..."
 
 #: pcbnew/tools/pcb_actions.cpp:494
 msgid "Create report of all footprints from current board"
@@ -25821,24 +25802,20 @@ msgid "Create bill of materials from current schematic"
 msgstr "Δημιουργία ενός πίνακα υλικών από το τρέχον σχηματικό"
 
 #: pcbnew/tools/pcb_actions.cpp:511
-#, fuzzy
 msgid "Switch Track Width to Next"
-msgstr "Εναλλαγή Στάσης Δρόμου"
+msgstr "Αλλαγή Πλάτους Δρόμου (Επόμενο)"
 
 #: pcbnew/tools/pcb_actions.cpp:516
-#, fuzzy
 msgid "Switch Track Width to Previous"
-msgstr "Εναλλαγή Στάσης Δρόμου"
+msgstr "Αλλαγή Πλάτους Δρόμου (Προηγούμενο)"
 
 #: pcbnew/tools/pcb_actions.cpp:521
-#, fuzzy
 msgid "Increase Via Size"
-msgstr "Αύξηση πλάτους"
+msgstr "Αύξηση Μεγέθους Via"
 
 #: pcbnew/tools/pcb_actions.cpp:526
-#, fuzzy
 msgid "Decrease Via Size"
-msgstr "Μείωση πλάτους"
+msgstr "Μείωση Μεγέθους Via"
 
 #: pcbnew/tools/pcb_actions.cpp:535
 msgid "Merge Zones"
@@ -25873,9 +25850,8 @@ msgid "Add a footprint"
 msgstr "Προσθήκη ενός αποτυπώματος"
 
 #: pcbnew/tools/pcb_actions.cpp:555
-#, fuzzy
 msgid "Drill and Place Offset"
-msgstr "Αρχικό Σημείο Διάτρησης και &Τοποθέτησης"
+msgstr "Αρχικό Σημείο Διάτρησης και Τοποθέτησης"
 
 #: pcbnew/tools/pcb_actions.cpp:555
 msgid "Place origin point for drill and place files"
@@ -25894,9 +25870,8 @@ msgid "Unlock"
 msgstr "Ξεκλείδωμα"
 
 #: pcbnew/tools/pcb_actions.cpp:576
-#, fuzzy
 msgid "Append Board..."
-msgstr "&Προσθήκη Πλακέτας..."
+msgstr "Προσθήκη Πλακέτας..."
 
 #: pcbnew/tools/pcb_actions.cpp:584
 #, fuzzy
@@ -25932,49 +25907,40 @@ msgid "Highlight Ratsnest"
 msgstr "Επισήμανση δικτύου"
 
 #: pcbnew/tools/pcb_actions.cpp:616
-#, fuzzy
 msgid "Show ratsnest of selected item(s)"
-msgstr "Διαγραφή επιλεγμένων αντικειμένων"
+msgstr ""
 
 #: pcbnew/tools/pcb_actions.cpp:627
-#, fuzzy
 msgid "List Nets"
-msgstr "Προβολή Λίστας &Δικτύων"
+msgstr "Προβολή Λίστας Δικτύων"
 
 #: pcbnew/tools/pcb_actions.cpp:627
-#, fuzzy
 msgid "Show a list of nets with names and IDs"
 msgstr "Προβολή λίστας δικτύων με ονόματα και ταυτότητες"
 
 #: pcbnew/tools/pcb_actions.cpp:632
-#, fuzzy
 msgid "Scripting Console"
-msgstr "&Κονσόλα Γλώσσας Σεναρίων"
+msgstr "Κονσόλα Γλώσσας Σεναρίων"
 
 #: pcbnew/tools/pcb_actions.cpp:632
-#, fuzzy
 msgid "Show the Python scripting console"
-msgstr "Εμφάνιση/Απόκρυψη της κονσόλας σεναρίων Python"
+msgstr "Εμφάνιση της κονσόλας σεναρίων Python"
 
 #: pcbnew/tools/pcb_actions.cpp:637
-#, fuzzy
 msgid "Show Layers Manager"
-msgstr "&Προβολή Διαχειριστή Επιπέδων"
+msgstr "Προβολή Διαχειριστή Επιπέδων"
 
 #: pcbnew/tools/pcb_actions.cpp:637
-#, fuzzy
 msgid "Show/hide the layers manager"
 msgstr "Προβολή/απόκρυψη της γραμμής εργαλείων διαχείρισης επιπέδων"
 
 #: pcbnew/tools/pcb_actions.cpp:642
-#, fuzzy
 msgid "Show Microwave Toolbar"
-msgstr "Εμ&φάνιση Εργαλειομπάρας Μικροκυμάτων"
+msgstr "Εμφάνιση Εργαλειομπάρας Μικροκυμάτων"
 
 #: pcbnew/tools/pcb_actions.cpp:647
-#, fuzzy
 msgid "Flip Board View"
-msgstr "Αναστρο&φή Προβολής Πλακέτας"
+msgstr "Αναστροφή Προβολής Πλακέτας"
 
 #: pcbnew/tools/pcb_actions.cpp:647
 msgid "Flip (mirror) the board view"
@@ -26493,9 +26459,8 @@ msgid "Merge Specctra Session file:"
 msgstr "Συγχώνευση αρχείου συνεδρίας Specctra:"
 
 #: pcbnew/tools/pcb_editor_control.cpp:355
-#, fuzzy
 msgid "Specctra DSN File"
-msgstr "Αρχείο Specctra DSN:"
+msgstr "Αρχείο Specctra DSN"
 
 #: pcbnew/tools/pcb_editor_control.cpp:732
 msgid "Place a module"
