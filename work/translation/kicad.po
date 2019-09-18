@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 17:51+0300\n"
-"PO-Revision-Date: 2019-09-17 15:47+0300\n"
+"PO-Revision-Date: 2019-09-18 17:11+0300\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -1058,9 +1058,8 @@ msgid "User layer Eco2"
 msgstr "Επίπεδο χρήστη Eco2"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:184
-#, fuzzy
 msgid "Board Layer for Outline:"
-msgstr "Επίπεδο πλακέτας για εισαγωγή:"
+msgstr "Επίπεδο πλακέτας για Περίγραμμμα:"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:186
 msgid ""
@@ -1711,7 +1710,7 @@ msgid "Configure Global %s Library Table"
 msgstr "Ρύθμιση Καθολικού %s Καταλόγου Βιβλιοθήκης"
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:42
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "KiCad has been run for the first time using the new %s library table for\n"
 "accessing libraries.  In order for KiCad to access %s libraries,\n"
@@ -1719,11 +1718,13 @@ msgid ""
 "of the options below.  If you are not sure which option to select, please\n"
 "use the default selection."
 msgstr ""
-"Το KiCad εκτέλεστηκε για πρώτη φορά χρησιμοποιώντας τη νέα μέθοδο καταλόγου "
-"βιβλιοθήκης συμβόλων για πρόσβαση στις βιβλιοθήκες συμβόλων. Για να έχει "
-"πρόσβαση το Kicad στις βιβλιοθήκες συμβόλων, πρέπει να ρυθμιστεί ο καθολικός "
-"κατάλογος βιβλιοθήκης συμβόλων. Διαλέξτε μία από τις παρακάτω επιλογές. Αν "
-"δεν είστε σίγουροι, επιλέξτε την προκαθορισμένη."
+"Το KiCad εκτέλεστηκε για πρώτη φορά χρησιμοποιώντας τον νέο κατάλογο "
+"βιβλιοθήκης %s\n"
+"για πρόσβαση στις βιβλιοθήκες. Για να έχει πρόσβαση το Kicad στις "
+"βιβλιοθήκες %s, \n"
+"πρέπει να ρυθμιστεί ο καθολικός κατάλογος βιβλιοθήκης %s. Διαλέξτε μία\n"
+"από τις παρακάτω επιλογές. Αν δεν είστε σίγουροι, επιλέξτε την "
+"προκαθορισμένη."
 
 #: common/dialogs/dialog_global_lib_table_config.cpp:49
 #, c-format
@@ -2398,7 +2399,7 @@ msgstr "Υπερδειγματοληψία (4x)"
 
 #: common/dialogs/panel_common_settings_base.cpp:65
 msgid "Fallback graphics:"
-msgstr ""
+msgstr "Εναλλακτικά Γραφικά:"
 
 #: common/dialogs/panel_common_settings_base.cpp:69
 msgid "Fast Antialiasing"
@@ -2493,16 +2494,15 @@ msgstr "Επεξεργασία"
 
 #: common/dialogs/panel_common_settings_base.cpp:201
 msgid "Prefer selection to dragging"
-msgstr ""
+msgstr "Προτίμηση επιλογής έναντι συρσίματος"
 
 #: common/dialogs/panel_common_settings_base.cpp:204
 msgid "Warp mouse to origin of moved object"
 msgstr ""
 
 #: common/dialogs/panel_common_settings_base.cpp:207
-#, fuzzy
 msgid "First hotkey selects tool"
-msgstr "Επεξεργασία λίστας συντομεύσεων"
+msgstr "Η πρώτη συντόμευση επιλέγει εργαλείο"
 
 #: common/dialogs/panel_common_settings_base.cpp:208
 msgid ""
@@ -2656,7 +2656,7 @@ msgstr "Μη έγκυρο μέγεθος %lld: πολύ μεγάλο"
 #: common/eagle_parser.cpp:292
 #, c-format
 msgid "Invalid Arc with radius %f and angle %f"
-msgstr ""
+msgstr "Μη έγκυρο Τόξο με ακτίνα %f και γωνία %f"
 
 #: common/eda_base_frame.cpp:377
 msgid "&About KiCad"
@@ -2888,12 +2888,9 @@ msgid "from %s : %s() line:%d"
 msgstr "από %s : %s() γραμμή:%d"
 
 #: common/exceptions.cpp:30
-#, fuzzy, c-format
+#, c-format
 msgid "%s in \"%s\", line %d, offset %d"
-msgstr ""
-"%s στην είσοδο/πηγή\n"
-"\"%s\"\n"
-"γραμμή %d, θέση %d"
+msgstr "%s στο \"%s\", γραμμή %d, θέση %d"
 
 #: common/exceptions.cpp:104
 #, c-format
@@ -3055,35 +3052,31 @@ msgstr "Επιλογή όλων των κελιών"
 
 #: common/hotkey_store.cpp:43
 msgid "Pan Left/Right"
-msgstr ""
+msgstr "Μετακίνηση Προβολής Αριστερά/Δεξιά"
 
 #: common/hotkey_store.cpp:44
 msgid "Pan Up/Down"
-msgstr ""
+msgstr "Μετακίνηση Προβολής Πάνω/Κάτω"
 
 #: common/hotkey_store.cpp:45 eeschema/tools/ee_actions.cpp:233
-#, fuzzy
 msgid "Finish Drawing"
-msgstr "Τέλος Σχεδίασης"
+msgstr "Ολοκλήρωση Σχεδίασης"
 
 #: common/hotkey_store.cpp:46
-#, fuzzy
 msgid "Show Clarify Selection Menu"
-msgstr "Διευκρίνηση Επιλογής"
+msgstr "Προβολή Μενού Διευκρίνησης Επιλογής"
 
 #: common/hotkey_store.cpp:47
-#, fuzzy
 msgid "Add to Selection"
-msgstr "Μεγέθυνση στην Επιλογή"
+msgstr "Προσθήκη στην Επιλογή"
 
 #: common/hotkey_store.cpp:48
 msgid "Toggle Selection State"
-msgstr ""
+msgstr "Εναλλαγή Κατάστασης Επιλογής"
 
 #: common/hotkey_store.cpp:49
-#, fuzzy
 msgid "Remove from Selection"
-msgstr "Μεγέθυνση στην Επιλογή"
+msgstr "Αφαίρεση από την Επιλογή"
 
 #: common/hotkey_store.cpp:50
 msgid "Ignore Grid Snaps"
@@ -3094,9 +3087,8 @@ msgid "Ignore Other Snaps"
 msgstr ""
 
 #: common/hotkey_store.cpp:66
-#, fuzzy
 msgid "Kicad Manager"
-msgstr "Διαχειριστής Επιπέδων"
+msgstr "Διαχειριστής Kicad"
 
 #: common/hotkey_store.cpp:67 eeschema/eeschema_config.cpp:123
 #: eeschema/menubar.cpp:118 eeschema/sch_edit_frame.cpp:1030
@@ -3111,14 +3103,12 @@ msgstr "Pcbnew"
 
 #: common/hotkey_store.cpp:69 pagelayout_editor/menubar.cpp:81
 #: pagelayout_editor/pl_editor_frame.cpp:446
-#, fuzzy
 msgid "Page Layout Editor"
-msgstr "Εκτέλεση Επεξεργαστή Σχεδίασης Σελίδας"
+msgstr "Επεξεργαστής Σχεδίασης Σελίδας"
 
 #: common/hotkey_store.cpp:135
-#, fuzzy
 msgid "Gestures"
-msgstr "Άνοιγμα"
+msgstr "Χειρονομίες"
 
 #: common/kiway.cpp:205
 #, c-format
@@ -3203,9 +3193,8 @@ msgstr "Το αρχείο \"%s\" δεν διαβάστηκε πλήρως"
 
 #: common/page_layout/ws_data_model_io.cpp:99
 #: common/page_layout/ws_data_model_io.cpp:127
-#, fuzzy
 msgid "Error writing page layout design file"
-msgstr "Αρχείο περιγραφής σχεδίασης σελίδας"
+msgstr "Σφάλφα κατά την εγγραφή στο αρχείο περιγραφής σχεδίασης σελίδας"
 
 #: common/page_layout/ws_draw_item.cpp:110 eeschema/pin_shape.cpp:38
 #: gerbview/gerber_draw_item.cpp:228 pcbnew/class_board_item.cpp:43
@@ -3228,9 +3217,8 @@ msgid "Text"
 msgstr "Κείμενο"
 
 #: common/page_layout/ws_draw_item.cpp:123
-#, fuzzy
 msgid "Imported Shape"
-msgstr "Εισαγωγή Σχηματικού"
+msgstr "Εισηγμένο Σχήμα"
 
 #: common/page_layout/ws_draw_item.cpp:127 eeschema/sch_bitmap.h:133
 msgid "Image"
@@ -3242,31 +3230,27 @@ msgstr "Μόνο Πρώτη Σελίδα"
 
 #: common/page_layout/ws_draw_item.cpp:134
 msgid "Subsequent Pages"
-msgstr ""
+msgstr "Επόμενες Σελίδες"
 
 #: common/page_layout/ws_draw_item.cpp:135
 msgid "All Pages"
 msgstr "Όλες οι Σελίδες"
 
 #: common/page_layout/ws_draw_item.cpp:138
-#, fuzzy
 msgid "First Page Option"
-msgstr "Ρύθμιση αρχείου:"
+msgstr "Ρύθμιση Πρώτης Σελίδας"
 
 #: common/page_layout/ws_draw_item.cpp:141
-#, fuzzy
 msgid "Repeat Count"
-msgstr "πλήθος σημείων"
+msgstr ""
 
 #: common/page_layout/ws_draw_item.cpp:144
-#, fuzzy
 msgid "Repeat Label Increment"
-msgstr "Διαγραφή Τελευταίου Σημείου"
+msgstr "Επανάληψη Προσαύξησης Ετικέτας"
 
 #: common/page_layout/ws_draw_item.cpp:150
-#, fuzzy
 msgid "Repeat Position Increment"
-msgstr "Δημιουργία Αρχείου Θέσης"
+msgstr "Επανάληψη Προσαύξησης Θέσης"
 
 #: common/page_layout/ws_draw_item.cpp:152
 #: pagelayout_editor/dialogs/dialog_design_inspector_base.cpp:39
@@ -3509,7 +3493,7 @@ msgstr "Αποθήκευση όλων των αλλαγών"
 
 #: common/tool/actions.cpp:89
 msgid "Throw away changes"
-msgstr ""
+msgstr "Απόρριψη Αλλαγών"
 
 #: common/tool/actions.cpp:95
 msgid "Page Settings..."
@@ -3545,13 +3529,12 @@ msgid "Cancel current tool"
 msgstr "Ακύρωση τρέχοντος εργαλείου"
 
 #: common/tool/actions.cpp:126
-#, fuzzy
 msgid "Show Context Menu"
-msgstr "Προβολή Ονομάτων Δικτύων:"
+msgstr "Προβολή Μενού Σχετικών"
 
 #: common/tool/actions.cpp:126
 msgid "Perform the right-mouse-button action"
-msgstr ""
+msgstr "Εκτέλεση της δράσης που αντιστοιχεί σε δεξί-κλικ-ποντικιού"
 
 #: common/tool/actions.cpp:135
 msgid "Undo"
@@ -3649,19 +3632,16 @@ msgid "Find Next"
 msgstr "Εύρεση Επόμενου"
 
 #: common/tool/actions.cpp:207
-#, fuzzy
 msgid "Find next match"
-msgstr "Απόκρυψη διαχειριστή επιπέδων"
+msgstr "Εύρεση επόμενου ταιριάσματος"
 
 #: common/tool/actions.cpp:213
-#, fuzzy
 msgid "Find Next Marker"
-msgstr "Εύρεση Σημαδιού"
+msgstr "Εύρεση Επόμενου Σημαδιού"
 
 #: common/tool/actions.cpp:219
-#, fuzzy
 msgid "Replace and Find Next"
-msgstr "Τοποθέτηση κειμένου"
+msgstr "Αντικατάσταση και Εύρεση Επόμενου"
 
 #: common/tool/actions.cpp:219
 msgid "Replace current match and find next"
@@ -5327,14 +5307,12 @@ msgid "Generate"
 msgstr "Δημιουργία"
 
 #: eeschema/dialogs/dialog_bom.cpp:515 eeschema/dialogs/dialog_bom_base.cpp:43
-#, fuzzy
 msgid "Generator nickname:"
-msgstr "Ψευδώνυμο βιβλιοθήκης"
+msgstr "Ψευδώνυμο δημιουργού:"
 
 #: eeschema/dialogs/dialog_bom.cpp:515
-#, fuzzy
 msgid "Add Generator"
-msgstr "Προσθήκη δαπέδου"
+msgstr "Προσθήκη Δημιουργού"
 
 #: eeschema/dialogs/dialog_bom.cpp:524
 #, c-format
@@ -5342,14 +5320,12 @@ msgid "Nickname \"%s\" already in use."
 msgstr "Το ψευδώνυμο \"%s\" χρησιμοποιείται ήδη."
 
 #: eeschema/dialogs/dialog_bom.cpp:559 eeschema/dialogs/dialog_netlist.cpp:720
-#, fuzzy
 msgid "Generator files:"
-msgstr "Δημιουργία Αρχείου Διατρήσεων"
+msgstr "Αρχεία δημιουργού:"
 
 #: eeschema/dialogs/dialog_bom.cpp:578
-#, fuzzy
 msgid "Generator file name not found."
-msgstr "Δεν βρέθηκε το όνομα αρχείου πρόσθετου."
+msgstr "Δεν βρέθηκε το όνομα αρχείου δημιουργού."
 
 #: eeschema/dialogs/dialog_bom.cpp:588
 msgid "No text editor selected in KiCad.  Please choose one."
@@ -5365,37 +5341,35 @@ msgid "BOM generator scripts:"
 msgstr "Σενάρια δημιουργίας Λίστας Υλικών:"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:69
-#, fuzzy
 msgid "Add a new BOM generator and its command line to the list"
-msgstr "Προσθήκη στη λίστα νέου πρόσθετου και της γραμμής εντολής του"
+msgstr ""
+"Προσθήκη νέου δημιουργού Λίστας Υλικών και σχετικής γραμμής εντολών, στη "
+"λίστα"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:74
-#, fuzzy
 msgid "Edit the script file in the text editor"
-msgstr "Επεξεργασία αρχείου πρόσθετου με τον επεξεργαστή κειμένου"
+msgstr "Επεξεργασία του σεναρίου στον επεξεργαστή κειμένου"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:82
-#, fuzzy
 msgid "Remove the current generator script from list"
-msgstr "Αφαίρεση τρέχοντος πρόσθετου από τη λίστα"
+msgstr "Αφαίρεση τρέχοντος σεναρίου δημιουργού, από τη λίστα"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:92
 msgid "Command line running the generator:"
-msgstr "Γραμμή εντολών που εκτελεί τη γεννήτρια:"
+msgstr "Γραμμή εντολών που εκτελεί τον δημιουργό:"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:101
 msgid "Show console window"
 msgstr "Εμφάνιση παραθύρου κονσόλας"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:102
-#, fuzzy
 msgid ""
 "By default, command line runs with hidden console window and output is "
 "redirected to the info display.\n"
 "Set this option to show the window of the running command."
 msgstr ""
 "Εξ'ορισμού, η γραμμή εντολών εκτελείται με κρυμμένο παράθυρο και η έξοδος "
-"ανακατευθύνεται στο πεδίο \"Πληροφορίες πρόσθετου\". \n"
+"ανακατευθύνεται στην προβολή πληροφοριών. \n"
 "Ορίστε αυτήν την επιλογή για να εμφανίζεται το παράθυρο της εκτελούμενης "
 "εντολής."
 
@@ -5429,19 +5403,17 @@ msgid "Member Name"
 msgstr "Όνομα Μέλους"
 
 #: eeschema/dialogs/dialog_bus_manager.cpp:178
-#, fuzzy
 msgid "Bus Alias Name"
-msgstr "Όνομα συνώνυμου:"
+msgstr "Όνομα Συνώνυμου Διαύλου"
 
 #: eeschema/dialogs/dialog_bus_manager.cpp:179
-#, fuzzy
 msgid "Net or Bus Name"
-msgstr "Όνομα Δικτύου"
+msgstr "Όνομα Δικτύου ή Δίαυλου"
 
 #: eeschema/dialogs/dialog_choose_component.cpp:130
 #: pcbnew/dialogs/dialog_choose_footprint.cpp:98
 msgid "Select with Browser"
-msgstr "Επιλογή με Πλοηγό "
+msgstr "Επιλογή με Πλοηγό"
 
 #: eeschema/dialogs/dialog_choose_component.cpp:338
 #: eeschema/widgets/symbol_preview_widget.cpp:156
@@ -5859,18 +5831,16 @@ msgstr "Αδυναμία εύρεσης του συμβόλου \"%s\" στη β
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:107
 #: eeschema/tools/ee_actions.cpp:407
-#, fuzzy
 msgid "Update Fields from Library..."
-msgstr "Άνοιγμα αποτυπώματος από βιβλιοθήκη"
+msgstr "Ενημέρωση Πεδίων από Βιβλιοθήκη..."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:108
 msgid "Sets fields to the original library values"
 msgstr "Ορισμός πεδίων στις αρχικές τιμές βιβλιοθήκης"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:130
-#, fuzzy
 msgid "Library Reference:"
-msgstr "Νέα Βιβλιοθήκη"
+msgstr "Αναφορά Βιβλιοθήκης:"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:138
 msgid "Name of the symbol in the library to which this symbol is linked"
@@ -5974,9 +5944,9 @@ msgid "Symbol Properties"
 msgstr "Ιδιότητες Συμβόλου"
 
 #: eeschema/dialogs/dialog_edit_components_libid.cpp:578
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol library identifier \"%s\" is not valid."
-msgstr "ο τύπος σελίδας \"%s\" δεν είναι έγκυρος "
+msgstr "Το αναγνωριστικό βιβλιοθήκης συμβόλων \"%s\" δεν είναι έγκυρο."
 
 #: eeschema/dialogs/dialog_edit_components_libid.cpp:696
 #, c-format
@@ -5999,23 +5969,20 @@ msgid "All %u link(s) resolved"
 msgstr "Όλοι οι %u σύνδεσμοι αντιστοιχήθηκαν"
 
 #: eeschema/dialogs/dialog_edit_components_libid.cpp:746
-#, fuzzy
 msgid "Invalid symbol library identifier"
-msgstr "Αποτυχία αποθήκευσης παλιού αρχείου βιβλιοθήκης "
+msgstr "Άκυρο αναγνωριστικό βιβλιοθήκης συμβόλων"
 
 #: eeschema/dialogs/dialog_edit_components_libid_base.cpp:37
 msgid "Symbols"
 msgstr "Σύμβολα"
 
 #: eeschema/dialogs/dialog_edit_components_libid_base.cpp:38
-#, fuzzy
 msgid "Current Library Reference"
-msgstr "&Τρέχουσα Bιβλιοθήκη"
+msgstr "Τρέχουσα Αναφορά Βιβλιοθήκης"
 
 #: eeschema/dialogs/dialog_edit_components_libid_base.cpp:39
-#, fuzzy
 msgid "New Library Reference"
-msgstr "Νέα Βιβλιοθήκη"
+msgstr "Νέα Αναφορά Βιβλιοθήκης"
 
 #: eeschema/dialogs/dialog_edit_components_libid_base.cpp:58
 msgid ""
@@ -6040,9 +6007,8 @@ msgstr ""
 "φορτωμένες βιβλιοθήκες συμβόλων."
 
 #: eeschema/dialogs/dialog_edit_components_libid_base.h:62
-#, fuzzy
 msgid "Symbol Library References"
-msgstr "Διαχείριση Βιβλιοθηκών Συμβόλων"
+msgstr "Αναφορές Βιβλιοθήκης Συμβόλων"
 
 #: eeschema/dialogs/dialog_edit_label.cpp:110
 msgid "Global Label Properties"
@@ -6276,9 +6242,9 @@ msgid "Annotation required!"
 msgstr "Απαιτείται ονοματοδοσία!"
 
 #: eeschema/dialogs/dialog_erc.cpp:591
-#, fuzzy, c-format
+#, c-format
 msgid "Pin %s on %s is connected to both %s and %s"
-msgstr "Ο ακροδέκτης %s (%s) του εξαρτήματος %s είναι συνδεδεμένος με "
+msgstr "Ο ακροδέκτης %s στο %s είναι συνδεδεμένος και στο %s και στο %s"
 
 #: eeschema/dialogs/dialog_erc.cpp:635 pcbnew/tools/drc.cpp:515
 msgid "Finished"
@@ -6337,9 +6303,8 @@ msgstr ""
 "μόνο σε πεζά/κεφαλαία"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:114
-#, fuzzy
 msgid "Test single instances of global labels"
-msgstr "Έλεγχος μοναδικών καθολικών ετικετών"
+msgstr "Έλεγχος μεμονωμένων περιπτώσεων καθολικών ετικετών"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:115
 msgid ""
@@ -6413,9 +6378,8 @@ msgstr "Προβολή φύλλου δεδομένων στον πλοηγό"
 
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:110
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:947
-#, fuzzy
 msgid "The Reference column cannot be hidden."
-msgstr "Το πεδίο αναφοράς δεν μπορεί να είναι κενό! Δεν έγιναν αλλαγές"
+msgstr "Η στήλη Αναφοράς δεν μπορεί να είναι κρυμμένη."
 
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:224
 msgid "Qty"
@@ -7040,9 +7004,8 @@ msgstr "Προκαθορισμένη μορφή"
 
 #: eeschema/dialogs/dialog_netlist.cpp:315
 #: eeschema/dialogs/dialog_netlist_base.h:67
-#, fuzzy
 msgid "Export Netlist"
-msgstr "Εισαγωγή Ρυθμίσεων"
+msgstr "Εξαγωγή Λίστας Δικτύων"
 
 #: eeschema/dialogs/dialog_netlist.cpp:348
 msgid "Reformat passive symbol values"
@@ -7070,9 +7033,8 @@ msgid "Schematic netlist not available"
 msgstr "Λίστα δικτύων σχηματικού δεν είναι διαθέσιμη"
 
 #: eeschema/dialogs/dialog_netlist.cpp:669
-#, fuzzy
 msgid "This plugin already exists."
-msgstr "Αυτό το πρόσθετο υπάρχει ήδη. Ματαίωση"
+msgstr "Αυτό το πρόσθετο υπάρχει ήδη."
 
 #: eeschema/dialogs/dialog_netlist.cpp:697
 msgid "Error. You must provide a command String"
@@ -7089,33 +7051,28 @@ msgstr ""
 "δικτύων"
 
 #: eeschema/dialogs/dialog_netlist_base.cpp:39
-#, fuzzy
 msgid "Add Generator..."
-msgstr "Προσθήκη Βιβλιοθήκης..."
+msgstr "Προσθήκη Δημιουργού..."
 
 #: eeschema/dialogs/dialog_netlist_base.cpp:42
-#, fuzzy
 msgid "Remove Generator"
-msgstr "Αφαίρεση Συνώνυμου"
+msgstr "Αφαίρεση Δημιουργού"
 
 #: eeschema/dialogs/dialog_netlist_base.cpp:92
 msgid "Command line to run the generator:"
-msgstr "Γραμμή εντολών για εκτέλεση της γεννήτριας:"
+msgstr "Γραμμή εντολών για εκτέλεση δημουργού:"
 
 #: eeschema/dialogs/dialog_netlist_base.cpp:107
-#, fuzzy
 msgid "Browse Generators..."
-msgstr "Δημιουργοί Αποτυπώματος"
+msgstr "Αναζήτηση Δημιουργών..."
 
 #: eeschema/dialogs/dialog_netlist_base.h:109
-#, fuzzy
 msgid "Script Generator Properties"
-msgstr "Ιδιότητες Σχηματικού Φύλλου"
+msgstr "Ιδιότητες Σεναρίων Δημιουργών"
 
 #: eeschema/dialogs/dialog_paste_special_base.cpp:22
-#, fuzzy
 msgid "Paste Options"
-msgstr "Προτιμήσεις σελίδας"
+msgstr "Επιλογές Επικόλλησης"
 
 #: eeschema/dialogs/dialog_paste_special_base.cpp:26
 #, fuzzy
