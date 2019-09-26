@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-18 17:15+0300\n"
-"PO-Revision-Date: 2019-09-19 16:14+0300\n"
+"PO-Revision-Date: 2019-09-26 17:10+0300\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -2374,7 +2374,7 @@ msgstr "Μέγεθος ιστορικού αρχείων:"
 
 #: common/dialogs/panel_common_settings_base.cpp:54
 msgid "Accelerated graphics:"
-msgstr "Γραφικά (με Επιτάχυνση):"
+msgstr "Γραφικά με Επιτάχυνση:"
 
 #: common/dialogs/panel_common_settings_base.cpp:58
 #: common/dialogs/panel_common_settings_base.cpp:69
@@ -3920,7 +3920,7 @@ msgstr "Σπρώχτε τις αλλαγές από το σχηματικό σε
 
 #: common/tool/actions.cpp:538
 msgid "Accelerated Graphics"
-msgstr "Επιταχυμένα Γραφικά"
+msgstr "Γραφικά με Επιτάχυνση"
 
 #: common/tool/actions.cpp:538
 msgid "Use hardware-accelerated graphics (recommended)"
@@ -6415,7 +6415,7 @@ msgstr "Υπάρχει ήδη πεδίο με το όνομα \"%s\"."
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:31
 msgid "Group symbols"
-msgstr ""
+msgstr "Ομαδοποίηση εξαρτημάτων"
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:33
 msgid "Group components together based on common properties"
@@ -8859,7 +8859,7 @@ msgstr ""
 
 #: eeschema/files-io.cpp:364
 msgid "Illegal entry found in project file symbol library list."
-msgstr ""
+msgstr "Άκυρη είσοδος βρέθηκε στη λίστα βιβλιοθήκης συμβόλων αρχείου έργου."
 
 #: eeschema/files-io.cpp:365
 msgid "Project Load Warning"
@@ -8872,6 +8872,10 @@ msgid ""
 "removed.  This may cause broken symbol library links under certain "
 "conditions."
 msgstr ""
+"Οι βιβλιοθήκες συμβόλων που ορίζονται στη λίστα βιβλιοθήκης συμβόλων αρχείων "
+"έργου δεν υποστηρίζονται πλέον και θα\n"
+"αφαιρεθούν. Αυτό μπορεί να προκαλέσει σπασμένες συνδέσεις βιβλιοθήκης "
+"συμβόλων υπό ορισμένες συνθήκες."
 
 #: eeschema/files-io.cpp:371
 msgid "Do not show this dialog again."
@@ -10322,6 +10326,9 @@ msgid ""
 "project library table.  This may result in broken symbol library links for "
 "the loaded schematic.  Do you wish to continue?"
 msgstr ""
+"Υπάρχουν ονόματα βιβλιοθηκών στο φορτωμένο σχηματικό, που λείπουν από τον "
+"κατάλογο βιβλιοθήκης έργου. Αυτό μπορεί να οδηγήσει σε σπασμένες συνδέσεις "
+"βιβλιοθήκης συμβόλων για το φορτωμένο σχηματικό. Συνέχεια;"
 
 #: eeschema/sheet.cpp:245 eeschema/sheet.cpp:286 eeschema/sheet.cpp:336
 #: eeschema/sheet.cpp:397
@@ -10334,6 +10341,9 @@ msgid ""
 "The project library table \"%s\" does not exist or cannot be read.  This may "
 "result in broken symbol links for the schematic.  Do you wish to continue?"
 msgstr ""
+"Ο κατάλογος βιβλιοθήκης έργων \"%s\" δεν υπάρχει ή δεν μπορεί να διαβαστεί. "
+"Αυτό μπορεί να οδηγήσει σε σπασμένες συνδέσεις συμβόλων για το σχηματικό. "
+"Συνέχεια;"
 
 #: eeschema/sheet.cpp:332
 msgid ""
@@ -10341,6 +10351,9 @@ msgid ""
 "loaded schematic project library table.  This may result in broken symbol "
 "library links for the schematic.  Do you wish to continue?"
 msgstr ""
+"Υπάρχουν ονόματα βιβλιοθηκών στο φορτωμένο σχηματικό, που λείπουν από τον "
+"φορτωμένο κατάλογο βιβλιοθήκης σχηματικού έργου. Αυτό μπορεί να οδηγήσει σε "
+"σπασμένες συνδέσεις βιβλιοθήκης συμβόλων για το σχηματικό. Συνέχεια;"
 
 #: eeschema/sheet.cpp:393
 msgid ""
@@ -10348,6 +10361,10 @@ msgid ""
 "current library table.  This conflict cannot be resolved and may result in "
 "broken symbol library links for the schematic.  Do you wish to continue?"
 msgstr ""
+"Ένα διπλό όνομα βιβλιοθήκης που αναφέρει μια διαφορετική βιβλιοθήκη υπάρχει "
+"στον τρέχοντα κατάλογο βιβλιοθήκης. Αυτή η σύγκρουση δεν μπορεί να επιλυθεί "
+"και μπορεί να οδηγήσει σε σπασμένες συνδέσεις βιβλιοθήκης συμβόλων για το "
+"σχηματικό. Συνέχεια;"
 
 #: eeschema/sheet.cpp:578
 #, c-format
@@ -10442,7 +10459,7 @@ msgstr "Σφάλμα: δεν ορίστηκε ο τύπος της προσομ�
 
 #: eeschema/sim/sim_plot_frame.cpp:501
 msgid "Error: simulation type doesn't support plotting!\n"
-msgstr ""
+msgstr "Σφάλμα: ο τύπος της προσομοίωσης δεν υποστηρίζει αυτή τη λειτουργία!\n"
 
 #: eeschema/sim/sim_plot_frame.cpp:695 eeschema/sim/sim_plot_frame.cpp:1295
 msgid "Signal"
@@ -10539,6 +10556,8 @@ msgstr "Εμφάνιση Λίστας Δικτύου SPICE..."
 #: eeschema/sim/sim_plot_frame_base.cpp:67
 msgid "Shows current simulation's netlist. Useful for debugging SPICE errors."
 msgstr ""
+"Εμφανίζει τη λίστα δικτύων της τρέχουσας προσομοίωσης. Χρήσιμο για την "
+"επίλυση σφαλμάτων SPICE."
 
 #: eeschema/sim/sim_plot_frame_base.cpp:72
 msgid "Settings..."
@@ -10588,7 +10607,7 @@ msgstr "Συχνότητα"
 
 #: eeschema/sim/sim_plot_panel.cpp:381
 msgid "Gain"
-msgstr ""
+msgstr "Απολαβή"
 
 #: eeschema/sim/sim_plot_panel.cpp:382
 msgid "Phase"
@@ -10596,11 +10615,11 @@ msgstr "Φάση"
 
 #: eeschema/sim/sim_plot_panel.cpp:387
 msgid "Voltage (swept)"
-msgstr ""
+msgstr "Τάση (σάρωση)"
 
 #: eeschema/sim/sim_plot_panel.cpp:388
 msgid "Voltage (measured)"
-msgstr ""
+msgstr "Τάση (μέτρηση)"
 
 #: eeschema/sim/sim_plot_panel.cpp:394
 msgid "noise [(V or A)^2/Hz]"
@@ -10616,11 +10635,11 @@ msgstr "Η τιμή spice δεν μπορεί να είναι κενή"
 
 #: eeschema/sim/spice_value.cpp:46
 msgid "Invalid Spice value string"
-msgstr ""
+msgstr "Μη έγκυρη τιμή Spice"
 
 #: eeschema/sim/spice_value.cpp:79
 msgid "Invalid unit prefix"
-msgstr ""
+msgstr "Μη έγκυρο πρόθεμα μονάδας"
 
 #: eeschema/sim/spice_value.cpp:252
 msgid "Please, fill required fields"
@@ -10744,63 +10763,52 @@ msgid "Select Node"
 msgstr "Επιλογή Κόμβου"
 
 #: eeschema/tools/ee_actions.cpp:86
-#, fuzzy
 msgid "Select a connection item under the cursor"
-msgstr "Επιλογή γωνίας πριν την προσθήκη νέας γωνίας"
+msgstr "Επιλογή στοιχείου σύνδεσης κάτω από τον κέρσορα"
 
 #: eeschema/tools/ee_actions.cpp:91
-#, fuzzy
 msgid "Select Connection"
-msgstr "Διαγραφή Σύνδεσης"
+msgstr "Επιλογή Σύνδεσης"
 
 #: eeschema/tools/ee_actions.cpp:91
-#, fuzzy
 msgid "Select a complete connection"
-msgstr "Σύνδεση Χαλκού"
+msgstr "Επιλογή πλήρους σύνδεσης"
 
 #: eeschema/tools/ee_actions.cpp:116
-#, fuzzy
 msgid "New Symbol..."
-msgstr "Σύμβολο Ισχύος"
+msgstr "Νέο Σύμβολο..."
 
 #: eeschema/tools/ee_actions.cpp:116
 msgid "Create a new symbol"
 msgstr "Δημιουργία νέου συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:121
-#, fuzzy
 msgid "Edit Symbol"
-msgstr "&Επεξεργασία Συμβόλων"
+msgstr "Επεξεργασία Συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:121
-#, fuzzy
 msgid "Show selected symbol on editor canvas"
-msgstr "Επιλέξτε σύμβολο για προβολή"
+msgstr "Εμφάνιση επιλεγμένου συμβόλου στον χώρο επεξεργασίας"
 
 #: eeschema/tools/ee_actions.cpp:126
-#, fuzzy
 msgid "Duplicate Symbol"
-msgstr "Αναπαραγωγή ζώνης"
+msgstr "Αναπαραγωγή Συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:126
-#, fuzzy
 msgid "Make a copy of the selected symbol"
-msgstr "Αποθήκευση αντίγραφου τρέχοντος φύλλου"
+msgstr "Δημιουργία αντίγραφου για το επιλεγμένο σύμβολο"
 
 #: eeschema/tools/ee_actions.cpp:131
-#, fuzzy
 msgid "Delete Symbol"
-msgstr "Επιλογή Συμβόλου"
+msgstr "Διαγραφή Συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:131
-#, fuzzy
 msgid "Remove the selected symbol from its library"
-msgstr "Αφαίρεση επιλεγμένης καταχώρησης από τον πίνακα."
+msgstr "Κατάργηση επιλεγμένου συμβόλου από τη βιβλιοθήκη του"
 
 #: eeschema/tools/ee_actions.cpp:136
-#, fuzzy
 msgid "Cut Symbol"
-msgstr "Σύμβολο"
+msgstr "Αποκοπή Συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:141
 msgid "Copy Symbol"
@@ -10811,50 +10819,42 @@ msgid "Paste Symbol"
 msgstr "Σύμβολο Επικόλλησης"
 
 #: eeschema/tools/ee_actions.cpp:151
-#, fuzzy
 msgid "Import Symbol..."
-msgstr "Εισαγωγή Σχεδίων Συμβόλων"
+msgstr "Εισαγωγή Συμβόλου..."
 
 #: eeschema/tools/ee_actions.cpp:151
 msgid "Import a symbol to the current library"
 msgstr "Εισαγωγή συμβόλου στην τρέχουσα βιβλιοθήκη"
 
 #: eeschema/tools/ee_actions.cpp:156
-#, fuzzy
 msgid "Export Symbol..."
-msgstr "Εξαγωγή Σχεδίων Συμβόλων"
+msgstr "Εξαγωγή Συμβόλου..."
 
 #: eeschema/tools/ee_actions.cpp:156
-#, fuzzy
 msgid "Export a symbol to a new library file"
-msgstr "Εισαγωγή συμβόλου στην τρέχουσα βιβλιοθήκη"
+msgstr "Εξαγωγή συμβόλου σε νέο αρχείο βιβλιοθήκης"
 
 #: eeschema/tools/ee_actions.cpp:161
-#, fuzzy
 msgid "Add Symbol to Schematic"
-msgstr "Εισαγωγή εξαρτήματος στο σχηματικό"
+msgstr "Προσθήκη Συμβόλου στο Σχηματικό"
 
 #: eeschema/tools/ee_actions.cpp:166
-#, fuzzy
 msgid "Show Pin Electrical Types"
-msgstr "Προβο&λή Ηλεκτρικού Τύπου Ακροδέκτη"
+msgstr "Προβολή Ηλεκτρικών Τύπων Ακροδέκτη"
 
 #: eeschema/tools/ee_actions.cpp:166
-#, fuzzy
 msgid "Annotate pins with their electrical types"
 msgstr "Εμφάνιση του ηλεκτρικού τύπου των ακροδεκτών"
 
 #: eeschema/tools/ee_actions.cpp:171
-#, fuzzy
 msgid "Show Symbol Tree"
-msgstr "Προβολή Φύλλου Δεδομένων"
+msgstr ""
 
 #: eeschema/tools/ee_actions.cpp:176
 msgid "Export View as PNG..."
 msgstr "Εξαγωγή Προβολής ως PNG..."
 
 #: eeschema/tools/ee_actions.cpp:176
-#, fuzzy
 msgid "Create PNG file from the current view"
 msgstr "Δημιουργία αρχείου PNG από την τρέχουσα προβολή"
 
@@ -10863,7 +10863,6 @@ msgid "Export Symbol as SVG..."
 msgstr "Εξαγωγή Συμβόλου ως SVG..."
 
 #: eeschema/tools/ee_actions.cpp:181
-#, fuzzy
 msgid "Create SVG file from the current symbol"
 msgstr "Δημιουργία αρχείου SVG από το τρέχον σύμβολο"
 
@@ -10883,7 +10882,6 @@ msgid "Add Pin"
 msgstr "Προσθήκη Ακροδέκτη"
 
 #: eeschema/tools/ee_actions.cpp:198
-#, fuzzy
 msgid "Add a pin"
 msgstr "Προσθήκη ακροδέκτη"
 
@@ -10894,39 +10892,32 @@ msgstr "Προσθήκη κειμένου"
 
 #: eeschema/tools/ee_actions.cpp:203 pagelayout_editor/tools/pl_actions.cpp:53
 #: pcbnew/tools/pcb_actions.cpp:82
-#, fuzzy
 msgid "Add a text item"
 msgstr "Προσθήκη κειμένου"
 
 #: eeschema/tools/ee_actions.cpp:208 pagelayout_editor/tools/pl_actions.cpp:48
-#, fuzzy
 msgid "Add Rectangle"
-msgstr "Προσθήκη ορθογωνίου"
+msgstr "Προσθήκη Ορθογωνίου"
 
 #: eeschema/tools/ee_actions.cpp:208 pagelayout_editor/tools/pl_actions.cpp:48
-#, fuzzy
 msgid "Add a rectangle"
-msgstr "Προσθήκη ορθογωνίου"
+msgstr "Προσθήκη ενός ορθογωνίου"
 
 #: eeschema/tools/ee_actions.cpp:213
-#, fuzzy
 msgid "Add Circle"
-msgstr "Προσθήκη κύκλου"
+msgstr "Προσθήκη Κύκλου"
 
 #: eeschema/tools/ee_actions.cpp:213
-#, fuzzy
 msgid "Add a circle"
-msgstr "Προσθήκη κύκλου"
+msgstr "Προσθήκη ενός κύκλου"
 
 #: eeschema/tools/ee_actions.cpp:218
-#, fuzzy
 msgid "Add Arc"
-msgstr "Προσθήκη τόξου"
+msgstr "Προσθήκη Τόξου"
 
 #: eeschema/tools/ee_actions.cpp:218
-#, fuzzy
 msgid "Add an arc"
-msgstr "Προσθήκη τόξου"
+msgstr "Προσθήκη ενός τόξου"
 
 #: eeschema/tools/ee_actions.cpp:223 eeschema/tools/ee_actions.cpp:633
 msgid "Add Lines"
@@ -10937,9 +10928,8 @@ msgid "Add connected graphic lines"
 msgstr "Προσθήκη συνδεδεμένων γραμμών γραφικών"
 
 #: eeschema/tools/ee_actions.cpp:228
-#, fuzzy
 msgid "Move Symbol Anchor"
-msgstr "Μετακίνηση αγκίστρωσης εξαρτήματος"
+msgstr "Μετακίνηση Αγκίστρωσης Συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:228
 msgid "Specify a new location for the symbol anchor"
@@ -10950,18 +10940,16 @@ msgid "Finish drawing shape"
 msgstr "Ολοκλήρωση σχεδίαση σχήματος"
 
 #: eeschema/tools/ee_actions.cpp:241
-#, fuzzy
 msgid "Push Pin Length"
-msgstr "Μήκος δικτύου"
+msgstr ""
 
 #: eeschema/tools/ee_actions.cpp:241
 msgid "Copy pin length to other pins in symbol"
 msgstr "Αντιγράψτε το μήκος του ακροδέκτη σε άλλους ακροδέκτες στο σύμβολο"
 
 #: eeschema/tools/ee_actions.cpp:246
-#, fuzzy
 msgid "Push Pin Name Size"
-msgstr "Προώθηση Μεγέθους Ονόματος Ακροδέκτη σε Άλλους"
+msgstr "Προώθηση Μεγέθους Ονόματος Ακροδέκτη"
 
 #: eeschema/tools/ee_actions.cpp:246
 msgid "Copy pin name size to other pins in symbol"
@@ -10969,13 +10957,13 @@ msgstr ""
 "Αντιγράψτε το μέγεθος του ονόματος ακροδέκτη σε άλλους ακροδέκτες στο σύμβολο"
 
 #: eeschema/tools/ee_actions.cpp:251
-#, fuzzy
 msgid "Push Pin Number Size"
-msgstr "Προώθηση Μεγέθους Αριθμού Ακροδέκτη σε Άλλους"
+msgstr "Προώθηση Μεγέθους Αριθμού Ακροδέκτη"
 
 #: eeschema/tools/ee_actions.cpp:251
 msgid "Copy pin number size to other pins in symbol"
 msgstr ""
+"Αντιγραφή του μέγεθος του αριθμού ακροδέκτη σε άλλους ακροδέκτες στο σύμβολο"
 
 #: eeschema/tools/ee_actions.cpp:260
 msgid "Add Symbol"
@@ -11058,14 +11046,12 @@ msgid "Add a sheet pin"
 msgstr "Προσθήκη ακροδέκτη φύλλου"
 
 #: eeschema/tools/ee_actions.cpp:318
-#, fuzzy
 msgid "Import Sheet Pin"
-msgstr "Εισαγωγή Ακροδεκτών Φύλλου"
+msgstr "Εισαγωγή Ακροδέκτη Φύλλου"
 
 #: eeschema/tools/ee_actions.cpp:318
-#, fuzzy
 msgid "Import a hierarchical sheet pin"
-msgstr "Δημιουργία ιεραρχικού φύλλου"
+msgstr "Εισαγωγή ιεραρχικού ακροδέκτη φύλλου"
 
 #: eeschema/tools/ee_actions.cpp:324
 msgid "Add Global Label"
@@ -11088,23 +11074,20 @@ msgid "Add bitmap image"
 msgstr "Προσθήκη εικόνας bitmap"
 
 #: eeschema/tools/ee_actions.cpp:340
-#, fuzzy
 msgid "Finish Sheet"
-msgstr "Ολοκληρώθηκε"
+msgstr "Ολοκλήρωση Φύλλου"
 
 #: eeschema/tools/ee_actions.cpp:340
 msgid "Finish drawing sheet"
 msgstr "Ολοκλήρωση σχεδίαση φύλλου"
 
 #: eeschema/tools/ee_actions.cpp:349
-#, fuzzy
 msgid "Repeat Last Item"
-msgstr "Διαγραφή Τελευταίου Σημείου"
+msgstr "Επανάληψη Τελευταίου Αντικειμένου"
 
 #: eeschema/tools/ee_actions.cpp:349
-#, fuzzy
 msgid "Duplicates the last drawn item"
-msgstr "Αναπαράγει τα επιλεγμένα αντικείμενα"
+msgstr "Αναπαράγει το τελευταίο αντικείμενο που σχεδιάστηκε"
 
 #: eeschema/tools/ee_actions.cpp:354 pcbnew/tools/pcb_actions.cpp:221
 msgid "Rotate Clockwise"
@@ -11119,29 +11102,24 @@ msgid "Rotate"
 msgstr "Περιστροφή"
 
 #: eeschema/tools/ee_actions.cpp:360
-#, fuzzy
 msgid "Rotates selected item(s) counter-clockwise"
 msgstr "Περιστροφή επιλεγμένων αντικειμένων αριστερόστροφα"
 
 #: eeschema/tools/ee_actions.cpp:366
-#, fuzzy
 msgid "Mirror Around Horizontal Axis"
-msgstr "Καθρέφτισμα Γύρω Από Οριζόντιο (Χ) Άξονα"
+msgstr "Καθρέφτισμα Γύρω Από Οριζόντιο Άξονα"
 
 #: eeschema/tools/ee_actions.cpp:366
-#, fuzzy
 msgid "Flips selected item(s) from top to bottom"
-msgstr "Στοίχιση επιλεγμένων στοιχείων στο κάτω άκρο"
+msgstr "Αντιστρέφει τα επιλεγμένα αντικείμενα από πάνω προς τα κάτω"
 
 #: eeschema/tools/ee_actions.cpp:372
-#, fuzzy
 msgid "Mirror Around Vertical Axis"
 msgstr "Καθρέφτισμα Γύρω Από Κάθετο (Ψ) Άξονα"
 
 #: eeschema/tools/ee_actions.cpp:372
-#, fuzzy
 msgid "Flips selected item(s) from left to right"
-msgstr "Στοίχιση επιλεγμένων στοιχείων στο δεξί άκρο"
+msgstr "Αντιστρέφει τα επιλεγμένα αντικείμενα από αριστερά προς τα δεξιά"
 
 #: eeschema/tools/ee_actions.cpp:378 pcbnew/tools/pcb_actions.cpp:250
 msgid "Properties..."
@@ -11156,18 +11134,16 @@ msgid "Edit Reference..."
 msgstr "Επεξεργασία Αναφοράς..."
 
 #: eeschema/tools/ee_actions.cpp:384
-#, fuzzy
 msgid "Displays reference field dialog"
-msgstr "Απαγορευμένη τιμή πεδίου αναφοράς!"
+msgstr "Εμφανίζει το παράθυρο του πεδίου αναφοράς"
 
 #: eeschema/tools/ee_actions.cpp:390
 msgid "Edit Value..."
 msgstr "Επεξεργασία Τιμής..."
 
 #: eeschema/tools/ee_actions.cpp:390
-#, fuzzy
 msgid "Displays value field dialog"
-msgstr "Εμφάνιση του παραθύρου ιδιοτήτων αντικειμένου"
+msgstr "Εμφανίζει το παράθυρο του πεδίου τιμής"
 
 #: eeschema/tools/ee_actions.cpp:396
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:261
@@ -11175,9 +11151,8 @@ msgid "Edit Footprint..."
 msgstr "Επεξεργασία Αποτυπώματος..."
 
 #: eeschema/tools/ee_actions.cpp:396
-#, fuzzy
 msgid "Displays footprint field dialog"
-msgstr "Εμφάνιση του παραθύρου ιδιοτήτων αντικειμένου"
+msgstr "Εμφανίζει το παράθυρο του πεδίου αποτυπώματος"
 
 #: eeschema/tools/ee_actions.cpp:402
 msgid "Autoplace Fields"
@@ -11185,37 +11160,31 @@ msgstr "Αυτόματη Τοποθέτηση Πεδίων"
 
 #: eeschema/tools/ee_actions.cpp:402
 msgid "Runs the automatic placement algorithm on the symbol's fields"
-msgstr ""
+msgstr "Εκτελεί τον αλγόριθμο αυτόματης τοποθέτησης στα πεδία του συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:407
-#, fuzzy
 msgid "Sets symbol fields to original library values"
-msgstr ""
-"Ορίστε τα πεδία στο 0\n"
-"για να χρησιμοποιήσετε γονικές ή καθολικές τιμές"
+msgstr "Ορίζει τα πεδία συμβόλων στις αρχικές τιμές της βιβλιοθήκης"
 
 #: eeschema/tools/ee_actions.cpp:412
-#, fuzzy
 msgid "DeMorgan Conversion"
-msgstr "Προβολή ως εξάρτημα μετατροπής \"De Morgan\""
+msgstr "Μετατροπή DeMorgan"
 
 #: eeschema/tools/ee_actions.cpp:412
 msgid "Switch between DeMorgan representations"
 msgstr "Εναλλαγή μεταξύ απιεκονίσεων DeMorgan"
 
 #: eeschema/tools/ee_actions.cpp:417
-#, fuzzy
 msgid "DeMorgan Standard"
-msgstr "Τυπική"
+msgstr "Τυπική DeMorgan"
 
 #: eeschema/tools/ee_actions.cpp:417
 msgid "Switch to standard DeMorgan representation"
 msgstr "Αλλαγή σε τυπική απεικόνιση DeMorgan"
 
 #: eeschema/tools/ee_actions.cpp:422
-#, fuzzy
 msgid "DeMorgan Alternate"
-msgstr "Αφαίρεση (Εναλλακτική)"
+msgstr "Εναλλακτική DeMorgan"
 
 #: eeschema/tools/ee_actions.cpp:422
 msgid "Switch to alternate DeMorgan representation"
@@ -11242,70 +11211,62 @@ msgid "Change to Label"
 msgstr "Αλλαγή σε Ετικέτα"
 
 #: eeschema/tools/ee_actions.cpp:437
-#, fuzzy
 msgid "Change existing item to a label"
-msgstr "Υπάρχουν αλλαγές στον κατάλογο εξαρτημάτων"
+msgstr "Αλλαγή του στοιχείου σε ετικέτα"
 
 #: eeschema/tools/ee_actions.cpp:442
 msgid "Change to Hierarchical Label"
 msgstr "Αλλαγή σε Ιεραρχική Ετικέτα"
 
 #: eeschema/tools/ee_actions.cpp:442
-#, fuzzy
 msgid "Change existing item to a hierarchical label"
-msgstr "Αλλαγή σε Ιεραρχική Ετικέτα"
+msgstr "Αλλαγή του στοιχείου σε ιεραρχική ετικέτα"
 
 #: eeschema/tools/ee_actions.cpp:447
 msgid "Change to Global Label"
 msgstr "Αλλαγή σε Καθολική Ετικέτα"
 
 #: eeschema/tools/ee_actions.cpp:447
-#, fuzzy
 msgid "Change existing item to a global label"
-msgstr "Αλλαγή σε Καθολική Ετικέτα"
+msgstr "Αλλαγή του στοιχείου σε καθολική ετικέτα"
 
 #: eeschema/tools/ee_actions.cpp:452
 msgid "Change to Text"
 msgstr "Αλλαγή σε Κείμενο"
 
 #: eeschema/tools/ee_actions.cpp:452
-#, fuzzy
 msgid "Change existing item to a text comment"
-msgstr "Υπάρχουν αλλαγές στον κατάλογο εξαρτημάτων"
+msgstr "Αλλαγή του στοιχείου σε σχόλιο κειμένου"
 
 #: eeschema/tools/ee_actions.cpp:457
 msgid "Cleanup Sheet Pins"
 msgstr "Εκκαθάριση Ακροδεκτών Φύλλου"
 
 #: eeschema/tools/ee_actions.cpp:457
-#, fuzzy
 msgid "Delete unreferenced sheet pins"
-msgstr "Προκαθορισμένη ένδειξη αναφοράς:"
+msgstr "Διαγραφή ακροδεκτών φύλλου που δεν έχουν αναφορές"
 
 #: eeschema/tools/ee_actions.cpp:462 pcbnew/tools/pcb_actions.cpp:384
-#, fuzzy
 msgid "Edit Text & Graphics Properties..."
-msgstr "Επεξεργασία Ιδιοτήτων Κειμένου && &Γραφικών..."
+msgstr "Επεξεργασία Ιδιοτήτων Κειμένου & Γραφικών..."
 
 #: eeschema/tools/ee_actions.cpp:463
-#, fuzzy
 msgid "Edit text and graphics properties globally across schematic"
-msgstr "Επεξεργασία Ιδιοτήτων Κειμένου και Γραφικών"
+msgstr ""
+"Επεξεργαστείτε τις ιδιότητες του κειμένου και των γραφικών καθολικά, σε όλο "
+"το σχηματικό"
 
 #: eeschema/tools/ee_actions.cpp:468
-#, fuzzy
 msgid "Symbol Properties..."
-msgstr "Ιδιότητες Συμβόλου"
+msgstr "Ιδιότητες Συμβόλου..."
 
 #: eeschema/tools/ee_actions.cpp:468
-#, fuzzy
 msgid "Displays symbol properties dialog"
-msgstr "Εμφάνιση του παραθύρου ιδιοτήτων αντικειμένου"
+msgstr "Εμφάνιση του παραθύρου ιδιοτήτων συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:473
-#, fuzzy
 msgid "Pin Table..."
-msgstr "Πίνακας Ακροδεκ&τών..."
+msgstr "Πίνακας Ακροδεκτών..."
 
 #: eeschema/tools/ee_actions.cpp:473
 msgid "Displays pin table for bulk editing of pins"
@@ -11341,80 +11302,66 @@ msgid "Highlight Net"
 msgstr "Επισήμανση Δικτύου"
 
 #: eeschema/tools/ee_actions.cpp:503
-#, fuzzy
 msgid "Highlight net under cursor"
-msgstr "Επισήμανση δικτύου"
+msgstr "Επισήμανση δικτύου κάτω από τον κέρσορα"
 
 #: eeschema/tools/ee_actions.cpp:514 pcbnew/tools/pcb_actions.cpp:592
-#, fuzzy
 msgid "Highlight Nets"
-msgstr "Επισήμανση Δικτύου"
+msgstr "Επισήμανση Δικτύων"
 
 #: eeschema/tools/ee_actions.cpp:514
 msgid "Highlight wires and pins of a net"
 msgstr "Φωτισμός συρμάτων και ακροδεκτών που ανήκουν στο δίκτυο"
 
 #: eeschema/tools/ee_actions.cpp:520
-#, fuzzy
 msgid "Edit with Symbol Editor"
-msgstr "Επεξεργασία με Επεξεργαστή Βιβλιοθήκης"
+msgstr "Επεξεργασία με Επεξεργαστή Συμβόλων"
 
 #: eeschema/tools/ee_actions.cpp:520
-#, fuzzy
 msgid "Open the symbol editor to edit the symbol"
-msgstr "Κλείσιμο προβολέα εξαρτημάτων"
+msgstr "Άνοιγμα του επεξεργαστή συμβόλων για επεξεργασία του συμβόλου"
 
 #: eeschema/tools/ee_actions.cpp:525
-#, fuzzy
 msgid "Edit Symbol Fields..."
-msgstr "Επεξεργα&σία Πεδίων Συμβόλων..."
+msgstr "Επεξεργασία Πεδίων Συμβόλων..."
 
 #: eeschema/tools/ee_actions.cpp:525
 msgid "Bulk-edit fields of all symbols in schematic"
 msgstr "Μαζική επεξεργασία πεδίων όλων των συμβόλων στο σχηματικό"
 
 #: eeschema/tools/ee_actions.cpp:530
-#, fuzzy
 msgid "Edit Symbol Library Links..."
-msgstr "Επεξεργασία πίνακα βιβλιοθήκης συμβόλων."
+msgstr "Επεξεργασία Συνδέσμων Βιβλιοθήκης Συμβόλων..."
 
 #: eeschema/tools/ee_actions.cpp:530
-#, fuzzy
 msgid "Edit links between schematic and library symbols"
 msgstr ""
 "Επεξεργασία συνδέσμων μεταξύ συμβόλων σχηματικού και συμβόλων βιβλιοθήκης"
 
 #: eeschema/tools/ee_actions.cpp:535
-#, fuzzy
 msgid "Assign Footprints..."
-msgstr "Ανάθε&ση Αποτυπωμάτων..."
+msgstr "Ανάθεση Αποτυπωμάτων..."
 
 #: eeschema/tools/ee_actions.cpp:535
-#, fuzzy
 msgid "Run Cvpcb"
 msgstr "Εκτέλεση CvPcb"
 
 #: eeschema/tools/ee_actions.cpp:540
-#, fuzzy
 msgid "Import Footprint Assignments..."
-msgstr "&Αρχεία Συσχέτισης Αποτυπωμάτων"
+msgstr "Εισαγωγή Συσχετίσεων Αποτυπωμάτων..."
 
 #: eeschema/tools/ee_actions.cpp:541
-#, fuzzy
 msgid "Import symbol footprint assignments from .cmp file created by Pcbnew"
 msgstr ""
-"Εισαγωγή προς τα πίσω πεδίων αντιστοίχησης εξαρτημάτων από αρχείο το αρχείο ."
-"cmp που δημιουργήθηκε από το Pcbnew"
+"Εισαγωγή αντιστοίχισης συμβόλων με αποτυπώματα, από αρχείο .cmp του Pcbnew"
 
 #: eeschema/tools/ee_actions.cpp:546
-#, fuzzy
 msgid "Annotate Schematic..."
-msgstr "Ο&νοματοδοσία Σχηματικού..."
+msgstr "Ονοματοδοσία Σχηματικού..."
 
 #: eeschema/tools/ee_actions.cpp:546
-#, fuzzy
 msgid "Fill in schematic symbol reference designators"
-msgstr "Αντικατάσταση ενδείξεων αναφοράς ε&ξαρτημάτων"
+msgstr ""
 
 #: eeschema/tools/ee_actions.cpp:551
 msgid "Bus Definitions..."
@@ -11425,14 +11372,12 @@ msgid "Manage bus definitions"
 msgstr "Διαχείριση ορισμών διαύλου"
 
 #: eeschema/tools/ee_actions.cpp:556
-#, fuzzy
 msgid "Export Drawing to Clipboard"
-msgstr "Εξαγωγή σχεδίων στο πρόχειρο"
+msgstr "Εξαγωγή Σχεδίου στο Πρόχειρο"
 
 #: eeschema/tools/ee_actions.cpp:556
-#, fuzzy
 msgid "Export drawing of current sheet to clipboard"
-msgstr "Εξαγωγή σχεδίων στο πρόχειρο"
+msgstr "Εξαγωγή σχεδίων του τρέχοντος φύλλου, στο πρόχειρο"
 
 #: eeschema/tools/ee_actions.cpp:561
 msgid "Switch to PCB Editor"
@@ -11465,7 +11410,7 @@ msgstr "Είσοδος σε Φύλλο"
 
 #: eeschema/tools/ee_actions.cpp:576
 msgid "Display the selected sheet's contents in the Eeschema window"
-msgstr ""
+msgstr "Εμφάνιση περιεχομένων του επιλεγμένου φύλλου στο παράθυρο Eeschema"
 
 #: eeschema/tools/ee_actions.cpp:582
 msgid "Leave Sheet"
@@ -11473,7 +11418,7 @@ msgstr "Έξοδος από το φύλλο"
 
 #: eeschema/tools/ee_actions.cpp:582
 msgid "Display the parent sheet in the Eeschema window"
-msgstr ""
+msgstr "Εμφάνιση γονικού φύλλου στο παράθυρο Eeschema"
 
 #: eeschema/tools/ee_actions.cpp:587
 msgid "Show Hierarchy Navigator"
@@ -11488,17 +11433,16 @@ msgid "Highlight corresponding items in PCBNew"
 msgstr "Φωτισμός αντίστοιχων αντικειμένων στο PCBNew"
 
 #: eeschema/tools/ee_actions.cpp:597
-#, fuzzy
 msgid "Show Hidden Pins"
-msgstr "&Προβολή Κρυφών Ακροδεκτών"
+msgstr "Προβολή Κρυφών Ακροδεκτών"
 
 #: eeschema/tools/ee_actions.cpp:602
 msgid "Force H/V Wires and Busses"
-msgstr ""
+msgstr "Υποχρεωτικά Καθ/Οριζ Σύρματα και Δίαυλοι"
 
 #: eeschema/tools/ee_actions.cpp:610
 msgid "Add Junctions to Selection where needed"
-msgstr ""
+msgstr "Προσθήκη Κόμβων στην Επιλογή, όπου απαιτείται"
 
 #: eeschema/tools/ee_actions.cpp:615
 msgid "Add Wire"
@@ -11523,49 +11467,40 @@ msgid "Unfold from Bus"
 msgstr ""
 
 #: eeschema/tools/ee_actions.cpp:627
-#, fuzzy
 msgid "Break a wire out of a bus"
-msgstr "Προσθήκη μετάβασης σύρματος σε δίαυλο"
+msgstr "Αποκοπή σύρματος από τον δίαυλο"
 
 #: eeschema/tools/ee_actions.cpp:639
 msgid "Finish Wire or Bus"
 msgstr "Τερματισμός Σύρματος ή Διαύλου"
 
 #: eeschema/tools/ee_actions.cpp:639
-#, fuzzy
 msgid "Complete drawing at current segment"
-msgstr "Εκκαθάριση του επιλεγμένου επιπέδου γραφικών"
+msgstr ""
 
 #: eeschema/tools/ee_actions.cpp:644
-#, fuzzy
 msgid "Finish Wire"
-msgstr "Ολοκληρώθηκε"
+msgstr "Τερματισμός Σύρματος"
 
 #: eeschema/tools/ee_actions.cpp:644
-#, fuzzy
 msgid "Complete wire with current segment"
-msgstr ""
-"Ενημερώνει το σχέδιο του PCB με βάση το τρέχον σχηματικό (ονοματοδοσία)."
+msgstr "Ολοκλήρωση σύρματος με το τρέχον τμήμα"
 
 #: eeschema/tools/ee_actions.cpp:649
-#, fuzzy
 msgid "Finish Bus"
-msgstr "Φινλανδικά"
+msgstr "Ολοκλήρωση Διαύλου"
 
 #: eeschema/tools/ee_actions.cpp:649
-#, fuzzy
 msgid "Complete bus with current segment"
-msgstr ""
-"Ενημερώνει το σχέδιο του PCB με βάση το τρέχον σχηματικό (ονοματοδοσία)."
+msgstr "Ολοκλήρωση διαύλου με το τρέχον τμήμα"
 
 #: eeschema/tools/ee_actions.cpp:654
-#, fuzzy
 msgid "Finish Lines"
-msgstr "Ολοκληρώθηκε"
+msgstr "Ολοκλήρωση Γραμμών"
 
 #: eeschema/tools/ee_actions.cpp:654
 msgid "Complete connected lines with current segment"
-msgstr ""
+msgstr "Ολοκλήρωση συνδεδεμένων γραμμών με το τρέχον τμήμα"
 
 #: eeschema/tools/ee_actions.cpp:663 pagelayout_editor/tools/pl_actions.cpp:67
 #: pcbnew/tools/pcb_actions.cpp:192
@@ -11582,14 +11517,12 @@ msgid "Drag"
 msgstr "Σύρσιμο"
 
 #: eeschema/tools/ee_actions.cpp:668
-#, fuzzy
 msgid "Drags the selected item(s)"
-msgstr "Μετακίνηση των επιλεγμένων αντικειμένων"
+msgstr "Σύρσιμο επιλεγμένων αντικειμένων"
 
 #: eeschema/tools/ee_actions.cpp:672
-#, fuzzy
 msgid "Move Activate"
-msgstr "Μετακίνηση αντικειμένου"
+msgstr ""
 
 #: eeschema/tools/ee_inspection_tool.cpp:129
 msgid "No pins!"
@@ -11634,14 +11567,12 @@ msgid " in symbol %c"
 msgstr " στο σύμβολο %c"
 
 #: eeschema/tools/ee_inspection_tool.cpp:207
-#, fuzzy
 msgid " of converted"
-msgstr "  που έχει μετατραπεί"
+msgstr " "
 
 #: eeschema/tools/ee_inspection_tool.cpp:209
-#, fuzzy
 msgid " of normal"
-msgstr " του κανονικού"
+msgstr ""
 
 #: eeschema/tools/ee_inspection_tool.cpp:218
 msgid "No off grid or duplicate pins were found."
@@ -11654,9 +11585,8 @@ msgid "Clarify Selection"
 msgstr "Διευκρίνηση Επιλογής"
 
 #: eeschema/tools/lib_control.cpp:271 eeschema/tools/lib_control.cpp:311
-#, fuzzy
 msgid "No symbol to export"
-msgstr "Να μη γίνει εξαγωγή"
+msgstr "Δεν υπάρχει σύμβολο για εξαγωγή"
 
 #: eeschema/tools/lib_control.cpp:282
 msgid "Image File Name"
@@ -11685,14 +11615,14 @@ msgid "Edit %s Field"
 msgstr "Επεξεργασία Πεδίου %s"
 
 #: eeschema/tools/lib_pin_tool.cpp:152
-#, fuzzy, c-format
+#, c-format
 msgid "This position is already occupied by another pin, in unit %d."
-msgstr "Αυτή η θέση είναι ήδη κατειλημμένη από έναν άλλο ακροδέκτη. Συνέχεια;"
+msgstr ""
+"Αυτή η θέση είναι ήδη κατειλημμένη από έναν άλλο ακροδέκτη, στο μέρος %d."
 
 #: eeschema/tools/lib_pin_tool.cpp:156
-#, fuzzy
 msgid "Place Pin Anyway"
-msgstr "Δημιουργία Οπωσδήποτε"
+msgstr "Τοποθέτηση Ακροδέκτη Οπωσδήποτε"
 
 #: eeschema/tools/sch_drawing_tools.cpp:330
 #: pagelayout_editor/pl_editor_frame.cpp:718
@@ -11710,44 +11640,37 @@ msgid "No new hierarchical labels found."
 msgstr "Δεν βρέθηκαν νέες ιεραρχικές ετικέτες."
 
 #: eeschema/tools/sch_edit_tool.cpp:65
-#, fuzzy
 msgid "Symbol Unit"
-msgstr "Επεξεργαστής Συμβόλων"
+msgstr "Μονάδα Συμβόλου"
 
 #: eeschema/tools/sch_edit_tool.cpp:85
-#, fuzzy
 msgid "no symbol selected"
-msgstr "Δεν επιλέχθηκε σύμβολο"
+msgstr "δεν επιλέχθηκε σύμβολο"
 
 #: eeschema/tools/sch_edit_tool.cpp:95
-#, fuzzy
 msgid "symbol is not multi-unit"
-msgstr "Σύμβολα προς ανανέωση:"
+msgstr "το σύμβολο δεν αποτελείται από πολλά μέρη"
 
 #: eeschema/tools/sch_edit_tool.cpp:981 pcbnew/tools/pcbnew_control.cpp:510
-#, fuzzy
 msgid "Item locked."
-msgstr "Αντεστραμμένο ρολόι"
+msgstr "Αντικείμενο κλειδωμένο."
 
 #: eeschema/tools/sch_edit_tool.cpp:1391
-#, fuzzy
 msgid "There are no unreferenced pins in this sheet to remove."
-msgstr "Δεν υπάρχουν μη καθορισμένες ετικέτες για εκκαθάριση σε αυτό το φύλλο."
+msgstr ""
+"Δεν υπάρχουν μη αναφερόμενοι ακροδέκτες για εκκαθάριση σε αυτό το φύλλο."
 
 #: eeschema/tools/sch_edit_tool.cpp:1395
-#, fuzzy
 msgid "Do you wish to delete the unreferenced pins from this sheet?"
-msgstr "Θέλετε να εκκαθαρίσετε αυτό το φύλλο;"
+msgstr "Διαγραφή μη αναφερόμενων ακροδεκτών σε αυτό το φύλλο;"
 
 #: eeschema/tools/sch_editor_control.cpp:287
-#, fuzzy
 msgid "Reached end of schematic."
-msgstr "Χρήση ολόκληρου του σχηματικού"
+msgstr "Τέλος του σχηματικού."
 
 #: eeschema/tools/sch_editor_control.cpp:288
-#, fuzzy
 msgid "Reached end of sheet."
-msgstr "με αναμενόμενο τέλος γραμμής"
+msgstr "Τέλος φύλλου"
 
 #: eeschema/tools/sch_editor_control.cpp:290
 msgid ""
@@ -11761,25 +11684,24 @@ msgstr ""
 "Σφάλμα: βρέθηκαν διπλότυπα ονόματα υπο-φύλλων στο τρέχον φύλλο. Διορθώστε το."
 
 #: eeschema/tools/sch_editor_control.cpp:673
-#, fuzzy, c-format
+#, c-format
 msgid "Highlighted net: %s"
-msgstr "Επισήμανση δικτύου"
+msgstr "Τονισμένο δίκτυο: %s"
 
 #: eeschema/tools/sch_editor_control.cpp:1037
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The pasted sheet \"%s\"\n"
 "was dropped because the destination already has the sheet or one of its "
 "subsheets as a parent."
 msgstr ""
-"Οι αλλαγές στο φύλλο δεν μπορούν να γίνουν γιατί το φύλλο προορισμός έχει "
-"ήδη το φύλλο \"%s\", ή ένα από τα υποφύλλα του, ως γονέα κάπου στην ιεραρχία "
-"σχηματικών."
+"Το επικολλημένο φύλλο \"%s\"\n"
+"αγνοήθηκε επειδή ο προορισμός έχει ήδη ως γονέα το φύλλο ή ένα από τα "
+"υποφύλλα του."
 
 #: eeschema/tools/sch_line_wire_bus_tool.cpp:92
-#, fuzzy
 msgid "no bus selected"
-msgstr "Δεν επιλέχθηκε επίπεδο"
+msgstr "δεν επιλέχθηκε δίαυλος"
 
 #: eeschema/tools/sch_line_wire_bus_tool.cpp:101
 msgid "bus has no connections"
@@ -11792,11 +11714,13 @@ msgid ""
 "nickname \"%s\".  Use Manage Symbol Libraries\n"
 "to edit the configuration."
 msgstr ""
+"Η τρέχουσα διαμόρφωση δεν περιλαμβάνει βιβλιοθήκη με το\n"
+"ψευδώνυμο \"%s\". Χρησιμοποιήστε τη Διαχείριση Βιβλιοθηκών Συμβόλων\n"
+"για επεξεργασία της διαμόρφωσης."
 
 #: eeschema/viewlib_frame.cpp:321
-#, fuzzy
 msgid "Symbol library not found."
-msgstr "Επεξεργαστής Βιβλιοθήκης PCB"
+msgstr "Δεν βρέθηκε η βιβλιοθήκη συμβόλων."
 
 #: eeschema/viewlib_frame.cpp:388
 #, c-format
@@ -11804,9 +11728,9 @@ msgid "Unit %c"
 msgstr "Μονάδα %c"
 
 #: eeschema/viewlibs.cpp:133
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol Library Browser -- %s"
-msgstr "Πλοηγός βιβλιοθήκης"
+msgstr "Πλοηγός Βιβλιοθήκης Συμβόλων -- %s"
 
 #: eeschema/viewlibs.cpp:134 pcbnew/footprint_viewer_frame.cpp:880
 msgid "no library selected"
@@ -11893,9 +11817,8 @@ msgid "Background"
 msgstr "Παρασκήνιο"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:99
-#, fuzzy
 msgid "Selection Highlight"
-msgstr "Καθαρισμός Φωτισμών"
+msgstr ""
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:106
 msgid "Component"
@@ -12039,19 +11962,16 @@ msgid "Drawing Mode"
 msgstr "Κατάσταση Σχεδίασης"
 
 #: gerbview/dialogs/panel_gerbview_display_options_base.cpp:40
-#, fuzzy
 msgid "Sketch flashed items"
-msgstr "Φωτισμένα αντικείμενα"
+msgstr "Περίγραμμα φωτισμένων αντικειμένων"
 
 #: gerbview/dialogs/panel_gerbview_display_options_base.cpp:43
-#, fuzzy
 msgid "Sketch lines"
-msgstr "Γραμμές Σκιαγράφησης"
+msgstr "Περίγραμμα γραμμών"
 
 #: gerbview/dialogs/panel_gerbview_display_options_base.cpp:46
-#, fuzzy
 msgid "Sketch polygons"
-msgstr "Πολύγωνα"
+msgstr "Περίγραμμα πολυγώνων"
 
 #: gerbview/dialogs/panel_gerbview_settings_base.cpp:22
 #: pcbnew/dialogs/panel_modedit_settings_base.cpp:23
@@ -12151,9 +12071,9 @@ msgid "Error reading EXCELLON drill file"
 msgstr "Σφάλμα ανάγνωσης αρχείου διάτρησης EXCELLON"
 
 #: gerbview/excellon_read_drill_file.cpp:420
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown Excellon command &lt;%s&gt;"
-msgstr "Άγνωστος Excellon G Code: &lt;%s&gt;"
+msgstr "Άγνωστη εντολή Excellon &lt;%s&gt;"
 
 #: gerbview/excellon_read_drill_file.cpp:578
 msgid "Tool definition shape not found"
@@ -12271,19 +12191,17 @@ msgid "File not found:"
 msgstr "Αρχείο δεν βρέθηκε:"
 
 #: gerbview/files.cpp:299
-#, fuzzy
 msgid "Loading Gerber files..."
-msgstr "Φόρτωση Αρχείου &Gerber"
+msgstr "Φόρτωση Αρχείων Gerber..."
 
 #: gerbview/files.cpp:301 gerbview/files.cpp:306
-#, fuzzy, c-format
+#, c-format
 msgid "Loading %d/%d %s"
-msgstr "Φόρτωση %s\""
+msgstr "Φόρτωση %d/%d %s"
 
 #: gerbview/files.cpp:405
-#, fuzzy
 msgid "Open NC (Excellon) Drill File(s)"
-msgstr "Άνοιγμα Πρόσφατου Αρχείου &Διάτρησης"
+msgstr "Άνοιγμα Αρχείων Διάτρησης NC (Excellon)"
 
 #: gerbview/files.cpp:502
 #, c-format
@@ -12291,9 +12209,9 @@ msgid "Zip file \"%s\" cannot be opened"
 msgstr "Το αρχείο zip \"%s\" δεν μπορεί να ανοιχτεί"
 
 #: gerbview/files.cpp:544
-#, fuzzy, c-format
+#, c-format
 msgid "Info: skip file <i>\"%s\"</i> (unknown type)\n"
-msgstr "Πληροφορίες: παράλειψη αρχείου <i>'%s'</i> (άγνωστος τύπος)\n"
+msgstr "Πληροφορίες: παράλειψη αρχείου <i>\"%s\"</i> (άγνωστος τύπος)\n"
 
 #: gerbview/files.cpp:586
 #, c-format
@@ -12410,7 +12328,6 @@ msgid "Layers Manager"
 msgstr "Διαχειριστής Επιπέδων"
 
 #: gerbview/gerbview_frame.cpp:170 pcbnew/pcb_edit_frame.cpp:272
-#, fuzzy
 msgid ""
 "KiCad can use your graphics card to give you a smoother and faster "
 "experience. This option is turned off by default since it is not compatible "
@@ -12427,8 +12344,8 @@ msgstr ""
 "\n"
 "Θα θέλατε να δοκιμάσετε την επιτάχυνση γραφικών;\n"
 "\n"
-"Αν θέλετε να επιλέξετε αργότερα, επιλέξτε Σύγχρονη εργαλειοθήκη (Επιτάχυνση) "
-"στο μενού Προτιμήσεις."
+"Αν θέλετε να επιλέξετε αργότερα, επιλέξτε Γραφικά με Επιτάχυνση στο μενού "
+"Προτιμήσεις."
 
 #: gerbview/gerbview_frame.cpp:177 pcbnew/pcb_edit_frame.cpp:279
 msgid "Enable Graphics Acceleration"
@@ -12496,9 +12413,8 @@ msgid "Show DCodes identification"
 msgstr "Προβολή της ταυτότητας των DCodes"
 
 #: gerbview/gerbview_layer_widget.cpp:102
-#, fuzzy
 msgid "Negative Objects"
-msgstr "Προβολή αρνητικών αντικειμένων σε αυτό το χρώμα"
+msgstr "Αρνητικά Αντικείμενα"
 
 #: gerbview/gerbview_layer_widget.cpp:102
 msgid "Show negative objects in this color"
@@ -12539,30 +12455,27 @@ msgstr "Ταξινόμηση Επιπέδων αν Λειτουργία X2"
 #: gerbview/job_file_reader.cpp:148
 msgid "This job file uses an outdated format. Please, recreate it."
 msgstr ""
+"Το αρχείο εργασίας χρησιμοποιεί ξεπερασμένη μορφή. Ξαναδημιουργήστε το."
 
 #: gerbview/job_file_reader.cpp:184
 msgid "Open Gerber Job File"
 msgstr "Άνοιγμα Αρχείου Έργου Gerber"
 
 #: gerbview/menubar.cpp:62
-#, fuzzy
 msgid "Open Recent Gerber"
-msgstr "Άνοιγμα Π&ρόσφατου Αρχείου Gerber"
+msgstr "Άνοιγμα Πρόσφατου Gerber"
 
 #: gerbview/menubar.cpp:74
-#, fuzzy
 msgid "Open Recent Drill File"
-msgstr "Άνοιγμα Πρόσφατου Αρχείου &Διάτρησης"
+msgstr "Άνοιγμα Πρόσφατου Αρχείου Διάτρησης"
 
 #: gerbview/menubar.cpp:86
-#, fuzzy
 msgid "Open Recent Job"
-msgstr "Άνοιγ&μα Πρόσφατου Αρχείου Έργου"
+msgstr "Άνοιγμα Πρόσφατης Εργασίας"
 
 #: gerbview/menubar.cpp:98
-#, fuzzy
 msgid "Open Recent Zip"
-msgstr "Άνοιγμα &Πρόσφατων"
+msgstr "Άνοιγμα Πρόσφατου Zip"
 
 #: gerbview/menubar.cpp:104
 msgid "Open &Gerber File(s)..."
@@ -12591,11 +12504,8 @@ msgid "Open Gerber &Job File..."
 msgstr "Άνοιγ&μα Αρχείου Έργου Gerber..."
 
 #: gerbview/menubar.cpp:115
-#, fuzzy
 msgid "Open a Gerber job file and its associated gerber files"
-msgstr ""
-"Φόρτωση αρχείου έργου Gerber, και φόρτωση σχετικών αρχείων gerber ανάλογα με "
-"το έργο"
+msgstr "Άνοιγμα αρχείου έργου Gerber, και φόρτωση σχετικών αρχείων gerber"
 
 #: gerbview/menubar.cpp:119
 msgid "Open &Zip Archive File..."
@@ -12733,7 +12643,7 @@ msgstr "Φωτισμός αντικειμένων που ανήκουν στο �
 
 #: gerbview/toolbars_gerber.cpp:136
 msgid "Highlight items with this aperture attribute"
-msgstr ""
+msgstr "Φωτισμός αντικειμένων με αυτή την ιδιότητα ανοίγματος"
 
 #: gerbview/toolbars_gerber.cpp:137
 msgid "Attr:"
@@ -12772,37 +12682,32 @@ msgid "Previous Layer"
 msgstr "Προηγούμενο Επίπεδο"
 
 #: gerbview/tools/gerbview_actions.cpp:95
-#, fuzzy
 msgid "Sketch Lines"
-msgstr "Γραμμές Σκιαγράφησης"
+msgstr ""
 
 #: gerbview/tools/gerbview_actions.cpp:95
 msgid "Show lines in outline mode"
 msgstr "Εμφάνιση γραμμών σε λειτουργία περιγράμματος"
 
 #: gerbview/tools/gerbview_actions.cpp:101
-#, fuzzy
 msgid "Sketch Flashed Items"
-msgstr "Φωτισμένα αντικείμενα"
+msgstr ""
 
 #: gerbview/tools/gerbview_actions.cpp:101
-#, fuzzy
 msgid "Show flashed items in outline mode"
-msgstr "Εμφάνιση εδρών σε λειτουργία περιγράμματος"
+msgstr ""
 
 #: gerbview/tools/gerbview_actions.cpp:107
-#, fuzzy
 msgid "Sketch Polygons"
-msgstr "Πολύγωνα"
+msgstr ""
 
 #: gerbview/tools/gerbview_actions.cpp:107
 msgid "Show polygons in outline mode"
 msgstr "Εμφάνιση πολυγώνων σε λειτουργία περιγράμματος"
 
 #: gerbview/tools/gerbview_actions.cpp:113
-#, fuzzy
 msgid "Ghost Negative Objects"
-msgstr "Προβολή Αρ&νητικών Αντικειμένων"
+msgstr ""
 
 #: gerbview/tools/gerbview_actions.cpp:113
 msgid "Show negative objects in ghost color"
@@ -12817,9 +12722,8 @@ msgid "Show dcode number"
 msgstr "Προβολή του αριθμού dcode"
 
 #: gerbview/tools/gerbview_actions.cpp:124
-#, fuzzy
 msgid "Show in Differential Mode"
-msgstr "Εμφάνιση ηλ&εκτρικού τύπου ακροδέκτη"
+msgstr "Προβολή σε Διαφορική Κατάσταση"
 
 #: gerbview/tools/gerbview_actions.cpp:124
 msgid "Show layers in diff (compare) mode"
@@ -13058,9 +12962,8 @@ msgid "Archive all project files"
 msgstr "Αρχειοθέτηση όλων των αρχείων έργων"
 
 #: kicad/menubar.cpp:193
-#, fuzzy
 msgid "Reveal project directory in Finder"
-msgstr "Τρέχων φάκελος έργου"
+msgstr "Προβολή φακέλου έργου στον Finder"
 
 #: kicad/menubar.cpp:195
 msgid "Open project directory in file explorer"
@@ -13515,9 +13418,8 @@ msgid "From:"
 msgstr "Από:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:322
-#, fuzzy
 msgid "Set to 0 for default"
-msgstr "Επαναφορά Όλων στις Προκαθορισμένες Τιμές"
+msgstr "Ορισμός σε 0 για προκαθορισμένο"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:336
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:1065
@@ -13529,14 +13431,12 @@ msgid "Bitmap DPI:"
 msgstr "Bitmap DPI:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:379
-#, fuzzy
 msgid "Repeat count:"
-msgstr "πλήθος σημείων"
+msgstr ""
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:389
-#, fuzzy
 msgid "Step text:"
-msgstr "Τοποθέτηση κειμένου"
+msgstr ""
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:411
 msgid "Step X:"
@@ -13552,14 +13452,12 @@ msgid "Apply"
 msgstr "Εφαρμογή"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:460
-#, fuzzy
 msgid "Item Properties"
-msgstr "Ιδιότητες Κειμένου"
+msgstr "Ιδιότητες Αντικειμένου"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:469
-#, fuzzy
 msgid "Default Values:"
-msgstr "Προκαθορισμένη Τιμή"
+msgstr "Προκαθορισμένες Τιμές"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:514
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.cpp:132
@@ -13574,14 +13472,12 @@ msgid "Text thickness:"
 msgstr "Πάχος κειμένου:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:557
-#, fuzzy
 msgid "Set to Default"
-msgstr "Επαναφορά σε Προκαθορισμένες Τιμές"
+msgstr "Ορισμός σε Προκαθορισμένα"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:566
-#, fuzzy
 msgid "Page Margins:"
-msgstr "Εκτύπωση σελίδας"
+msgstr "Περιθώρια Σελίδας"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:577
 msgid "Left:"
@@ -13622,9 +13518,8 @@ msgid "The current page layout has been modified.  Save changes?"
 msgstr "Η σχεδίαση σελίδας έχει τροποποιηθεί. Αποθήκευση αλλαγών;"
 
 #: pagelayout_editor/files.cpp:114
-#, fuzzy
 msgid "Append Existing Page Layout File"
-msgstr "Επεξεργασία Σχεδίασης Σελίδας"
+msgstr "Προσθήκη Υπάρχοντος Αρχείου Σχεδίασης Σελίδας"
 
 #: pagelayout_editor/files.cpp:125 pagelayout_editor/files.cpp:150
 #, c-format
@@ -13661,9 +13556,8 @@ msgid "Unable to create \"%s\""
 msgstr "Αδυναμία δημιουργίας του \"%s\""
 
 #: pagelayout_editor/pl_editor_frame.cpp:148
-#, fuzzy
 msgid "coord origin: Right Bottom page corner"
-msgstr "Κάτω δεξιά γωνία"
+msgstr "αρχή συντεταγμένων: Κάτω Δεξιά γωνία σελίδας"
 
 #: pagelayout_editor/pl_editor_frame.cpp:168
 msgid "Properties"
@@ -13688,9 +13582,9 @@ msgid "Page size: width %.4g height %.4g"
 msgstr "Μέγεθος σελίδας: πλάτος %.4g ύψος %.4g"
 
 #: pagelayout_editor/pl_editor_frame.cpp:646
-#, fuzzy, c-format
+#, c-format
 msgid "coord origin: %s"
-msgstr "Αρχικό Σημείο Πλέγματος"
+msgstr "αρχή συντεταγμένων: %s"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:67
 msgid ""
@@ -13767,27 +13661,24 @@ msgid "Add a bitmap image"
 msgstr "Προσθήκη εικόνας bitmap"
 
 #: pagelayout_editor/tools/pl_actions.cpp:72
-#, fuzzy
 msgid "Append Existing Page Layout File..."
-msgstr "Επεξεργασία Σχεδίασης Σελίδας"
+msgstr "Προσθήκη Υπάρχοντος Αρχείου Σχεδίασης Σελίδας"
 
 #: pagelayout_editor/tools/pl_actions.cpp:73
 msgid "Append an existing page layout design file to current file"
-msgstr ""
+msgstr "Προσθήκη ενός υπάρχοντος αρχείου σχεδίασης σελίδας στο τρέχον αρχείο"
 
 #: pagelayout_editor/tools/pl_actions.cpp:81
-#, fuzzy
 msgid "Background White"
-msgstr "Παρασκήνιο"
+msgstr ""
 
 #: pagelayout_editor/tools/pl_actions.cpp:81
 msgid "Switch between white and black background"
 msgstr ""
 
 #: pagelayout_editor/tools/pl_actions.cpp:86
-#, fuzzy
 msgid "Show Design Inspector"
-msgstr "Προβολή Πληροφοριών Έκδοσης"
+msgstr ""
 
 #: pagelayout_editor/tools/pl_actions.cpp:86
 msgid "Show the list of items in page layout"
@@ -13798,9 +13689,9 @@ msgid "Page Preview Settings..."
 msgstr "Ρυθμίσεις Προεπισκόπησης Σελίδας..."
 
 #: pagelayout_editor/tools/pl_actions.cpp:91
-#, fuzzy
 msgid "Edit preview data for page size and title block"
-msgstr "Εκτύπωση της &αναφοράς φύλλου και του μπλοκ τίτλου"
+msgstr ""
+"Επεξεργασία δεδομένων προεπισκόπησης για μέγεθος σελίδας και μπλοκ τίτλου"
 
 #: pagelayout_editor/tools/pl_edit_tool.cpp:457
 msgid "Error writing objects to clipboard"
@@ -13886,9 +13777,8 @@ msgid "Volt"
 msgstr "Volt"
 
 #: pcb_calculator/dialogs/dialog_regulator_data_base.cpp:52
-#, fuzzy
 msgid "Separate sense pin"
-msgstr "Εισαγωγή ακροδεκτών φύλλου"
+msgstr ""
 
 #: pcb_calculator/dialogs/dialog_regulator_data_base.cpp:52
 msgid "3 terminals regulator"
@@ -13905,14 +13795,12 @@ msgid "uA"
 msgstr "uA"
 
 #: pcb_calculator/dialogs/dialog_regulator_data_base.h:60
-#, fuzzy
 msgid "Regulator Parameters"
-msgstr "Επεξεργασία Παραμέτρων"
+msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:63
-#, fuzzy
 msgid "Formula:"
-msgstr "Μορφή:"
+msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:65
 msgid "Vout = Vref * (R1 + R2) / R2"
@@ -13954,9 +13842,8 @@ msgid ""
 msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:170
-#, fuzzy
 msgid "Standard Type"
-msgstr "Είδος Κύλισης"
+msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:170
 msgid "3 Terminal Type"
@@ -13968,9 +13855,8 @@ msgid "Calculate"
 msgstr "Υπολογισμός"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:186
-#, fuzzy
 msgid "Regulator:"
-msgstr "Ορθογώνιο"
+msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:193
 msgid "Regulators data file:"
@@ -13981,9 +13867,8 @@ msgid "The name of the data file which stores known regulators parameters."
 msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:214
-#, fuzzy
 msgid "Edit Regulator"
-msgstr "Έξοδος από Προσομοίωση"
+msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:215
 #, fuzzy
@@ -14692,17 +14577,16 @@ msgid "4th Band"
 msgstr "4η Λωρίδα"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1545
-#, fuzzy
 msgid "Multiplier"
-msgstr "Πολλαπλά Επίπεδα"
+msgstr "Πολλαπλασιαστής"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1578
 msgid "Color Code"
-msgstr ""
+msgstr "Κωδικός Χρώματος"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1591
 msgid "Note: Values are minimal values"
-msgstr ""
+msgstr "Σημείωση: Οι τιμές είναι ελάχιστες τιμές"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1610
 msgid "Class 1"
@@ -14729,19 +14613,16 @@ msgid "Class 6"
 msgstr "Κλάση 6"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1622
-#, fuzzy
 msgid "Lines width"
-msgstr "Πλάτος γραμμής"
+msgstr "Πλάτος γραμμών"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1623
-#, fuzzy
 msgid "Min clearance"
-msgstr "Διάκενο έδρας:"
+msgstr "Ελάχιστο διάκενο"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1624
-#, fuzzy
 msgid "Via: (diam - drill)"
-msgstr "Διάτρηση via"
+msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1625
 msgid "Plated Pad: (diam - drill)"
@@ -14752,9 +14633,8 @@ msgid "NP Pad: (diam - drill)"
 msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1645
-#, fuzzy
 msgid "Board Classes"
-msgstr "Κλάσεις Δικτύου"
+msgstr ""
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.h:376
 msgid "PCB Calculator"
@@ -14767,9 +14647,8 @@ msgid ""
 msgstr ""
 
 #: pcb_calculator/pcb_calculator_frame.cpp:147
-#, fuzzy
 msgid "Regulator list change"
-msgstr "Ορθογώνιο σχήμα"
+msgstr ""
 
 #: pcb_calculator/pcb_calculator_frame.cpp:158
 #, c-format
@@ -15301,15 +15180,14 @@ msgid "Connect %s pin %s to %s."
 msgstr "Σύνδεση %s ακροδέκτης %s σε δίκτυο %s."
 
 #: pcbnew/board_netlist_updater.cpp:437
-#, fuzzy, c-format
+#, c-format
 msgid "Reconnect via from %s to %s."
-msgstr "Επανασύνδεση ακροδέκτη %s ακροδέκτης %s από %s σε %s."
+msgstr "Επανασύνδεση via από %s σε %s."
 
 #: pcbnew/board_netlist_updater.cpp:457
-#, fuzzy, c-format
+#, c-format
 msgid "Via connected to unknown net (%s)."
-msgstr ""
-"Περισσότεροι από ένας ακροδέκτες είναι συνδεδεμένοι με σύμβολο ΜηΣύνδεσης."
+msgstr "Via συνδεδεμένο σε άγνωστο δίκτυο (%s)."
 
 #: pcbnew/board_netlist_updater.cpp:498
 #, c-format
@@ -15347,9 +15225,9 @@ msgid "Processing component \"%s:%s:%s\"."
 msgstr "Επεξεργασία εξαρτήματος \"%s:%s:%s\"."
 
 #: pcbnew/board_netlist_updater.cpp:766
-#, fuzzy, c-format
+#, c-format
 msgid "Multiple footprints found for \"%s\"."
-msgstr "Δεν ορίστηκε κανένα αποτύπωμα για το εξάρτημα '%s'.\n"
+msgstr "Βρέθηκαν πολλαπλά αποτυπώματα για το '%s'."
 
 #: pcbnew/board_netlist_updater.cpp:779
 msgid "Update netlist"
@@ -15361,7 +15239,6 @@ msgid "Total warnings: %d, errors: %d."
 msgstr "Συνολικές προειδοποιήσεις: %d, λάθη: %d."
 
 #: pcbnew/board_netlist_updater.cpp:810
-#, fuzzy
 msgid ""
 "Errors occurred during the netlist update. Unless you fix them your board "
 "will not be consistent with the schematics."
@@ -15398,14 +15275,12 @@ msgid "Bottom Silk Screen"
 msgstr "Κάτω Μεταξοτυπία"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager.cpp:48
-#, fuzzy
 msgid " Incorrect value for Epsilon R"
-msgstr "Λανθασμένη τιμή για το Epsilon R"
+msgstr " Λανθασμένη τιμή για το Epsilon R"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager.cpp:54
-#, fuzzy
 msgid " Incorrect value for Loss Tangent"
-msgstr "Λανθασμένη τιμή για μετατόπιση έδρας"
+msgstr ""
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager.cpp:94
 #: pcbnew/board_stackup_manager/panel_board_stackup_base.cpp:80
@@ -15422,32 +15297,28 @@ msgid "Loss Tg"
 msgstr ""
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager_base.cpp:22
-#, fuzzy
 msgid "Dielectric material characteristics:"
-msgstr "Η&λεκτρικός τύπος:"
+msgstr "Χαρακτηριστικά διηλεκτρικού υλικού:"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager_base.cpp:39
-#, fuzzy
 msgid "Epsilon R:"
-msgstr "Epsilon R"
+msgstr "Epsilon R:"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager_base.cpp:43
 msgid "Loss Tg:"
 msgstr ""
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager_base.cpp:62
-#, fuzzy
 msgid "Available materials:"
-msgstr "Διαθέσιμα:"
+msgstr "Διαθέσιμα υλικά:"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager_base.h:58
-#, fuzzy
 msgid "Dielectric Materials"
-msgstr "Η&λεκτρικός τύπος:"
+msgstr "Διηλεκτρικά Υλικά"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:416
 msgid "Core"
-msgstr ""
+msgstr "Πυρήνας"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:418
 msgid "PrePreg"
@@ -15468,7 +15339,7 @@ msgstr ""
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:635
 msgid " A layer thickness is < 0. Fix it"
-msgstr ""
+msgstr "Ένα πάχος επιπέδου είναι <0. Διορθώστε το."
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:648
 #, c-format
@@ -15476,6 +15347,8 @@ msgid ""
 "Board thickness %s differs from stackup thickness %s\n"
 "Allowed max error %s"
 msgstr ""
+"Το πάχος πλακέτας %s διαφέρει από το πάχος στοίβαξης %s\n"
+"Επιτρεπόμενο μέγιστο σφάλμα%s"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:689
 msgid ""
@@ -15514,7 +15387,7 @@ msgstr "Πάχος πλακέτας:"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup_base.cpp:30
 msgid "Current thickness from stackup:"
-msgstr ""
+msgstr "Τρέχον πάχος από τη στοίβαξη:"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup_base.cpp:40
 #, fuzzy
@@ -16246,23 +16119,20 @@ msgid "Board Setup"
 msgstr "Ρύθμιση Πλακέτας"
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:33
-#, fuzzy
 msgid "Import Settings from Another Project..."
-msgstr "Εξαγωγή Ρυθμίσεων σε Άλλες Ζώνες"
+msgstr "Εισαγωή Ρυθμίσεων από Άλλο Έργο..."
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:48
-#, fuzzy
 msgid "Board Stackup"
-msgstr "Ρύθμιση Πλακέτας"
+msgstr "Στοίβαξη Πλακέτας"
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:49
-#, fuzzy
 msgid "Board Editor Layers"
-msgstr "Επεξεργαστής Έδρας"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:50
 msgid "Physical Stackup"
-msgstr ""
+msgstr "Φυσική Στοίβαξη"
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:55
 msgid "Text & Graphics"
@@ -16409,20 +16279,17 @@ msgid "Board Size"
 msgstr "Μέγεθος Πλακέτας"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:193
-#, fuzzy
 msgid "Subtract holes from board area"
-msgstr "Αφαίρεση μάσκας συγκόλλησης από μεταξοτυπία"
+msgstr "Αφαίρεση τρυπών από επιφάνεια πλακέτας"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:196
-#, fuzzy
 msgid "Exclude components with no pins"
-msgstr "Να συμπεριληφθούν οι τελευταίες αλλαγές στο εξάρτημα;"
+msgstr "Εξαίρεση εξαρτημάτων χωρίς ακροδέκτες"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:208
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:218
-#, fuzzy
 msgid "Generate Report File..."
-msgstr "Δημιουργία Αρχείου Αναφοράς"
+msgstr "Δημιουργία Αρχείου Αναφοράς..."
 
 #: pcbnew/dialogs/dialog_board_statistics_base.h:58
 msgid "Board Statistics"
@@ -16462,9 +16329,8 @@ msgid "remove vias on through hole pads and superimposed vias"
 msgstr "αφαίρεση via από διαμπερείς έδρες και από via επάνω σε άλλα via"
 
 #: pcbnew/dialogs/dialog_cleanup_tracks_and_vias_base.cpp:34
-#, fuzzy
 msgid "&Merge co-linear tracks"
-msgstr "Διαγρα&φή μη συνδεδεμένων δρόμων"
+msgstr ""
 
 #: pcbnew/dialogs/dialog_cleanup_tracks_and_vias_base.cpp:35
 msgid "merge aligned track segments, and remove null segments"
@@ -16481,13 +16347,14 @@ msgstr ""
 "διαγραφή των τμημάτων δρόμων που έχουν τουλάχιστον ένα μη συνδεδεμένο άκρο"
 
 #: pcbnew/dialogs/dialog_cleanup_tracks_and_vias_base.cpp:44
-#, fuzzy
 msgid "Delete Tracks in Pads"
-msgstr "Διαγραφή Δρόμου"
+msgstr "Διαγραφή Δρόμων σε Έδρες"
 
 #: pcbnew/dialogs/dialog_cleanup_tracks_and_vias_base.cpp:45
 msgid "Delete tracks that have both start and end positions inside of a pad"
 msgstr ""
+"Διαγραφή δρόμων που έχουν τόσο την αρχική όσο και την τελική θέση μέσα σε "
+"έδρα"
 
 #: pcbnew/dialogs/dialog_cleanup_tracks_and_vias_base.cpp:56
 msgid "Changes To Be Applied:"
@@ -16510,11 +16377,8 @@ msgid "Fillet radius:"
 msgstr "Ακτίνα κοίλων γωνιών:"
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:359
-#, fuzzy
 msgid "Thermal spoke width cannot be smaller than the minimum width."
 msgstr ""
-"Η ακτίνα θερμικής εκτόνωσης πρέπει να είναι μεγαλύτερη από το ελάχιστο "
-"πλάτος ζώνης."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:392
 #: pcbnew/dialogs/dialog_non_copper_zones_properties.cpp:270
@@ -16522,9 +16386,8 @@ msgid "No layer selected."
 msgstr "Δεν επιλέχθηκε επίπεδο."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:41
-#, fuzzy
 msgid "Hide nets matching:"
-msgstr "Απόκρυψη διαχειριστή επιπέδων"
+msgstr "Απόκρυψη επιπέδων που ταιριάζουν:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:46
 msgid ""
@@ -16535,9 +16398,8 @@ msgstr ""
 "Τα ονόματα δικτύου που ταιριάζουν σε αυτό το μοτίβο. δεν εμφανίζονται."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:51
-#, fuzzy
 msgid "Show nets matching:"
-msgstr "Εμφάνιση Περιγράμματος Κειμένων"
+msgstr "Εμφάνιση επιπέδων που ταιριάζουν:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:55
 msgid "*"
@@ -16561,9 +16423,8 @@ msgid "Show all nets"
 msgstr "Προβολή όλων των δικτύων"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:72
-#, fuzzy
 msgid "Sort nets by pad count"
-msgstr "πλήθος γωνίων"
+msgstr "Ταξινόμηση δικτύων με πλήθος εδρών"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:80
 msgid ""
@@ -16571,6 +16432,9 @@ msgid ""
 "in an unconnected \n"
 "copper island."
 msgstr ""
+"Η έλλειψη δικτύων θα έχει αποτέλεσμα\n"
+"ένα αποσυνδεδεμένο\n"
+"νησί χαλκού."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:107
 #: pcbnew/dialogs/dialog_non_copper_zones_properties_base.cpp:45
