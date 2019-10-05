@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-04 15:24+0300\n"
-"PO-Revision-Date: 2019-10-01 18:16+0300\n"
+"PO-Revision-Date: 2019-10-04 17:49+0300\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -11516,8 +11516,9 @@ msgid "Drags the selected item(s)"
 msgstr "Σύρσιμο επιλεγμένων αντικειμένων"
 
 #: eeschema/tools/ee_actions.cpp:672
+#, fuzzy
 msgid "Move Activate"
-msgstr ""
+msgstr "Μετακίνηση Ενεργή"
 
 #: eeschema/tools/ee_inspection_tool.cpp:129
 msgid "No pins!"
@@ -11564,12 +11565,12 @@ msgstr " στο σύμβολο %c"
 #: eeschema/tools/ee_inspection_tool.cpp:207
 #, fuzzy
 msgid " of converted"
-msgstr "των μετατρεπόμενων"
+msgstr " των μετατρεπόμενων"
 
 #: eeschema/tools/ee_inspection_tool.cpp:209
 #, fuzzy
 msgid " of normal"
-msgstr "των κανονικών"
+msgstr " των κανονικών"
 
 #: eeschema/tools/ee_inspection_tool.cpp:218
 msgid "No off grid or duplicate pins were found."
@@ -11629,9 +11630,8 @@ msgid "Couldn't load image from \"%s\""
 msgstr "Αδυναμία φόρτωσης εικόνας από \"%s\""
 
 #: eeschema/tools/sch_drawing_tools.cpp:598
-#, fuzzy
 msgid "Click over a sheet."
-msgstr "Κάντε κλικ πάνω από ένα φύλο."
+msgstr "Κάντε κλικ πάνω σε φύλο."
 
 #: eeschema/tools/sch_drawing_tools.cpp:611
 msgid "No new hierarchical labels found."
@@ -14296,7 +14296,6 @@ msgid " > 500V"
 msgstr " > 500V"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:924
-#, fuzzy
 msgid ""
 "*  B1 - Internal Conductors\n"
 "*  B2 - External Conductors, uncoated, sea level to 3050 m\n"
@@ -14315,8 +14314,8 @@ msgstr ""
 "υψόμετρο)\n"
 "* A5 - Εξωτερικοί Αγωγοί, με συμβατική επίστρωση πάνω από τη συναρμολόγηση "
 "(οποιοδήποτε υψόμετρο)\n"
-"* A6 - Τερματισμός Εξωτερικών Εξαρτημάτων, χωρίς επικάλυψη\n"
-"* A7 - Τερματισμός Εξωτερικών Εξαρτημάτων, με συμβατική επικάλυψη "
+"* A6 - Έναρξη/Τερματισμός Εξωτερικών Εξαρτημάτων, χωρίς επικάλυψη\n"
+"* A7 - Έναρξη/Τερματισμός Εξωτερικών Εξαρτημάτων, με συμβατική επικάλυψη "
 "(οποιοδήποτε υψόμετρο)"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:935
@@ -14649,7 +14648,6 @@ msgstr ""
 "Έξοδος χωρίς αποθήκευση;"
 
 #: pcb_calculator/pcb_calculator_frame.cpp:147
-#, fuzzy
 msgid "Regulator list change"
 msgstr "Αλλαγή λίστας ρυθμιστών"
 
@@ -15070,9 +15068,8 @@ msgstr ""
 "Ζυγή εμπέδηση (οι γραμμές οδηγούνται από αντίθετες (διαφορικές) τάσεις)"
 
 #: pcb_calculator/transline_ident.cpp:375
-#, fuzzy
 msgid "distance between strip and top metal"
-msgstr "απόσταση μεταξύ της ταινίας και του άνω μετάλλου"
+msgstr "απόσταση μεταξύ ταινίας και πάνω μετάλου"
 
 #: pcb_calculator/transline_ident.cpp:406
 msgid "Twists:"
@@ -15087,7 +15084,6 @@ msgid "ErEnv:"
 msgstr "ErEnv:"
 
 #: pcb_calculator/transline_ident.cpp:411
-#, fuzzy
 msgid "Relative Permittivity of Environment"
 msgstr "Σχετική Επιτρεπτότητα Περιβάλλοντος"
 
@@ -15281,14 +15277,12 @@ msgid "Bottom Silk Screen"
 msgstr "Κάτω Μεταξοτυπία"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager.cpp:48
-#, fuzzy
 msgid "Incorrect value for Epsilon R"
-msgstr " Λανθασμένη τιμή για το Epsilon R"
+msgstr "Λάθος τιμή για το Epsilon R"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager.cpp:54
-#, fuzzy
 msgid "Incorrect value for Loss Tangent"
-msgstr " Λανθασμένη τιμή για την Εφαπτομένη Απώλειας"
+msgstr "Λάθος τιμή για την Εφαπτομένη Απώλειας"
 
 #: pcbnew/board_stackup_manager/dialog_dielectric_list_manager.cpp:94
 #: pcbnew/board_stackup_manager/panel_board_stackup_base.cpp:80
@@ -15330,7 +15324,6 @@ msgid "Core"
 msgstr "Πυρήνας"
 
 #: pcbnew/board_stackup_manager/panel_board_stackup.cpp:432
-#, fuzzy
 msgid "PrePreg"
 msgstr "PrePreg"
 
@@ -15558,9 +15551,8 @@ msgid "Yellow"
 msgstr "Κίτρινο"
 
 #: pcbnew/board_stackup_manager/stackup_predefined_prms.h:48
-#, fuzzy
 msgid "Not specified"
-msgstr "Απροσδιόριστο"
+msgstr "Δεν έχει οριστεί"
 
 #: pcbnew/build_BOM_from_board.cpp:84
 msgid "Cannot export BOM: there are no footprints in the PCB"
@@ -24514,18 +24506,19 @@ msgid "Interactive Router"
 msgstr "Διαδραστικός Δρομολογητής"
 
 #: pcbnew/router/router_tool.cpp:553
-#, fuzzy
 msgid ""
 "Blind/buried vias have to be enabled in Board Setup > Design Rules > "
 "Constraints."
 msgstr ""
-"Τα τυφλά/θαμμένα via πρέπει να είναι ενεργοποιημένα στις επιλογές σχεδίασης."
+"Τα τυφλά/θαμμένα via πρέπει να είναι ενεργοποιημένα στο Ρύθμιση Πλακέτας > "
+"Κανόνες Σχεδίασης > Περιορισμοί"
 
 #: pcbnew/router/router_tool.cpp:559
-#, fuzzy
 msgid ""
 "Microvias have to be enabled in Board Setup > Design Rules > Constraints."
-msgstr "Τα μικρο-via πρέπει να είναι ενεργοποιημένα στις επιλογές σχεδίασης."
+msgstr ""
+"Τα μικρο-via πρέπει να είναι ενεργοποιημένα στο Ρύθμιση Πλακέτας > Κανόνες "
+"Σχεδίασης > Περιορισμοί"
 
 #: pcbnew/router/router_tool.cpp:566
 msgid "Only through vias are allowed on 2 layer boards."
