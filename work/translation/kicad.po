@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-28 15:11+0200\n"
-"PO-Revision-Date: 2019-10-29 14:31+0200\n"
+"PO-Revision-Date: 2020-02-28 15:37+0200\n"
 "Last-Translator: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language-Team: Michael Misirlis <mmisirlis@gmail.com>\n"
 "Language: el\n"
@@ -1104,14 +1104,12 @@ msgid "mils"
 msgstr "mil"
 
 #: common/base_units.cpp:479
-#, fuzzy
 msgid "sq. mils"
-msgstr "%.1f mils"
+msgstr "τετ. mil"
 
 #: common/base_units.cpp:481
-#, fuzzy
 msgid "cu. mils"
-msgstr "%.1f mils"
+msgstr "κυβ. mil"
 
 #: common/base_units.cpp:489
 msgid "in"
@@ -1119,19 +1117,19 @@ msgstr "in"
 
 #: common/base_units.cpp:491
 msgid "sq. in"
-msgstr ""
+msgstr "τετ. ιν."
 
 #: common/base_units.cpp:493
 msgid "cu. in"
-msgstr ""
+msgstr "κυβ. ιν."
 
 #: common/base_units.cpp:503
 msgid "sq. mm"
-msgstr ""
+msgstr "τετ. mm"
 
 #: common/base_units.cpp:505
 msgid "cu. mm"
-msgstr ""
+msgstr "κυβ. mm"
 
 #: common/base_units.cpp:509
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:382
@@ -1462,9 +1460,8 @@ msgid "About"
 msgstr "Περί"
 
 #: common/dialog_about/dialog_about.cpp:161
-#, fuzzy
 msgid "Version"
-msgstr "Πληροφορίες Έκδοσης"
+msgstr "Έκδοση"
 
 #: common/dialog_about/dialog_about.cpp:163
 msgid "Developers"
@@ -1528,14 +1525,12 @@ msgid "Copy KiCad version info to the clipboard"
 msgstr "Αντιγραφή πληοροφριών έκδοσης στο πρόχειρο"
 
 #: common/dialog_about/dialog_about_base.cpp:63
-#, fuzzy
 msgid "&Report Bug"
-msgstr "Αρχείο αναφοράς"
+msgstr "Αναφο&ρά Σφάλματος"
 
 #: common/dialog_about/dialog_about_base.cpp:64
-#, fuzzy
 msgid "Report a problem with KiCad"
-msgstr "Βοηθήστε το KiCad"
+msgstr "Αναφορά ενός προβλήματος του KiCad"
 
 #: common/dialog_about/dialog_about_base.cpp:89
 msgid "&OK"
@@ -1867,18 +1862,17 @@ msgid "Messages:"
 msgstr "Μηνύματα:"
 
 #: common/dialogs/dialog_migrate_settings.cpp:29
-#, fuzzy
 msgid "Quit KiCad"
-msgstr "Περί του KiCad"
+msgstr "Έξοδος από το KiCad"
 
 #: common/dialogs/dialog_migrate_settings.cpp:49
 #, c-format
 msgid "Welcome to KiCad %s!"
-msgstr ""
+msgstr "Καλώς Ορίσατε στο KiCad %s!"
 
 #: common/dialogs/dialog_migrate_settings.cpp:56
 msgid "Import settings from a previous version (none found)"
-msgstr ""
+msgstr "Εισαγωγή ρυθμίσεων από προηγούμενη έκδοση (δεν βρέθηκαν)"
 
 #: common/dialogs/dialog_migrate_settings.cpp:113
 #, fuzzy
@@ -3294,7 +3288,6 @@ msgid "First Page Option"
 msgstr "Ρύθμιση Πρώτης Σελίδας"
 
 #: common/page_layout/ws_draw_item.cpp:141
-#, fuzzy
 msgid "Repeat Count"
 msgstr "Επανάληψη Μέτρησης"
 
@@ -3789,23 +3782,20 @@ msgid "Click"
 msgstr "Κλικ"
 
 #: common/tool/actions.cpp:359
-#, fuzzy
 msgid "Performs left mouse button click"
-msgstr "Εκτέλεση της δράσης που αντιστοιχεί σε δεξί-κλικ-ποντικιού"
+msgstr "Εκτέλεση αριστερού-κλικ-ποντικιού"
 
 #: common/tool/actions.cpp:365
 msgid "Double-click"
 msgstr "Διπλό κλικ"
 
 #: common/tool/actions.cpp:365
-#, fuzzy
 msgid "Performs left mouse button double-click"
-msgstr "Εκτέλεση της δράσης που αντιστοιχεί σε δεξί-κλικ-ποντικιού"
+msgstr "Εκτέλεση αριστερού-διπλού-κλικ-ποντικιού"
 
 #: common/tool/actions.cpp:373
-#, fuzzy
 msgid "Pin Library"
-msgstr "Βιβλιοθήκη"
+msgstr ""
 
 #: common/tool/actions.cpp:377
 #, fuzzy
@@ -3992,9 +3982,8 @@ msgid "Push changes from schematic to PCB"
 msgstr "Σπρώξιμο αλλαγών από το σχηματικό σε PCB"
 
 #: common/tool/actions.cpp:539
-#, fuzzy
 msgid "Update Schematic from PCB..."
-msgstr "Ανανέωση PCB από Σχηματικό..."
+msgstr "Ανανέωση Σχηματικού από PCB..."
 
 #: common/tool/actions.cpp:540
 #, fuzzy
@@ -5667,9 +5656,8 @@ msgid "Place multiple copies of the symbol."
 msgstr "Δημιουργία αντίγραφου για το επιλεγμένο σύμβολο"
 
 #: eeschema/dialogs/dialog_choose_component.cpp:270
-#, fuzzy
 msgid "Place all units"
-msgstr "Τοποθέτηση κελιών"
+msgstr "Τοποθέτηση όλων των μερών"
 
 #: eeschema/dialogs/dialog_choose_component.cpp:273
 msgid "Sequentially place all units of the symbol."
@@ -5853,9 +5841,8 @@ msgid "Derive from symbol:"
 msgstr "Διαγραφή των επιπλέον μερών του εξαρτήματος;"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:153
-#, fuzzy
 msgid "<None>"
-msgstr "Κανένα"
+msgstr "<Κανένα>"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:154
 msgid ""
@@ -8493,9 +8480,8 @@ msgid "Changes To Be Applied"
 msgstr "Αλλαγές Για Εφαρμογή"
 
 #: eeschema/dialogs/dialog_update_from_pcb.cpp:62
-#, fuzzy
 msgid "Update Schematic"
-msgstr "Άνοιγμα Σχηματικού"
+msgstr "Ανανέωση Σχηματικού"
 
 #: eeschema/dialogs/dialog_update_from_pcb.cpp:112
 #, fuzzy
@@ -8515,9 +8501,8 @@ msgid "Back annotate"
 msgstr "Περιστροφή Μπλοκ"
 
 #: eeschema/dialogs/dialog_update_from_pcb_base.cpp:32
-#, fuzzy
 msgid "Update references"
-msgstr "&Αποθήκευση Προτιμήσεων"
+msgstr "Ανανέωση αναφορών"
 
 #: eeschema/dialogs/dialog_update_from_pcb_base.cpp:34
 msgid "Update references of symbols that have been changed in the PCB editor."
@@ -8535,9 +8520,8 @@ msgid ""
 msgstr ""
 
 #: eeschema/dialogs/dialog_update_from_pcb_base.cpp:43
-#, fuzzy
 msgid "Update values"
-msgstr "Ενημέρωση Τιμών"
+msgstr "Ανανέωση Τιμών"
 
 #: eeschema/dialogs/dialog_update_from_pcb_base.cpp:44
 msgid "Update symbols values that have been replaced in the PCB editor."
@@ -8557,9 +8541,8 @@ msgid ""
 msgstr ""
 
 #: eeschema/dialogs/dialog_update_from_pcb_base.h:55
-#, fuzzy
 msgid "Update Schematic from PCB"
-msgstr "Ανανέωση PCB από Σχηματικό"
+msgstr "Ανανέωση Σχηματικού από PCB"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:26
 msgid "Dimensions"
@@ -8578,9 +8561,8 @@ msgid "Junction size:"
 msgstr "Μέγεθος κόμβου:"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:74
-#, fuzzy
 msgid "Appearance"
-msgstr "Διάκενο"
+msgstr "Εμφάνιση"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:79
 msgid "Symbol unit notation:"
@@ -8624,9 +8606,8 @@ msgstr "Προβολή &ορίων σελίδας"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:106
 #: eeschema/dialogs/panel_eeschema_settings_base.cpp:107
-#, fuzzy
 msgid "Selection"
-msgstr "Αντανακλάσεις"
+msgstr "Επιλογή"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:108
 #, fuzzy
@@ -12183,12 +12164,10 @@ msgid " in symbol %c"
 msgstr " στο σύμβολο %c"
 
 #: eeschema/tools/ee_inspection_tool.cpp:210
-#, fuzzy
 msgid " of converted"
 msgstr " των μετατρεπόμενων"
 
 #: eeschema/tools/ee_inspection_tool.cpp:212
-#, fuzzy
 msgid " of normal"
 msgstr " των κανονικών"
 
@@ -13794,14 +13773,13 @@ msgid "Open Existing Project"
 msgstr "Άνοιγμα Υπάρχοντος Έργου"
 
 #: kicad/tools/kicad_manager_control.cpp:478
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot copy folder \"%s\"."
-msgstr "Αδυναμία αντιγραφής αρχείου \"%s\"."
+msgstr "Αδυναμία αντιγραφής φακέλου \"%s\"."
 
 #: kicad/tools/kicad_manager_control.cpp:510
-#, fuzzy
 msgid "Save Project To"
-msgstr "Αποθήκευση Αρχείου Έργου"
+msgstr "Αποθήκευση Έργου Σε"
 
 #: kicad/tools/kicad_manager_control.cpp:604
 msgid "Application failed to load:\n"
@@ -13833,18 +13811,16 @@ msgid "Create New Directory"
 msgstr "Δημιουργία Νέου Φακέλου"
 
 #: kicad/tree_project_frame.cpp:620
-#, fuzzy
 msgid "Switch to this Project"
-msgstr "Μετάβαση &σε αυτό το Έργο"
+msgstr "Μετάβαση σε αυτό το Έργο"
 
 #: kicad/tree_project_frame.cpp:621
 msgid "Close all editors, and switch to the selected project"
 msgstr "Κλείσιμο όλων των επεξεργαστών, και μετάβαση στο επιλεγμένο έργο"
 
 #: kicad/tree_project_frame.cpp:628
-#, fuzzy
 msgid "New Directory..."
-msgstr "Νέ&ος Φάκελος..."
+msgstr "Νέος Φάκελος..."
 
 #: kicad/tree_project_frame.cpp:629
 msgid "Create a New Directory"
@@ -13859,70 +13835,60 @@ msgid "Reveals the directory in a Finder window"
 msgstr "Εμφανίζει τον κατάλογο σε ένα παράθυρο Finder"
 
 #: kicad/tree_project_frame.cpp:640
-#, fuzzy
 msgid "Open Directory in File Explorer"
-msgstr "Άν&οιγμα καταλόγου στην Εξερεύνηση Αρχείων"
+msgstr "Άνοιγμα φακέλου στην Εξερεύνηση Αρχείων"
 
 #: kicad/tree_project_frame.cpp:641
 msgid "Opens the directory in the default system file manager"
 msgstr "Ανοίγει τον κατάλογο στον προεπιλεγμένο διαχειριστή αρχείων συστήματος"
 
 #: kicad/tree_project_frame.cpp:648
-#, fuzzy
 msgid "Reveals the directories in a Finder window"
-msgstr "Εμφανίζει τον κατάλογο σε ένα παράθυρο Finder"
+msgstr "Εμφανίζει τους φακέλους σε ένα παράθυρο Finder"
 
 #: kicad/tree_project_frame.cpp:650
-#, fuzzy
 msgid "Open Directories in File Explorer"
-msgstr "Άν&οιγμα καταλόγου στην Εξερεύνηση Αρχείων"
+msgstr "Άνοιγμα Φακέλων στην Εξερεύνηση Αρχείων"
 
 #: kicad/tree_project_frame.cpp:651
-#, fuzzy
 msgid "Opens the directories in the default system file manager"
-msgstr "Ανοίγει τον κατάλογο στον προεπιλεγμένο διαχειριστή αρχείων συστήματος"
+msgstr "Ανοίγει τους φακέλους στον προεπιλεγμένο διαχειριστή αρχείων"
 
 #: kicad/tree_project_frame.cpp:662
 msgid "Open the file in a Text Editor"
 msgstr "Άνοιγμα του αρχείου με έναν επεξεργαστή κειμένου"
 
 #: kicad/tree_project_frame.cpp:664
-#, fuzzy
 msgid "Open files in a Text Editor"
-msgstr "Άνοιγμα του αρχείου με έναν επεξεργαστή κειμένου"
+msgstr "Άνοιγμα αρχείων με Επεξεργαστή Κειμένου"
 
 #: kicad/tree_project_frame.cpp:666
-#, fuzzy
 msgid "Edit in a Text Editor"
-msgstr "&Επεξεργασία σε Επεξεργαστή Κειμένου"
+msgstr "Επεξεργασία σε Επεξεργαστή Κειμένου"
 
 #: kicad/tree_project_frame.cpp:674
-#, fuzzy
 msgid "Rename File..."
-msgstr "Μετονομασία Α&ρχείου..."
+msgstr "Μετονομασία Αρχείου..."
 
 #: kicad/tree_project_frame.cpp:675
 msgid "Rename file"
 msgstr "Μετονομασία αρχείου"
 
 #: kicad/tree_project_frame.cpp:679
-#, fuzzy
 msgid "Rename Files..."
-msgstr "Μετονομασία Α&ρχείου..."
+msgstr "Μετονομασία Αρχείων..."
 
 #: kicad/tree_project_frame.cpp:680
-#, fuzzy
 msgid "Rename files"
-msgstr "Μετονομασία αρχείου"
+msgstr "Μετονομασία αρχείων"
 
 #: kicad/tree_project_frame.cpp:689
 msgid "Delete the file and its content"
 msgstr "Διαγραφή αρχείου και των περιεχομένων του"
 
 #: kicad/tree_project_frame.cpp:691
-#, fuzzy
 msgid "Delete the files and their contents"
-msgstr "Διαγραφή αρχείου και των περιεχομένων του"
+msgstr "Διαγραφή των αρχείων και των περιεχομένων τους"
 
 #: kicad/tree_project_frame.cpp:710
 msgid "Print the contents of the file"
@@ -13963,9 +13929,8 @@ msgid "Are you sure you want to delete '%s'?"
 msgstr "Σίγουρα θέλετε να γίνει η διαγραφή του '%s';"
 
 #: kicad/treeproject_item.cpp:132
-#, fuzzy
 msgid "Delete Directory"
-msgstr "&Διαγραφή Φακέλου"
+msgstr "Διαγραφή Φακέλου"
 
 #: kicad/treeproject_item.cpp:132
 msgid "Delete File"
@@ -14273,9 +14238,8 @@ msgid "coord origin: %s"
 msgstr "αρχή συντεταγμένων: %s"
 
 #: pagelayout_editor/pl_editor_frame.cpp:778
-#, fuzzy
 msgid "New page layout file is unsaved"
-msgstr "Αρχείο περιγραφής σχεδίασης σελίδας"
+msgstr "Το νέο αρχείο περιγραφής σχεδίασης σελίδας δεν έχει αποθηκευτεί"
 
 #: pagelayout_editor/pl_editor_frame.cpp:782
 #, fuzzy
@@ -15671,13 +15635,11 @@ msgstr "ZF(H10) = Ey / Hx:"
 
 #: pcb_calculator/transline_ident.cpp:239
 #: pcb_calculator/transline_ident.cpp:272
-#, fuzzy
 msgid "TE-Modes:"
 msgstr "Καταστάσεις-'TE':"
 
 #: pcb_calculator/transline_ident.cpp:240
 #: pcb_calculator/transline_ident.cpp:273
-#, fuzzy
 msgid "TM-Modes:"
 msgstr "Καταστάσεις-'TM':"
 
@@ -16378,7 +16340,7 @@ msgstr "Δίκτυο"
 
 #: pcbnew/class_pad.cpp:792
 msgid "BGA"
-msgstr ""
+msgstr "BGA"
 
 #: pcbnew/class_pad.cpp:793
 msgid "Fiducial global"
@@ -16845,17 +16807,14 @@ msgid "N/A"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:484
-#, fuzzy
 msgid "PTH"
-msgstr "NPTH:"
+msgstr "PTH"
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:484
-#, fuzzy
 msgid "NPTH"
-msgstr "NPTH:"
+msgstr "NPTH"
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:486
-#, fuzzy
 msgid "Via"
 msgstr "Via"
 
@@ -16871,64 +16830,63 @@ msgid ""
 msgstr "Αναφορά στατιστικών PCB"
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:653
-#, fuzzy
 msgid "- Date: "
-msgstr "Ημερομηνία: "
+msgstr "- Ημερομηνία: "
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:654
-#, fuzzy
 msgid "- Project: "
-msgstr "Έργο: "
+msgstr "- Έργο: "
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:655
-#, fuzzy
 msgid "- Board name: "
-msgstr "Όνομα Πλακέτας: "
+msgstr "- Όνομα Πλακέτας: "
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:658
 msgid ""
 "Board\n"
 "-----"
 msgstr ""
+"Πλακέτα\n"
+"-----"
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:662
 #: pcbnew/dialogs/dialog_board_statistics.cpp:671
-#, fuzzy
 msgid "- Width: "
-msgstr "Πλάτος: "
+msgstr "- Πλάτος: "
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:663
 #: pcbnew/dialogs/dialog_board_statistics.cpp:672
-#, fuzzy
 msgid "- Height: "
-msgstr "Ύψος: "
+msgstr "- Ύψος: "
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:664
 #: pcbnew/dialogs/dialog_board_statistics.cpp:673
-#, fuzzy
 msgid "- Area: "
-msgstr "Περιοχή: "
+msgstr "- Περιοχή: "
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:677
-#, fuzzy
 msgid ""
 "Pads\n"
 "----"
-msgstr "Έδρες"
+msgstr ""
+"Έδρεςn\n"
+"----"
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:683
-#, fuzzy
 msgid ""
 "Vias\n"
 "----"
-msgstr "Via"
+msgstr ""
+"Via\n"
+"----"
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:719
-#, fuzzy
 msgid ""
 "Components\n"
 "----------"
-msgstr "Υλικά"
+msgstr ""
+"Εξαρτήματα\n"
+"----------"
 
 #: pcbnew/dialogs/dialog_board_statistics.cpp:725
 msgid ""
@@ -16958,14 +16916,12 @@ msgid "Exclude components with no pins"
 msgstr "Εξαίρεση εξαρτημάτων χωρίς ακροδέκτες"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:232
-#, fuzzy
 msgid "X Size"
-msgstr "Μέγεθος"
+msgstr "Μέγεθος Χ"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:233
-#, fuzzy
 msgid "Y Size"
-msgstr "Μέγεθος"
+msgstr "Μέγεθος Ψ"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:234
 #, fuzzy
@@ -16977,19 +16933,16 @@ msgid "Via/Pad"
 msgstr ""
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:236
-#, fuzzy
 msgid "Start Layer"
-msgstr "Επίπεδο αρχής:"
+msgstr "Επίπεδο Αρχής"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:237
-#, fuzzy
 msgid "Stop Layer"
-msgstr "Ανταλλαγή Επιπέδων"
+msgstr "Επίπεδο Τέλους"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:258
-#, fuzzy
 msgid "Drill Holes"
-msgstr "Αρχεία Διατρήσεων"
+msgstr "Τρύπες Διατρήσεων"
 
 #: pcbnew/dialogs/dialog_board_statistics_base.cpp:265
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:218
@@ -17533,13 +17486,12 @@ msgid "Angle:"
 msgstr "Γωνία:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:246
-#, fuzzy
 msgid ""
 "Positive angles represent an anti-clockwise rotation. An angle of 0 will "
 "produce a full circle divided evenly into \"Count\" portions."
 msgstr ""
-"Οι θετικές γωνίες αντιπροσωπεύουν περιστροφή αριστερόστροφα. Μια γωνία 0 θα "
-"παράγει έναν πλήρη κύκλο που χωρίζεται σε ομοιόμορφα τμήματα."
+"Θετικές γωνίες αντιπροσωπεύουν αριστερόστροφη περιστροφή.Γωνία 0 θα παράγει "
+"έναν πλήρη κύκλο που χωρίζεται σε ισομεγέθη τμήματα."
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:254
 msgid "Count:"
@@ -17591,9 +17543,9 @@ msgid "Run DRC"
 msgstr "Εκτέλεση ΕΚΣ"
 
 #: pcbnew/dialogs/dialog_drc.cpp:299
-#, fuzzy, c-format
+#, c-format
 msgid "Report file '%s' created\n"
-msgstr "Δημιουργήθηκε το αρχείο αναφοράς %s\n"
+msgstr "Δημιουργήθηκε το αρχείο αναφοράς '%s'\n"
 
 #: pcbnew/dialogs/dialog_drc.cpp:304
 #, fuzzy, c-format
@@ -18075,9 +18027,8 @@ msgid "3D Settings"
 msgstr "Ρυθμίσεις 3Δ"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:518
-#, fuzzy
 msgid "Library Id:"
-msgstr "Βιβλιοθήκη:"
+msgstr "Ταυτότητα Βιβλιοθήκης:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.h:145
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.h:119
@@ -18584,9 +18535,9 @@ msgid "Are you sure you want to overwrite the existing file?"
 msgstr "Είστε σίγουροι ότι θέλετε να γράψετε πάνω από το υπάρχον αρχείο;"
 
 #: pcbnew/dialogs/dialog_export_vrml.cpp:249
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to create directory \"%s\""
-msgstr "Αδυναμία δημιουργίας του αρχείου \"%s\""
+msgstr "Αδυναμία δημιουργίας του φακέλου \"%s\""
 
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:26
 msgid "Save VRML Board File"
@@ -18664,9 +18615,8 @@ msgid "Filter Selection"
 msgstr "Φιλτράρισμα Επιλογής"
 
 #: pcbnew/dialogs/dialog_find.cpp:221
-#, fuzzy
 msgid "Searching..."
-msgstr "Αναζήτηση"
+msgstr "Αναζήτηση..."
 
 #: pcbnew/dialogs/dialog_find.cpp:304 pcbnew/dialogs/dialog_find.cpp:320
 #, fuzzy
@@ -19743,9 +19693,8 @@ msgid "Polygon must have at least 3 corners after simplification"
 msgstr "Το πολύγωνο πρέπει να έχει τουλάχιστον 3 γωνίες μετά την απλοποίηση"
 
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:357
-#, fuzzy
 msgid "Polygon can not be self-intersecting"
-msgstr "Το πολύγωνο δεν πρέπει να τέμνει τον εαυτό του"
+msgstr "Το πολύγωνο δεν μπορεί να τέμνει τον εαυτό του"
 
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:375
 msgid "Note: redundant corners removed"
@@ -20212,9 +20161,8 @@ msgid ""
 msgstr ""
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:403
-#, fuzzy
 msgid "BGA pad"
-msgstr "Προσθήκη έδρας"
+msgstr "Έδρα BGA"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:403
 #, fuzzy
@@ -20373,14 +20321,12 @@ msgid "Start point"
 msgstr "Σημείο έναρξης"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:885
-#, fuzzy
 msgid "Control point 1"
-msgstr "Σημείο Ελέγχου 1"
+msgstr "Σημείο ελέγχου 1"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:911
-#, fuzzy
 msgid "Control point 2"
-msgstr "Σημείο Ελέγχου 2"
+msgstr "Σημείο ελέγχου 2"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:937
 msgid "End point"
@@ -22731,19 +22677,16 @@ msgid "Default properties for new dimension objects:"
 msgstr "Προκαθορισμένες ιδιότητες για νέα στοιχεία γραφικών:"
 
 #: pcbnew/dialogs/panel_setup_text_and_graphics_base.cpp:96
-#, fuzzy
 msgid "0.01 mm / 1 mil"
-msgstr "%.1f / %.1f mils"
+msgstr "0.01 mm / 1 mil"
 
 #: pcbnew/dialogs/panel_setup_text_and_graphics_base.cpp:96
-#, fuzzy
 msgid "0.001 mm / 0.1 mil"
-msgstr "%.1f / %.1f mils"
+msgstr "0.001 mm / 0.1 mil"
 
 #: pcbnew/dialogs/panel_setup_text_and_graphics_base.cpp:96
-#, fuzzy
 msgid "0.0001mm / 0.01 mil"
-msgstr "%.1f / %.1f mils"
+msgstr "0.0001mm / 0.01 mil"
 
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:265
 msgid "No via drill defined."
