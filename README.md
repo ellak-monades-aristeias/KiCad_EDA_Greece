@@ -1,5 +1,5 @@
 # Περιγραφή έργου KiCad_EDA_Greece
-Αυτό το repository [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece) δεν είναι ένα τυπικό λογισμικό, αλλά ένα έργο που έχει ως σκοπό την προώθηση του λογισμικού [Kicad](http://kicad-pcb.org/) στους Έλληνες χρήστες. Αυτό γίνεται υλοποιώντας τρεις ενέργειες.
+Αυτό το repository [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece) δεν είναι ένα τυπικό λογισμικό, αλλά ένα έργο που έχει ως σκοπό την προώθηση του λογισμικού [Kicad](http://kicad.org/) στους Έλληνες χρήστες. Αυτό γίνεται υλοποιώντας τρεις ενέργειες.
 
 * Πλήρης εξελληνισμός του περιβάλλοντος του KiCad [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece/tree/master/work/translation]
 * Ανάπτυξη μίας απλής ηλεκτρονικής συσκευής ανοιχτού υλικού με το KiCad ([περισσότερες πληροφορίες](work/pcb/usb2uart/README.md)) [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece/tree/master/work/pcb/usb2uart]
@@ -8,7 +8,7 @@
 Τα αρχεία και για τις τρεις ενέργειες αποτελούν τα αρχεία αυτού του repository. Μπορείτε να βρείτε περισσότερες πληροφορίες και για τις τρεις ενέργειες στο [KiCad_EDA_Greece Wiki](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece/wiki).
 
 #English description of project KiCad_EDA_Greece
-This repository [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece) is not a typical software package, but it is a project with the intent to promote the software application named [Kicad](http://kicad-pcb.org/) to Greek users. This is implemented through three means.
+This repository [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece](https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece) is not a typical software package, but it is a project with the intent to promote the software application named [Kicad](http://kicad.org/) to Greek users. This is implemented through three means.
 
 * Full localization of KiCad's user interface [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece/tree/master/work/translation]
 * Development of a simple, open hardware electronic device using KiCad ([more information](work/pcb/usb2uart/README.md)) [https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece/tree/master/work/pcb/usb2uart]
